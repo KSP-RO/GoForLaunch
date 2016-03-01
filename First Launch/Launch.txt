@@ -1,0 +1,1 @@
+Contains files (special mods, .craft files, Telemachus configurations, etc) and information for the first launch. 
