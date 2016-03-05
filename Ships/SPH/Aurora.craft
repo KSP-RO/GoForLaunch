@@ -33815,7 +33815,7 @@ PART
 	}
 	MODULE
 	{
-		name = FlightDataRecorder_Engine
+		name = zFlightDataRecorder_Engine
 		isEnabled = True
 		lastRecordedMet = 0
 		flightDataMultiplier = 1
