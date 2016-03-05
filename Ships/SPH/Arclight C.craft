@@ -1019,7 +1019,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -1043,7 +1043,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -1109,7 +1109,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = crewReport
 		lastCheck = 0
@@ -1136,7 +1136,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ScienceBroken
+		name = zTestFlightFailure_ScienceBroken
 		isEnabled = True
 		failureType = hardware
 		severity = failure

@@ -2,7 +2,7 @@ ship = Canary II
 version = 1.0.5
 description = 3000km or so on a good launch, 2.6 on an average one.
 type = VAB
-size = 8.950172,24.12213,8.950655
+size = 8.950171,24.12213,8.950655
 PART
 {
 	part = RP0probeSounding0-3m_4294395046
@@ -849,7 +849,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -873,7 +873,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -939,7 +939,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = probeReport
 		lastCheck = 0
@@ -966,7 +966,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ScienceBroken
+		name = zTestFlightFailure_ScienceBroken
 		isEnabled = True
 		failureType = hardware
 		severity = failure
@@ -1387,7 +1387,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -1411,7 +1411,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -1477,7 +1477,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = temperatureScan
 		lastCheck = 0
@@ -1504,7 +1504,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ScienceBroken
+		name = zTestFlightFailure_ScienceBroken
 		isEnabled = True
 		failureType = hardware
 		severity = failure
@@ -1910,7 +1910,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -1934,7 +1934,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -2000,7 +2000,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = barometerScan
 		lastCheck = 0
@@ -2027,7 +2027,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ScienceBroken
+		name = zTestFlightFailure_ScienceBroken
 		isEnabled = True
 		failureType = hardware
 		severity = failure
@@ -3897,7 +3897,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -3921,7 +3921,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -3987,7 +3987,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = AJ10-27
 		lastCheck = 0
@@ -4014,7 +4014,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 125
 		configuration = AJ10-27
@@ -4042,7 +4042,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -4087,7 +4087,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -4122,7 +4122,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -4168,7 +4168,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -4200,7 +4200,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -4266,7 +4266,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = XASR-1
 		lastCheck = 0
@@ -4293,7 +4293,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 135
 		configuration = XASR-1
@@ -4321,7 +4321,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -4366,7 +4366,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -4401,7 +4401,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -4447,7 +4447,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -4479,7 +4479,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -4545,7 +4545,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = AJ10-27
 		lastCheck = 0
@@ -4572,7 +4572,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 135
 		configuration = AJ10-27
@@ -4600,7 +4600,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -4635,7 +4635,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -4680,7 +4680,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -4726,7 +4726,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -5345,7 +5345,7 @@ PART
 		topRad = 0
 		inlineHeight = 0
 		sideThickness = 0.028
-		meshPos = (0.35, 0.4356018, 3.003515E-08)
+		meshPos = (0.35, 0.4356028, 2.980232E-08)
 		meshRot = (0, 1, 0, -4.371139E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -6612,8 +6612,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 408.28608170799953
-			maxAmount = 408.28607893471229
+			amount = 408.28608170799998
+			maxAmount = 408.28607893471201
 		}
 		TANK
 		{
@@ -6640,8 +6640,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 225.61283463359456
-			maxAmount = 225.61281685223074
+			amount = 225.61283463359501
+			maxAmount = 225.61281685223099
 		}
 		TANK
 		{
@@ -6878,8 +6878,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 56.403183658405887
-			maxAmount = 56.403204213057535
+			amount = 56.403183658405901
+			maxAmount = 56.403204213057499
 		}
 		TANK
 		{
@@ -7599,7 +7599,7 @@ PART
 {
 	part = ROAerobeeSustainer_4294371440
 	partName = Part
-	pos = -0.07645627,13.50523,-0.3676527
+	pos = -0.07645626,13.50523,-0.3676527
 	attPos = -0.03774566,-0.2004536,-0.04960331
 	attPos0 = 0.03942344,-0.6000007,-0.3210316
 	rot = -8.678969E-05,-0.005198123,0.006299217,0.9999667
@@ -7817,7 +7817,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -7841,7 +7841,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -7907,7 +7907,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = WAC-Corporal
 		lastCheck = 0
@@ -7934,7 +7934,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 125
 		configuration = WAC-Corporal
@@ -7962,7 +7962,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -8007,7 +8007,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -8042,7 +8042,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -8088,7 +8088,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -8120,7 +8120,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -8186,7 +8186,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = XASR-1
 		lastCheck = 0
@@ -8213,7 +8213,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 135
 		configuration = XASR-1
@@ -8241,7 +8241,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -8286,7 +8286,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -8321,7 +8321,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -8367,7 +8367,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -8399,7 +8399,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -8465,7 +8465,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = AJ10-27
 		lastCheck = 0
@@ -8492,7 +8492,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 135
 		configuration = AJ10-27
@@ -8520,7 +8520,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -8555,7 +8555,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -8600,7 +8600,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -8646,7 +8646,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -8784,7 +8784,7 @@ PART
 {
 	part = ROAerobeeSustainer_4294361536
 	partName = Part
-	pos = -0.4487486,13.5091,0.001304695
+	pos = -0.4487486,13.5091,0.001304784
 	attPos = -0.04960331,-0.2004539,0.03774567
 	attPos0 = -0.3210316,-0.6000004,-0.03942344
 	rot = 0.01174454,0.7033231,0.004477368,0.7107593
@@ -9002,7 +9002,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -9026,7 +9026,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -9092,7 +9092,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = WAC-Corporal
 		lastCheck = 0
@@ -9119,7 +9119,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 125
 		configuration = WAC-Corporal
@@ -9147,7 +9147,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -9192,7 +9192,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -9227,7 +9227,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -9273,7 +9273,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -9305,7 +9305,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -9371,7 +9371,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = XASR-1
 		lastCheck = 0
@@ -9398,7 +9398,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 135
 		configuration = XASR-1
@@ -9426,7 +9426,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -9471,7 +9471,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -9506,7 +9506,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -9552,7 +9552,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -9584,7 +9584,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -9650,7 +9650,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = AJ10-27
 		lastCheck = 0
@@ -9677,7 +9677,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 135
 		configuration = AJ10-27
@@ -9705,7 +9705,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -9740,7 +9740,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -9785,7 +9785,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -9831,7 +9831,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -9969,10 +9969,10 @@ PART
 {
 	part = ROAerobeeSustainer_4294361400
 	partName = Part
-	pos = -0.07981141,13.50526,0.3736171
+	pos = -0.07981138,13.50526,0.3736171
 	attPos = 0.03774568,-0.2004536,0.04960331
 	attPos0 = -0.03942342,-0.6000002,0.3210316
-	rot = 0.01669608,0.9998472,3.273696E-05,0.005198703
+	rot = 0.01669608,0.9998471,3.273696E-05,0.005198703
 	attRot = -5.405172E-05,6.212896E-07,0.006299584,0.9999802
 	attRot0 = 1.835889E-10,0.9999865,-1.188633E-08,0.005198804
 	mir = 1,1,1
@@ -10187,7 +10187,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -10211,7 +10211,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -10277,7 +10277,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = WAC-Corporal
 		lastCheck = 0
@@ -10304,7 +10304,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 125
 		configuration = WAC-Corporal
@@ -10332,7 +10332,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -10377,7 +10377,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -10412,7 +10412,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -10458,7 +10458,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -10490,7 +10490,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -10556,7 +10556,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = XASR-1
 		lastCheck = 0
@@ -10583,7 +10583,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 135
 		configuration = XASR-1
@@ -10611,7 +10611,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -10656,7 +10656,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -10691,7 +10691,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -10737,7 +10737,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -10769,7 +10769,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -10835,7 +10835,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = AJ10-27
 		lastCheck = 0
@@ -10862,7 +10862,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 135
 		configuration = AJ10-27
@@ -10890,7 +10890,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -10925,7 +10925,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -10970,7 +10970,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -11016,7 +11016,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -11372,7 +11372,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -11396,7 +11396,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -11462,7 +11462,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = WAC-Corporal
 		lastCheck = 0
@@ -11489,7 +11489,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 125
 		configuration = WAC-Corporal
@@ -11517,7 +11517,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -11562,7 +11562,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -11597,7 +11597,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -11643,7 +11643,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -11675,7 +11675,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -11741,7 +11741,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = XASR-1
 		lastCheck = 0
@@ -11768,7 +11768,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 135
 		configuration = XASR-1
@@ -11796,7 +11796,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -11841,7 +11841,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -11876,7 +11876,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -11922,7 +11922,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -11954,7 +11954,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -12020,7 +12020,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = AJ10-27
 		lastCheck = 0
@@ -12047,7 +12047,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 135
 		configuration = AJ10-27
@@ -12075,7 +12075,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -12110,7 +12110,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -12155,7 +12155,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -12201,7 +12201,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -13405,10 +13405,10 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4294326014
 	partName = Part
-	pos = -0.5431317,13.84035,0.002982569
+	pos = -0.5431317,13.84035,0.002982792
 	attPos = 0,0,0
 	attPos0 = -0.4309463,-0.3358551,3.050081E-08
-	rot = 0.02880052,0.9995853,-1.296849E-09,-3.30389E-08
+	rot = 0.02880052,0.9995852,-1.296849E-09,-3.30389E-08
 	attRot = 0,0,0,1
 	attRot0 = 0.02360344,0.9997215,-1.468596E-09,-3.303171E-08
 	mir = 1,1,-1
@@ -15537,7 +15537,7 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4294325774
 	partName = Part
-	pos = 0.3937317,13.83061,0.002982193
+	pos = 0.3937318,13.83061,0.002982193
 	attPos = 0,0,0
 	attPos0 = 0.4309462,-0.3358541,-4.237518E-08
 	rot = -9.561107E-10,-9.277246E-09,-0.01840571,-0.9998307
@@ -16603,9 +16603,9 @@ PART
 {
 	part = KzInterstageAdapter2_4294234076
 	partName = Part
-	pos = -0.08142517,13.18871,0.002982193
+	pos = -0.08142518,13.18871,0.002982193
 	attPos = 0,0,0
-	attPos0 = 6.957741E-10,-1.117006,0
+	attPos0 = -1.190491E-08,-1.117005,0
 	rot = 0,0,-0.005198848,0.9999865
 	attRot = 0,0,0,1
 	attRot0 = 0,0,-1.396965E-09,1
@@ -17073,7 +17073,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4294219900
 	partName = Part
-	pos = 0.4143056,12.77553,0.002982193
+	pos = 0.4143055,12.77553,0.002982193
 	attPos = 0,0,0
 	attPos0 = 0.5,-0.4079996,0
 	rot = 0,0,-0.005198849,0.9999865
@@ -17394,7 +17394,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4294216700
 	partName = Part
-	pos = -0.5856403,12.78593,0.00298215
+	pos = -0.5856403,12.78592,0.00298215
 	attPos = 0,0,0
 	attPos0 = -0.5,-0.4080001,-4.377216E-08
 	rot = 0.005198848,0.9999865,2.272489E-10,-4.37108E-08
@@ -17715,7 +17715,7 @@ PART
 {
 	part = GuidanceStart1m_4292531622
 	partName = Part
-	pos = -0.08221539,13.11271,0.002982193
+	pos = -0.08221541,13.11271,0.002982193
 	attPos = 0,0,0
 	attPos0 = -6.396945E-09,-0.07599974,0
 	rot = 0,0,-0.005198849,0.9999865
@@ -18185,7 +18185,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -18209,7 +18209,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -18275,7 +18275,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = probeReport
 		lastCheck = 0
@@ -18302,7 +18302,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ScienceBroken
+		name = zTestFlightFailure_ScienceBroken
 		isEnabled = True
 		failureType = hardware
 		severity = failure
@@ -18463,10 +18463,10 @@ PART
 {
 	part = proceduralTankRealFuels_4292651258
 	partName = Part
-	pos = -0.1297947,8.536955,0.002982193
+	pos = -0.1297947,8.536949,0.002982193
 	attPos = 0,0,0
 	attPos0 = -7.870486E-09,-3.726006,0
-	rot = 0,0,-0.005198851,0.9999865
+	rot = 0,0,-0.005198852,0.9999865
 	attRot = 0,0,0,1
 	attRot0 = 0,0,-1.396965E-09,1
 	mir = 1,1,1
@@ -18477,7 +18477,7 @@ PART
 	sqor = -1
 	sepI = 2
 	attm = 0
-	modCost = 47.91141
+	modCost = 47.9114
 	modMass = -0.3152525
 	modSize = (0.0, 0.0, 0.0)
 	link = Bumper.Engine_4292641164
@@ -18751,7 +18751,7 @@ PART
 		partPrevTemperature = -1
 		mass = 0.6847475
 		stagingEnabled = True
-		volume = 11633.2811
+		volume = 11633.280199999999
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -18855,8 +18855,8 @@ PART
 			temperature = 90.15
 			fillable = True
 			techRequired = 
-			amount = 5613.5766416846582
-			maxAmount = 5613.5766099463799
+			amount = 5613.5762073945452
+			maxAmount = 5613.576175656267
 		}
 		TANK
 		{
@@ -18953,8 +18953,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 115.18100831411867
-			maxAmount = 115.18099844109302
+			amount = 115.18099940322732
+			maxAmount = 115.18098953020208
 		}
 		TANK
 		{
@@ -19023,8 +19023,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 5904.5234500012139
-			maxAmount = 5904.5234916125419
+			amount = 5904.5229932022157
+			maxAmount = 5904.5230348135419
 		}
 		TANK
 		{
@@ -19681,8 +19681,8 @@ PART
 	RESOURCE
 	{
 		name = Ethanol75
-		amount = 5904.52345000121
-		maxAmount = 5904.52349161254
+		amount = 5904.52299320222
+		maxAmount = 5904.52303481354
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -19692,8 +19692,8 @@ PART
 	RESOURCE
 	{
 		name = LqdOxygen
-		amount = 5613.57664168466
-		maxAmount = 5613.57660994638
+		amount = 5613.57620739455
+		maxAmount = 5613.57617565627
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -19703,8 +19703,8 @@ PART
 	RESOURCE
 	{
 		name = HTP
-		amount = 115.181008314119
-		maxAmount = 115.180998441093
+		amount = 115.180999403227
+		maxAmount = 115.180989530202
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -19716,10 +19716,10 @@ PART
 {
 	part = Bumper.Engine_4292641164
 	partName = Part
-	pos = -0.1941622,2.346664,0.002982193
+	pos = -0.1941622,2.34666,0.002982193
 	attPos = 0,0,0
 	attPos0 = -3.00379E-08,-5.340626,0
-	rot = 0,0,-0.005198852,0.9999865
+	rot = 0,0,-0.005198853,0.9999865
 	attRot = 0,0,0,1
 	attRot0 = 0,0,-1.396965E-09,1
 	mir = 1,1,1
@@ -19949,7 +19949,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -19973,7 +19973,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -20039,7 +20039,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = 
 		lastCheck = 0
@@ -20066,7 +20066,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 70
 		configuration = 
@@ -20094,7 +20094,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -20139,7 +20139,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -20174,7 +20174,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -20220,7 +20220,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -20341,7 +20341,7 @@ PART
 {
 	part = Bumper.Fin_4292559312
 	partName = Part
-	pos = -0.1945461,2.30974,-0.6761271
+	pos = -0.1945461,2.309735,-0.6761271
 	attPos = 0,0,0
 	attPos0 = 6.016889E-08,-0.03692627,-0.6791093
 	rot = -0.02117144,0.7067899,-0.02851919,0.7065315
@@ -20658,7 +20658,7 @@ PART
 {
 	part = Bumper.Fin_4292559002
 	partName = Part
-	pos = -0.8736184,2.316801,0.002982129
+	pos = -0.8736184,2.316796,0.002982129
 	attPos = 0,0,0
 	attPos0 = -0.6791093,-0.03692627,-6.426126E-08
 	rot = -0.02994095,0.9995517,1.563052E-09,-4.62182E-08
@@ -20975,7 +20975,7 @@ PART
 {
 	part = Bumper.Fin_4292558936
 	partName = Part
-	pos = -0.1945461,2.30974,0.6820915
+	pos = -0.1945461,2.309735,0.6820915
 	attPos = 0,0,0
 	attPos0 = 1.546782E-08,-0.03692627,0.6791093
 	rot = -0.02117145,0.7067898,0.0285192,-0.7065315
@@ -21292,10 +21292,10 @@ PART
 {
 	part = Bumper.Fin_4292558870
 	partName = Part
-	pos = 0.4845268,2.302679,0.00298224
+	pos = 0.4845268,2.302674,0.00298224
 	attPos = 0,0,0
 	attPos0 = 0.6791093,-0.03692627,4.610047E-08
-	rot = 3.703062E-10,-2.2459E-08,0.04033224,-0.9991863
+	rot = 3.703063E-10,-2.2459E-08,0.04033224,-0.9991864
 	attRot = 0,0,0,1
 	attRot0 = 4.870621E-10,-2.245677E-08,0.03513706,-0.9993826
 	mir = 1,1,1
@@ -21609,7 +21609,7 @@ PART
 {
 	part = SXTlaunchclamp1_4292498304
 	partName = Part
-	pos = -1.969958,6.101501,-1.04476
+	pos = -1.969958,6.101497,-1.04476
 	attPos = 0,0,0
 	attPos0 = -1.814741,-3.291124,-1.047741
 	rot = -0.03590945,-0.49945,0.02373167,-0.8652729
@@ -21640,8 +21640,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 7.097799
-		height = 7.097795
+		scaleFactor = 7.097795
+		height = 7.097791
 		stagingEnabled = True
 		towerRot = 0.03590945,0.49945,-0.02373167,-0.8652728
 		EVENTS
@@ -21969,10 +21969,10 @@ PART
 {
 	part = launchClamp1_4292494634
 	partName = Part
-	pos = 0.9744049,3.168591,1.16294
+	pos = 0.9744048,3.168586,1.16294
 	attPos = 0,0,0
 	attPos0 = 1.159957,-4.597309,1.159957
-	rot = 0.0007045225,0.9238354,-0.007904806,-0.3827078
+	rot = 0.0007045235,0.9238354,-0.007904805,-0.3827078
 	attRot = 0,0,0,1
 	attRot0 = -0.00409837,0.9238265,-0.009894342,-0.3826615
 	mir = 1,1,1
@@ -22000,10 +22000,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.457728
-		height = 3.674194
+		scaleFactor = 1.457726
+		height = 3.67419
 		stagingEnabled = True
-		towerRot = -0.007904806,0.3827078,-0.000704523,-0.9238354
+		towerRot = -0.007904805,0.3827078,-0.0007045239,-0.9238354
 		EVENTS
 		{
 			Release

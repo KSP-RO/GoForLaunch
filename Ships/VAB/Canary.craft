@@ -849,7 +849,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -873,7 +873,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -939,7 +939,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = probeReport
 		lastCheck = 0
@@ -966,7 +966,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ScienceBroken
+		name = zTestFlightFailure_ScienceBroken
 		isEnabled = True
 		failureType = hardware
 		severity = failure
@@ -1387,7 +1387,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -1411,7 +1411,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -1477,7 +1477,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = temperatureScan
 		lastCheck = 0
@@ -1504,7 +1504,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ScienceBroken
+		name = zTestFlightFailure_ScienceBroken
 		isEnabled = True
 		failureType = hardware
 		severity = failure
@@ -1910,7 +1910,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -1934,7 +1934,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -2000,7 +2000,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = barometerScan
 		lastCheck = 0
@@ -2027,7 +2027,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ScienceBroken
+		name = zTestFlightFailure_ScienceBroken
 		isEnabled = True
 		failureType = hardware
 		severity = failure
@@ -3897,7 +3897,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -3921,7 +3921,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -3987,7 +3987,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = AJ10-27
 		lastCheck = 0
@@ -4014,7 +4014,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 125
 		configuration = AJ10-27
@@ -4042,7 +4042,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -4087,7 +4087,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -4122,7 +4122,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -4168,7 +4168,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -4200,7 +4200,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -4266,7 +4266,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = XASR-1
 		lastCheck = 0
@@ -4293,7 +4293,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 135
 		configuration = XASR-1
@@ -4321,7 +4321,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -4366,7 +4366,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -4401,7 +4401,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -4447,7 +4447,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -4479,7 +4479,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -4545,7 +4545,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = AJ10-27
 		lastCheck = 0
@@ -4572,7 +4572,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 135
 		configuration = AJ10-27
@@ -4600,7 +4600,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -4635,7 +4635,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -4680,7 +4680,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -4726,7 +4726,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
@@ -6530,7 +6530,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -6554,7 +6554,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -6620,7 +6620,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = probeReport
 		lastCheck = 0
@@ -6647,7 +6647,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ScienceBroken
+		name = zTestFlightFailure_ScienceBroken
 		isEnabled = True
 		failureType = hardware
 		severity = failure
@@ -8294,7 +8294,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightInterop
+		name = zTestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -8318,7 +8318,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightCore
+		name = zTestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
@@ -8384,7 +8384,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability
+		name = zTestFlightReliability
 		isEnabled = True
 		configuration = 
 		lastCheck = 0
@@ -8411,7 +8411,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightReliability_EngineCycle
+		name = zTestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 70
 		configuration = 
@@ -8439,7 +8439,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ShutdownEngine
+		name = zTestFlightFailure_ShutdownEngine
 		isEnabled = True
 		engineID = 
 		failureType = software
@@ -8484,7 +8484,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_IgnitionFail
+		name = zTestFlightFailure_IgnitionFail
 		isEnabled = True
 		restoreIgnitionCharge = False
 		ignorePressureOnPad = True
@@ -8519,7 +8519,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_ReducedMaxThrust
+		name = zTestFlightFailure_ReducedMaxThrust
 		isEnabled = True
 		thrustReduction = 0.5
 		engineID = 
@@ -8565,7 +8565,7 @@ PART
 	}
 	MODULE
 	{
-		name = TestFlightFailure_Explode
+		name = zTestFlightFailure_Explode
 		isEnabled = True
 		failureType = mechanical
 		severity = major
