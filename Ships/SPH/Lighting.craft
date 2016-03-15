@@ -2,14 +2,14 @@ ship = Lighting
 version = 1.0.5
 description = 
 type = SPH
-size = 9.591844,5.678232,10.0193
+size = 9.591845,5.678231,10.0193
 PART
 {
 	part = Mark1Cockpit_4291023294
 	partName = Part
-	pos = -0.1258113,10.25052,-0.07826181
-	attPos = 0,0,0
-	attPos0 = -0.1258113,10.25052,-0.07826181
+	pos = -0.1441498,5.35629,2.893547
+	attPos = 0,0,2.993491
+	attPos0 = -0.1441498,5.35629,2.893547
 	rot = 0.7071068,0,0,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 0.7071068,0,0,0.7071068
@@ -21,7 +21,7 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 0
-	modCost = 72.04717
+	modCost = 144.0472
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
 	link = Mk1FuselageStructural_4290998610
@@ -551,7 +551,7 @@ PART
 			}
 			MechJebModuleLandingGuidance
 			{
-				landingSiteIdx = 20
+				landingSiteIdx = 0
 				unlockParts = 
 				unlockTechs = start
 			}
@@ -865,7 +865,7 @@ PART
 	{
 		name = ModuleFuelTanks
 		isEnabled = True
-		type = ServiceModule
+		type = Fuselage
 		utilization = 86
 		partPrevTemperature = -1
 		mass = 0.8
@@ -1882,7 +1882,7 @@ PART
 			note = (pressurized)
 			utilization = 1000
 			mass = 0.00289
-			cost = 5
+			cost = 10
 			loss_rate = 0
 			temperature = 300
 			fillable = True
@@ -2155,7 +2155,7 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightInterop
+		name = TestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -2179,22 +2179,14 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightCore
+		name = TestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
 		startFlightData = 0
-		deepSpaceThreshold = 1E+07
-		configuration = crewReport
-		title = 1.25m Cockpit (Instrument)
-		techTransfer = 
-		techTransferMax = 1000
-		techTransferGenerationPenalty = 0.05
 		operatingTime = 0
 		lastMET = 0
 		initialized = False
-		maxData = 10000
-		failureRateModifier = 1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2220,9 +2212,6 @@ PART
 		name = FlightDataRecorder_Science
 		isEnabled = True
 		lastRecordedMet = 0
-		flightDataMultiplier = 2
-		flightDataEngineerModifier = 0
-		configuration = crewReport
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2245,9 +2234,8 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightReliability
+		name = TestFlightReliability
 		isEnabled = True
-		configuration = crewReport
 		lastCheck = 0
 		lastReliability = 1
 		stagingEnabled = True
@@ -2272,16 +2260,8 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightFailure_ScienceBroken
+		name = TestFlightFailure_ScienceBroken
 		isEnabled = True
-		failureType = hardware
-		severity = failure
-		weight = 8
-		failureTitle = Instrument damaged
-		configuration = crewReport
-		duFail = 100
-		duRepair = 250
-		oneShot = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2546,7 +2526,7 @@ PART
 {
 	part = Mk1FuselageStructural_4290998610
 	partName = Part
-	pos = -0.1258113,10.25052,-1.201563
+	pos = -0.1441498,5.35629,1.770245
 	attPos = 0,0,0
 	attPos0 = 0,-1.1233,1.339078E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -3806,7 +3786,7 @@ PART
 {
 	part = Mk1FuselageStructural_4290912400
 	partName = Part
-	pos = -0.1258113,10.25052,-3.076566
+	pos = -0.1441498,5.35629,-0.104758
 	attPos = 0,0,0
 	attPos0 = 0,-1.875,2.235175E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -5068,7 +5048,7 @@ PART
 {
 	part = Mk1FuselageStructural_4290998230
 	partName = Part
-	pos = -0.1258113,10.25052,-4.95158
+	pos = -0.1441498,5.35629,-1.979773
 	attPos = 0,0,0
 	attPos0 = 0,-1.875001,2.235175E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -6307,7 +6287,7 @@ PART
 {
 	part = SXTSmallFuselage_4290903598
 	partName = Part
-	pos = -0.7673323,10.25052,-3.375446
+	pos = -0.7856708,5.35629,-0.4036386
 	attPos = 0.9781421,-0.3825572,4.560435E-08
 	attPos0 = -1.619663,0.08368683,-9.976247E-09
 	rot = 0.5000004,-0.5000003,-0.4999998,0.4999997
@@ -7571,7 +7551,7 @@ PART
 {
 	part = SXTSmallFuselage_4290903512
 	partName = Part
-	pos = 0.5157096,10.25052,-3.375447
+	pos = 0.4973711,5.35629,-0.4036396
 	attPos = -0.9781421,-0.3825579,4.560444E-08
 	attPos0 = 1.619663,0.08368659,-9.976219E-09
 	rot = 0.5000005,0.5000003,0.4999998,0.4999996
@@ -8835,10 +8815,10 @@ PART
 {
 	part = SXTSmallFuselage_4290901948
 	partName = Part
-	pos = -0.7673318,10.25052,-4.375443
+	pos = -0.7856703,5.35629,-1.403635
 	attPos = 0,0,0
 	attPos0 = 2.682211E-07,-1.000001,6.2585E-07
-	rot = 0.7071069,-1.05368E-07,1.05368E-07,0.7071069
+	rot = 0.7071069,-1.159048E-07,1.159047E-07,0.7071069
 	attRot = 0,0,0,1
 	attRot0 = -4.846887E-07,0.7071068,-3.793216E-07,0.7071069
 	mir = 1,1,1
@@ -10096,10 +10076,10 @@ PART
 {
 	part = SXTSmallFuselage_4290901718
 	partName = Part
-	pos = 0.515709,10.25052,-4.375443
+	pos = 0.4973705,5.35629,-1.403635
 	attPos = -1.705303E-13,-2.384186E-07,1.192096E-07
 	attPos0 = -5.066399E-07,-1.000001,7.450596E-07
-	rot = 0.7071069,2.001985E-07,-2.001986E-07,0.7071067
+	rot = 0.707107,2.21272E-07,-2.212721E-07,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = -5.936715E-07,-0.7071068,4.389263E-07,0.7071069
 	mir = 1,1,1
@@ -11357,7 +11337,7 @@ PART
 {
 	part = SXTSmallFuselage_4290901582
 	partName = Part
-	pos = -0.7673318,10.25052,-5.375451
+	pos = -0.7856703,5.35629,-2.403644
 	attPos = 0.750135,-4.768372E-07,5.684342E-14
 	attPos0 = -4.08562E-13,-1.000001,1.192092E-07
 	rot = 0.7071069,1.053671E-08,-1.053668E-08,0.7071069
@@ -12618,10 +12598,10 @@ PART
 {
 	part = SXTSmallFuselage_4290901382
 	partName = Part
-	pos = 0.5157091,10.25052,-5.37545
+	pos = 0.4973706,5.35629,-2.403642
 	attPos = 0.750135,-4.768372E-07,5.684342E-14
 	attPos0 = 2.664532E-13,-1.000001,2.877968E-07
-	rot = 0.707107,-2.107357E-08,2.107332E-08,0.7071066
+	rot = 0.7071071,-2.107358E-08,2.107329E-08,0.7071067
 	attRot = 0,0,0,1
 	attRot0 = 7.105426E-15,6.510035E-14,1.182864E-13,1
 	mir = 1,1,1
@@ -13879,10 +13859,10 @@ PART
 {
 	part = B9.Aero.Wing.Procedural.TypeA_4290609866
 	partName = Part
-	pos = -0.8954408,9.972504,-3.686088
+	pos = -0.9137793,5.078274,-0.7142806
 	attPos = 0.2780162,-0.05745912,-0.1823576
 	attPos0 = 1.2001E-07,-0.2531815,0.3104665
-	rot = 0.004349422,0.7070934,0.7070937,0.004350831
+	rot = 0.004349411,0.7070934,0.7070937,0.004350841
 	attRot = 0.5030661,0.5030671,0.4969152,-0.4969143
 	attRot0 = 7.406724E-08,-0.7071068,-2.631077E-07,0.7071068
 	mir = 1,1,-1
@@ -14932,10 +14912,10 @@ PART
 {
 	part = B9.Aero.Wing.Procedural.TypeA_4290608918
 	partName = Part
-	pos = 0.6438183,9.972504,-3.686089
+	pos = 0.6254798,5.078274,-0.7142816
 	attPos = -0.2780162,-0.05745906,-0.1823574
 	attPos0 = -1.57737E-07,-0.2531815,0.3104665
-	rot = -0.7070943,-0.004350915,-0.004349398,-0.7070928
+	rot = -0.7070943,-0.004350936,-0.004349377,-0.7070928
 	attRot = -0.5030661,-0.5030671,-0.4969152,-0.4969143
 	attRot0 = -2.980231E-07,0.7071068,-4.514219E-08,-0.7071069
 	mir = 1,1,1
@@ -15985,7 +15965,7 @@ PART
 {
 	part = B9.Aero.Wing.Procedural.TypeA_4290605318
 	partName = Part
-	pos = -0.1258113,10.59446,-6.426594
+	pos = -0.1441498,5.70023,-3.454788
 	attPos = -5.401367E-08,-1.068023,0.2739021
 	attPos0 = 5.401367E-08,-0.40698,-0.6178446
 	rot = 0.5,0.5000001,0.4999999,0.5000002
@@ -17036,10 +17016,10 @@ PART
 {
 	part = SXTSmallFuselage_4290902544
 	partName = Part
-	pos = -0.7673329,10.25052,-2.375437
+	pos = -0.7856714,5.35629,0.5963709
 	attPos = 0.750135,-4.768372E-07,5.684342E-14
 	attPos0 = -3.278254E-07,0.9999995,-6.258483E-07
-	rot = 0.7071069,-1.053677E-07,1.053677E-07,0.7071069
+	rot = 0.7071069,-1.159045E-07,1.159044E-07,0.7071069
 	attRot = 0,0,0,1
 	attRot0 = -5.057622E-07,0.7071068,-3.371748E-07,0.7071068
 	mir = 1,1,1
@@ -18298,10 +18278,10 @@ PART
 {
 	part = SXTSmallFuselage_4290441316
 	partName = Part
-	pos = 0.5157101,10.25052,-2.375446
-	attPos = 0.750135,-4.768372E-07,5.684342E-14
+	pos = 0.4973716,5.35629,0.5963616
+	attPos = 7.673862E-13,1.66893E-06,-1.192115E-07
 	attPos0 = 4.768369E-07,0.9999995,-7.152552E-07
-	rot = 0.7071069,2.001982E-07,-2.001983E-07,0.7071067
+	rot = 0.707107,2.212717E-07,-2.212718E-07,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = -5.304512E-07,-0.7071068,3.967794E-07,0.7071068
 	mir = 1,1,1
@@ -19560,7 +19540,7 @@ PART
 {
 	part = SXTSmallFuselage_4290440996
 	partName = Part
-	pos = -0.742461,10.25052,-1.397011
+	pos = -0.7607995,5.35629,1.574797
 	attPos = 0.02487171,-0.02157474,1.928974E-09
 	attPos0 = 2.980262E-08,0.9999995,-8.940692E-08
 	rot = -0.7068881,-0.01759246,0.01759239,-0.706888
@@ -20821,7 +20801,7 @@ PART
 {
 	part = KzResizableFairingBaseRing_4290767610
 	partName = Part
-	pos = -0.7175893,10.25052,-0.9117168
+	pos = -0.7359278,5.35629,2.060091
 	attPos = 0.0007005091,-0.0140647,-3.819133E-08
 	attPos0 = 1.652012E-13,0.4999995,-8.685024E-08
 	rot = 0.7059012,0.04127475,-0.0412748,0.7059014
@@ -20884,7 +20864,7 @@ PART
 		{
 			controlEnabled = True
 			minValue = 0.1
-			maxValue = 100
+			maxValue = 4
 			incrementLarge = 1.25
 			incrementSmall = 0.125
 			incrementSlide = 0.001
@@ -21010,7 +20990,7 @@ PART
 		{
 			controlEnabled = True
 			minValue = 0.1
-			maxValue = 50
+			maxValue = 2
 			incrementLarge = 1
 			incrementSmall = 0.1
 			incrementSlide = 0.001
@@ -21260,7 +21240,7 @@ PART
 {
 	part = KzProcFairingFuselage1_4290754776
 	partName = Part
-	pos = -1.079531,10.25052,-1.31478
+	pos = -1.09787,5.35629,1.657028
 	attPos = 0,0,0
 	attPos0 = -0.3125001,-0.4425006,-3.129264E-09
 	rot = 0.7059014,0.04127477,-0.04127476,0.7059013
@@ -21301,7 +21281,7 @@ PART
 		topRad = 0
 		inlineHeight = 0
 		sideThickness = 0.025
-		meshPos = (0.3125009, 0.4424985, -6.194109E-08)
+		meshPos = (0.312501, 0.4424981, -6.194096E-08)
 		meshRot = (2.332814E-08, 1, -1.65686E-07, 1.083394E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -21581,7 +21561,7 @@ PART
 {
 	part = KzProcFairingFuselage1_4290751648
 	partName = Part
-	pos = -0.4587891,10.25052,-1.387619
+	pos = -0.4771275,5.35629,1.584189
 	attPos = 0,0,0
 	attPos0 = 0.3125,-0.4425006,1.086294E-07
 	rot = 0.7059014,0.04127477,-0.04127476,0.7059013
@@ -21622,7 +21602,7 @@ PART
 		topRad = 0
 		inlineHeight = 0
 		sideThickness = 0.025
-		meshPos = (-0.3125, 0.4424976, -8.925117E-08)
+		meshPos = (-0.3125, 0.4424974, -8.925098E-08)
 		meshRot = (-1.65686E-07, -5.454532E-08, -2.332813E-08, 1)
 		shapeLock = False
 		stagingEnabled = True
@@ -21902,10 +21882,10 @@ PART
 {
 	part = SXTSmallFuselage_4290434096
 	partName = Part
-	pos = 0.4908384,10.25052,-1.397012
-	attPos = -0.02487177,-0.02157539,6.209348E-09
+	pos = 0.4724999,5.35629,1.574796
+	attPos = -0.02487227,-0.02156532,-7.626946E-08
 	attPos0 = -5.960498E-08,0.9999995,-2.877965E-07
-	rot = 0.7068883,-0.01759246,0.01759239,0.7068878
+	rot = 0.7068884,-0.01759246,0.01759239,0.7068878
 	attRot = -0.7068881,-0.01759242,0.0175924,-0.7068881
 	attRot0 = 7.105426E-15,5.526725E-14,2.980241E-08,1
 	mir = 1,1,1
@@ -23163,10 +23143,10 @@ PART
 {
 	part = KzResizableFairingBaseRing_4290434046
 	partName = Part
-	pos = 0.4659667,10.25052,-0.9117163
+	pos = 0.4476282,5.35629,2.060091
 	attPos = -0.0007005201,-0.01406488,-3.393234E-07
 	attPos0 = 1.652012E-13,0.4999995,-8.685024E-08
-	rot = 0.7059013,-0.04127474,0.04127479,0.7059013
+	rot = 0.7059013,-0.04127475,0.04127479,0.7059013
 	attRot = 0.7059012,0.04127477,-0.04127476,0.7059013
 	attRot0 = -4.214684E-08,-1.664569E-14,2.009718E-14,1
 	mir = 1,1,1
@@ -23226,7 +23206,7 @@ PART
 		{
 			controlEnabled = True
 			minValue = 0.1
-			maxValue = 100
+			maxValue = 4
 			incrementLarge = 1.25
 			incrementSmall = 0.125
 			incrementSlide = 0.001
@@ -23352,7 +23332,7 @@ PART
 		{
 			controlEnabled = True
 			minValue = 0.1
-			maxValue = 50
+			maxValue = 2
 			incrementLarge = 1
 			incrementSmall = 0.1
 			incrementSlide = 0.001
@@ -23602,7 +23582,7 @@ PART
 {
 	part = KzProcFairingFuselage1_4290433982
 	partName = Part
-	pos = 0.8279089,10.25052,-1.314783
+	pos = 0.8095704,5.35629,1.657025
 	attPos = 0,0,0
 	attPos0 = -0.3125001,-0.4425006,-3.129264E-09
 	rot = 0.7059013,-0.0412748,0.04127473,0.7059013
@@ -23643,8 +23623,8 @@ PART
 		topRad = 0
 		inlineHeight = 0
 		sideThickness = 0.025
-		meshPos = (-0.3125009, 0.442502, -7.514563E-08)
-		meshRot = (-2.150746E-16, 1, 4.920333E-09, -1.278613E-07)
+		meshPos = (-0.3125011, 0.4425015, -1.416262E-08)
+		meshRot = (-5.259372E-09, 1, 4.920332E-09, -1.278613E-07)
 		shapeLock = False
 		stagingEnabled = True
 		shapeLock_UIFlight
@@ -23923,7 +23903,7 @@ PART
 {
 	part = KzProcFairingFuselage1_4290433914
 	partName = Part
-	pos = 0.2071656,10.25052,-1.38762
+	pos = 0.188827,5.35629,1.584188
 	attPos = 0,0,0
 	attPos0 = 0.3125,-0.4425006,1.086294E-07
 	rot = 0.7059013,-0.0412748,0.04127473,0.7059013
@@ -23964,8 +23944,8 @@ PART
 		topRad = 0
 		inlineHeight = 0
 		sideThickness = 0.025
-		meshPos = (0.312501, 0.4424991, -4.218757E-08)
-		meshRot = (4.920333E-09, 8.414996E-08, 0, 1)
+		meshPos = (0.3125011, 0.4424986, -8.529224E-08)
+		meshRot = (4.920333E-09, 8.414995E-08, 5.259372E-09, 1)
 		shapeLock = False
 		stagingEnabled = True
 		shapeLock_UIFlight
@@ -24244,7 +24224,7 @@ PART
 {
 	part = SmallGearBay_4290397812
 	partName = Part
-	pos = -1.201824,9.868455,-5.109057
+	pos = -1.220162,4.974226,-2.137249
 	attPos = -0.07472607,-0.2006847,-1.117587E-07
 	attPos0 = 0.3798084,-1.222291,-0.1078128
 	rot = -0.0008190424,-0.9999998,4.214685E-08,-8.344171E-07
@@ -24716,10 +24696,10 @@ PART
 {
 	part = SmallGearBay_4290397514
 	partName = Part
-	pos = 0.9502022,9.868455,-5.109058
+	pos = 0.9318639,4.974226,-2.13725
 	attPos = -0.07472599,-0.2006856,3.72529E-07
 	attPos0 = 0.3798085,-1.22229,0.1078142
-	rot = -0.0008191318,0.9999999,-4.214685E-08,-8.492344E-07
+	rot = -0.000819102,0.9999998,-4.214685E-08,-8.492344E-07
 	attRot = 0.9999999,0,0,0
 	attRot0 = -0.003770982,-0.7070962,0.7070974,-0.003770982
 	mir = 1,1,1
@@ -25188,7 +25168,7 @@ PART
 {
 	part = X1.Engine_4290872810
 	partName = Part
-	pos = -0.7673318,10.25052,-6.240463
+	pos = -0.7856703,5.35629,-3.268656
 	attPos = 0,0,0
 	attPos0 = -2.413881E-13,-0.8650014,1.502512E-07
 	rot = 0.7071069,1.053675E-08,-1.053676E-08,0.7071069
@@ -25420,7 +25400,7 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightInterop
+		name = TestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -25444,22 +25424,14 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightCore
+		name = TestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
 		startFlightData = 0
-		deepSpaceThreshold = 1E+07
-		configuration = engineConfig = XRL11:XRL11
-		title = XRL11
-		techTransfer = 
-		techTransferMax = 2000
-		techTransferGenerationPenalty = 0.05
 		operatingTime = 0
 		lastMET = 0
 		initialized = False
-		maxData = 10000
-		failureRateModifier = 1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -25482,12 +25454,9 @@ PART
 	}
 	MODULE
 	{
-		name = zFlightDataRecorder_Engine
+		name = FlightDataRecorder_Engine
 		isEnabled = True
 		lastRecordedMet = 0
-		flightDataMultiplier = 1
-		flightDataEngineerModifier = 0.4
-		configuration = XRL11
 		stagingEnabled = True
 		EVENTS
 		{
@@ -25510,9 +25479,8 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightReliability
+		name = TestFlightReliability
 		isEnabled = True
-		configuration = XRL11
 		lastCheck = 0
 		lastReliability = 1
 		stagingEnabled = True
@@ -25537,10 +25505,9 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightReliability_EngineCycle
+		name = TestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 360
-		configuration = XRL11
 		lastCheck = 0
 		lastReliability = 1
 		stagingEnabled = True
@@ -25565,17 +25532,8 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightFailure_ShutdownEngine
+		name = TestFlightFailure_ShutdownEngine
 		isEnabled = True
-		engineID = 
-		failureType = software
-		severity = failure
-		weight = 32
-		failureTitle = Engine Shutdown
-		configuration = XRL11
-		duFail = 100
-		duRepair = 50
-		oneShot = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -25610,19 +25568,8 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightFailure_IgnitionFail
+		name = TestFlightFailure_IgnitionFail
 		isEnabled = True
-		restoreIgnitionCharge = False
-		ignorePressureOnPad = True
-		engineID = 
-		failureType = mechanical
-		severity = major
-		weight = 0
-		failureTitle = Failed to ignite
-		configuration = XRL11
-		duFail = 300
-		duRepair = 0
-		oneShot = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -25645,18 +25592,8 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightFailure_ReducedMaxThrust
+		name = TestFlightFailure_ReducedMaxThrust
 		isEnabled = True
-		thrustReduction = 0.5
-		engineID = 
-		failureType = mechanical
-		severity = failure
-		weight = 16
-		failureTitle = Loss of Thrust
-		configuration = XRL11
-		duFail = 100
-		duRepair = 250
-		oneShot = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -25691,16 +25628,8 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightFailure_Explode
+		name = TestFlightFailure_Explode
 		isEnabled = True
-		failureType = mechanical
-		severity = major
-		weight = 2
-		failureTitle = Explosion!
-		configuration = XRL11
-		duFail = 400
-		duRepair = 0
-		oneShot = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -25812,10 +25741,10 @@ PART
 {
 	part = X1.Engine_4290394492
 	partName = Part
-	pos = 0.5157092,10.25052,-6.240467
+	pos = 0.4973707,5.35629,-3.268661
 	attPos = 0,0,0
 	attPos0 = 1.397795E-13,-0.8650022,5.406015E-07
-	rot = 0.7071068,-2.107349E-08,2.107349E-08,0.7071068
+	rot = 0.7071069,-2.10735E-08,2.107349E-08,0.7071069
 	attRot = 0,0,0,1
 	attRot0 = -1.685874E-07,1.808747E-13,4.019435E-14,1
 	mir = 1,1,1
@@ -26044,7 +25973,7 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightInterop
+		name = TestFlightInterop
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -26068,22 +25997,14 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightCore
+		name = TestFlightCore
 		isEnabled = True
 		currentFlightData = 0
 		initialFlightData = 0
 		startFlightData = 0
-		deepSpaceThreshold = 1E+07
-		configuration = engineConfig = XRL11:XRL11
-		title = XRL11
-		techTransfer = 
-		techTransferMax = 2000
-		techTransferGenerationPenalty = 0.05
 		operatingTime = 0
 		lastMET = 0
 		initialized = False
-		maxData = 10000
-		failureRateModifier = 1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -26106,12 +26027,9 @@ PART
 	}
 	MODULE
 	{
-		name = zFlightDataRecorder_Engine
+		name = FlightDataRecorder_Engine
 		isEnabled = True
 		lastRecordedMet = 0
-		flightDataMultiplier = 1
-		flightDataEngineerModifier = 0.4
-		configuration = XRL11
 		stagingEnabled = True
 		EVENTS
 		{
@@ -26134,9 +26052,8 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightReliability
+		name = TestFlightReliability
 		isEnabled = True
-		configuration = XRL11
 		lastCheck = 0
 		lastReliability = 1
 		stagingEnabled = True
@@ -26161,10 +26078,9 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightReliability_EngineCycle
+		name = TestFlightReliability_EngineCycle
 		isEnabled = True
 		ratedBurnTime = 360
-		configuration = XRL11
 		lastCheck = 0
 		lastReliability = 1
 		stagingEnabled = True
@@ -26189,17 +26105,8 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightFailure_ShutdownEngine
+		name = TestFlightFailure_ShutdownEngine
 		isEnabled = True
-		engineID = 
-		failureType = software
-		severity = failure
-		weight = 32
-		failureTitle = Engine Shutdown
-		configuration = XRL11
-		duFail = 100
-		duRepair = 50
-		oneShot = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -26225,7 +26132,7 @@ PART
 			canBeRepairedOnSplashed = True
 			canBeRepairedByRemote = True
 			repairChance = 75
-			dataScale = 0
+			dataScale = 1
 			dataSize = 0
 			replacementPart = NONE
 			replacementPartOptional = False
@@ -26234,19 +26141,8 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightFailure_IgnitionFail
+		name = TestFlightFailure_IgnitionFail
 		isEnabled = True
-		restoreIgnitionCharge = False
-		ignorePressureOnPad = True
-		engineID = 
-		failureType = mechanical
-		severity = major
-		weight = 0
-		failureTitle = Failed to ignite
-		configuration = XRL11
-		duFail = 300
-		duRepair = 0
-		oneShot = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -26269,18 +26165,8 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightFailure_ReducedMaxThrust
+		name = TestFlightFailure_ReducedMaxThrust
 		isEnabled = True
-		thrustReduction = 0.5
-		engineID = 
-		failureType = mechanical
-		severity = failure
-		weight = 16
-		failureTitle = Loss of Thrust
-		configuration = XRL11
-		duFail = 100
-		duRepair = 250
-		oneShot = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -26315,16 +26201,8 @@ PART
 	}
 	MODULE
 	{
-		name = zTestFlightFailure_Explode
+		name = TestFlightFailure_Explode
 		isEnabled = True
-		failureType = mechanical
-		severity = major
-		weight = 2
-		failureTitle = Explosion!
-		configuration = XRL11
-		duFail = 400
-		duRepair = 0
-		oneShot = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -26436,10 +26314,10 @@ PART
 {
 	part = B9.Aero.Wing.Procedural.TypeB_4290364532
 	partName = Part
-	pos = -2.081157,9.987094,-5.071077
+	pos = -2.099495,5.092865,-2.099269
 	attPos = 0,0,0
 	attPos0 = 1.185806,-1.384997,-1.689026E-07
-	rot = -0.7043243,0.06267225,-0.05398975,-0.7050425
+	rot = -0.7043242,0.06267224,-0.05398974,-0.7050424
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 0.08249321,0.9965916,5.05051E-07,8.372473E-06
 	mir = 1,1,1
@@ -26813,7 +26691,7 @@ PART
 {
 	part = B9.Aero.Wing.Procedural.TypeB_4290361026
 	partName = Part
-	pos = 1.829534,9.987094,-5.071078
+	pos = 1.811196,5.092865,-2.09927
 	attPos = 0,0,0
 	attPos0 = 1.185806,-1.384996,1.562954E-06
 	rot = 0.05398962,0.7050424,0.7043244,-0.06267231
@@ -27190,7 +27068,7 @@ PART
 {
 	part = B9.Aero.Wing.Procedural.TypeB_4290591080
 	partName = Part
-	pos = -0.125811,11.4229,-6.991326
+	pos = -0.1441495,6.528671,-4.019519
 	attPos = 0,0,0
 	attPos0 = 0.828441,-0.5647361,1.313643E-07
 	rot = -0.46041,0.5366775,0.4604117,-0.5366761
@@ -27566,10 +27444,10 @@ PART
 {
 	part = B9.Aero.Wing.Procedural.TypeA_4288335902
 	partName = Part
-	pos = -0.9217319,9.998262,-2.174618
-	attPos = 0.1536003,0.0977616,0.2522574
+	pos = -0.9400704,5.087335,0.7971895
+	attPos = 0.1536001,0.09775947,0.2689553
 	attPos0 = -0.307999,0.1030591,-9.214143E-09
-	rot = -5.960474E-08,0.7071068,0.707107,-5.960469E-08
+	rot = -5.960475E-08,0.7071068,0.707107,-5.960468E-08
 	attRot = 0,0,0,1
 	attRot0 = 1.043087E-07,1,1.685874E-07,-5.960464E-08
 	mir = 1,1,-1
@@ -28617,10 +28495,10 @@ PART
 {
 	part = B9.Aero.Wing.Procedural.TypeA_4288328602
 	partName = Part
-	pos = 0.6701093,9.998262,-2.174619
-	attPos = -0.1536002,0.09776068,0.2522574
+	pos = 0.6517709,5.087335,0.7971888
+	attPos = -0.1536001,0.09776313,0.2689553
 	attPos0 = 0.3079992,0.1030642,-3.834912E-08
-	rot = -0.7071073,3.899104E-13,2.229329E-13,-0.7071064
+	rot = -0.7071074,2.913226E-13,3.623769E-13,-0.7071064
 	attRot = 0,0,0,1
 	attRot0 = -4.214687E-08,1.589315E-08,-1.937159E-07,-1
 	mir = 1,1,1
@@ -29668,7 +29546,7 @@ PART
 {
 	part = KzInterstageAdapter2_4290718486
 	partName = Part
-	pos = -0.1258113,10.25052,-5.889081
+	pos = -0.1441498,5.35629,-2.917274
 	attPos = 0,0,0
 	attPos0 = 0,-0.9375007,1.117588E-07
 	rot = 0,-0.7071068,0.7071068,0
@@ -29723,7 +29601,7 @@ PART
 		{
 			controlEnabled = True
 			minValue = 0.1
-			maxValue = 50
+			maxValue = 2
 			incrementLarge = 1
 			incrementSmall = 0.1
 			incrementSlide = 0.001
@@ -29732,7 +29610,7 @@ PART
 		{
 			controlEnabled = True
 			minValue = 0.1
-			maxValue = 50
+			maxValue = 2
 			incrementLarge = 1
 			incrementSmall = 0.1
 			incrementSlide = 0.001
@@ -29796,7 +29674,7 @@ PART
 		{
 			controlEnabled = True
 			minValue = 0.1
-			maxValue = 100
+			maxValue = 4
 			incrementLarge = 1.25
 			incrementSmall = 0.125
 			incrementSlide = 0.001
@@ -30138,7 +30016,7 @@ PART
 {
 	part = RC.cone_4290693406
 	partName = Part
-	pos = -0.1258113,10.25052,-6.620426
+	pos = -0.1441498,5.35629,-3.648624
 	attPos = 0,0,0
 	attPos0 = 0,2.046046,2.439077E-07
 	rot = 0,-0.7071068,0.7071068,0
@@ -30592,7 +30470,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4290379508
 	partName = Part
-	pos = -0.7508126,10.25052,-5.504082
+	pos = -0.7691513,5.35629,-2.532275
 	attPos = 0,0,0
 	attPos0 = 0.6249999,-0.3909993,-4.661075E-08
 	rot = -0.7071068,0,0,0.7071068
@@ -30633,7 +30511,7 @@ PART
 		topRad = 0.35
 		inlineHeight = 0.832
 		sideThickness = 0.05
-		meshPos = (0.6250012, 0.3850002, -4.58956E-08)
+		meshPos = (0.6250013, 0.3849993, -4.589555E-08)
 		meshRot = (0, -1, 0, 0)
 		shapeLock = False
 		stagingEnabled = True
@@ -30913,7 +30791,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4290379324
 	partName = Part
-	pos = 0.4991901,10.25052,-5.504082
+	pos = 0.4808518,5.35629,-2.532275
 	attPos = 0,0,0
 	attPos0 = -0.6249999,-0.3909993,-4.661075E-08
 	rot = -0.7071068,0,0,0.7071068
@@ -30954,7 +30832,7 @@ PART
 		topRad = 0.35
 		inlineHeight = 0.832
 		sideThickness = 0.05
-		meshPos = (-0.6250012, 0.3850002, -4.58956E-08)
+		meshPos = (-0.6250014, 0.3849993, -4.589555E-08)
 		meshRot = (0, 4.371139E-08, 0, 1)
 		shapeLock = False
 		stagingEnabled = True
@@ -31234,7 +31112,7 @@ PART
 {
 	part = SmallGearBay_4290328228
 	partName = Part
-	pos = -0.1258113,9.891151,-0.2420274
+	pos = -0.1441498,4.996922,2.729781
 	attPos = 0.1329599,0.514433,-0.4064752
 	attPos0 = 0,-0.1637655,0.3593684
 	rot = 0,0,0,1
