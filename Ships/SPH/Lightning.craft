@@ -2,7 +2,7 @@ ship = Lightning
 version = 1.1.2
 description = 
 type = SPH
-size = 10.15321,5.973827,13.09622
+size = 10.15321,5.973827,13.09624
 PART
 {
 	part = Mark2Cockpit_4294073486
@@ -2591,7 +2591,7 @@ PART
 {
 	part = RO-B9ProcAMWing-Supersonic_4293931306
 	partName = Part
-	pos = -0.2539545,10.47762,-0.09801865
+	pos = -0.2539545,10.47762,-0.09801936
 	attPos = -2.980232E-08,0.08958453,8.612871E-06
 	attPos0 = -0.2539521,-0.9375004,-0.4729185
 	rot = -0.0270682,0.7163625,0.6966473,-0.02783422
@@ -2969,7 +2969,7 @@ PART
 {
 	part = RO-B9ProcAMWing-Supersonic_4293929958
 	partName = Part
-	pos = 0.2539497,10.47762,-0.09801906
+	pos = 0.2539497,10.47762,-0.09801978
 	attPos = 2.980232E-08,0.08958411,8.612871E-06
 	attPos0 = 0.2539521,-0.9375004,-0.4729185
 	rot = -0.6966473,0.02783418,0.02706816,-0.7163625
@@ -3375,6 +3375,7 @@ PART
 	link = SmallGearBay_4293217112
 	link = SmallGearBay_4293216890
 	link = proceduralTankRealFuels_4293216520
+	link = RO-B9ProcCS-Supersonic_4291724088
 	attN = top,Mark2Cockpit_4294073486
 	attN = bottom,proceduralTankRealFuels_4293218658
 	EVENTS
@@ -3391,7 +3392,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.252, 3.7, -1.252001)
+		tempColliderSize = (1.252, 3.700001, -1.252001)
 		textureSet = Original
 		shapeName = Smooth Cone
 		moduleCost = 0.03550793
@@ -4571,7 +4572,7 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4293219122
 	partName = Part
-	pos = -0.1996805,9.717345,-3.457142
+	pos = -0.1996805,9.717345,-3.457149
 	attPos = 0,0.465394,-5.960464E-08
 	attPos0 = -0.2205843,-2,0.3174498
 	rot = 0,0.7143657,0.6997727,0
@@ -5624,7 +5625,7 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4293219006
 	partName = Part
-	pos = 0.1996765,9.717345,-3.457143
+	pos = 0.1996765,9.717345,-3.45715
 	attPos = 0,0.4653931,-5.960464E-08
 	attPos0 = 0.2205843,-2,0.3174498
 	rot = -0.6997731,-3.122592E-08,-3.058804E-08,-0.7143654
@@ -6677,7 +6678,7 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4293218890
 	partName = Part
-	pos = -1.075781,9.670846,-5.709972
+	pos = -1.075781,9.670846,-5.70998
 	attPos = 0,0.465394,-5.960464E-08
 	attPos0 = 0.8760999,-2.2533,-2.682209E-07
 	rot = -0.002780928,-0.7143598,-0.6997675,-0.002838918
@@ -7730,7 +7731,7 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4293218774
 	partName = Part
-	pos = 1.075777,9.670846,-5.709978
+	pos = 1.075777,9.670846,-5.709988
 	attPos = 0,0.465394,-5.960464E-08
 	attPos0 = 0.8760999,-2.253299,1.150655E-06
 	rot = -0.6997678,-0.002838949,-0.002780957,-0.7143596
@@ -8783,7 +8784,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293218658
 	partName = Part
-	pos = -2.053692E-06,10.00471,-5.387674
+	pos = -2.053692E-06,10.00471,-5.387686
 	attPos = 0,0,0
 	attPos0 = 1.605366E-07,-2.350018,2.801439E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -8819,7 +8820,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1, 3.000001, -1)
+		tempColliderSize = (1, 3, -1)
 		textureSet = Original
 		shapeName = Smooth Cone
 		moduleCost = 0.02038195
@@ -10010,7 +10011,7 @@ PART
 {
 	part = IntakeRadialLong_4293218516
 	partName = Part
-	pos = -0.4258742,9.925504,-2.392619
+	pos = -0.4258742,9.925504,-2.392626
 	attPos = 0.09766069,0.6103263,0.07920545
 	attPos0 = -0.5235327,-0.9653187,1.15075E-07
 	rot = 0.01589775,-0.01589772,-0.7069281,0.7069281
@@ -10254,7 +10255,7 @@ PART
 {
 	part = IntakeRadialLong_4293218468
 	partName = Part
-	pos = 0.4258698,9.925504,-2.39262
+	pos = 0.4258698,9.925504,-2.392627
 	attPos = -0.09766069,0.6103253,0.07920545
 	attPos0 = 0.5235327,-0.9653187,1.15075E-07
 	rot = 0.01589781,0.01589772,0.7069283,0.706928
@@ -10498,10 +10499,10 @@ PART
 {
 	part = proceduralTankRealFuels_4293218420
 	partName = Part
-	pos = -2.364288E-06,10.56958,-1.415833
+	pos = -2.364288E-06,10.56958,-1.415835
 	attPos = 1.454471E-07,0.1797488,0.2688284
 	attPos0 = -2.924886E-07,0.4420362,-0.8336889
-	rot = -0.6928645,4.225011E-08,4.396991E-08,-0.7210678
+	rot = -0.6928645,4.225011E-08,4.396991E-08,-0.7210679
 	attRot = 0,0,0,1
 	attRot0 = 0.01994276,6.096673E-08,1.216087E-09,-0.9998012
 	mir = 1,1,1
@@ -11702,10 +11703,10 @@ PART
 {
 	part = proceduralTankRealFuels_4293218352
 	partName = Part
-	pos = -1.861781E-06,10.5935,-0.816304
+	pos = -1.861778E-06,10.5935,-0.8163093
 	attPos = 0,0,0
 	attPos0 = -1.64313E-14,1.000014,-2.272427E-07
-	rot = 0.6928647,-4.820759E-09,-8.004541E-09,0.7210677
+	rot = 0.6928647,-4.820757E-09,-8.004533E-09,0.7210677
 	attRot = 0,0,0,1
 	attRot0 = -1.192093E-07,-5.190816E-08,7.105426E-15,-1
 	mir = 1,1,1
@@ -11735,7 +11736,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.3, 0.9239075, -0.2990466)
+		tempColliderSize = (0.3, 0.9239075, -0.2990468)
 		textureSet = Original
 		shapeName = Smooth Cone
 		moduleCost = 0.0003505511
@@ -12903,10 +12904,10 @@ PART
 {
 	part = proceduralTankRealFuels_4293218284
 	partName = Part
-	pos = -2.733707E-06,10.54963,-1.915452
+	pos = -2.733704E-06,10.54963,-1.915457
 	attPos = 1.891084E-07,-0.01383567,0.3466527
 	attPos0 = -3.669943E-07,-0.650017,-1.136214E-06
-	rot = 0.6928644,1.719831E-09,-1.719791E-09,0.721068
+	rot = 0.6928645,1.719829E-09,-1.719788E-09,0.721068
 	attRot = 0,0,0,1
 	attRot0 = 1.482818E-16,-6.097886E-08,1.776357E-15,-1
 	mir = 1,1,1
@@ -12936,7 +12937,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.4, 0.7318774, -0.3987286)
+		tempColliderSize = (0.4, 0.7318773, -0.3987287)
 		textureSet = Original
 		shapeName = Smooth Cone
 		moduleCost = 0.0007297533
@@ -14104,7 +14105,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293218216
 	partName = Part
-	pos = -0.6755089,10.18678,-1.354779
+	pos = -0.6755089,10.18678,-1.354781
 	attPos = 0.03639072,-0.1687119,0.07480624
 	attPos0 = -0.7118977,0.8515494,-0.2568799
 	rot = -0.5355915,-0.4395486,-0.4574407,-0.5573931
@@ -15309,7 +15310,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293218148
 	partName = Part
-	pos = -0.6891977,10.1895,-1.005051
+	pos = -0.6891977,10.1895,-1.005056
 	attPos = 0,0,0
 	attPos0 = -1.64313E-14,1.000014,-2.272427E-07
 	rot = 0.5355918,0.4395487,0.4574406,0.5573928
@@ -16511,7 +16512,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293218080
 	partName = Part
-	pos = -0.6598656,10.18367,-1.754475
+	pos = -0.6598656,10.18367,-1.75448
 	attPos = 1.891084E-07,-0.01383567,0.3466527
 	attPos0 = -3.669943E-07,-0.650017,-1.136214E-06
 	rot = 0.5355914,0.4395488,0.4574408,0.5573929
@@ -17713,7 +17714,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293218012
 	partName = Part
-	pos = 0.6755048,10.18678,-1.354779
+	pos = 0.6755048,10.18678,-1.354781
 	attPos = -0.03639072,-0.1687126,0.07480624
 	attPos0 = 0.7118977,0.8515494,-0.2568799
 	rot = 0.5355918,-0.4395486,-0.4574407,0.5573928
@@ -18918,7 +18919,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293217944
 	partName = Part
-	pos = 0.6891935,10.1895,-1.005051
+	pos = 0.6891935,10.1895,-1.005056
 	attPos = 0,0,0
 	attPos0 = -1.64313E-14,1.000014,-2.272427E-07
 	rot = 0.5355918,-0.4395487,-0.4574406,0.5573928
@@ -20120,7 +20121,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293217876
 	partName = Part
-	pos = 0.6598612,10.18367,-1.754475
+	pos = 0.6598612,10.18367,-1.75448
 	attPos = 1.891084E-07,-0.01383567,0.3466527
 	attPos0 = -3.669943E-07,-0.650017,-1.136214E-06
 	rot = 0.5355917,-0.4395487,-0.4574407,0.5573928
@@ -21322,7 +21323,7 @@ PART
 {
 	part = RO-B9ProcAMWing-Supersonic_4293217808
 	partName = Part
-	pos = -2.067492E-06,10.32042,-6.616311
+	pos = -2.067492E-06,10.32042,-6.616332
 	attPos = 0,0.2713861,-5.960464E-08
 	attPos0 = 2.759975E-08,-1.500001,-0.3157042
 	rot = 0.5000001,0.5000001,0.5000001,0.5000001
@@ -21699,7 +21700,7 @@ PART
 {
 	part = aje.avon_4293217694
 	partName = Part
-	pos = -2.118637E-06,10.00471,-6.887717
+	pos = -2.118637E-06,10.00471,-6.887737
 	attPos = 0,0,0
 	attPos0 = -6.49448E-08,-1.500021,1.788164E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -22741,7 +22742,7 @@ PART
 {
 	part = SmallGearBay_4293217112
 	partName = Part
-	pos = -0.863458,9.596626,-3.617287
+	pos = -0.8634579,9.596626,-3.617294
 	attPos = -0.5857974,0.2703212,0.4482937
 	attPos0 = -0.2776584,-1.850001,-0.04020955
 	rot = -0.07084817,-4.360155E-08,-3.09687E-09,-0.9974871
@@ -23386,7 +23387,7 @@ PART
 {
 	part = SmallGearBay_4293216890
 	partName = Part
-	pos = 0.8634536,9.596626,-3.617289
+	pos = 0.8634536,9.596626,-3.617296
 	attPos = 0.5857974,0.2703198,0.4482937
 	attPos0 = 0.2776584,-1.850001,-0.04020955
 	rot = 0.07084817,-4.360155E-08,-3.09687E-09,0.9974871
@@ -24031,7 +24032,7 @@ PART
 {
 	part = RO-B9ProcCS-Supersonic_4293216668
 	partName = Part
-	pos = -2.449295,9.658545,-6.835014
+	pos = -2.449295,9.658545,-6.835024
 	attPos = 0,0,0
 	attPos0 = 1.373553,-1.125053,-2.237024E-07
 	rot = 0.6997671,-0.002838959,-0.002780969,0.7143601
@@ -24409,7 +24410,7 @@ PART
 {
 	part = RO-B9ProcCS-Supersonic_4293216594
 	partName = Part
-	pos = 2.449289,9.658545,-6.835015
+	pos = 2.449289,9.658545,-6.835025
 	attPos = 0,0,0
 	attPos0 = 1.373553,-1.125053,1.900982E-06
 	rot = -0.002780999,0.7143599,0.6997675,-0.002838989
@@ -24787,7 +24788,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293216520
 	partName = Part
-	pos = -3.002511E-06,10.49829,-2.514759
+	pos = -3.002511E-06,10.49829,-2.514766
 	attPos = -3.411711E-07,1.028996,0.1550215
 	attPos0 = -4.134539E-07,-1.506128,-0.6486033
 	rot = -0.6910303,5.425792E-08,5.675442E-08,-0.7228258
@@ -25991,7 +25992,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293216452
 	partName = Part
-	pos = -3.711337E-06,10.47356,-3.064217
+	pos = -3.711336E-06,10.47356,-3.064228
 	attPos = 1.891084E-07,-0.01383567,0.3466527
 	attPos0 = -6.44916E-07,-0.600009,-1.931563E-06
 	rot = 0.6910304,2.496513E-09,-2.496483E-09,0.7228258
@@ -27192,7 +27193,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293216384
 	partName = Part
-	pos = -1.744954E-06,10.52077,-2.015273
+	pos = -1.744956E-06,10.52077,-2.015281
 	attPos = 0,0,0
 	attPos0 = 1.254028E-06,0.6999983,1.121312E-06
 	rot = 0.6910304,2.496513E-09,-2.496483E-09,0.7228258
@@ -27225,7 +27226,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.4999999, 0.9449092, -0.4979793)
+		tempColliderSize = (0.4999999, 0.9449087, -0.4979793)
 		textureSet = Original
 		shapeName = Smooth Cone
 		moduleCost = 0.000973753
@@ -28393,7 +28394,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293216316
 	partName = Part
-	pos = -2.718201E-06,10.49983,-4.168991
+	pos = -2.718201E-06,10.49983,-4.169003
 	attPos = -1.846888E-07,0.1497326,0.14567
 	attPos0 = -5.184329E-07,1.068952,-0.6407969
 	rot = -0.7001794,3.377908E-08,3.444427E-08,-0.7139671
@@ -29597,7 +29598,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293216180
 	partName = Part
-	pos = -3.086607E-06,10.48521,-4.918869
+	pos = -3.086605E-06,10.48521,-4.918886
 	attPos = 0,0,0
 	attPos0 = -3.669943E-07,-0.650017,-1.136214E-06
 	rot = 0.7001795,9.757819E-09,8.251881E-09,0.713967
@@ -30798,7 +30799,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293216248
 	partName = Part
-	pos = -2.716978E-06,10.5125,-3.519114
+	pos = -2.716978E-06,10.5125,-3.519131
 	attPos = 0,0,0
 	attPos0 = -1.241229E-13,0.6500093,-6.752089E-07
 	rot = 0.7001795,6.651858E-10,-6.651709E-10,0.713967
@@ -32032,7 +32033,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.253, 3.500001, -1.253001)
+		tempColliderSize = (1.253, 3.5, -1.253001)
 		textureSet = Original
 		shapeName = Smooth Cone
 		moduleCost = 0.01612748
@@ -32278,9 +32279,9 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.06572329
+		mass = 0.06572328
 		stagingEnabled = True
-		volume = 1449.2828
+		volume = 1449.2826
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -33045,8 +33046,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 40
-			maxAmount = 40
+			amount = 39.999994480028299
+			maxAmount = 39.999994480028299
 		}
 	}
 	MODULE
@@ -33199,12 +33200,389 @@ PART
 	RESOURCE
 	{
 		name = LeadBallast
-		amount = 40
-		maxAmount = 40
+		amount = 39.9999944800283
+		maxAmount = 39.9999944800283
 		flowState = True
 		isTweakable = True
 		hideFlow = False
 		isVisible = False
 		flowMode = Both
+	}
+}
+PART
+{
+	part = RO-B9ProcCS-Supersonic_4291724088
+	partName = Part
+	pos = -2.209258E-06,9.587874,-3.828712
+	attPos = 0,-9.536743E-07,-0.0784235
+	attPos0 = 0,-1.791098,0.4952596
+	rot = 7.142438E-10,-0.7151324,-0.6989893,2.106131E-08
+	attRot = -0.02396606,-0.7067004,0.02396606,-0.7067004
+	attRot0 = -1.438755E-08,-0.9999349,0.01141471,1.539764E-08
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 9.799999
+	modMass = -0.0004960001
+	modSize = (-2.6, -3.7, -0.2)
+	srfN = srfAttach,proceduralTankRealFuels_4294003918
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = WingProcedural
+		isEnabled = True
+		isAttached = True
+		isSetToDefaultValues = True
+		sharedBaseLength = 1.36
+		sharedBaseWidthRoot = 0.32
+		sharedBaseWidthTip = 0.32
+		sharedBaseOffsetRoot = -4.470348E-08
+		sharedBaseOffsetTip = 0
+		sharedBaseThicknessRoot = 0.04
+		sharedBaseThicknessTip = 0.04
+		sharedEdgeTypeLeading = 1
+		sharedEdgeWidthLeadingRoot = 0.24
+		sharedEdgeWidthLeadingTip = 0.24
+		sharedEdgeTypeTrailing = 2
+		sharedEdgeWidthTrailingRoot = 0.96
+		sharedEdgeWidthTrailingTip = 1
+		sharedMaterialST = 0
+		sharedColorSTOpacity = 0
+		sharedColorSTHue = 0.1
+		sharedColorSTSaturation = 0.75
+		sharedColorSTBrightness = 0.6
+		sharedMaterialSB = 0
+		sharedColorSBOpacity = 0
+		sharedColorSBHue = 0.1
+		sharedColorSBSaturation = 0.75
+		sharedColorSBBrightness = 0.6
+		sharedMaterialET = 0
+		sharedColorETOpacity = 0
+		sharedColorETHue = 0.1
+		sharedColorETSaturation = 0.75
+		sharedColorETBrightness = 0.6
+		sharedMaterialEL = 4
+		sharedColorELOpacity = 0
+		sharedColorELHue = 0.1
+		sharedColorELSaturation = 0.75
+		sharedColorELBrightness = 0.6
+		fuelSelectedTankSetup = 0
+		stagingEnabled = True
+		mirrorTexturing = True
+		EVENTS
+		{
+			NextConfiguration
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Next configuration
+				guiName = Next configuration
+				category = Next configuration
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			InfoToggleEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Show wing data
+				guiName = Show wing data
+				category = Show wing data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARControllableSurface
+		isEnabled = True
+		pitchaxis = 0
+		yawaxis = 0
+		rollaxis = 0
+		pitchaxisDueToAoA = 0
+		brakeRudder = 0
+		maxdeflect = 0
+		isFlap = False
+		isSpoiler = True
+		flapDeflectionLevel = 0
+		maxdeflectFlap = -25
+		massMultiplier = 0.7
+		stagingEnabled = True
+		pitchaxis_UIFlight
+		{
+			controlEnabled = True
+			minValue = -100
+			maxValue = 100
+			stepIncrement = 5
+		}
+		yawaxis_UIFlight
+		{
+			controlEnabled = True
+			minValue = -100
+			maxValue = 100
+			stepIncrement = 5
+		}
+		rollaxis_UIFlight
+		{
+			controlEnabled = True
+			minValue = -100
+			maxValue = 100
+			stepIncrement = 5
+		}
+		pitchaxisDueToAoA_UIFlight
+		{
+			controlEnabled = True
+			minValue = -200
+			maxValue = 200
+			stepIncrement = 5
+		}
+		brakeRudder_UIFlight
+		{
+			controlEnabled = True
+			minValue = -100
+			maxValue = 100
+			stepIncrement = 5
+		}
+		maxdeflect_UIFlight
+		{
+			controlEnabled = True
+			minValue = -40
+			maxValue = 40
+			stepIncrement = 0.5
+		}
+		isFlap_UIFlight
+		{
+			controlEnabled = True
+		}
+		isSpoiler_UIFlight
+		{
+			controlEnabled = True
+		}
+		maxdeflectFlap_UIFlight
+		{
+			controlEnabled = True
+			minValue = -85
+			maxValue = 85
+			stepIncrement = 0.5
+		}
+		massMultiplier_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.05
+			maxValue = 4
+			stepIncrement = 0.05
+		}
+		EVENTS
+		{
+			DeflectMore
+			{
+				active = False
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Deflect more
+				guiName = Deflect more
+				category = Deflect more
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeflectLess
+			{
+				active = False
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Deflect less
+				guiName = Deflect less
+				category = Deflect less
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActivateSpoiler
+			{
+				actionGroup = Brakes
+			}
+			IncreaseDeflect
+			{
+				actionGroup = None
+			}
+			DecreaseDeflect
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		damage = 0
+		stagingEnabled = True
+		EVENTS
+		{
+			ResetRecordedHeat
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Reset Heat Record
+				guiName = Reset Heat Record
+				category = Reset Heat Record
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
 	}
 }
