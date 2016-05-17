@@ -5750,7 +5750,7 @@ PART
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -7002,7 +7002,7 @@ PART
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -8243,7 +8243,7 @@ PART
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -14948,7 +14948,7 @@ PART
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -16186,7 +16186,7 @@ PART
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -17440,7 +17440,7 @@ PART
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -18679,7 +18679,7 @@ PART
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -19918,7 +19918,7 @@ PART
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{

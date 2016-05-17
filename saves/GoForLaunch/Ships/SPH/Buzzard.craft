@@ -22,7 +22,7 @@ PART
 	sepI = 0
 	attm = 0
 	modCost = 0
-	modMass = 0.2
+	modMass = 0.1
 	modSize = (0.0, 0.0, 0.0)
 	link = RO-B9ProcAMWing-Early_4293714200
 	link = RO-B9ProcAMWing-Early_4293713554
@@ -1344,7 +1344,7 @@ PART
 {
 	part = RO-B9ProcAMWing-Early_4293714200
 	partName = Part
-	pos = -0.02086513,10.58809,-4.38001
+	pos = -0.02086513,10.58809,-4.380011
 	attPos = 0.2197514,-3.702693,-0.1769862
 	attPos0 = -0.2406176,-1.526803,-0.4111089
 	rot = 0,-0.7071068,-0.7071068,0
@@ -1359,7 +1359,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = -0.01542718
+	modMass = 0.03457282
 	modSize = (-1.8, -3.4, 0.0)
 	sym = RO-B9ProcAMWing-Early_4293713554
 	srfN = srfAttach,SXTBuzzard_4293783174
@@ -1565,6 +1565,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -1722,7 +1734,7 @@ PART
 {
 	part = RO-B9ProcAMWing-Early_4293713554
 	partName = Part
-	pos = 0.02086717,10.58809,-4.38001
+	pos = 0.02086717,10.58809,-4.380011
 	attPos = -0.2197514,-3.702693,-0.1769862
 	attPos0 = 0.2406176,-1.526803,-0.4111089
 	rot = -0.7071069,-3.090862E-08,-3.090862E-08,-0.7071067
@@ -1737,7 +1749,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = -0.01542718
+	modMass = 0.03457282
 	modSize = (-1.8, -3.4, 0.0)
 	sym = RO-B9ProcAMWing-Early_4293714200
 	srfN = srfAttach,SXTBuzzard_4293783174
@@ -1943,6 +1955,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -2100,7 +2124,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293723156
 	partName = Part
-	pos = 9.739679E-07,10.48874,-4.579305
+	pos = 9.739679E-07,10.48874,-4.579306
 	attPos = 0,-3.901982,4.768372E-07
 	attPos0 = -4.272728E-08,-1.526803,-0.4887427
 	rot = 0.5000001,0.5000001,0.5000001,0.5000001
@@ -2115,7 +2139,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = -0.2
-	modMass = -0.03113019
+	modMass = 0.01886981
 	modSize = (-2.5, -2.9, 0.0)
 	link = RO-B9ProcAMWing-Early_4293532484
 	link = RO-B9ProcCS-Early_4293532370
@@ -2231,6 +2255,18 @@ PART
 		}
 		EVENTS
 		{
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -2303,7 +2339,7 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.01886981
+		mass = 0.01887981
 		stagingEnabled = True
 		volume = 129.9469
 		type_UIEditor
@@ -3153,7 +3189,7 @@ PART
 {
 	part = RO-B9ProcAMWing-Early_4293532484
 	partName = Part
-	pos = 1.242189E-06,11.98874,-5.069983
+	pos = 1.242189E-06,11.98874,-5.069984
 	attPos = 0.1330387,-3.624993,4.470348E-07
 	attPos0 = 1.5,-0.4906778,2.68221E-07
 	rot = 0.5,0.5000001,0.5,0.5000001
@@ -3168,7 +3204,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = -0.2
-	modMass = -0.04660483
+	modMass = 0.003395175
 	modSize = (-3.6, -3.5, 0.0)
 	srfN = srfAttach,RO-B9ProcWing-Early_4293723156
 	EVENTS
@@ -3373,6 +3409,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -3530,7 +3578,7 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293532370
 	partName = Part
-	pos = 1.102925E-06,11.21685,-5.084635
+	pos = 1.102925E-06,11.21685,-5.084636
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 0.7073165,-0.5331078,1.26478E-07
 	rot = -0.5102943,0.4894894,0.5102924,-0.4894914
@@ -3545,7 +3593,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = -0.0395168
+	modMass = 0.0104832
 	modSize = (-2.4, -3.8, 0.0)
 	srfN = srfAttach,RO-B9ProcWing-Early_4293723156
 	EVENTS
@@ -3750,6 +3798,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -3921,7 +3981,7 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 1
-	modCost = 6.896622
+	modCost = 0.6149401
 	modMass = -0.9922528
 	modSize = (0.0, 0.0, 0.0)
 	link = proceduralTankRealFuels_4293532024
@@ -3945,15 +4005,15 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1, 0.2000001, 1)
-		textureSet = BlueSide
+		tempColliderSize = (1, 0.2000002, 1)
+		textureSet = KHPlanes1
 		shapeName = Cylinder
-		moduleCost = 6.283185
+		moduleCost = 0.001503252
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -4197,7 +4257,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Cryogenic, Fuselage, Fuselage, Structural
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -5139,7 +5199,7 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 1
-	modCost = 6.896622
+	modCost = 0.6149401
 	modMass = -0.9922528
 	modSize = (0.0, 0.0, 0.0)
 	link = proceduralTankRealFuels_4293531956
@@ -5164,14 +5224,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (-1, 0.2000001, -1)
-		textureSet = BlueSide
+		textureSet = KHPlanes1
 		shapeName = Cylinder
-		moduleCost = 6.283185
+		moduleCost = 0.001503252
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -5415,7 +5475,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Cryogenic, Fuselage, Fuselage, Structural
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -6379,14 +6439,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (-1, 0.9000001, -1)
-		textureSet = BlueSide
+		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.005232076
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -6630,7 +6690,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -7582,14 +7642,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (1, 0.9000002, 0.9999999)
-		textureSet = BlueSide
+		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.005232076
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -7833,7 +7893,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -8752,7 +8812,7 @@ PART
 	pos = -1.955152,9.792029,1.760316
 	attPos = 1.490116E-08,-0.06545579,5.517506E-09
 	attPos0 = -5.960465E-08,0.5000052,-4.21473E-08
-	rot = 0.7071069,-7.241484E-08,-1.187887E-08,0.7071068
+	rot = 0.7071069,-7.2182E-08,-1.21117E-08,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 0,0.7071068,0,0.7071068
 	mir = 1,1,1
@@ -8996,7 +9056,7 @@ PART
 	pos = 1.955154,9.792029,1.760316
 	attPos = -1.58485E-08,-0.06546229,-5.007737E-06
 	attPos0 = 6.683604E-08,0.5000102,7.231421E-09
-	rot = 0.7071068,-1.466034E-07,-1.062777E-07,0.7071068
+	rot = 0.7071068,-1.478075E-07,-1.050736E-07,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 5.960464E-08,-0.7071068,5.960464E-08,0.7071068
 	mir = 1,1,1
@@ -9237,7 +9297,7 @@ PART
 {
 	part = airplaneTailB_4293860670
 	partName = Part
-	pos = 1.016695E-06,9.999997,-0.6773211
+	pos = 1.016695E-06,9.999997,-0.6773216
 	attPos = 0,0,0
 	attPos0 = 0,-1.526806,1.820094E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -9455,7 +9515,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 10.53381
-	modMass = 0.05357182
+	modMass = 0.1035718
 	modSize = (1.5, -3.5, 0.1)
 	link = RO-B9ProcCS-Early_4293497468
 	link = RO-B9ProcCS-Early_4293495524
@@ -9575,6 +9635,18 @@ PART
 		}
 		EVENTS
 		{
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -9647,7 +9719,7 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.1035718
+		mass = 0.1035818
 		stagingEnabled = True
 		volume = 336.9135
 		type_UIEditor
@@ -9756,8 +9828,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 288.78851991314832
-			maxAmount = 288.78851991314832
+			amount = 288.78852633177144
+			maxAmount = 288.78852633177144
 		}
 		TANK
 		{
@@ -10496,8 +10568,8 @@ PART
 	RESOURCE
 	{
 		name = Kerosene
-		amount = 288.788519913148
-		maxAmount = 288.788519913148
+		amount = 288.788526331771
+		maxAmount = 288.788526331771
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -10524,7 +10596,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 10.53381
-	modMass = 0.05357182
+	modMass = 0.1035718
 	modSize = (1.5, -3.5, 0.1)
 	link = RO-B9ProcCS-Early_4293495968
 	link = RO-B9ProcCS-Early_4293493042
@@ -10644,6 +10716,18 @@ PART
 		}
 		EVENTS
 		{
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -10716,7 +10800,7 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.1035718
+		mass = 0.1035818
 		stagingEnabled = True
 		volume = 336.9135
 		type_UIEditor
@@ -10825,8 +10909,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 288.78851991314832
-			maxAmount = 288.78851991314832
+			amount = 288.78852633177144
+			maxAmount = 288.78852633177144
 		}
 		TANK
 		{
@@ -11565,8 +11649,8 @@ PART
 	RESOURCE
 	{
 		name = Kerosene
-		amount = 288.788519913148
-		maxAmount = 288.788519913148
+		amount = 288.788526331771
+		maxAmount = 288.788526331771
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -11578,10 +11662,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293497468
 	partName = Part
-	pos = -1.123895,10.00331,0.2643424
+	pos = -1.123895,10.00331,0.2643423
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 0.5054881,-0.2442741,-1.174886E-07
-	rot = 0.7006733,-0.02619666,-0.03371506,0.7122036
+	rot = 0.7006733,-0.02619666,-0.03371507,0.7122037
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = -0.005677015,0.9999839,2.980232E-08,-2.10097E-05
 	mir = 1,1,1
@@ -11593,7 +11677,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = -0.2
-	modMass = -0.0431435
+	modMass = 0.006856496
 	modSize = (-3.0, -3.8, 0.1)
 	sym = RO-B9ProcCS-Early_4293495968
 	srfN = srfAttach,RO-B9ProcWing-Early_4293500476
@@ -11799,6 +11883,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -11956,10 +12052,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293495968
 	partName = Part
-	pos = 1.123897,10.00331,0.2643422
+	pos = 1.123897,10.00331,0.2643421
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 0.5054881,-0.2442743,2.635991E-07
-	rot = -0.03371509,0.7122036,0.7006735,-0.02619668
+	rot = -0.03371509,0.7122035,0.7006735,-0.02619668
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = 0.005677012,-0.9999839,2.383736E-07,-2.100825E-05
 	mir = 1,1,1
@@ -11971,7 +12067,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = -0.2
-	modMass = -0.0431435
+	modMass = 0.006856496
 	modSize = (-3.0, -3.8, 0.1)
 	sym = RO-B9ProcCS-Early_4293497468
 	srfN = srfAttach,RO-B9ProcWing-Early_4293498936
@@ -12177,6 +12273,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -12334,10 +12442,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293495524
 	partName = Part
-	pos = -2.001913,10.07802,0.273085
+	pos = -2.001913,10.07802,0.2730849
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 1.386665,-0.2342782,-1.66436E-07
-	rot = 0.7006733,-0.02619666,-0.03371506,0.7122036
+	rot = 0.7006733,-0.02619666,-0.03371507,0.7122037
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = -0.005677015,0.9999839,2.980232E-08,-2.10097E-05
 	mir = 1,1,1
@@ -12349,7 +12457,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = -0.2
-	modMass = -0.04517654
+	modMass = 0.004823466
 	modSize = (-3.2, -3.8, 0.0)
 	sym = RO-B9ProcCS-Early_4293493042
 	srfN = srfAttach,RO-B9ProcWing-Early_4293500476
@@ -12555,6 +12663,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -12712,10 +12832,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293493042
 	partName = Part
-	pos = 2.001915,10.07802,0.2730848
+	pos = 2.001915,10.07802,0.2730847
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 1.386665,-0.2342782,3.854107E-07
-	rot = -0.03371509,0.7122036,0.7006735,-0.02619668
+	rot = -0.03371509,0.7122035,0.7006735,-0.02619668
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = 0.005677012,-0.9999839,2.383736E-07,-2.100825E-05
 	mir = 1,1,1
@@ -12727,7 +12847,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = -0.2
-	modMass = -0.04517654
+	modMass = 0.004823466
 	modSize = (-3.2, -3.8, 0.0)
 	sym = RO-B9ProcCS-Early_4293495524
 	srfN = srfAttach,RO-B9ProcWing-Early_4293498936
@@ -12933,6 +13053,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -13090,7 +13222,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293532160
 	partName = Part
-	pos = -1.955154,9.792024,0.1257582
+	pos = -1.955154,9.792024,0.1257581
 	attPos = 0,0,0
 	attPos0 = -7.450581E-08,-0.65001,-8.881784E-15
 	rot = 0.5000001,0.5000001,0.5000001,0.5000001
@@ -13126,14 +13258,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (1, 1.1, 1)
-		textureSet = BlueSide
+		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.006076063
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -13377,7 +13509,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -14305,10 +14437,10 @@ PART
 {
 	part = RO-DerwentV_4293531568
 	partName = Part
-	pos = -1.955155,9.792024,-0.4242479
+	pos = -1.955155,9.792024,-0.4242484
 	attPos = 0,0,0
 	attPos0 = -5.960461E-08,-0.550005,-4.039899E-07
-	rot = 0.7071069,-1.145617E-07,-5.40257E-08,0.7071069
+	rot = 0.7071069,-1.143289E-07,-5.425854E-08,0.7071069
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
@@ -14721,7 +14853,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293492074
 	partName = Part
-	pos = 1.955159,9.792029,0.1257555
+	pos = 1.955159,9.792029,0.1257554
 	attPos = 0,0,0
 	attPos0 = 2.662785E-07,-0.6500155,1.917727E-07
 	rot = 0.5000002,-0.4999999,-0.4999999,0.5000002
@@ -14757,14 +14889,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (-1.000002, 1.1, -1.000001)
-		textureSet = BlueSide
+		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.006076063
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -15008,7 +15140,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -15936,10 +16068,10 @@ PART
 {
 	part = RO-DerwentV_4293491984
 	partName = Part
-	pos = 1.95516,9.792029,-0.4242502
+	pos = 1.95516,9.792029,-0.4242504
 	attPos = 0,0,0
 	attPos0 = -5.960461E-08,-0.550005,-4.039899E-07
-	rot = 0.7071068,2.326406E-07,1.46681E-07,0.7071068
+	rot = 0.7071068,2.402042E-07,1.391174E-07,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
@@ -16352,10 +16484,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293483906
 	partName = Part
-	pos = -3.304489,10.18885,0.2860817
+	pos = -3.304489,10.18885,0.2860816
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 2.693928,-0.2194213,-2.390417E-07
-	rot = 0.7006733,-0.02619666,-0.03371506,0.7122036
+	rot = 0.7006733,-0.02619666,-0.03371507,0.7122037
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = -0.005677015,0.9999839,2.980232E-08,-2.10097E-05
 	mir = 1,1,1
@@ -16367,7 +16499,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = -0.0396064
+	modMass = 0.0103936
 	modSize = (-2.1, -3.8, 0.0)
 	sym = RO-B9ProcCS-Early_4293483060
 	srfN = srfAttach,RO-B9ProcWing-Early_4293500476
@@ -16573,6 +16705,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -16730,10 +16874,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293483060
 	partName = Part
-	pos = 3.304491,10.18885,0.2860812
+	pos = 3.304491,10.18885,0.2860811
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 2.693928,-0.2194214,5.661023E-07
-	rot = -0.03371509,0.7122036,0.7006735,-0.02619668
+	rot = -0.03371509,0.7122035,0.7006735,-0.02619668
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = 0.005677012,-0.9999839,2.383736E-07,-2.100825E-05
 	mir = 1,1,1
@@ -16745,7 +16889,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = -0.0396064
+	modMass = 0.0103936
 	modSize = (-2.1, -3.8, 0.0)
 	sym = RO-B9ProcCS-Early_4293483906
 	srfN = srfAttach,RO-B9ProcWing-Early_4293498936
@@ -16951,6 +17095,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -17108,10 +17264,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293477084
 	partName = Part
-	pos = -5.15787,10.34655,0.3045591
+	pos = -5.157871,10.34655,0.304559
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 4.553973,-0.1982974,6.1132E-07
-	rot = 0.7006733,-0.02619666,-0.03371506,0.7122036
+	rot = 0.7006733,-0.02619666,-0.03371507,0.7122037
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = -0.005677015,0.9999839,2.980232E-08,-2.10097E-05
 	mir = 1,1,1
@@ -17123,7 +17279,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = -0.0422384
+	modMass = 0.007761599
 	modSize = (-2.1, -3.8, 0.0)
 	sym = RO-B9ProcCS-Early_4293474748
 	srfN = srfAttach,RO-B9ProcWing-Early_4293500476
@@ -17329,6 +17485,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -17486,10 +17654,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293474748
 	partName = Part
-	pos = 5.157871,10.34655,0.3045585
+	pos = 5.157871,10.34655,0.3045583
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 4.553973,-0.1982977,-1.304625E-07
-	rot = -0.03371509,0.7122036,0.7006735,-0.02619668
+	rot = -0.03371509,0.7122035,0.7006735,-0.02619668
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = 0.005677012,-0.9999839,2.383736E-07,-2.100825E-05
 	mir = 1,1,1
@@ -17501,7 +17669,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = -0.0422384
+	modMass = 0.007761599
 	modSize = (-2.1, -3.8, 0.0)
 	sym = RO-B9ProcCS-Early_4293477084
 	srfN = srfAttach,RO-B9ProcWing-Early_4293498936
@@ -17707,6 +17875,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -17864,7 +18044,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293447756
 	partName = Part
-	pos = -6.100449,10.43002,0.468902
+	pos = -6.10045,10.43002,0.4689019
 	attPos = 0,0,0
 	attPos0 = 5.5,-0.03257534,0.0006623268
 	rot = 0.02968599,0.7123829,0.7005128,0.03018884
@@ -17879,7 +18059,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = -0.2
-	modMass = -0.04848157
+	modMass = 0.001518432
 	modSize = (-3.8, -3.6, -0.1)
 	sym = RO-B9ProcWing-Early_4293443734
 	srfN = srfAttach,RO-B9ProcWing-Early_4293500476
@@ -17994,6 +18174,18 @@ PART
 		}
 		EVENTS
 		{
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -18066,7 +18258,7 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.001518432
+		mass = 0.001528432
 		stagingEnabled = True
 		volume = 4.8131000000000004
 		type_UIEditor
@@ -18916,7 +19108,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293443734
 	partName = Part
-	pos = 6.10045,10.43002,0.4689014
+	pos = 6.10045,10.43002,0.4689013
 	attPos = 0,0,0
 	attPos0 = 5.5,-0.03257577,-0.0006619692
 	rot = -0.7005129,-0.03018887,-0.02968601,-0.7123828
@@ -18931,7 +19123,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = -0.2
-	modMass = -0.04848157
+	modMass = 0.001518432
 	modSize = (-3.8, -3.6, -0.1)
 	sym = RO-B9ProcWing-Early_4293447756
 	srfN = srfAttach,RO-B9ProcWing-Early_4293498936
@@ -19046,6 +19238,18 @@ PART
 		}
 		EVENTS
 		{
+			OnWingAttach
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 			ToggleStaging
 			{
 				active = True
@@ -19118,7 +19322,7 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.001518432
+		mass = 0.001528432
 		stagingEnabled = True
 		volume = 4.8131000000000004
 		type_UIEditor
@@ -19968,7 +20172,7 @@ PART
 {
 	part = SmallGearBay_4293419730
 	partName = Part
-	pos = -1.955152,9.686649,0.2571023
+	pos = -1.955152,9.686649,0.2571021
 	attPos = 0.3928623,-0.505824,4.683283E-08
 	attPos0 = -0.4982424,-0.01283321,-5.939512E-08
 	rot = 0.0078592,-2.107343E-08,1.053671E-07,0.9999692
@@ -20613,7 +20817,7 @@ PART
 {
 	part = SmallGearBay_4293414322
 	partName = Part
-	pos = 1.955154,9.686649,0.2571017
+	pos = 1.955154,9.686649,0.2571015
 	attPos = -0.3928621,-0.5058242,1.960648E-07
 	attPos0 = 0.4982424,-0.01283433,4.951182E-06
 	rot = 0.007859141,3.20258E-08,3.20258E-08,0.9999692
@@ -21935,14 +22139,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (1.254, 2, -1.254)
-		textureSet = GreySide
+		textureSet = SoyuzGreen
 		shapeName = Smooth Cone
 		moduleCost = 0.01361104
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -22186,7 +22390,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -23114,7 +23318,7 @@ PART
 {
 	part = proceduralTankRealFuels_4292912500
 	partName = Part
-	pos = 9.676098E-07,10.44172,-0.3601367
+	pos = 9.676098E-07,10.44172,-0.3601369
 	attPos = 5.366246E-09,0.3171871,0.6589746
 	attPos0 = -5.421884E-08,-1.526804,-1.120196
 	rot = 0,-0.7071068,0.7071068,0
@@ -23149,14 +23353,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (-0.8610002, -0.6000003, -0.8610002)
-		textureSet = GreySide
+		textureSet = SoyuzGreen
 		shapeName = Cylinder
 		moduleCost = 0.003343178
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -23400,7 +23604,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -24316,7 +24520,7 @@ PART
 {
 	part = proceduralTankRealFuels_4292896754
 	partName = Part
-	pos = 7.090436E-07,10.44172,-2.010145
+	pos = 7.090434E-07,10.44172,-2.010146
 	attPos = 0,0,0
 	attPos0 = 1.047142E-07,0.8000096,8.940697E-08
 	rot = 0.7071068,0,0,0.7071068
@@ -24348,15 +24552,15 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.8610001, 2.700001, -0.8610005)
-		textureSet = GreySide
+		tempColliderSize = (0.8610001, 2.7, -0.8610005)
+		textureSet = SoyuzGreen
 		shapeName = Smooth Cone
 		moduleCost = 0.00664213
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -24600,7 +24804,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
