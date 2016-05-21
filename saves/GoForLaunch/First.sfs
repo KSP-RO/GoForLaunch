@@ -110,7 +110,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 261.580000000053
+		update = 251.560000000056
 		version = 1.1.2
 		WEIGHTS
 		{
@@ -3460,7 +3460,7 @@ GAME
 				{
 					shipName = SR1
 					shipID = 1afc971a-db39-44d1-b5ff-3b3a21aa5880
-					progress = 44.4800000000146
+					progress = 40.800000000018
 					buildTime = 574201.56178996
 					launchSite = LaunchPad
 					flag = GoForLaunch/Flags/GoForLaunch
@@ -42759,7 +42759,7 @@ GAME
 				{
 					shipName = Buzzard
 					shipID = 0ec3fd70-cdf4-4836-b2d4-1cba7eff2555
-					progress = 32.9600000000087
+					progress = 29.2800000000121
 					buildTime = 876267.05813837
 					launchSite = Runway
 					flag = GoForLaunch/Flags/GoForLaunch
@@ -69457,7 +69457,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.2
-		UT = 267.420000000047
+		UT = 260.060000000054
 		activeVessel = 0
 		mapViewFiltering = 0
 	}

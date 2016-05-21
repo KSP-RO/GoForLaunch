@@ -2,7 +2,7 @@ ship = Banshee
 version = 1.1.2
 description = 
 type = SPH
-size = 20.25388,8.112993,10.64063
+size = 20.25388,8.112991,10.64064
 PART
 {
 	part = SXTBuzzard_4288910656
@@ -22,13 +22,13 @@ PART
 	sepI = 0
 	attm = 0
 	modCost = 0
-	modMass = 0.1
+	modMass = 0.2
 	modSize = (0.0, 0.0, 0.0)
 	link = RO-B9ProcWing-Early_4290452428
 	link = RO-B9ProcWing-Early_4288895118
-	link = proceduralTankRealFuels_4288836574
 	link = proceduralTankRealFuels_4290494822
 	link = proceduralTankRealFuels_4290634420
+	link = proceduralTankRealFuels_4288836574
 	attN = bottom,proceduralTankRealFuels_4288836574
 	EVENTS
 	{
@@ -1351,7 +1351,7 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 1
-	modCost = 0.1484758
+	modCost = 0.1484755
 	modMass = 0.04463029
 	modSize = (-3.5, -2.6, 0.2)
 	link = RO-B9ProcWing-Early_4288707642
@@ -1772,8 +1772,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 133.00603325097143
-			maxAmount = 133.00603325097143
+			amount = 133.00593879303452
+			maxAmount = 133.00593879303452
 		}
 		TANK
 		{
@@ -2414,8 +2414,8 @@ PART
 	RESOURCE
 	{
 		name = AvGas
-		amount = 133.006033250971
-		maxAmount = 133.006033250971
+		amount = 133.005938793035
+		maxAmount = 133.005938793035
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2427,7 +2427,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4288707642
 	partName = Part
-	pos = -0.921312,9.255693,-0.2633839
+	pos = -0.9213121,9.255693,-0.2633839
 	attPos = 0,0,0
 	attPos0 = 0.5040568,0.003669928,-2.350478E-07
 	rot = 0.01240565,0.7152613,0.6986316,0.01270091
@@ -2864,8 +2864,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 537.51608805864191
-			maxAmount = 537.51608805864191
+			amount = 537.51601940177977
+			maxAmount = 537.51601940177977
 		}
 		TANK
 		{
@@ -3506,8 +3506,8 @@ PART
 	RESOURCE
 	{
 		name = AvGas
-		amount = 537.516088058642
-		maxAmount = 537.516088058642
+		amount = 537.51601940178
+		maxAmount = 537.51601940178
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -3909,7 +3909,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4288707372
 	partName = Part
-	pos = -5.793357,9.428715,-0.2679511
+	pos = -5.793358,9.428715,-0.2679511
 	attPos = 0,0,0
 	attPos0 = 4.875116,-0.0004959987,5.465569E-07
 	rot = 0.01240568,0.7152612,0.6986318,0.01270089
@@ -4987,7 +4987,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4288707254
 	partName = Part
-	pos = -6.125207,9.440657,-0.261621
+	pos = -6.125208,9.440657,-0.261621
 	attPos = 0,0,0
 	attPos0 = 0.3320546,0.006608142,5.152236E-07
 	rot = 0.01240559,0.7152612,0.6986318,0.01270081
@@ -6067,7 +6067,7 @@ PART
 	pos = 0.4175716,9.237717,-0.2666316
 	attPos = 0.0826093,-1.89178,0.2966321
 	attPos0 = 0.3349623,1.734668,0.4656514
-	rot = -0.6986318,-0.01270096,-0.0124057,-0.7152612
+	rot = -0.6986318,-0.01270096,-0.0124057,-0.7152611
 	attRot = -0.5174413,-0.5416355,-0.4561459,0.480434
 	attRot0 = 0.01175904,-0.01775309,0.0002087802,-0.9997733
 	mir = 1,1,1
@@ -6078,7 +6078,7 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 1
-	modCost = 0.1484758
+	modCost = 0.1484755
 	modMass = 0.04463029
 	modSize = (-3.5, -2.6, 0.2)
 	link = RO-B9ProcWing-Early_4288707018
@@ -6499,8 +6499,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 133.00603325097143
-			maxAmount = 133.00603325097143
+			amount = 133.00593879303452
+			maxAmount = 133.00593879303452
 		}
 		TANK
 		{
@@ -7141,8 +7141,8 @@ PART
 	RESOURCE
 	{
 		name = AvGas
-		amount = 133.006033250971
-		maxAmount = 133.006033250971
+		amount = 133.005938793035
+		maxAmount = 133.005938793035
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7157,7 +7157,7 @@ PART
 	pos = 0.9213111,9.255693,-0.263384
 	attPos = 4.172325E-07,-4.775357E-07,3.263174E-07
 	attPos0 = 0.5040568,0.003669928,-2.350478E-07
-	rot = -0.6986318,-0.01270094,-0.01240568,-0.7152612
+	rot = -0.6986317,-0.01270094,-0.01240568,-0.7152612
 	attRot = 0,0,0,1
 	attRot0 = -8.940696E-08,2.8871E-08,1.862645E-09,1
 	mir = 1,1,1
@@ -7591,8 +7591,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 537.51608805864191
-			maxAmount = 537.51608805864191
+			amount = 537.51601940177977
+			maxAmount = 537.51601940177977
 		}
 		TANK
 		{
@@ -8233,8 +8233,8 @@ PART
 	RESOURCE
 	{
 		name = AvGas
-		amount = 537.516088058642
-		maxAmount = 537.516088058642
+		amount = 537.51601940178
+		maxAmount = 537.51601940178
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -8249,7 +8249,7 @@ PART
 	pos = 2.422765,9.302121,-0.5578188
 	attPos = 0,0,0
 	attPos0 = 1.502402,-0.2932608,1.884938E-07
-	rot = -0.01697508,0.7151672,0.6986991,-0.008214371
+	rot = -0.01697508,0.7151671,0.6986991,-0.008214371
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = -0.006404733,0.9999796,2.980232E-08,-1.639314E-05
 	mir = 1,1,1
@@ -8639,7 +8639,7 @@ PART
 	pos = 5.793345,9.428715,-0.2679516
 	attPos = 0,0,0
 	attPos0 = 4.875116,-0.0004959987,5.465569E-07
-	rot = -0.6986321,-0.01270092,-0.0124057,-0.7152609
+	rot = -0.6986321,-0.01270092,-0.0124057,-0.7152608
 	attRot = 0,0,0,1
 	attRot0 = -8.940696E-08,2.8871E-08,9.313225E-10,1
 	mir = 1,1,1
@@ -9717,7 +9717,7 @@ PART
 	pos = 6.125192,9.440657,-0.2616215
 	attPos = 0,0,0
 	attPos0 = 0.3320546,0.006608142,5.152236E-07
-	rot = -0.6986319,-0.01270084,-0.01240562,-0.7152611
+	rot = -0.6986318,-0.01270084,-0.01240562,-0.715261
 	attRot = 0,0,0,1
 	attRot0 = -8.940696E-08,5.774199E-08,2.793968E-09,1
 	mir = 1,1,1
@@ -10794,7 +10794,7 @@ PART
 	pos = 0.4178848,9.238753,-0.2402779
 	attPos = 0.0003278183,-0.01203667,-0.01180902
 	attPos0 = -3.469177E-08,0.03840801,0.0114039
-	rot = -0.01238983,0.7143862,0.6995266,-0.01271646
+	rot = -0.01238983,0.7143861,0.6995265,-0.01271646
 	attRot = -0.001251817,-9.942667E-10,-2.770623E-09,-0.9999994
 	attRot0 = -4.842877E-08,1,7.112975E-08,-4.470348E-08
 	mir = 1,1,1
@@ -12943,1220 +12943,6 @@ PART
 }
 PART
 {
-	part = proceduralTankRealFuels_4288836574
-	partName = Part
-	pos = 0,10,-2.52684
-	attPos = 0,0,0
-	attPos0 = 0,-2.52682,3.012204E-07
-	rot = 0.7071068,0,0,0.7071068
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Mirror
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 0
-	modCost = 1.666297
-	modMass = -0.9624268
-	modSize = (0.0, 0.0, 0.0)
-	srfN = srfAttach,proceduralTankRealFuels_4288706066
-	attN = top,SXTBuzzard_4288910656
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ProceduralPart
-		isEnabled = True
-		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.249, 1.781, -1.249001)
-		textureSet = KHPlanes2
-		shapeName = Smooth Cone
-		moduleCost = 0.009219897
-		stagingEnabled = True
-		textureSet_UIEditor
-		{
-			controlEnabled = True
-			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
-		}
-		shapeName_UIEditor
-		{
-			controlEnabled = True
-			options = Cylinder, Cone, Fillet Cylinder, Smooth Cone
-		}
-		EVENTS
-		{
-			OnChangeTextureScale
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = 
-				guiName = 
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			OnPartAttachNodePositionChanged
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = 
-				guiName = 
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			OnPartModelChanged
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = 
-				guiName = 
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			OnPartColliderChanged
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = 
-				guiName = 
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ProceduralShapeCylinder
-		isEnabled = True
-		diameter = 1
-		length = 1
-		stagingEnabled = True
-		diameter_UIEditor
-		{
-			controlEnabled = True
-		}
-		length_UIEditor
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ProceduralShapeCone
-		isEnabled = True
-		topDiameter = 0.5
-		bottomDiameter = 1
-		length = 1
-		stagingEnabled = True
-		topDiameter_UIEditor
-		{
-			controlEnabled = True
-		}
-		bottomDiameter_UIEditor
-		{
-			controlEnabled = True
-		}
-		length_UIEditor
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ProceduralShapePill
-		isEnabled = True
-		diameter = 1
-		length = 1
-		fillet = 0.2
-		stagingEnabled = True
-		diameter_UIEditor
-		{
-			controlEnabled = True
-		}
-		length_UIEditor
-		{
-			controlEnabled = True
-		}
-		fillet_UIEditor
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ProceduralShapeBezierCone
-		isEnabled = True
-		selectedShape = Peaked #1
-		topDiameter = 1.249
-		bottomDiameter = 0
-		length = 1.781
-		stagingEnabled = True
-		selectedShape_UIEditor
-		{
-			controlEnabled = True
-			options = Straight, Round #1, Round #2, Round #3, Peaked #1, Peaked #2, Sharp #1, Sharp #2, Waisted
-		}
-		topDiameter_UIEditor
-		{
-			controlEnabled = True
-		}
-		bottomDiameter_UIEditor
-		{
-			controlEnabled = True
-		}
-		length_UIEditor
-		{
-			controlEnabled = True
-		}
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleFuelTanks
-		isEnabled = True
-		type = Structural
-		utilization = 86
-		partPrevTemperature = -1
-		mass = 0.03757325
-		stagingEnabled = True
-		volume = 828.53830000000005
-		type_UIEditor
-		{
-			controlEnabled = True
-			options = Fuselage, Structural
-		}
-		utilization_UIEditor
-		{
-			controlEnabled = True
-			minValue = 1
-			maxValue = 100
-			stepIncrement = 1
-		}
-		EVENTS
-		{
-			OnPartVolumeChanged
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = 
-				guiName = 
-				category = 
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			HideUI
-			{
-				active = False
-				guiActive = False
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Hide UI
-				guiName = Hide UI
-				category = Hide UI
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ShowUI
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Show UI
-				guiName = Show UI
-				category = Show UI
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Empty
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Remove All Tanks
-				guiName = Remove All Tanks
-				category = Remove All Tanks
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			MFT0
-			{
-				active = True
-				guiActive = False
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = 100% AvGas
-				guiName = 100% AvGas
-				category = 100% AvGas
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-		TANK
-		{
-			name = LqdOxygen
-			note = (lacks insulation)
-			utilization = 1
-			mass = 1.4E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 90.15
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Kerosene
-			note = 
-			utilization = 1
-			mass = 1.2E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = LqdHydrogen
-			note = (lacks insulation)
-			utilization = 1
-			mass = 2E-06
-			cost = 0.01
-			loss_rate = 0
-			temperature = 20.15
-			fillable = True
-			techRequired = hydroloxTL2
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = NTO
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = UDMH
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Aerozine50
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = MMH
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = HTP
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = AvGas
-			note = 
-			utilization = 1
-			mass = 8E-06
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = IRFNA-III
-			note = 
-			utilization = 1
-			mass = 2E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = NitrousOxide
-			note = (pressurized)
-			utilization = 100
-			mass = 3E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Aniline
-			note = 
-			utilization = 1
-			mass = 2E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Ethanol75
-			note = 
-			utilization = 1
-			mass = 1.3E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Ethanol90
-			note = 
-			utilization = 1
-			mass = 1.3E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Ethanol
-			note = 
-			utilization = 1
-			mass = 1.3E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = LqdAmmonia
-			note = (lacks insulation)
-			utilization = 1
-			mass = 1.2E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 237.65
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = LqdMethane
-			note = (lacks insulation)
-			utilization = 1
-			mass = 1.2E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 111.45
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = ClF3
-			note = 
-			utilization = 1
-			mass = 4E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = ClF5
-			note = 
-			utilization = 1
-			mass = 4E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Diborane
-			note = (lacks insulation)
-			utilization = 1
-			mass = 1.8E-05
-			cost = 0.0025
-			loss_rate = 2.3E-10
-			temperature = 180.65
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Pentaborane
-			note = 
-			utilization = 1
-			mass = 1.8E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Ethane
-			note = (lacks insulation)
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 2.5E-10
-			temperature = 184.65
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Ethylene
-			note = (lacks insulation)
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 3.5E-10
-			temperature = 169.45
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = OF2
-			note = (lacks insulation)
-			utilization = 1
-			mass = 1.8E-05
-			cost = 0.0025
-			loss_rate = 1E-09
-			temperature = 128.4
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = LqdFluorine
-			note = (lacks insulation)
-			utilization = 1
-			mass = 4E-05
-			cost = 0.0025
-			loss_rate = 5.5E-09
-			temperature = 85.04
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = N2F4
-			note = (lacks insulation)
-			utilization = 1
-			mass = 1E-05
-			cost = 0.0025
-			loss_rate = 1.7E-10
-			temperature = 200.15
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Methanol
-			note = 
-			utilization = 1
-			mass = 1.2E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Furfuryl
-			note = 
-			utilization = 1
-			mass = 1.4E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = UH25
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Tonka250
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Tonka500
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = FLOX30
-			note = (lacks insulation)
-			utilization = 1
-			mass = 1.65E-05
-			cost = 0.0025
-			loss_rate = 1E-10
-			temperature = 216.15
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = FLOX70
-			note = (lacks insulation)
-			utilization = 1
-			mass = 3.85E-05
-			cost = 0.0025
-			loss_rate = 1E-10
-			temperature = 216.15
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = FLOX88
-			note = (lacks insulation)
-			utilization = 1
-			mass = 4.84E-05
-			cost = 0.0025
-			loss_rate = 1E-10
-			temperature = 216.15
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = IWFNA
-			note = 
-			utilization = 1
-			mass = 2E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = IRFNA-IV
-			note = 
-			utilization = 1
-			mass = 2E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = AK20
-			note = 
-			utilization = 1
-			mass = 2E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = AK27
-			note = 
-			utilization = 1
-			mass = 2E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = MON1
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = MON3
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = MON10
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = MON15
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = MON20
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = MON25
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Hydyne
-			note = 
-			utilization = 1
-			mass = 1.3E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Syntin
-			note = 
-			utilization = 1
-			mass = 1.2E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = LiquidFuel
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = Oxidizer
-			note = 
-			utilization = 1
-			mass = 1.6E-05
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-		TANK
-		{
-			name = LeadBallast
-			note = 
-			utilization = 1
-			mass = 0
-			cost = 0.0025
-			loss_rate = 0
-			temperature = 300
-			fillable = True
-			techRequired = 
-			amount = 0
-			maxAmount = 0
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleAeroReentry
-		isEnabled = True
-		dead = False
-		crashTolerance = 8
-		damage = 0
-		stagingEnabled = True
-		EVENTS
-		{
-			ResetRecordedHeat
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Reset Heat Record
-				guiName = Reset Heat Record
-				category = Reset Heat Record
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = False
-			}
-			RepairDamage
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = No Damage
-				guiName = No Damage
-				category = No Damage
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = False
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
 	part = proceduralTankRealFuels_4290494822
 	partName = Part
 	pos = 1.257568E-08,9.492443,-2.413534
@@ -14173,7 +12959,7 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 1
-	modCost = 6.307408
+	modCost = 6.307406
 	modMass = -0.9714285
 	modSize = (0.0, 0.0, 0.0)
 	srfN = srfAttach,SXTBuzzard_4288910656
@@ -14191,10 +12977,10 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-0.9000005, 2.025126, 0.899649)
+		tempColliderSize = (-0.9000004, 2.025126, 0.899649)
 		textureSet = KHPlanes2
 		shapeName = Smooth Cone
-		moduleCost = 0.007011022
+		moduleCost = 0.007011021
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
@@ -14439,7 +13225,7 @@ PART
 		partPrevTemperature = -1
 		mass = 0.02857156
 		stagingEnabled = True
-		volume = 630.03970000000004
+		volume = 630.03949999999998
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -16869,7 +15655,7 @@ PART
 {
 	part = proceduralTankRealFuels_4288706066
 	partName = Part
-	pos = 1.102075E-07,9.826786,-0.6248389
+	pos = 1.102076E-07,9.826786,-0.6248389
 	attPos = 0,0,0
 	attPos0 = -1.537745E-07,-2.249983,6.854534E-07
 	rot = -0.7071068,0,0,-0.7071068
@@ -18086,7 +16872,7 @@ PART
 {
 	part = proceduralTankRealFuels_4288705996
 	partName = Part
-	pos = 3.519214E-07,10.00034,-4.74526
+	pos = 3.519215E-07,10.00034,-4.745263
 	attPos = 1.484062E-07,-2.21586,-0.9211004
 	attPos0 = 1.091599E-07,-1.904513,0.7475455
 	rot = 4.595577E-09,0.6674891,0.7446197,-1.43902E-07
@@ -18367,9 +17153,9 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.04741631
+		mass = 0.04741629
 		stagingEnabled = True
-		volume = 1045.5904
+		volume = 1045.5900999999999
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -19302,10 +18088,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4288705926
 	partName = Part
-	pos = -3.093788E-08,10.26016,-5.602772
+	pos = -3.197187E-08,10.26016,-5.602777
 	attPos = 1.58171E-07,0.5672826,-0.01560584
 	attPos0 = -2.131628E-13,-1.447992,0.1804825
-	rot = -0.4830123,-0.5164295,-0.4830123,-0.5164292
+	rot = -0.4830123,-0.5164295,-0.4830122,-0.5164292
 	attRot = 0,0,0,1
 	attRot0 = -0.06213825,0.7043713,0.06213825,-0.7043713
 	mir = 1,1,1
@@ -20382,10 +19168,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4288705614
 	partName = Part
-	pos = -0.1485895,10.07891,-5.332336
+	pos = -0.1485895,10.07891,-5.332341
 	attPos = -0.3889617,0.1701273,-0.07196753
 	attPos0 = 0.1900517,0.08759755,-0.076622
-	rot = -0.005781805,-0.699823,-0.7142614,-0.006749452
+	rot = -0.005781797,-0.6998229,-0.7142613,-0.006749502
 	attRot = -0.04361939,0,0,0.9990482
 	attRot0 = -0.03111651,0.7001273,0.03056842,0.7126846
 	mir = 1,1,1
@@ -21461,10 +20247,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4288705496
 	partName = Part
-	pos = -1.307894,10.10265,-5.489008
+	pos = -1.307894,10.10265,-5.489013
 	attPos = 0,0,0
 	attPos0 = 1.159714,-0.1553288,4.833263E-08
-	rot = -0.7142864,-0.003170865,0.0154806,-0.6996756
+	rot = -0.7142864,-0.00317084,0.01548061,-0.6996756
 	attRot = 0,0,0.7071067,-0.7071067
 	attRot0 = 0.01387377,-0.9999037,-5.960464E-08,1.472398E-05
 	mir = 1,1,1
@@ -21851,10 +20637,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4288705420
 	partName = Part
-	pos = -2.398388,10.11879,-5.334123
+	pos = -2.398389,10.11879,-5.334128
 	attPos = 0,0,0
 	attPos0 = 2.250114,0.0008833036,-7.693594E-07
-	rot = -0.005782448,-0.6998227,-0.7142617,-0.006749506
+	rot = -0.005782473,-0.6998227,-0.7142617,-0.006749526
 	attRot = 0,0,0,1
 	attRot0 = -1.192093E-07,4.284083E-08,4.377215E-08,1
 	mir = 1,1,1
@@ -22928,10 +21714,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4288705302
 	partName = Part
-	pos = 0.1485895,10.07891,-5.332337
+	pos = 0.1485895,10.07891,-5.332342
 	attPos = -0.3889617,0.1701265,0.07196734
 	attPos0 = 0.1900517,0.08759756,0.076622
-	rot = -0.7142617,-0.00674948,-0.005781876,-0.6998225
+	rot = -0.7142618,-0.006749457,-0.005781901,-0.6998225
 	attRot = -0.04361939,0,0,0.9990482
 	attRot0 = 0.03111617,-0.7001275,0.03056877,0.7126844
 	mir = 1,1,1
@@ -24007,10 +22793,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4288705184
 	partName = Part
-	pos = 1.307895,10.10265,-5.489009
+	pos = 1.307895,10.10265,-5.489014
 	attPos = 0,0,0
 	attPos0 = 1.159714,-0.1553288,4.833263E-08
-	rot = -0.01548062,0.6996753,0.7142866,0.00317083
+	rot = -0.01548062,0.6996753,0.7142866,0.003170824
 	attRot = 0,0,0.7071067,-0.7071067
 	attRot0 = 0.01387377,-0.9999037,-5.960464E-08,1.472398E-05
 	mir = 1,1,1
@@ -24397,10 +23183,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4288705108
 	partName = Part
-	pos = 2.398388,10.11879,-5.334124
+	pos = 2.398388,10.11879,-5.334129
 	attPos = 0,0,0
 	attPos0 = 2.250114,0.0008833036,-7.693594E-07
-	rot = -0.7142624,-0.006749511,-0.005782446,-0.6998219
+	rot = -0.7142624,-0.006749476,-0.005782401,-0.6998219
 	attRot = 0,0,0,1
 	attRot0 = -1.192093E-07,4.284083E-08,4.377215E-08,1
 	mir = 1,1,1
@@ -25474,7 +24260,7 @@ PART
 {
 	part = proceduralTankRealFuels_4288704990
 	partName = Part
-	pos = 1.496551E-06,10.1745,-6.335848
+	pos = 1.49656E-06,10.1745,-6.335855
 	attPos = 0,0,0
 	attPos0 = -9.983142E-07,-2.050017,0.0001210123
 	rot = -0.7446197,-7.8295E-08,7.778358E-08,-0.6674891
@@ -26700,7 +25486,7 @@ PART
 {
 	part = GearFree_4288704918
 	partName = Part
-	pos = 1.532071E-06,10.21475,-6.554534
+	pos = 1.532076E-06,10.21475,-6.554545
 	attPos = 8.350594E-08,-0.3144436,-0.1625847
 	attPos0 = 7.887024E-13,0.09269368,0.1463957
 	rot = 1.51668E-08,-1,-1.192093E-07,1.702905E-07
@@ -27044,7 +25830,7 @@ PART
 {
 	part = proceduralTankRealFuels_4288704834
 	partName = Part
-	pos = 2.285097E-07,9.826781,-3.424892
+	pos = 2.285098E-07,9.826781,-3.424894
 	attPos = 0,0,0
 	attPos0 = 1.183011E-07,-2.800001,5.096197E-06
 	rot = -0.7071068,0,0,-0.7071068
@@ -27078,7 +25864,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.1, 1.600001, -1.100001)
+		tempColliderSize = (1.1, 1.6, -1.100001)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.008378604
@@ -28259,7 +27045,7 @@ PART
 {
 	part = proceduralTankRealFuels_4288704764
 	partName = Part
-	pos = -0.005847231,10.33197,-2.460961
+	pos = -0.005847231,10.33197,-2.460964
 	attPos = -0.005847588,0.2063527,0.426672
 	attPos0 = 1.227638E-07,0.7583289,-0.9357493
 	rot = -0.6555409,6.788155E-08,7.644785E-08,-0.7551598
@@ -28273,7 +27059,7 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 1
-	modCost = 1.811849
+	modCost = 1.811848
 	modMass = -0.9591447
 	modSize = (0.0, 0.0, 0.0)
 	srfN = srfAttach,proceduralTankRealFuels_4288704834
@@ -28291,7 +27077,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.761, 4.211769, -0.7309428)
+		tempColliderSize = (0.761, 4.211769, -0.7309429)
 		textureSet = CryogenicOrange
 		shapeName = Smooth Cone
 		moduleCost = 0.01002526
@@ -28537,9 +27323,9 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.04085529
+		mass = 0.04085528
 		stagingEnabled = True
-		volume = 900.91160000000002
+		volume = 900.91139999999996
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -29472,7 +28258,7 @@ PART
 {
 	part = SXTR280018WProp_4288704246
 	partName = Part
-	pos = -4.35687E-08,9.826786,2.598909
+	pos = -4.35687E-08,9.826786,2.59891
 	attPos = 0,4.768372E-07,0.1953154
 	attPos0 = 0,0.9737492,1.192093E-07
 	rot = -0.7071068,0,0,-0.7071068
@@ -29965,7 +28751,7 @@ PART
 {
 	part = RO-B9ProcCS-Early_4288707448
 	partName = Part
-	pos = -5.015445,9.388372,-0.5266011
+	pos = -5.015446,9.388372,-0.5266012
 	attPos = 0,0,0
 	attPos0 = 4.096471,-0.260023,-0.00660763
 	rot = -0.698699,0.008204706,0.01696554,-0.7151678
@@ -30355,7 +29141,7 @@ PART
 {
 	part = RO-B9ProcCS-Early_4288700502
 	partName = Part
-	pos = 5.015434,9.388372,-0.5266016
+	pos = 5.015434,9.388372,-0.5266017
 	attPos = 0,0,0
 	attPos0 = 4.09647,-0.2600231,0.006607944
 	rot = -0.01696557,0.7151675,0.6986991,-0.008204727
@@ -30748,7 +29534,7 @@ PART
 	pos = -1.960482,9.26576,0.3434819
 	attPos = -0.002042055,0.3077623,-0.05752546
 	attPos0 = 1.040407,0.2991724,0.01642538
-	rot = -0.0005730786,0.9997054,-0.02341133,0.006400341
+	rot = -0.0005730779,0.9997054,-0.02341133,0.006400342
 	attRot = -0.5032455,0.4963111,0.4851015,0.5148745
 	attRot0 = 0.7150843,0.008229194,-0.01758072,0.6987688
 	mir = 1,1,1
@@ -31393,7 +30179,7 @@ PART
 	pos = 1.960482,9.26576,0.343482
 	attPos = -0.002040625,0.3077623,0.05752548
 	attPos0 = 1.040407,0.2991723,-0.0164254
-	rot = 0.0005730824,0.9997054,-0.02341115,-0.006400336
+	rot = 0.0005730824,0.9997053,-0.02341107,-0.006400336
 	attRot = -0.5032455,0.4963111,0.4851015,0.5148745
 	attRot0 = -0.004507776,-0.7070921,0.7070925,0.004549882
 	mir = 1,1,1
@@ -32035,10 +30821,10 @@ PART
 {
 	part = RO-B9ProcAMWing-Early_4294101032
 	partName = Part
-	pos = -8.62948E-07,12.1269,-5.788995
+	pos = -8.177961E-07,12.1269,-5.789
 	attPos = 0,0,0
 	attPos0 = 1.875009,-0.06111538,-3.940683E-07
-	rot = 0.4830122,0.5164297,0.4830122,0.5164293
+	rot = 0.4830122,0.5164297,0.4830121,0.5164293
 	attRot = 0,0,0,1
 	attRot0 = -1.490116E-08,1.490116E-08,1.937151E-07,-1
 	mir = 1,1,1
@@ -32424,7 +31210,7 @@ PART
 {
 	part = RO-B9ProcCS-Early_4288705690
 	partName = Part
-	pos = -5.339472E-07,11.22073,-5.880025
+	pos = -5.075004E-07,11.22073,-5.88003
 	attPos = 0,0,0
 	attPos0 = 0.97694,-0.2124716,-2.051472E-07
 	rot = 0.5239576,-0.474835,-0.5239567,0.4748366
@@ -32712,6 +31498,1220 @@ PART
 	MODULE
 	{
 		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		damage = 0
+		stagingEnabled = True
+		EVENTS
+		{
+			ResetRecordedHeat
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Reset Heat Record
+				guiName = Reset Heat Record
+				category = Reset Heat Record
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = proceduralTankRealFuels_4288836574
+	partName = Part
+	pos = 3.29167E-08,10,-2.52683
+	attPos = 0,0,0
+	attPos0 = 3.29167E-08,-2.417311,2.881659E-07
+	rot = 0.6532815,0.2705981,0.2705981,0.6532815
+	attRot = 0,0.3826835,0,0.9238796
+	attRot0 = 0,0.3826835,0,0.9238795
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 1.666296
+	modMass = -0.9624268
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,proceduralTankRealFuels_4288706066
+	attN = top,SXTBuzzard_4288910656
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ProceduralPart
+		isEnabled = True
+		tempColliderCenter = (0, 0, 0)
+		tempColliderSize = (2.498001, 1.781001, -7.152557E-07)
+		textureSet = KHPlanes2
+		shapeName = Smooth Cone
+		moduleCost = 0.009219895
+		stagingEnabled = True
+		textureSet_UIEditor
+		{
+			controlEnabled = True
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+		}
+		shapeName_UIEditor
+		{
+			controlEnabled = True
+			options = Cylinder, Cone, Fillet Cylinder, Smooth Cone
+		}
+		EVENTS
+		{
+			OnChangeTextureScale
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			OnPartAttachNodePositionChanged
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			OnPartModelChanged
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			OnPartColliderChanged
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeCylinder
+		isEnabled = True
+		diameter = 1
+		length = 1
+		stagingEnabled = True
+		diameter_UIEditor
+		{
+			controlEnabled = True
+		}
+		length_UIEditor
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeCone
+		isEnabled = True
+		topDiameter = 0.5
+		bottomDiameter = 1
+		length = 1
+		stagingEnabled = True
+		topDiameter_UIEditor
+		{
+			controlEnabled = True
+		}
+		bottomDiameter_UIEditor
+		{
+			controlEnabled = True
+		}
+		length_UIEditor
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapePill
+		isEnabled = True
+		diameter = 1
+		length = 1
+		fillet = 0.2
+		stagingEnabled = True
+		diameter_UIEditor
+		{
+			controlEnabled = True
+		}
+		length_UIEditor
+		{
+			controlEnabled = True
+		}
+		fillet_UIEditor
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeBezierCone
+		isEnabled = True
+		selectedShape = Peaked #1
+		topDiameter = 1.249
+		bottomDiameter = 0
+		length = 1.781
+		stagingEnabled = True
+		selectedShape_UIEditor
+		{
+			controlEnabled = True
+			options = Straight, Round #1, Round #2, Round #3, Peaked #1, Peaked #2, Sharp #1, Sharp #2, Waisted
+		}
+		topDiameter_UIEditor
+		{
+			controlEnabled = True
+		}
+		bottomDiameter_UIEditor
+		{
+			controlEnabled = True
+		}
+		length_UIEditor
+		{
+			controlEnabled = True
+		}
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleFuelTanks
+		isEnabled = True
+		type = Structural
+		utilization = 86
+		partPrevTemperature = -1
+		mass = 0.03757324
+		stagingEnabled = True
+		volume = 828.53819999999996
+		type_UIEditor
+		{
+			controlEnabled = True
+			options = Fuselage, Structural
+		}
+		utilization_UIEditor
+		{
+			controlEnabled = True
+			minValue = 1
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+			OnPartVolumeChanged
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			HideUI
+			{
+				active = False
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Hide UI
+				guiName = Hide UI
+				category = Hide UI
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ShowUI
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Show UI
+				guiName = Show UI
+				category = Show UI
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Empty
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Remove All Tanks
+				guiName = Remove All Tanks
+				category = Remove All Tanks
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% AvGas
+				guiName = 100% AvGas
+				category = 100% AvGas
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+		TANK
+		{
+			name = LqdOxygen
+			note = (lacks insulation)
+			utilization = 1
+			mass = 1.4E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 90.15
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Kerosene
+			note = 
+			utilization = 1
+			mass = 1.2E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = LqdHydrogen
+			note = (lacks insulation)
+			utilization = 1
+			mass = 2E-06
+			cost = 0.01
+			loss_rate = 0
+			temperature = 20.15
+			fillable = True
+			techRequired = hydroloxTL2
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = NTO
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = UDMH
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Aerozine50
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = MMH
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = HTP
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = AvGas
+			note = 
+			utilization = 1
+			mass = 8E-06
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = IRFNA-III
+			note = 
+			utilization = 1
+			mass = 2E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = NitrousOxide
+			note = (pressurized)
+			utilization = 100
+			mass = 3E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Aniline
+			note = 
+			utilization = 1
+			mass = 2E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Ethanol75
+			note = 
+			utilization = 1
+			mass = 1.3E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Ethanol90
+			note = 
+			utilization = 1
+			mass = 1.3E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Ethanol
+			note = 
+			utilization = 1
+			mass = 1.3E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = LqdAmmonia
+			note = (lacks insulation)
+			utilization = 1
+			mass = 1.2E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 237.65
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = LqdMethane
+			note = (lacks insulation)
+			utilization = 1
+			mass = 1.2E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 111.45
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = ClF3
+			note = 
+			utilization = 1
+			mass = 4E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = ClF5
+			note = 
+			utilization = 1
+			mass = 4E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Diborane
+			note = (lacks insulation)
+			utilization = 1
+			mass = 1.8E-05
+			cost = 0.0025
+			loss_rate = 2.3E-10
+			temperature = 180.65
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Pentaborane
+			note = 
+			utilization = 1
+			mass = 1.8E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Ethane
+			note = (lacks insulation)
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 2.5E-10
+			temperature = 184.65
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Ethylene
+			note = (lacks insulation)
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 3.5E-10
+			temperature = 169.45
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = OF2
+			note = (lacks insulation)
+			utilization = 1
+			mass = 1.8E-05
+			cost = 0.0025
+			loss_rate = 1E-09
+			temperature = 128.4
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = LqdFluorine
+			note = (lacks insulation)
+			utilization = 1
+			mass = 4E-05
+			cost = 0.0025
+			loss_rate = 5.5E-09
+			temperature = 85.04
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = N2F4
+			note = (lacks insulation)
+			utilization = 1
+			mass = 1E-05
+			cost = 0.0025
+			loss_rate = 1.7E-10
+			temperature = 200.15
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Methanol
+			note = 
+			utilization = 1
+			mass = 1.2E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Furfuryl
+			note = 
+			utilization = 1
+			mass = 1.4E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = UH25
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Tonka250
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Tonka500
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = FLOX30
+			note = (lacks insulation)
+			utilization = 1
+			mass = 1.65E-05
+			cost = 0.0025
+			loss_rate = 1E-10
+			temperature = 216.15
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = FLOX70
+			note = (lacks insulation)
+			utilization = 1
+			mass = 3.85E-05
+			cost = 0.0025
+			loss_rate = 1E-10
+			temperature = 216.15
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = FLOX88
+			note = (lacks insulation)
+			utilization = 1
+			mass = 4.84E-05
+			cost = 0.0025
+			loss_rate = 1E-10
+			temperature = 216.15
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = IWFNA
+			note = 
+			utilization = 1
+			mass = 2E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = IRFNA-IV
+			note = 
+			utilization = 1
+			mass = 2E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = AK20
+			note = 
+			utilization = 1
+			mass = 2E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = AK27
+			note = 
+			utilization = 1
+			mass = 2E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = MON1
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = MON3
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = MON10
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = MON15
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = MON20
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = MON25
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Hydyne
+			note = 
+			utilization = 1
+			mass = 1.3E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Syntin
+			note = 
+			utilization = 1
+			mass = 1.2E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = LiquidFuel
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = Oxidizer
+			note = 
+			utilization = 1
+			mass = 1.6E-05
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+		TANK
+		{
+			name = LeadBallast
+			note = 
+			utilization = 1
+			mass = 0
+			cost = 0.0025
+			loss_rate = 0
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 0
+			maxAmount = 0
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS

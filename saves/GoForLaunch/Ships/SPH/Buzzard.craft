@@ -2,14 +2,14 @@ ship = Buzzard
 version = 1.1.2
 description = 
 type = SPH
-size = 20.19252,7.402138,10.42895
+size = 20.19252,7.40214,10.42895
 PART
 {
 	part = SXTBuzzard_4293783174
 	partName = Part
-	pos = 1.016695E-06,9.999997,0.8494869
+	pos = 1.034208E-06,4.501342,0.8494841
 	attPos = 0,0,0
-	attPos0 = 0,10,0
+	attPos0 = 1.034208E-06,4.501342,0.8494841
 	rot = 0.7071068,0,0,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 0.7071068,0,0,0.7071068
@@ -22,7 +22,7 @@ PART
 	sepI = 0
 	attm = 0
 	modCost = 0
-	modMass = 0.1
+	modMass = 0.2
 	modSize = (0.0, 0.0, 0.0)
 	link = RO-B9ProcAMWing-Early_4293714200
 	link = RO-B9ProcAMWing-Early_4293713554
@@ -510,26 +510,6 @@ PART
 				{
 					_val = 0.5
 					_text = 0.5
-				}
-				minThrust
-				{
-					_val = 0.0001
-					_text = 0.0001
-				}
-				decelerationEndAltitude
-				{
-					_val = 500
-					_text = 500
-				}
-				CorrectionBeforeDeceleration
-				{
-					_val = 1000
-					_text = 1000
-				}
-				safityThrustLimit
-				{
-					_val = 0.9
-					_text = 0.9
 				}
 				limitGearsStage
 				{
@@ -1344,7 +1324,7 @@ PART
 {
 	part = RO-B9ProcAMWing-Early_4293714200
 	partName = Part
-	pos = -0.02086513,10.58809,-4.380011
+	pos = -0.02086511,5.089435,-4.380016
 	attPos = 0.2197514,-3.702693,-0.1769862
 	attPos0 = -0.2406176,-1.526803,-0.4111089
 	rot = 0,-0.7071068,-0.7071068,0
@@ -1734,7 +1714,7 @@ PART
 {
 	part = RO-B9ProcAMWing-Early_4293713554
 	partName = Part
-	pos = 0.02086717,10.58809,-4.380011
+	pos = 0.02086719,5.089435,-4.380016
 	attPos = -0.2197514,-3.702693,-0.1769862
 	attPos0 = 0.2406176,-1.526803,-0.4111089
 	rot = -0.7071069,-3.090862E-08,-3.090862E-08,-0.7071067
@@ -2124,7 +2104,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293723156
 	partName = Part
-	pos = 9.739679E-07,10.48874,-4.579306
+	pos = 9.914804E-07,4.990085,-4.579311
 	attPos = 0,-3.901982,4.768372E-07
 	attPos0 = -4.272728E-08,-1.526803,-0.4887427
 	rot = 0.5000001,0.5000001,0.5000001,0.5000001
@@ -2414,6 +2394,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -3189,7 +3182,7 @@ PART
 {
 	part = RO-B9ProcAMWing-Early_4293532484
 	partName = Part
-	pos = 1.242189E-06,11.98874,-5.069984
+	pos = 1.438515E-06,6.490086,-5.069989
 	attPos = 0.1330387,-3.624993,4.470348E-07
 	attPos0 = 1.5,-0.4906778,2.68221E-07
 	rot = 0.5,0.5000001,0.5,0.5000001
@@ -3578,7 +3571,7 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293532370
 	partName = Part
-	pos = 1.102925E-06,11.21685,-5.084636
+	pos = 1.207235E-06,5.718195,-5.084641
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 0.7073165,-0.5331078,1.26478E-07
 	rot = -0.5102943,0.4894894,0.5102924,-0.4894914
@@ -3967,7 +3960,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293681792
 	partName = Part
-	pos = -1.955152,9.792029,0.7757599
+	pos = -1.955152,4.293375,0.7757571
 	attPos = -0.8296484,7.450581E-09,0.2079678
 	attPos0 = -1.12551,-0.07372574,8.788792E-09
 	rot = 0.5000001,0.5000001,0.5000001,0.5000001
@@ -4005,7 +3998,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1, 0.2000002, 1)
+		tempColliderSize = (1, 0.1999999, 1)
 		textureSet = KHPlanes1
 		shapeName = Cylinder
 		moduleCost = 0.001503252
@@ -4327,6 +4320,18 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -5185,10 +5190,10 @@ PART
 {
 	part = proceduralTankRealFuels_4293680806
 	partName = Part
-	pos = 1.955159,9.792029,0.775761
+	pos = 1.955159,4.293375,0.7757582
 	attPos = 0.8296484,-6.705523E-08,0.2079678
 	attPos0 = 1.12551,-0.07372584,8.788804E-09
-	rot = 0.5000001,-0.5000001,-0.5000001,0.4999999
+	rot = 0.5000001,-0.5000002,-0.5000002,0.4999998
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.7071068,-2.980232E-08,0.7071068
 	mir = 1,1,1
@@ -5545,6 +5550,18 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -6403,7 +6420,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293532024
 	partName = Part
-	pos = -1.955152,9.792029,1.325765
+	pos = -1.955152,4.293375,1.325762
 	attPos = 0,0,0
 	attPos0 = 7.450581E-08,0.6000087,5.057696E-08
 	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
@@ -6417,7 +6434,7 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 0
-	modCost = 0.9455844
+	modCost = 0.9455841
 	modMass = -0.978678
 	modSize = (0.0, 0.0, 0.0)
 	link = miniIntake_4293531888
@@ -6438,10 +6455,10 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-1, 0.9000001, -1)
+		tempColliderSize = (-1, 0.8999999, -1)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
-		moduleCost = 0.005232076
+		moduleCost = 0.005232075
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
@@ -6686,7 +6703,7 @@ PART
 		partPrevTemperature = -1
 		mass = 0.02132194
 		stagingEnabled = True
-		volume = 470.17610000000002
+		volume = 470.17599999999999
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -6759,6 +6776,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -7606,7 +7636,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293531956
 	partName = Part
-	pos = 1.955159,9.792029,1.325767
+	pos = 1.955159,4.293375,1.325764
 	attPos = 0,0,0
 	attPos0 = -2.262382E-07,0.6000148,-3.25231E-08
 	rot = 0.5000001,0.5,0.5,0.5000001
@@ -7620,7 +7650,7 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 0
-	modCost = 0.9455844
+	modCost = 0.9455841
 	modMass = -0.978678
 	modSize = (0.0, 0.0, 0.0)
 	link = miniIntake_4293531842
@@ -7641,10 +7671,10 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1, 0.9000002, 0.9999999)
+		tempColliderSize = (1, 0.9, 0.9999999)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
-		moduleCost = 0.005232076
+		moduleCost = 0.005232075
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
@@ -7889,7 +7919,7 @@ PART
 		partPrevTemperature = -1
 		mass = 0.02132194
 		stagingEnabled = True
-		volume = 470.17610000000002
+		volume = 470.17599999999999
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -7962,6 +7992,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -8809,10 +8852,10 @@ PART
 {
 	part = miniIntake_4293531888
 	partName = Part
-	pos = -1.955152,9.792029,1.760316
+	pos = -1.955152,4.293375,1.760314
 	attPos = 1.490116E-08,-0.06545579,5.517506E-09
 	attPos0 = -5.960465E-08,0.5000052,-4.21473E-08
-	rot = 0.7071069,-7.2182E-08,-1.21117E-08,0.7071068
+	rot = 0.7071069,-7.200738E-08,-1.228632E-08,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 0,0.7071068,0,0.7071068
 	mir = 1,1,1
@@ -9053,10 +9096,10 @@ PART
 {
 	part = miniIntake_4293531842
 	partName = Part
-	pos = 1.955154,9.792029,1.760316
+	pos = 1.955154,4.293375,1.760314
 	attPos = -1.58485E-08,-0.06546229,-5.007737E-06
 	attPos0 = 6.683604E-08,0.5000102,7.231421E-09
-	rot = 0.7071068,-1.478075E-07,-1.050736E-07,0.7071068
+	rot = 0.7071069,-9.474869E-08,-1.159856E-07,0.7071069
 	attRot = 0,0,0,1
 	attRot0 = 5.960464E-08,-0.7071068,5.960464E-08,0.7071068
 	mir = 1,1,1
@@ -9297,7 +9340,7 @@ PART
 {
 	part = airplaneTailB_4293860670
 	partName = Part
-	pos = 1.016695E-06,9.999997,-0.6773216
+	pos = 1.034208E-06,4.501342,-0.6773254
 	attPos = 0,0,0
 	attPos0 = 0,-1.526806,1.820094E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -9314,6 +9357,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
+	link = RTShortAntenna1_4293953974
 	attN = top,SXTBuzzard_4293783174
 	EVENTS
 	{
@@ -9500,7 +9544,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293500476
 	partName = Part
-	pos = -0.6202187,9.964653,0.5093008
+	pos = -0.6202187,4.465998,0.5092979
 	attPos = 0,0.1683547,0.03534411
 	attPos0 = -0.6202197,-0.5085407,6.062277E-08
 	rot = -0.02968604,-0.7123829,-0.7005128,-0.03018893
@@ -9799,6 +9843,19 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -9828,8 +9885,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 288.78852633177144
-			maxAmount = 288.78852633177144
+			amount = 288.78853275039461
+			maxAmount = 288.78853275039461
 		}
 		TANK
 		{
@@ -10568,8 +10625,8 @@ PART
 	RESOURCE
 	{
 		name = Kerosene
-		amount = 288.788526331771
-		maxAmount = 288.788526331771
+		amount = 288.788532750395
+		maxAmount = 288.788532750395
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -10581,7 +10638,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293498936
 	partName = Part
-	pos = 0.6202207,9.964653,0.5093008
+	pos = 0.6202207,4.465998,0.5092979
 	attPos = 0,0.1683548,0.03534411
 	attPos0 = 0.6202197,-0.5085408,6.062278E-08
 	rot = -0.7005131,-0.03018895,-0.02968606,-0.7123826
@@ -10880,6 +10937,19 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -10909,8 +10979,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 288.78852633177144
-			maxAmount = 288.78852633177144
+			amount = 288.78853275039461
+			maxAmount = 288.78853275039461
 		}
 		TANK
 		{
@@ -11649,8 +11719,8 @@ PART
 	RESOURCE
 	{
 		name = Kerosene
-		amount = 288.788526331771
-		maxAmount = 288.788526331771
+		amount = 288.788532750395
+		maxAmount = 288.788532750395
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -11662,7 +11732,7 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293497468
 	partName = Part
-	pos = -1.123895,10.00331,0.2643423
+	pos = -1.123895,4.504655,0.2643394
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 0.5054881,-0.2442741,-1.174886E-07
 	rot = 0.7006733,-0.02619666,-0.03371507,0.7122037
@@ -11790,7 +11860,7 @@ PART
 		isFlap = True
 		isSpoiler = False
 		flapDeflectionLevel = 0
-		maxdeflectFlap = 40.5
+		maxdeflectFlap = 27.5
 		massMultiplier = 0.35
 		stagingEnabled = True
 		pitchaxis_UIFlight
@@ -12052,10 +12122,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293495968
 	partName = Part
-	pos = 1.123897,10.00331,0.2643421
+	pos = 1.123897,4.504655,0.2643392
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 0.5054881,-0.2442743,2.635991E-07
-	rot = -0.03371509,0.7122035,0.7006735,-0.02619668
+	rot = -0.03371509,0.7122035,0.7006735,-0.02619667
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = 0.005677012,-0.9999839,2.383736E-07,-2.100825E-05
 	mir = 1,1,1
@@ -12180,7 +12250,7 @@ PART
 		isFlap = True
 		isSpoiler = False
 		flapDeflectionLevel = 0
-		maxdeflectFlap = 40.5
+		maxdeflectFlap = 27.5
 		massMultiplier = 0.35
 		stagingEnabled = True
 		pitchaxis_UIFlight
@@ -12442,7 +12512,7 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293495524
 	partName = Part
-	pos = -2.001913,10.07802,0.2730849
+	pos = -2.001913,4.579365,0.273082
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 1.386665,-0.2342782,-1.66436E-07
 	rot = 0.7006733,-0.02619666,-0.03371507,0.7122037
@@ -12832,10 +12902,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293493042
 	partName = Part
-	pos = 2.001915,10.07802,0.2730847
+	pos = 2.001915,4.579365,0.2730817
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 1.386665,-0.2342782,3.854107E-07
-	rot = -0.03371509,0.7122035,0.7006735,-0.02619668
+	rot = -0.03371509,0.7122035,0.7006735,-0.02619667
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = 0.005677012,-0.9999839,2.383736E-07,-2.100825E-05
 	mir = 1,1,1
@@ -13222,7 +13292,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293532160
 	partName = Part
-	pos = -1.955154,9.792024,0.1257581
+	pos = -1.955154,4.293369,0.1257551
 	attPos = 0,0,0
 	attPos0 = -7.450581E-08,-0.65001,-8.881784E-15
 	rot = 0.5000001,0.5000001,0.5000001,0.5000001
@@ -13579,6 +13649,18 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -14437,10 +14519,10 @@ PART
 {
 	part = RO-DerwentV_4293531568
 	partName = Part
-	pos = -1.955155,9.792024,-0.4242484
+	pos = -1.955155,4.293369,-0.4242518
 	attPos = 0,0,0
 	attPos0 = -5.960461E-08,-0.550005,-4.039899E-07
-	rot = 0.7071069,-1.143289E-07,-5.425854E-08,0.7071069
+	rot = 0.7071069,-1.104289E-07,-5.815846E-08,0.7071069
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
@@ -14853,7 +14935,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293492074
 	partName = Part
-	pos = 1.955159,9.792029,0.1257554
+	pos = 1.955159,4.293375,0.1257524
 	attPos = 0,0,0
 	attPos0 = 2.662785E-07,-0.6500155,1.917727E-07
 	rot = 0.5000002,-0.4999999,-0.4999999,0.5000002
@@ -15210,6 +15292,18 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -16068,10 +16162,10 @@ PART
 {
 	part = RO-DerwentV_4293491984
 	partName = Part
-	pos = 1.95516,9.792029,-0.4242504
+	pos = 1.95516,4.293375,-0.4242535
 	attPos = 0,0,0
 	attPos0 = -5.960461E-08,-0.550005,-4.039899E-07
-	rot = 0.7071068,2.402042E-07,1.391174E-07,0.7071068
+	rot = 0.7071069,2.418869E-07,1.374348E-07,0.7071069
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
@@ -16484,7 +16578,7 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293483906
 	partName = Part
-	pos = -3.304489,10.18885,0.2860816
+	pos = -3.304489,4.690196,0.2860786
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 2.693928,-0.2194213,-2.390417E-07
 	rot = 0.7006733,-0.02619666,-0.03371507,0.7122037
@@ -16612,7 +16706,7 @@ PART
 		isFlap = True
 		isSpoiler = False
 		flapDeflectionLevel = 0
-		maxdeflectFlap = 40
+		maxdeflectFlap = 27.5
 		massMultiplier = 0.35
 		stagingEnabled = True
 		pitchaxis_UIFlight
@@ -16874,10 +16968,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293483060
 	partName = Part
-	pos = 3.304491,10.18885,0.2860811
+	pos = 3.304491,4.690196,0.2860782
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 2.693928,-0.2194214,5.661023E-07
-	rot = -0.03371509,0.7122035,0.7006735,-0.02619668
+	rot = -0.03371509,0.7122035,0.7006735,-0.02619667
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = 0.005677012,-0.9999839,2.383736E-07,-2.100825E-05
 	mir = 1,1,1
@@ -17002,7 +17096,7 @@ PART
 		isFlap = True
 		isSpoiler = False
 		flapDeflectionLevel = 0
-		maxdeflectFlap = 40
+		maxdeflectFlap = 27.5
 		massMultiplier = 0.35
 		stagingEnabled = True
 		pitchaxis_UIFlight
@@ -17264,7 +17358,7 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293477084
 	partName = Part
-	pos = -5.157871,10.34655,0.304559
+	pos = -5.157874,4.847895,0.3045559
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 4.553973,-0.1982974,6.1132E-07
 	rot = 0.7006733,-0.02619666,-0.03371507,0.7122037
@@ -17654,10 +17748,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4293474748
 	partName = Part
-	pos = 5.157871,10.34655,0.3045583
+	pos = 5.157871,4.847895,0.3045553
 	attPos = 0.02079487,0.02777767,2.478899E-09
 	attPos0 = 4.553973,-0.1982977,-1.304625E-07
-	rot = -0.03371509,0.7122035,0.7006735,-0.02619668
+	rot = -0.03371509,0.7122035,0.7006735,-0.02619667
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = 0.005677012,-0.9999839,2.383736E-07,-2.100825E-05
 	mir = 1,1,1
@@ -18044,7 +18138,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293447756
 	partName = Part
-	pos = -6.10045,10.43002,0.4689019
+	pos = -6.100452,4.931366,0.4688988
 	attPos = 0,0,0
 	attPos0 = 5.5,-0.03257534,0.0006623268
 	rot = 0.02968599,0.7123829,0.7005128,0.03018884
@@ -18333,6 +18427,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -19108,10 +19215,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293443734
 	partName = Part
-	pos = 6.10045,10.43002,0.4689013
+	pos = 6.100449,4.931365,0.4688982
 	attPos = 0,0,0
 	attPos0 = 5.5,-0.03257577,-0.0006619692
-	rot = -0.7005129,-0.03018887,-0.02968601,-0.7123828
+	rot = -0.7005129,-0.03018886,-0.02968601,-0.7123828
 	attRot = 0,0,0,1
 	attRot0 = 5.838227E-08,-9.685753E-08,3.352761E-08,1
 	mir = 1,1,1
@@ -19397,6 +19504,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -20172,7 +20292,7 @@ PART
 {
 	part = SmallGearBay_4293419730
 	partName = Part
-	pos = -1.955152,9.686649,0.2571021
+	pos = -1.955152,4.187994,0.2570991
 	attPos = 0.3928623,-0.505824,4.683283E-08
 	attPos0 = -0.4982424,-0.01283321,-5.939512E-08
 	rot = 0.0078592,-2.107343E-08,1.053671E-07,0.9999692
@@ -20817,10 +20937,10 @@ PART
 {
 	part = SmallGearBay_4293414322
 	partName = Part
-	pos = 1.955154,9.686649,0.2571015
+	pos = 1.955154,4.187994,0.2570985
 	attPos = -0.3928621,-0.5058242,1.960648E-07
 	attPos0 = 0.4982424,-0.01283433,4.951182E-06
-	rot = 0.007859141,3.20258E-08,3.20258E-08,0.9999692
+	rot = 0.007859141,1.095238E-08,1.095238E-08,0.9999692
 	attRot = 0,0,0,1
 	attRot0 = -0.4960551,0.5039142,0.4960549,0.5039141
 	mir = 1,1,1
@@ -21462,7 +21582,7 @@ PART
 {
 	part = SmallGearBay_4293408886
 	partName = Part
-	pos = 1.016695E-06,9.748509,3.514745
+	pos = 1.034208E-06,4.249855,3.514743
 	attPos = 0,0.9305859,-0.1113359
 	attPos0 = 0,1.734669,0.3628233
 	rot = 0,1,0,0
@@ -22106,7 +22226,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293930124
 	partName = Part
-	pos = 1.016609E-06,9.999997,3.584152
+	pos = 1.034122E-06,4.501342,3.58415
 	attPos = 0,0,0
 	attPos0 = -8.571988E-11,2.734661,-3.25997E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -22384,9 +22504,9 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.0554682
+		mass = 0.05546819
 		stagingEnabled = True
-		volume = 1223.145
+		volume = 1223.1448
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -22460,6 +22580,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -23151,8 +23284,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 50
-			maxAmount = 50
+			amount = 49.999991824354431
+			maxAmount = 49.999991824354431
 		}
 	}
 	MODULE
@@ -23305,8 +23438,8 @@ PART
 	RESOURCE
 	{
 		name = LeadBallast
-		amount = 50
-		maxAmount = 50
+		amount = 49.9999918243544
+		maxAmount = 49.9999918243544
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -23318,7 +23451,7 @@ PART
 {
 	part = proceduralTankRealFuels_4292912500
 	partName = Part
-	pos = 9.676098E-07,10.44172,-0.3601369
+	pos = 9.851224E-07,4.943065,-0.3601402
 	attPos = 5.366246E-09,0.3171871,0.6589746
 	attPos0 = -5.421884E-08,-1.526804,-1.120196
 	rot = 0,-0.7071068,0.7071068,0
@@ -23352,7 +23485,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-0.8610002, -0.6000003, -0.8610002)
+		tempColliderSize = (-0.8610003, -0.6000003, -0.8610002)
 		textureSet = SoyuzGreen
 		shapeName = Cylinder
 		moduleCost = 0.003343178
@@ -23673,6 +23806,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -24520,7 +24666,7 @@ PART
 {
 	part = proceduralTankRealFuels_4292896754
 	partName = Part
-	pos = 7.090434E-07,10.44172,-2.010146
+	pos = 7.265556E-07,4.943065,-2.01015
 	attPos = 0,0,0
 	attPos0 = 1.047142E-07,0.8000096,8.940697E-08
 	rot = 0.7071068,0,0,0.7071068
@@ -24537,7 +24683,9 @@ PART
 	modCost = 1.200421
 	modMass = -0.9729317
 	modSize = (0.0, 0.0, 0.0)
+	link = SXTProbeGooo_4293950020
 	attN = top,proceduralTankRealFuels_4292912500
+	attN = bottom,SXTProbeGooo_4293950020
 	EVENTS
 	{
 	}
@@ -24552,10 +24700,10 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.8610001, 2.7, -0.8610005)
+		tempColliderSize = (0.8610001, 2.700001, -0.8610005)
 		textureSet = SoyuzGreen
 		shapeName = Smooth Cone
-		moduleCost = 0.00664213
+		moduleCost = 0.006642131
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
@@ -24800,7 +24948,7 @@ PART
 		partPrevTemperature = -1
 		mass = 0.02706824
 		stagingEnabled = True
-		volume = 596.88940000000002
+		volume = 596.8895
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -24873,6 +25021,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -25619,6 +25780,766 @@ PART
 	MODULE
 	{
 		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		damage = 0
+		stagingEnabled = True
+		EVENTS
+		{
+			ResetRecordedHeat
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Reset Heat Record
+				guiName = Reset Heat Record
+				category = Reset Heat Record
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = RTShortAntenna1_4293953974
+	partName = Part
+	pos = 9.833491E-07,5.278349,-3.537096
+	attPos = 3.427317E-09,-0.08229256,-0.0985499
+	attPos0 = -5.428581E-08,-2.777477,-0.678456
+	rot = 0.5885637,-0.3919092,-0.5885637,0.3919094
+	attRot = 3.385844E-08,-4.296989E-08,0.196655,-0.9804729
+	attRot0 = 0.1390556,-0.693299,-0.1390557,0.6932991
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,airplaneTailB_4293860670
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleRTAntenna
+		isEnabled = True
+		IsRTAntenna = True
+		IsRTActive = True
+		IsRTPowered = True
+		IsRTBroken = False
+		IsNonRetractable = False
+		RTDishCosAngle = 1
+		RTOmniRange = 100000
+		RTDishRange = -1
+		stagingEnabled = True
+		RTAntennaTarget = 00000000-0000-0000-0000-000000000000
+		EVENTS
+		{
+			EventToggle
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = Toggle
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventTarget
+			{
+				active = False
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Target
+				guiName = Unknown Target
+				category = Target
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorOpen
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Start deployed
+				guiName = Start deployed
+				category = Start deployed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventEditorClose
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Start retracted
+				guiName = Start retracted
+				category = Start retracted
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventOpen
+			{
+				active = False
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = Activate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			EventClose
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = Deactivate
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			OverrideTarget
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = [EVA] Set Target
+				guiName = [EVA] Set Target
+				category = [EVA] Set Target
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideOpen
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = [EVA] Force Open
+				guiName = [EVA] Force Open
+				category = [EVA] Force Open
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			OverrideClose
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = [EVA] Force Close
+				guiName = [EVA] Force Close
+				category = [EVA] Force Close
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionToggle
+			{
+				actionGroup = None
+			}
+			ActionOpen
+			{
+				actionGroup = None
+			}
+			ActionClose
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSPUPassive
+		isEnabled = True
+		IsRTPowered = False
+		IsRTSignalProcessor = True
+		IsRTCommandStation = False
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		damage = 0
+		stagingEnabled = True
+		EVENTS
+		{
+			ResetRecordedHeat
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Reset Heat Record
+				guiName = Reset Heat Record
+				category = Reset Heat Record
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleRTDataTransmitter
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = SXTProbeGooo_4293950020
+	partName = Part
+	pos = 7.265555E-07,5.083405,-0.5066202
+	attPos = -5.684342E-14,3.081301,-0.1403402
+	attPos0 = -5.684342E-14,-1.577771,2.086163E-07
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = top,proceduralTankRealFuels_4292896754
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = -3.333333
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		deployPercent_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+			Toggle
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Toggle
+				guiName = Deploy
+				category = Toggle
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleScienceExperiment
+		isEnabled = True
+		Deployed = False
+		Inoperable = False
+		cooldownToGo = 0
+		stagingEnabled = True
+		EVENTS
+		{
+			DeployExperiment
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			CollectDataExternalEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = True
+				unfocusedRange = 1.5
+				externalToEVAOnly = True
+			}
+			ReviewDataEvent
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Review Data
+				guiName = Review Data
+				category = Review Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ResetExperiment
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Reset
+				guiName = Reset
+				category = Reset
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DeployExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Deploy
+				guiName = Deploy
+				category = Deploy
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ResetExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Reset
+				guiName = Reset
+				category = Reset
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			CleanUpExperimentExternal
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Restore
+				guiName = Restore
+				category = Restore
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Experiment: Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DeployAction
+			{
+				actionGroup = Custom03
+			}
+			ResetAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTagBioSample
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
