@@ -2,7 +2,7 @@ ship = SR1W
 version = 1.1.2
 description = 
 type = VAB
-size = 7.318588,8.827036,6.329322
+size = 7.318587,8.827036,6.329322
 PART
 {
 	part = RP0probeSounding0-3m_4286992368
@@ -886,7 +886,7 @@ PART
 		{
 			BoomAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
 		}
 	}
@@ -4429,7 +4429,7 @@ PART
 {
 	part = launchClamp1_4286709426
 	partName = Part
-	pos = -0.180264,1.125801,1.002046
+	pos = -0.1802641,1.1258,1.002046
 	attPos = 0,-1.025537,-0.2046729
 	attPos0 = -1.191185E-07,-1.091042,1.207192
 	rot = -0.7072902,0.02067269,-0.0206444,0.7063195
@@ -4460,8 +4460,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = -0.2051942
-		height = -0.5171909
+		scaleFactor = -0.2051948
+		height = -0.5171924
 		stagingEnabled = True
 		towerRot = -0.02064443,-0.7063195,0.7072901,-0.02067272
 		EVENTS
@@ -5970,10 +5970,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293613218
 	partName = Part
-	pos = -0.23329,2.421245,0.07377349
+	pos = -0.23329,2.421245,0.0737735
 	attPos = 0,0,0
 	attPos0 = -0.128598,-0.8264444,0.07424617
-	rot = 0.02620251,0.96556,0.002683239,-0.2588443
+	rot = 0.02620251,0.9655599,0.002683239,-0.2588442
 	attRot = 0.005236234,5.29282E-08,-1.906201E-09,0.9999864
 	attRot0 = 0.0006628502,-0.9659256,-0.0001776116,0.2588191
 	mir = 1,1,1
@@ -7048,10 +7048,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293613096
 	partName = Part
-	pos = 0.02346642,2.406223,0.07377321
+	pos = 0.02346637,2.406223,0.0737732
 	attPos = 0,0,0
 	attPos0 = 0.1285981,-0.8264445,0.07424612
-	rot = 0.002328373,0.2588613,0.02752762,-0.9655194
+	rot = 0.002328374,0.2588613,0.02752762,-0.9655194
 	attRot = 0.005236234,5.29282E-08,-1.906201E-09,0.9999864
 	attRot0 = 0.0001776074,-0.2588189,-0.0006628502,0.9659256
 	mir = 1,1,1
@@ -8126,7 +8126,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293617930
 	partName = Part
-	pos = 0.03739199,4.846025,-0.0004729033
+	pos = 0.037392,4.846025,-0.0004729033
 	attPos = 0,0,0
 	attPos0 = 2.235174E-08,0.5300047,0
 	rot = 0,0,-0.02921563,0.9995732
@@ -9351,10 +9351,10 @@ PART
 {
 	part = proceduralTankRealFuels_4292011408
 	partName = Part
-	pos = -0.0968649,2.551279,-0.2869509
+	pos = -0.09686488,2.551279,-0.2869509
 	attPos = -9.685755E-08,-0.1817214,-0.1433312
 	attPos0 = -7.450581E-09,-0.5069425,-0.1431468
-	rot = -0.8754767,0.02558865,-0.01409896,0.4823765
+	rot = -0.8754767,0.02558865,-0.01409896,0.4823764
 	attRot = 0.8797851,-1.121332E-07,2.943113E-08,-0.4753727
 	attRot0 = 0.8758505,-1.322478E-07,6.519258E-09,-0.4825827
 	mir = 1,1,1
@@ -9385,7 +9385,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.05760426, -0.6583761, 0.03061122)
+		tempColliderSize = (0.05760426, -0.6583766, 0.03061137)
 		textureSet = GreySide
 		shapeName = Smooth Cone
 		moduleCost = 9.570001E-06
@@ -9586,7 +9586,7 @@ PART
 		selectedShape = Round #1
 		topDiameter = 0.01
 		bottomDiameter = 0.058
-		length = 0.6023766
+		length = 0.6023767
 		stagingEnabled = True
 		selectedShape_UIEditor
 		{
@@ -10566,7 +10566,7 @@ PART
 {
 	part = proceduralTankRealFuels_4292007808
 	partName = Part
-	pos = -0.3445383,2.565769,0.1427663
+	pos = -0.3445381,2.565768,0.1427664
 	attPos = -0.1241284,-0.1817216,0.0716657
 	attPos0 = -0.1239688,-0.5069424,0.07157345
 	rot = -0.4255283,0.4305448,0.7511355,0.2633485
@@ -10600,7 +10600,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-0.5227767, -0.4252718, 0.1772311)
+		tempColliderSize = (-0.5227767, -0.4252719, 0.1772311)
 		textureSet = GreySide
 		shapeName = Smooth Cone
 		moduleCost = 9.570001E-06
@@ -10801,7 +10801,7 @@ PART
 		selectedShape = Round #1
 		topDiameter = 0.01
 		bottomDiameter = 0.058
-		length = 0.6023766
+		length = 0.6023767
 		stagingEnabled = True
 		selectedShape_UIEditor
 		{
@@ -11781,10 +11781,10 @@ PART
 {
 	part = proceduralTankRealFuels_4292007718
 	partName = Part
-	pos = 0.150809,2.536788,0.142766
+	pos = 0.150809,2.536788,0.1427659
 	attPos = 0.1241285,-0.1817214,0.0716655
 	attPos0 = 0.1239688,-0.5069424,0.0715734
-	rot = 0.4499484,0.4049561,0.7652345,-0.2190282
+	rot = 0.4499484,0.404956,0.7652344,-0.2190282
 	attRot = 0.8797851,-1.121332E-07,2.943113E-08,-0.4753727
 	attRot0 = 0.4309448,0.4391582,0.7464182,-0.2535482
 	mir = 1,1,1
@@ -11815,7 +11815,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.04936649, 0.2430743, 0.6545357)
+		tempColliderSize = (0.04936649, 0.2430744, 0.6545358)
 		textureSet = GreySide
 		shapeName = Smooth Cone
 		moduleCost = 9.570001E-06
@@ -12016,7 +12016,7 @@ PART
 		selectedShape = Round #1
 		topDiameter = 0.01
 		bottomDiameter = 0.058
-		length = 0.6023766
+		length = 0.6023767
 		stagingEnabled = True
 		selectedShape_UIEditor
 		{

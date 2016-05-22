@@ -325,26 +325,6 @@ PART
 					_val = 0.5
 					_text = 0.5
 				}
-				minThrust
-				{
-					_val = 0.0001
-					_text = 0.0001
-				}
-				decelerationEndAltitude
-				{
-					_val = 500
-					_text = 500
-				}
-				CorrectionBeforeDeceleration
-				{
-					_val = 1000
-					_text = 1000
-				}
-				safityThrustLimit
-				{
-					_val = 0.9
-					_text = 0.9
-				}
 				limitGearsStage
 				{
 					val = 0
@@ -906,8 +886,80 @@ PART
 		{
 			BoomAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
+		}
+	}
+	MODULE
+	{
+		name = TelemachusDataLink
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			openBrowser
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Open Link
+				guiName = Open Link
+				category = Open Link
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TelemachusPowerDrain
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			togglePower
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Enable/Disable Data Link
+				guiName = Enable/Disable Data Link
+				category = Enable/Disable Data Link
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
 		}
 	}
 	MODULE
@@ -2045,7 +2097,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Fuselage, Structural
+			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
 		}
 		utilization_UIEditor
 		{
@@ -4377,7 +4429,7 @@ PART
 	pos = -0.1016258,1.12217,1.002046
 	attPos = 0,-1.025537,-0.2046729
 	attPos0 = -1.191185E-07,-1.091042,1.207192
-	rot = -0.707491,0.01196173,-0.01194539,0.7065202
+	rot = -0.707491,0.01196173,-0.01194539,0.7065201
 	attRot = -0.7071068,0,0,0.7071068
 	attRot0 = 0.7075918,3.442754E-08,3.447482E-08,-0.7066213
 	mir = 1,1,1
@@ -4386,7 +4438,7 @@ PART
 	dstg = 0
 	sidx = 1
 	sqor = 1
-	sepI = 0
+	sepI = 1
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -4405,10 +4457,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = -0.2071097
-		height = -0.5220189
+		scaleFactor = -0.2071099
+		height = -0.5220194
 		stagingEnabled = True
-		towerRot = -0.01194542,-0.7065202,0.707491,-0.01196176
+		towerRot = -0.01194542,-0.7065201,0.707491,-0.01196176
 		EVENTS
 		{
 			Release
@@ -4638,6 +4690,78 @@ PART
 	}
 	MODULE
 	{
+		name = TelemachusDataLink
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			openBrowser
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Open Link
+				guiName = Open Link
+				category = Open Link
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TelemachusPowerDrain
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			togglePower
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Enable/Disable Data Link
+				guiName = Enable/Disable Data Link
+				category = Enable/Disable Data Link
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -4765,7 +4889,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293613832
 	partName = Part
-	pos = -0.05801274,2.411567,-0.1489656
+	pos = -0.05801275,2.411567,-0.1489656
 	attPos = 0,0,0
 	attPos0 = -1.490116E-08,-0.8264445,-0.1484923
 	rot = 0.01517024,0.7069393,-0.01614065,0.7069274
@@ -4780,7 +4904,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = -0.2
-	modMass = 0.003938694
+	modMass = 0.003928694
 	modSize = (-3.6, -3.9, -0.2)
 	sym = RO-B9ProcWing-Early_4293613218
 	sym = RO-B9ProcWing-Early_4293613096
@@ -4980,7 +5104,7 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.003948694
+		mass = 0.003938694
 		stagingEnabled = True
 		volume = 0.93359999999999999
 		type_UIEditor
@@ -5843,7 +5967,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293613218
 	partName = Part
-	pos = -0.186537,2.415914,0.07377294
+	pos = -0.1865365,2.415914,0.07377303
 	attPos = 0,0,0
 	attPos0 = -0.128598,-0.8264444,0.07424617
 	rot = 0.01431088,0.9658093,-0.0005043149,-0.2588577
@@ -5858,7 +5982,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = -0.2
-	modMass = 0.003938694
+	modMass = 0.003928694
 	modSize = (-3.6, -3.9, -0.2)
 	sym = RO-B9ProcWing-Early_4293613832
 	sym = RO-B9ProcWing-Early_4293613096
@@ -6058,7 +6182,7 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.003948694
+		mass = 0.003938694
 		stagingEnabled = True
 		volume = 0.93359999999999999
 		type_UIEditor
@@ -6921,10 +7045,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293613096
 	partName = Part
-	pos = 0.07051156,2.407219,0.07377288
+	pos = 0.07051157,2.407219,0.07377283
 	attPos = 0,0,0
 	attPos0 = 0.1285981,-0.8264445,0.07424612
-	rot = -0.0008593681,0.2588704,0.01563633,-0.9657851
+	rot = -0.0008593686,0.2588705,0.01563633,-0.9657851
 	attRot = 0.005236234,5.29282E-08,-1.906201E-09,0.9999864
 	attRot0 = 0.0001776074,-0.2588189,-0.0006628502,0.9659256
 	mir = 1,1,1
@@ -6936,7 +7060,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = -0.2
-	modMass = 0.003938694
+	modMass = 0.003928694
 	modSize = (-3.6, -3.9, -0.2)
 	sym = RO-B9ProcWing-Early_4293613832
 	sym = RO-B9ProcWing-Early_4293613218
@@ -7136,7 +7260,7 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.003948694
+		mass = 0.003938694
 		stagingEnabled = True
 		volume = 0.93359999999999999
 		type_UIEditor
@@ -8270,13 +8394,13 @@ PART
 			modelID = 0
 			typeID = 1
 			lastTypeID = 1
-			position = (-2.3, 5.2, 0.5)
+			position = (0.0, 4.4, -0.5)
 			isPressure = False
 			calcSelect = True
 			getMass = True
 			useDry = True
-			preDepDiam = 1.5
-			depDiam = 36
+			preDepDiam = 1
+			depDiam = 2
 			predepClause = 6000
 			mass = 10
 			landingSpeed = 50
@@ -8294,13 +8418,13 @@ PART
 			modelID = 0
 			typeID = 0
 			lastTypeID = 0
-			position = (-2.3, 5.2, 1.5)
+			position = (0.0, 4.4, 0.5)
 			isPressure = False
 			calcSelect = True
 			getMass = True
 			useDry = True
-			preDepDiam = 1.5
-			depDiam = 36
+			preDepDiam = 0.8
+			depDiam = 15.9
 			predepClause = 1500
 			mass = 10
 			landingSpeed = 6
@@ -8617,7 +8741,7 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 0
-	modCost = 0.07416893
+	modCost = 0.06846441
 	modMass = -0.9985476
 	modSize = (0.0, 0.0, 0.0)
 	attN = bottom,RC.stack_4293855314
@@ -8887,7 +9011,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Fuselage, Structural
+			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
 		}
 		utilization_UIEditor
 		{
@@ -9661,8 +9785,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 2.0697633030788389
-			maxAmount = 2.0697633030788389
+			amount = 0.5
+			maxAmount = 0.5
 		}
 	}
 	MODULE
@@ -9815,8 +9939,8 @@ PART
 	RESOURCE
 	{
 		name = LeadBallast
-		amount = 2.06976330307884
-		maxAmount = 2.06976330307884
+		amount = 0.5
+		maxAmount = 0.5
 		flowState = True
 		isTweakable = True
 		hideFlow = False
