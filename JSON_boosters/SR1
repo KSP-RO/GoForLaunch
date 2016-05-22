@@ -1,0 +1,8 @@
+[{
+    "props": [{"name": "Aniline", "volume": 41.7},
+              {"name": "Furfuryl", "volume": 10.4},
+              {"name": "IRFNA-III", "volume": 75.5}],
+    "isp": 218.36,
+    "dry": 0.290,
+    "thrust": 7.628}
+]
