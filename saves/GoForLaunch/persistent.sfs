@@ -19,7 +19,7 @@ GAME
 		FLIGHT
 		{
 			CanQuickSave = True
-			CanQuickLoad = False
+			CanQuickLoad = True
 			CanAutoSave = True
 			CanUseMap = True
 			CanSwitchVesselsNear = True
@@ -29,8 +29,8 @@ GAME
 			CanEVA = True
 			CanIVA = True
 			CanBoard = True
-			CanRestart = False
-			CanLeaveToEditor = False
+			CanRestart = True
+			CanLeaveToEditor = True
 			CanLeaveToTrackingStation = True
 			CanLeaveToSpaceCenter = True
 			CanLeaveToMainMenu = False
@@ -110,7 +110,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 1778214.87065746
+		update = 1868379.91370272
 		version = 1.1.2
 		WEIGHTS
 		{
@@ -751,7 +751,7 @@ GAME
 					completedMessage = 
 					define = karmanUncrewedSpacecraft
 					duration = 0
-					trackedVessel = 5c2a7614-2911-442c-9e9b-78450c9da2cc
+					trackedVessel = f0c2d6a2-a63d-416a-9485-ef6515c4d6fd
 					dissassociateVesselsOnContractFailure = True
 					dissassociateVesselsOnContractCompletion = False
 					PARAM
@@ -769,16 +769,16 @@ GAME
 						launchID = 1
 						VESSEL_STATS
 						{
-							vessel = 5c2a7614-2911-442c-9e9b-78450c9da2cc
+							vessel = f0c2d6a2-a63d-416a-9485-ef6515c4d6fd
 							state = Complete
 							strength = STRONG
-							completionTime = 1778210.43065746
+							completionTime = 1868376.19370272
 						}
 						DOCKED_SUB_VESSEL
 						{
-							hash = 3645584063
+							hash = 765036637
 							strength = STRONG
-							completionTime = 1778210.43065746
+							completionTime = 1868376.19370272
 						}
 					}
 					PARAM
@@ -1036,7 +1036,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 11679.6704349516
+		funds = 11679.7120304106
 	}
 	SCENARIO
 	{
@@ -1054,17 +1054,17 @@ GAME
 		{
 			RecordsAltitude
 			{
-				reached = 1778210.11065746
-				record = 79.6057529924437
+				reached = 1868375.83370272
+				record = 79.6058684028685
 			}
 			RecordsSpeed
 			{
-				completed = 1778210.11065746
+				completed = 1868375.83370272
 				record = 0
 			}
 			RecordsDistance
 			{
-				completed = 1778210.11065746
+				completed = 1868375.83370272
 				record = 0
 			}
 		}
@@ -1640,7 +1640,7 @@ GAME
 	{
 		name = RemoteTechProgressTracker
 		scene = 7, 8, 5
-		nextCheck = 12
+		nextCheck = 11
 		CelestialBodyInfo
 		{
 			body = Sun
@@ -3736,7 +3736,7 @@ GAME
 	{
 		name = TestFlightRnDScenario
 		scene = 7, 6, 5, 8
-		lastUpdateTime = 1728664.56
+		lastUpdateTime = 1827109.3552771
 	}
 	SCENARIO
 	{
@@ -3769,11 +3769,11 @@ GAME
 			CrewMemberInfo
 			{
 				name = Peter Santos-Dumont
-				lastUpdate = 1778214.77065746
-				lastFood = 1778214.77065746
-				lastWater = 1778214.77065746
+				lastUpdate = 1868379.83370272
+				lastFood = 1868379.83370272
+				lastWater = 1868379.83370272
 				vesselName = Buzzard
-				vesselId = 5c2a7614-2911-442c-9e9b-78450c9da2cc
+				vesselId = f0c2d6a2-a63d-416a-9485-ef6515c4d6fd
 				hibernating = False
 			}
 			VesselInfo
@@ -3782,25 +3782,25 @@ GAME
 				vesselType = Ship
 				numCrew = 1
 				numOccupiedParts = 1
-				lastUpdate = 1778214.77065746
-				lastFood = 1778214.77065746
-				lastWater = 1778214.77065746
-				lastOxygen = 1778214.77065746
-				lastElectricity = 1778214.77065746
-				remainingFood = 2.19384022799983
-				remainingWater = 1.4498942719999
+				lastUpdate = 1868379.83370272
+				lastFood = 1868379.83370272
+				lastWater = 1868379.83370272
+				lastOxygen = 1868379.83370272
+				lastElectricity = 1868379.83370272
+				remainingFood = 2.19388761799988
+				remainingWater = 1.44992563199993
 				remainingOxygen = 225
-				remainingElectricity = 7194.31240012715
+				remainingElectricity = 7195.13180010883
 				remainingCO2 = 0
-				remainingWaste = 1.45376000135392E-05
-				remainingWasteWater = 0.000134520000125282
+				remainingWaste = 1.02256000095233E-05
+				remainingWasteWater = 9.46200000881219E-05
 				maxFood = 2.194
 				maxWater = 1.45
 				maxOxygen = 225
 				maxElectricity = 7200
 				estimatedElectricityConsumptionRate = 0
 				hibernating = False
-				Guid = 5c2a7614-2911-442c-9e9b-78450c9da2cc
+				Guid = f0c2d6a2-a63d-416a-9485-ef6515c4d6fd
 			}
 		}
 	}
@@ -3877,6 +3877,11 @@ GAME
 				Item = SXTProbeGooo
 				Item = 1
 			}
+			PartInventory
+			{
+				Item = proceduralTankRealFuels
+				Item = 0
+			}
 		}
 		KSC
 		{
@@ -3901,7 +3906,7 @@ GAME
 				{
 					shipName = SR1W
 					shipID = e2e79761-3570-4e5c-ab51-ee7979ca2953
-					progress = 288826.475133122
+					progress = 333895.106655757
 					buildTime = 549029.550366105
 					launchSite = LaunchPad
 					flag = GoForLaunch/Flags/GoForLaunch
@@ -39904,7 +39909,7 @@ GAME
 				{
 					shipName = SR1
 					shipID = 56c9a51f-d4b1-4910-a784-002e5a16a846
-					progress = 600101.62
+					progress = 600115.43
 					buildTime = 572096.24919854
 					launchSite = LaunchPad
 					flag = GoForLaunch/Flags/GoForLaunch
@@ -49910,53 +49915,53 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.2
-		UT = 1778215.81065746
+		UT = 1868380.71370272
 		activeVessel = 0
 		mapViewFiltering = -1026
 		VESSEL
 		{
-			pid = 5c2a76142911442c9e9b78450c9da2cc
+			pid = f0c2d6a2a63d416a9485ef6515c4d6fd
 			name = Buzzard
 			type = Ship
 			sit = LANDED
 			landed = True
 			landedAt = Runway
 			splashed = False
-			met = 2.4200000022538
-			lct = 1778212.35065746
-			lastUT = 1778214.77065746
+			met = 1.72000000160187
+			lct = 1868378.11370272
+			lastUT = 1868379.83370272
 			root = 0
-			lat = 28.6128533815843
-			lon = -80.617676185316
-			alt = 78.8101690290496
-			hgt = 1.316574
-			nrm = 6.955117E-06,-0.0179697,-0.9998386
-			rot = 0.2365134,0.1119535,-0.6694893,0.6952065
-			CoM = -6.03497E-07,-0.2952327,0.05177485
+			lat = 28.6128534054196
+			lon = -80.6176772153544
+			alt = 78.811369269155
+			hgt = 1.317627
+			nrm = 0.0005531609,-0.01776519,-0.999842
+			rot = 0.2366237,0.1122144,-0.6694214,0.6951922
+			CoM = 4.023314E-07,-0.2488479,0.0680602
 			stg = 1
 			prst = False
-			ref = 112860282
+			ref = 2575964550
 			ctrl = True
 			cPch = 
 			cHdg = 
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 3185526.64224377
 				ECC = 1
-				INC = 61.3916146795161
+				INC = 61.3916146803165
 				LPE = 270
-				LAN = 159.092329547112
-				MNA = -Infinity
-				EPH = 1778214.79065746
+				LAN = 175.808654665686
+				MNA = 3.14159265358979
+				EPH = 1868379.85370272
 				REF = 1
 			}
 			PART
 			{
 				name = SXTBuzzard
 				cid = 4293783174
-				uid = 112860282
-				mid = 1563913889
+				uid = 2575964550
+				mid = 1934375665
 				launchID = 1
 				parent = 0
 				position = 0,0,0
@@ -49973,9 +49978,9 @@ GAME
 				attN = top, 33
 				attN = bottom, 18
 				mass = 0.5
-				temp = 277.614900143073
-				tempExt = 281.302344658599
-				tempExtUnexp = 281.298702708435
+				temp = 287.477041971008
+				tempExt = 289.599674171689
+				tempExtUnexp = 289.599808244679
 				expt = 0.5
 				state = 0
 				connected = True
@@ -50153,7 +50158,7 @@ GAME
 					{
 						DeployAction
 						{
-							actionGroup = None
+							actionGroup = Custom03
 						}
 						ResetAction
 						{
@@ -50760,15 +50765,15 @@ GAME
 						}
 						MechJebModuleFlightRecorder
 						{
-							markUT = 1778212.35065746
+							markUT = 1868378.11370272
 							deltaVExpended = 0
 							dragLosses = 0
-							gravityLosses = 1.79531361335281
+							gravityLosses = 2.16431265561486
 							steeringLosses = 0
-							markLAN = 100.429355621338
-							markLatitude = 28.6128534056525
-							markLongitude = -80.6176818732804
-							markAltitude = 78.997253982164
+							markLAN = 83.7101043701172
+							markLatitude = 28.6128534048885
+							markLongitude = -80.6176813997855
+							markAltitude = 78.9802607733756
 							markBodyIndex = 1
 							maxDragGees = 0
 							unlockParts = 
@@ -50892,7 +50897,7 @@ GAME
 					{
 						DeployAction
 						{
-							actionGroup = None
+							actionGroup = Custom03
 						}
 						ResetAction
 						{
@@ -51193,7 +51198,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 7194.31240012715
+					amount = 7195.13180010883
 					maxAmount = 7200
 					flowState = True
 					isTweakable = True
@@ -51215,7 +51220,7 @@ GAME
 				RESOURCE
 				{
 					name = Food
-					amount = 2.19383887399983
+					amount = 2.19388626399988
 					maxAmount = 2.194
 					flowState = True
 					isTweakable = True
@@ -51226,7 +51231,7 @@ GAME
 				RESOURCE
 				{
 					name = Water
-					amount = 1.4498933759999
+					amount = 1.44992473599993
 					maxAmount = 1.45
 					flowState = True
 					isTweakable = True
@@ -51248,7 +51253,7 @@ GAME
 				RESOURCE
 				{
 					name = Waste
-					amount = 1.46608000136539E-05
+					amount = 1.03488000096381E-05
 					maxAmount = 0.2
 					flowState = True
 					isTweakable = True
@@ -51259,7 +51264,7 @@ GAME
 				RESOURCE
 				{
 					name = WasteWater
-					amount = 0.000135660000126344
+					amount = 9.57600000891836E-05
 					maxAmount = 1.848
 					flowState = True
 					isTweakable = True
@@ -51272,11 +51277,11 @@ GAME
 			{
 				name = RO-B9ProcAMWing-Early
 				cid = 4293714200
-				uid = 1405454255
-				mid = 1563913889
+				uid = 1696812932
+				mid = 1934375665
 				launchID = 1
 				parent = 0
-				position = -0.0208661444485188,-5.22950124740601,-0.588092744350433
+				position = -0.0208661444485188,-5.22950458526611,-0.588092744350433
 				rotation = 0,-1,0,0
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -51289,9 +51294,9 @@ GAME
 				sym = 2
 				srfN = srfAttach, 0
 				mass = 0.03457282
-				temp = 277.403488056651
-				tempExt = 279.180295915582
-				tempExtUnexp = 279.174456482806
+				temp = 287.204960205602
+				tempExt = 288.285194880634
+				tempExtUnexp = 288.282520906229
 				expt = 0.1
 				state = 0
 				connected = True
@@ -51670,11 +51675,11 @@ GAME
 			{
 				name = RO-B9ProcAMWing-Early
 				cid = 4293713554
-				uid = 1419805383
-				mid = 1563913889
+				uid = 2889466591
+				mid = 1934375665
 				launchID = 1
 				parent = 0
-				position = 0.0208661556243896,-5.22950124740601,-0.588092744350433
+				position = 0.0208661556243896,-5.22950458526611,-0.588092744350433
 				rotation = -1.685874E-07,-4.37114E-08,0,-1
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -51687,9 +51692,9 @@ GAME
 				sym = 1
 				srfN = srfAttach, 0
 				mass = 0.03457282
-				temp = 277.663411137412
-				tempExt = 279.40216443198
-				tempExtUnexp = 279.396498453497
+				temp = 287.857999990882
+				tempExt = 288.796942013513
+				tempExtUnexp = 288.794836767268
 				expt = 0.1
 				state = 0
 				connected = True
@@ -52068,11 +52073,11 @@ GAME
 			{
 				name = RO-B9ProcWing-Early
 				cid = 4293723156
-				uid = 408118434
-				mid = 1563913889
+				uid = 1274817835
+				mid = 1934375665
 				launchID = 1
 				parent = 0
-				position = -4.27276063419413E-08,-5.42879629135132,-0.488742709159851
+				position = -4.27276063419413E-08,-5.42879962921143,-0.488742709159851
 				rotation = 0,0.7071069,0,0.7071069
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -52084,9 +52089,9 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.01886981
-				temp = 295.196451656942
-				tempExt = 292.128834895922
-				tempExtUnexp = 292.137527657304
+				temp = 297.541726928503
+				tempExt = 295.897854874181
+				tempExtUnexp = 295.913106285267
 				expt = 0.1
 				state = 0
 				connected = True
@@ -52288,7 +52293,7 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 295.196451656942
+					partPrevTemperature = 297.541726928503
 					mass = 1E-05
 					stagingEnabled = True
 					volume = 129.9469
@@ -53140,11 +53145,11 @@ GAME
 			{
 				name = RO-B9ProcAMWing-Early
 				cid = 4293532484
-				uid = 3140951477
-				mid = 1563913889
+				uid = 3037525695
+				mid = 1934375665
 				launchID = 1
 				parent = 3
-				position = 4.04307002099813E-07,-5.91947460174561,-1.98874425888062
+				position = 7.61935098125832E-07,-5.91947746276855,-1.98874616622925
 				rotation = -8.429371E-08,0.7071069,-8.429371E-08,0.7071069
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -53156,9 +53161,9 @@ GAME
 				attm = 1
 				srfN = srfAttach, 3
 				mass = 0.003395175
-				temp = 295.838488226968
-				tempExt = 294.830891296559
-				tempExtUnexp = 294.854923252966
+				temp = 298.450254376121
+				tempExt = 298.03536190819
+				tempExtUnexp = 298.055478151961
 				expt = 0.1
 				state = 0
 				connected = True
@@ -53537,11 +53542,11 @@ GAME
 			{
 				name = RO-B9ProcCS-Early
 				cid = 4293532370
-				uid = 413217862
-				mid = 1563913889
+				uid = 3187570999
+				mid = 1934375665
 				launchID = 1
 				parent = 3
-				position = 1.73026933225628E-07,-5.93412637710571,-1.21685254573822
+				position = 3.4662207326619E-07,-5.93412923812866,-1.21685254573822
 				rotation = -0.01470986,0.7069526,0.01470997,-0.7069553
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -53553,9 +53558,9 @@ GAME
 				attm = 1
 				srfN = srfAttach, 3
 				mass = 0.0104832
-				temp = 286.431645069295
-				tempExt = 288.334759654362
-				tempExtUnexp = 288.327759686367
+				temp = 292.021037784944
+				tempExt = 293.406811741729
+				tempExtUnexp = 293.40569678069
 				expt = 0.1
 				state = 0
 				connected = True
@@ -53934,8 +53939,8 @@ GAME
 			{
 				name = proceduralTankRealFuels
 				cid = 4293681792
-				uid = 1885687582
-				mid = 1563913889
+				uid = 3293504119
+				mid = 1934375665
 				launchID = 1
 				parent = 0
 				position = -1.95515310764313,-0.0737269967794418,0.207966849207878
@@ -53953,9 +53958,9 @@ GAME
 				attN = top, 7
 				attN = bottom, 9
 				mass = 0.007747173
-				temp = 299.860529565678
-				tempExt = 294.361613439415
-				tempExtUnexp = 294.367174914159
+				temp = 299.94642600369
+				tempExt = 296.960658971534
+				tempExtUnexp = 296.968376024067
 				expt = 0.5
 				state = 0
 				connected = True
@@ -54222,14 +54227,14 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 299.860529565678
+					partPrevTemperature = 299.94642600369
 					mass = 0.007747168
 					stagingEnabled = True
 					volume = 135.08850000000001
 					type_UIEditor
 					{
 						controlEnabled = True
-						options = Fuselage, Structural
+						options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
 					}
 					utilization_UIEditor
 					{
@@ -55157,8 +55162,8 @@ GAME
 			{
 				name = proceduralTankRealFuels
 				cid = 4293532024
-				uid = 2419103171
-				mid = 1563913889
+				uid = 4244297962
+				mid = 1934375665
 				launchID = 1
 				parent = 6
 				position = -1.95515310764313,0.476278036832809,0.207966774702072
@@ -55176,9 +55181,9 @@ GAME
 				attN = top, 8
 				attN = bottom, 6
 				mass = 0.02132195
-				temp = 298.020486485028
-				tempExt = 294.461049175466
-				tempExtUnexp = 294.471840396597
+				temp = 299.221468534484
+				tempExt = 297.141589828897
+				tempExtUnexp = 297.150720655406
 				expt = 0.5
 				state = 0
 				connected = True
@@ -55445,14 +55450,14 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 298.020486485028
+					partPrevTemperature = 299.221468534484
 					mass = 0.02132194
 					stagingEnabled = True
 					volume = 470.17599999999999
 					type_UIEditor
 					{
 						controlEnabled = True
-						options = Fuselage, Structural
+						options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
 					}
 					utilization_UIEditor
 					{
@@ -56369,12 +56374,12 @@ GAME
 			{
 				name = miniIntake
 				cid = 4293531888
-				uid = 844059771
-				mid = 1563913889
+				uid = 1461814125
+				mid = 1934375665
 				launchID = 1
 				parent = 7
 				position = -1.95515310764313,0.910830140113831,0.207966729998589
-				rotation = 8.429371E-08,-5.960466E-08,4.218801E-08,1
+				rotation = 8.429371E-08,-5.960466E-08,4.2152E-08,1
 				mirror = 1,1,1
 				symMethod = Mirror
 				istg = 0
@@ -56387,9 +56392,9 @@ GAME
 				srfN = , -1
 				attN = bottom01, 7
 				mass = 0.005
-				temp = 281.955026662005
-				tempExt = 289.284829429321
-				tempExtUnexp = 289.284725360035
+				temp = 289.563503141507
+				tempExt = 294.05668497637
+				tempExtUnexp = 294.057712328705
 				expt = 0.5
 				state = 0
 				connected = True
@@ -56622,11 +56627,11 @@ GAME
 			{
 				name = proceduralTankRealFuels
 				cid = 4293532160
-				uid = 652920546
-				mid = 1563913889
+				uid = 2390057017
+				mid = 1934375665
 				launchID = 1
 				parent = 6
-				position = -1.95515501499176,-0.723729133605957,0.207973122596741
+				position = -1.95515501499176,-0.723729372024536,0.207973122596741
 				rotation = 0,0.7071069,0,0.7071069
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -56641,9 +56646,9 @@ GAME
 				attN = top, 6
 				attN = bottom, 10
 				mass = 0.03131366
-				temp = 299.94048672029
-				tempExt = 292.891095140462
-				tempExtUnexp = 292.896725960838
+				temp = 299.963335067117
+				tempExt = 296.192394711411
+				tempExtUnexp = 296.200589134671
 				expt = 0.5
 				state = 0
 				connected = True
@@ -56910,14 +56915,14 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 299.94048672029
+					partPrevTemperature = 299.963335067117
 					mass = 0.03131363
 					stagingEnabled = True
 					volume = 546.02030000000002
 					type_UIEditor
 					{
 						controlEnabled = True
-						options = Fuselage, Structural
+						options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
 					}
 					utilization_UIEditor
 					{
@@ -57020,7 +57025,7 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 546.02030000000002
+						amount = 327.61219301813799
 						maxAmount = 546.02030000000002
 					}
 					TANK
@@ -57832,7 +57837,7 @@ GAME
 				RESOURCE
 				{
 					name = Kerosene
-					amount = 546.0203
+					amount = 327.612193018138
 					maxAmount = 546.0203
 					flowState = True
 					isTweakable = True
@@ -57845,12 +57850,12 @@ GAME
 			{
 				name = RO-DerwentV
 				cid = 4293531568
-				uid = 1239515766
-				mid = 1563913889
+				uid = 3068161372
+				mid = 1934375665
 				launchID = 1
 				parent = 9
-				position = -1.95515608787537,-1.27373611927032,0.207973182201386
-				rotation = 0,-1.192093E-07,3.955383E-08,1
+				position = -1.95515608787537,-1.27373671531677,0.207973182201386
+				rotation = 0,-2.086163E-07,2.470057E-08,1
 				mirror = 1,1,1
 				symMethod = Mirror
 				istg = 0
@@ -57863,9 +57868,9 @@ GAME
 				srfN = srfAttach, -1
 				attN = top, 9
 				mass = 0.57
-				temp = 275.980451202909
-				tempExt = 281.149062986512
-				tempExtUnexp = 281.153479849812
+				temp = 286.69362151713
+				tempExt = 289.665016726833
+				tempExtUnexp = 289.670992758308
 				expt = 0.5
 				state = 0
 				connected = True
@@ -57944,7 +57949,7 @@ GAME
 					{
 						OnAction
 						{
-							actionGroup = None
+							actionGroup = Custom01
 						}
 						ShutdownAction
 						{
@@ -58270,11 +58275,11 @@ GAME
 			{
 				name = SmallGearBay
 				cid = 4293419730
-				uid = 3100611946
-				mid = 1563913889
+				uid = 2584112624
+				mid = 1934375665
 				launchID = 1
 				parent = 6
-				position = -1.95515310764313,-0.592385053634644,0.313347905874252
+				position = -1.95515310764313,-0.592385232448578,0.313347905874252
 				rotation = -0.7015278,5.960466E-08,8.9407E-08,0.7126424
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -58287,9 +58292,9 @@ GAME
 				sym = 17
 				srfN = srfAttach, 6
 				mass = 0.04
-				temp = 276.623739120776
-				tempExt = 294.540578332171
-				tempExtUnexp = 294.547973537897
+				temp = 286.999167440073
+				tempExt = 296.887596667626
+				tempExtUnexp = 296.892937077631
 				expt = 0.5
 				state = 0
 				connected = True
@@ -58364,7 +58369,7 @@ GAME
 					isEnabled = True
 					springTweakable = 1
 					damperTweakable = 1
-					suspensionPos = (-1.076195E-07, 0.06210271, 0.863782)
+					suspensionPos = (1.241764E-07, 0.06210273, 0.8634959)
 					autoBoost = 0.7099996
 					stagingEnabled = True
 					springTweakable_UIEditor
@@ -58923,8 +58928,8 @@ GAME
 			{
 				name = proceduralTankRealFuels
 				cid = 4293680806
-				uid = 969989007
-				mid = 1563913889
+				uid = 524123255
+				mid = 1934375665
 				launchID = 1
 				parent = 0
 				position = 1.95515787601471,-0.0737258642911911,0.207966849207878
@@ -58942,9 +58947,9 @@ GAME
 				attN = top, 13
 				attN = bottom, 15
 				mass = 0.007747173
-				temp = 299.848574691523
-				tempExt = 294.37161945118
-				tempExtUnexp = 294.377308902421
+				temp = 299.942222617254
+				tempExt = 296.966518497516
+				tempExtUnexp = 296.97490591584
 				expt = 0.5
 				state = 0
 				connected = True
@@ -59211,14 +59216,14 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 299.848574691523
+					partPrevTemperature = 299.942222617254
 					mass = 0.007747168
 					stagingEnabled = True
 					volume = 135.08850000000001
 					type_UIEditor
 					{
 						controlEnabled = True
-						options = Fuselage, Structural
+						options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
 					}
 					utilization_UIEditor
 					{
@@ -60146,12 +60151,12 @@ GAME
 			{
 				name = proceduralTankRealFuels
 				cid = 4293531956
-				uid = 2401634394
-				mid = 1563913889
+				uid = 4081020611
+				mid = 1934375665
 				launchID = 1
 				parent = 12
 				position = 1.95515787601471,0.476279944181442,0.207966774702072
-				rotation = 0,0.7071068,4.214685E-08,0.7071071
+				rotation = 0,0.7071068,8.429371E-08,0.7071071
 				mirror = 1,1,1
 				symMethod = Mirror
 				istg = 0
@@ -60165,9 +60170,9 @@ GAME
 				attN = top, 14
 				attN = bottom, 12
 				mass = 0.02132195
-				temp = 297.999096651151
-				tempExt = 294.514530921401
-				tempExtUnexp = 294.52538314953
+				temp = 299.212816524084
+				tempExt = 297.171171702999
+				tempExtUnexp = 297.180314793905
 				expt = 0.5
 				state = 0
 				connected = True
@@ -60189,7 +60194,7 @@ GAME
 					name = ProceduralPart
 					isEnabled = True
 					tempColliderCenter = (0, 0, 0)
-					tempColliderSize = (2.339715, 0.6979356, -0.2693255)
+					tempColliderSize = (2.339715, 0.6979356, -0.2693257)
 					textureSet = KHPlanes1
 					shapeName = Smooth Cone
 					moduleCost = 0.005232075
@@ -60434,14 +60439,14 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 297.999096651151
+					partPrevTemperature = 299.212816524084
 					mass = 0.02132194
 					stagingEnabled = True
 					volume = 470.17599999999999
 					type_UIEditor
 					{
 						controlEnabled = True
-						options = Fuselage, Structural
+						options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
 					}
 					utilization_UIEditor
 					{
@@ -61358,12 +61363,12 @@ GAME
 			{
 				name = miniIntake
 				cid = 4293531842
-				uid = 4157206179
-				mid = 1563913889
+				uid = 1329443055
+				mid = 1934375665
 				launchID = 1
 				parent = 13
 				position = 1.95515286922455,0.910830140113831,0.207966729998589
-				rotation = 0,-1.490116E-07,-2.771502E-10,1
+				rotation = 0,-2.384186E-07,4.012381E-08,1
 				mirror = 1,1,1
 				symMethod = Mirror
 				istg = 0
@@ -61376,9 +61381,9 @@ GAME
 				srfN = , -1
 				attN = bottom01, 13
 				mass = 0.005
-				temp = 281.979458897207
-				tempExt = 289.392349007081
-				tempExtUnexp = 289.392219724945
+				temp = 289.574692293399
+				tempExt = 294.116868792415
+				tempExtUnexp = 294.117863619218
 				expt = 0.5
 				state = 0
 				connected = True
@@ -61611,11 +61616,11 @@ GAME
 			{
 				name = proceduralTankRealFuels
 				cid = 4293492074
-				uid = 3914148581
-				mid = 1563913889
+				uid = 1325813517
+				mid = 1934375665
 				launchID = 1
 				parent = 12
-				position = 1.95515787601471,-0.723731815814972,0.207966923713684
+				position = 1.95515787601471,-0.723731994628906,0.207966923713684
 				rotation = 0,-0.7071068,4.214685E-08,0.7071071
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -61630,9 +61635,9 @@ GAME
 				attN = top, 12
 				attN = bottom, 16
 				mass = 0.03131366
-				temp = 299.942801758503
-				tempExt = 292.665381207709
-				tempExtUnexp = 292.670901120891
+				temp = 299.964640281902
+				tempExt = 296.063246672826
+				tempExtUnexp = 296.071373724052
 				expt = 0.5
 				state = 0
 				connected = True
@@ -61899,14 +61904,14 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 299.942801758503
+					partPrevTemperature = 299.964640281902
 					mass = 0.03131363
 					stagingEnabled = True
 					volume = 546.02030000000002
 					type_UIEditor
 					{
 						controlEnabled = True
-						options = Fuselage, Structural
+						options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
 					}
 					utilization_UIEditor
 					{
@@ -62009,7 +62014,7 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 546.02030000000002
+						amount = 327.61219301813799
 						maxAmount = 546.02030000000002
 					}
 					TANK
@@ -62821,7 +62826,7 @@ GAME
 				RESOURCE
 				{
 					name = Kerosene
-					amount = 546.0203
+					amount = 327.612193018138
 					maxAmount = 546.0203
 					flowState = True
 					isTweakable = True
@@ -62834,12 +62839,12 @@ GAME
 			{
 				name = RO-DerwentV
 				cid = 4293491984
-				uid = 361435774
-				mid = 1563913889
+				uid = 3899228900
+				mid = 1934375665
 				launchID = 1
 				parent = 15
-				position = 1.95515894889832,-1.27373766899109,0.207966983318329
-				rotation = 8.429371E-08,2.68221E-07,-9.291839E-08,1
+				position = 1.95515894889832,-1.27373814582825,0.207966983318329
+				rotation = 0,2.68221E-07,-1.017705E-07,1
 				mirror = 1,1,1
 				symMethod = Mirror
 				istg = 0
@@ -62852,9 +62857,9 @@ GAME
 				srfN = srfAttach, -1
 				attN = top, 15
 				mass = 0.57
-				temp = 275.974529746673
-				tempExt = 280.795343824548
-				tempExtUnexp = 280.799655489295
+				temp = 286.690981832348
+				tempExt = 289.466112292944
+				tempExtUnexp = 289.471969157295
 				expt = 0.5
 				state = 0
 				connected = True
@@ -62933,7 +62938,7 @@ GAME
 					{
 						OnAction
 						{
-							actionGroup = None
+							actionGroup = Custom01
 						}
 						ShutdownAction
 						{
@@ -63259,11 +63264,11 @@ GAME
 			{
 				name = SmallGearBay
 				cid = 4293414322
-				uid = 2719409693
-				mid = 1563913889
+				uid = 1199859085
+				mid = 1934375665
 				launchID = 1
 				parent = 12
-				position = 1.95515286922455,-0.592385649681091,0.313347905874252
+				position = 1.95515286922455,-0.592385709285736,0.313347905874252
 				rotation = -0.7015279,4.552648E-08,2.980233E-08,0.7126424
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -63276,9 +63281,9 @@ GAME
 				sym = 11
 				srfN = srfAttach, 12
 				mass = 0.04
-				temp = 276.623637947311
-				tempExt = 294.77917728946
-				tempExtUnexp = 294.789233575436
+				temp = 286.999143594882
+				tempExt = 297.14232707136
+				tempExtUnexp = 297.149014414714
 				expt = 0.5
 				state = 0
 				connected = True
@@ -63353,7 +63358,7 @@ GAME
 					isEnabled = True
 					springTweakable = 1
 					damperTweakable = 1
-					suspensionPos = (8.278423E-09, 0.06210263, 0.863714)
+					suspensionPos = (0, 0.0621026, 0.8659076)
 					autoBoost = 0.7099996
 					stagingEnabled = True
 					springTweakable_UIEditor
@@ -63912,11 +63917,11 @@ GAME
 			{
 				name = airplaneTailB
 				cid = 4293860670
-				uid = 2095536187
-				mid = 1563913889
+				uid = 730586576
+				mid = 1934375665
 				launchID = 1
 				parent = 0
-				position = 0,-1.52681016921997,1.82009927129911E-07
+				position = 0,-1.52681159973145,1.82010097660168E-07
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -63929,9 +63934,9 @@ GAME
 				srfN = srfAttach, -1
 				attN = top, 0
 				mass = 0.1
-				temp = 275.737976357484
-				tempExt = 276.823123936097
-				tempExtUnexp = 276.819122780743
+				temp = 286.544552115507
+				tempExt = 286.949983984233
+				tempExtUnexp = 286.947119986763
 				expt = 0.5
 				state = 0
 				connected = True
@@ -64124,11 +64129,11 @@ GAME
 			{
 				name = RTShortAntenna1
 				cid = 4293953974
-				uid = 1333823420
-				mid = 1563913889
+				uid = 3953466084
+				mid = 1934375665
 				launchID = 1
 				parent = 18
-				position = -5.08589437231421E-08,-4.38658142089844,-0.777006685733795
+				position = -5.08589437231421E-08,-4.38658428192139,-0.777006685733795
 				rotation = 0.1390556,-0.6932992,-0.1390557,0.6932993
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -64140,9 +64145,9 @@ GAME
 				attm = 1
 				srfN = srfAttach, 18
 				mass = 0.005
-				temp = 275.837966927227
-				tempExt = 276.30320754616
-				tempExtUnexp = 276.300056566838
+				temp = 286.553604238874
+				tempExt = 286.702624900036
+				tempExtUnexp = 286.700649074061
 				expt = 0.5
 				state = 0
 				connected = True
@@ -64516,11 +64521,11 @@ GAME
 			{
 				name = RO-B9ProcWing-Early
 				cid = 4293500476
-				uid = 645177274
-				mid = 1563913889
+				uid = 4096845149
+				mid = 1934375665
 				launchID = 1
 				parent = 0
-				position = -0.620219707489014,-0.340186268091202,0.0353436917066574
+				position = -0.620219707489014,-0.340186446905136,0.0353436917066574
 				rotation = 0.0003555983,-0.9990683,0.008393378,-0.042338
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -64533,9 +64538,9 @@ GAME
 				sym = 26
 				srfN = srfAttach, 0
 				mass = 0.1035718
-				temp = 299.696367768068
-				tempExt = 295.457809254275
-				tempExtUnexp = 295.457534669301
+				temp = 299.0240354285
+				tempExt = 297.014354800156
+				tempExtUnexp = 297.024435423697
 				expt = 0.1
 				state = 0
 				connected = True
@@ -64737,7 +64742,7 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 299.696367768068
+					partPrevTemperature = 299.0240354285
 					mass = 1E-05
 					stagingEnabled = True
 					volume = 336.9135
@@ -64847,8 +64852,8 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 288.78853275039501
-						maxAmount = 288.78853275039501
+						amount = 0
+						maxAmount = 288.78853916901897
 					}
 					TANK
 					{
@@ -65587,8 +65592,8 @@ GAME
 				RESOURCE
 				{
 					name = Kerosene
-					amount = 288.788532750395
-					maxAmount = 288.788532750395
+					amount = 0
+					maxAmount = 288.788539169019
 					flowState = True
 					isTweakable = True
 					hideFlow = False
@@ -65600,11 +65605,11 @@ GAME
 			{
 				name = RO-B9ProcCS-Early
 				cid = 4293497468
-				uid = 2696830801
-				mid = 1563913889
+				uid = 1409005223
+				mid = 1934375665
 				launchID = 1
 				parent = 20
-				position = -1.12389636039734,-0.585144877433777,-0.0033129951916635
+				position = -1.12389731407166,-0.585144996643066,-0.0033129951916635
 				rotation = -0.008153225,-0.042364,-0.005316321,0.9990551
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -65617,9 +65622,9 @@ GAME
 				sym = 27
 				srfN = srfAttach, 20
 				mass = 0.006856496
-				temp = 290.409249255422
-				tempExt = 292.844332238476
-				tempExtUnexp = 292.832631949198
+				temp = 294.03382141626
+				tempExt = 295.606102322351
+				tempExtUnexp = 295.605969933256
 				expt = 0.1
 				state = 0
 				connected = True
@@ -65998,11 +66003,11 @@ GAME
 			{
 				name = RO-B9ProcCS-Early
 				cid = 4293495524
-				uid = 485670455
-				mid = 1563913889
+				uid = 80084448
+				mid = 1934375665
 				launchID = 1
 				parent = 20
-				position = -2.00191426277161,-0.576402246952057,-0.0780228972434998
+				position = -2.00191521644592,-0.576402544975281,-0.0780228972434998
 				rotation = -0.008153225,-0.042364,-0.005316321,0.9990551
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -66015,9 +66020,9 @@ GAME
 				sym = 28
 				srfN = srfAttach, 20
 				mass = 0.004823466
-				temp = 289.468455170415
-				tempExt = 292.35105756069
-				tempExtUnexp = 292.342090053785
+				temp = 293.558386373002
+				tempExt = 295.341795707504
+				tempExtUnexp = 295.343637523272
 				expt = 0.1
 				state = 0
 				connected = True
@@ -66396,11 +66401,11 @@ GAME
 			{
 				name = RO-B9ProcCS-Early
 				cid = 4293483906
-				uid = 917409680
-				mid = 1563913889
+				uid = 1466829453
+				mid = 1934375665
 				launchID = 1
 				parent = 20
-				position = -3.30449032783508,-0.563405692577362,-0.188854172825813
+				position = -3.30449151992798,-0.563405930995941,-0.188854172825813
 				rotation = -0.008153225,-0.042364,-0.005316321,0.9990551
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -66413,9 +66418,9 @@ GAME
 				sym = 29
 				srfN = srfAttach, 20
 				mass = 0.0103936
-				temp = 289.400436336846
-				tempExt = 292.270971340363
-				tempExtUnexp = 292.257246474182
+				temp = 293.456954295785
+				tempExt = 295.278478986534
+				tempExtUnexp = 295.276879597955
 				expt = 0.1
 				state = 0
 				connected = True
@@ -66794,11 +66799,11 @@ GAME
 			{
 				name = RO-B9ProcCS-Early
 				cid = 4293477084
-				uid = 3795626373
-				mid = 1563913889
+				uid = 3841522195
+				mid = 1934375665
 				launchID = 1
 				parent = 20
-				position = -5.15787649154663,-0.544928431510925,-0.346553295850754
+				position = -5.15787887573242,-0.544928789138794,-0.346553295850754
 				rotation = -0.008153225,-0.042364,-0.005316321,0.9990551
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -66811,9 +66816,9 @@ GAME
 				sym = 30
 				srfN = srfAttach, 20
 				mass = 0.007761599
-				temp = 291.312626464054
-				tempExt = 293.33057367637
-				tempExtUnexp = 293.318735637762
+				temp = 294.515939894529
+				tempExt = 295.856379873195
+				tempExtUnexp = 295.855946579042
 				expt = 0.1
 				state = 0
 				connected = True
@@ -67192,12 +67197,12 @@ GAME
 			{
 				name = RO-B9ProcWing-Early
 				cid = 4293447756
-				uid = 1152693
-				mid = 1563913889
+				uid = 1507849032
+				mid = 1934375665
 				launchID = 1
 				parent = 20
-				position = -6.10045337677002,-0.380585521459579,-0.430024147033691
-				rotation = -0.0003555693,0.9990683,-0.008393462,0.04233791
+				position = -6.10045433044434,-0.380585938692093,-0.430024147033691
+				rotation = -0.0003555746,0.9990683,-0.008393462,0.04233789
 				mirror = 1,1,1
 				symMethod = Mirror
 				istg = 0
@@ -67209,9 +67214,9 @@ GAME
 				sym = 31
 				srfN = srfAttach, 20
 				mass = 0.001518432
-				temp = 298.929491468445
-				tempExt = 296.868524351414
-				tempExtUnexp = 296.875918264337
+				temp = 299.139474828528
+				tempExt = 298.243295445484
+				tempExtUnexp = 298.259530489071
 				expt = 0.1
 				state = 0
 				connected = True
@@ -67413,7 +67418,7 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 298.929491468445
+					partPrevTemperature = 299.139474828528
 					mass = 1E-05
 					stagingEnabled = True
 					volume = 4.8131000000000004
@@ -68265,11 +68270,11 @@ GAME
 			{
 				name = RO-B9ProcWing-Early
 				cid = 4293498936
-				uid = 2584983543
-				mid = 1563913889
+				uid = 3778258394
+				mid = 1934375665
 				launchID = 1
 				parent = 0
-				position = 0.620219707489014,-0.340186268091202,0.0353436917066574
+				position = 0.620219707489014,-0.340186446905136,0.0353436917066574
 				rotation = 0.008393041,-0.04233803,0.0003555956,-0.9990683
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -68282,9 +68287,9 @@ GAME
 				sym = 20
 				srfN = srfAttach, 0
 				mass = 0.1035718
-				temp = 299.700737282592
-				tempExt = 295.495970429286
-				tempExtUnexp = 295.495573060554
+				temp = 299.045568144213
+				tempExt = 297.095911713264
+				tempExtUnexp = 297.10545114237
 				expt = 0.1
 				state = 0
 				connected = True
@@ -68486,7 +68491,7 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 299.700737282592
+					partPrevTemperature = 299.045568144213
 					mass = 1E-05
 					stagingEnabled = True
 					volume = 336.9135
@@ -68596,8 +68601,8 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 288.78853275039501
-						maxAmount = 288.78853275039501
+						amount = 0
+						maxAmount = 288.78853916901897
 					}
 					TANK
 					{
@@ -69336,8 +69341,8 @@ GAME
 				RESOURCE
 				{
 					name = Kerosene
-					amount = 288.788532750395
-					maxAmount = 288.788532750395
+					amount = 0
+					maxAmount = 288.788539169019
 					flowState = True
 					isTweakable = True
 					hideFlow = False
@@ -69349,12 +69354,12 @@ GAME
 			{
 				name = RO-B9ProcCS-Early
 				cid = 4293495968
-				uid = 1925796846
-				mid = 1563913889
+				uid = 2964699100
+				mid = 1934375665
 				launchID = 1
 				parent = 26
-				position = 1.12389588356018,-0.585144996643066,-0.0033129951916635
-				rotation = -0.005316328,0.9990551,-0.008152888,-0.04236402
+				position = 1.12389588356018,-0.585145235061646,-0.0033129951916635
+				rotation = -0.005316326,0.9990551,-0.008153057,-0.042364
 				mirror = 1,1,1
 				symMethod = Mirror
 				istg = 0
@@ -69366,9 +69371,9 @@ GAME
 				sym = 21
 				srfN = srfAttach, 26
 				mass = 0.006856496
-				temp = 290.413412726865
-				tempExt = 292.860754303588
-				tempExtUnexp = 292.848933643418
+				temp = 294.041622901104
+				tempExt = 295.641221885501
+				tempExtUnexp = 295.640614513562
 				expt = 0.1
 				state = 0
 				connected = True
@@ -69747,12 +69752,12 @@ GAME
 			{
 				name = RO-B9ProcCS-Early
 				cid = 4293493042
-				uid = 3705337413
-				mid = 1563913889
+				uid = 4276618665
+				mid = 1934375665
 				launchID = 1
 				parent = 26
-				position = 2.00191402435303,-0.576402544975281,-0.0780228972434998
-				rotation = -0.005316328,0.9990551,-0.008152888,-0.04236402
+				position = 2.00191402435303,-0.57640278339386,-0.0780228972434998
+				rotation = -0.005316326,0.9990551,-0.008153057,-0.042364
 				mirror = 1,1,1
 				symMethod = Mirror
 				istg = 0
@@ -69764,9 +69769,9 @@ GAME
 				sym = 22
 				srfN = srfAttach, 26
 				mass = 0.004823466
-				temp = 289.471612772282
-				tempExt = 292.369216430941
-				tempExtUnexp = 292.360159303977
+				temp = 293.56329885666
+				tempExt = 295.377421368039
+				tempExtUnexp = 295.378858135413
 				expt = 0.1
 				state = 0
 				connected = True
@@ -70145,12 +70150,12 @@ GAME
 			{
 				name = RO-B9ProcCS-Early
 				cid = 4293483060
-				uid = 3363974127
-				mid = 1563913889
+				uid = 802548054
+				mid = 1934375665
 				launchID = 1
 				parent = 26
-				position = 3.3044900894165,-0.563406050205231,-0.188854172825813
-				rotation = -0.005316328,0.9990551,-0.008152888,-0.04236402
+				position = 3.3044900894165,-0.56340628862381,-0.188854172825813
+				rotation = -0.005316326,0.9990551,-0.008153057,-0.042364
 				mirror = 1,1,1
 				symMethod = Mirror
 				istg = 0
@@ -70162,9 +70167,9 @@ GAME
 				sym = 23
 				srfN = srfAttach, 26
 				mass = 0.0103936
-				temp = 289.401782902564
-				tempExt = 292.282503613627
-				tempExtUnexp = 292.268651360676
+				temp = 293.463040412522
+				tempExt = 295.309657149069
+				tempExtUnexp = 295.307573576948
 				expt = 0.1
 				state = 0
 				connected = True
@@ -70543,12 +70548,12 @@ GAME
 			{
 				name = RO-B9ProcCS-Early
 				cid = 4293474748
-				uid = 584508328
-				mid = 1563913889
+				uid = 949996880
+				mid = 1934375665
 				launchID = 1
 				parent = 26
-				position = 5.15786981582642,-0.544929027557373,-0.346553295850754
-				rotation = -0.005316328,0.9990551,-0.008152888,-0.04236402
+				position = 5.15786981582642,-0.544929265975952,-0.346553295850754
+				rotation = -0.005316326,0.9990551,-0.008153057,-0.042364
 				mirror = 1,1,1
 				symMethod = Mirror
 				istg = 0
@@ -70560,9 +70565,9 @@ GAME
 				sym = 24
 				srfN = srfAttach, 26
 				mass = 0.007761599
-				temp = 291.287937444948
-				tempExt = 293.30696270875
-				tempExtUnexp = 293.295028134432
+				temp = 294.52227117042
+				tempExt = 295.887478802286
+				tempExtUnexp = 295.886543463627
 				expt = 0.1
 				state = 0
 				connected = True
@@ -70941,12 +70946,12 @@ GAME
 			{
 				name = RO-B9ProcWing-Early
 				cid = 4293443734
-				uid = 686829894
-				mid = 1563913889
+				uid = 1646142245
+				mid = 1934375665
 				launchID = 1
 				parent = 26
-				position = 6.10044765472412,-0.380586117506027,-0.430023193359375
-				rotation = 0.008393293,-0.04233793,0.0003555693,-0.9990683
+				position = 6.1004467010498,-0.380586534738541,-0.430023193359375
+				rotation = 0.008393293,-0.04233792,0.0003555614,-0.9990683
 				mirror = 1,1,1
 				symMethod = Mirror
 				istg = 0
@@ -70958,9 +70963,9 @@ GAME
 				sym = 25
 				srfN = srfAttach, 26
 				mass = 0.001518432
-				temp = 298.980827190709
-				tempExt = 297.029879430873
-				tempExtUnexp = 297.037001696696
+				temp = 299.212810509867
+				tempExt = 298.483847603085
+				tempExtUnexp = 298.498882144364
 				expt = 0.1
 				state = 0
 				connected = True
@@ -71162,7 +71167,7 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 298.980827190709
+					partPrevTemperature = 299.212810509867
 					mass = 1E-05
 					stagingEnabled = True
 					volume = 4.8131000000000004
@@ -72014,11 +72019,11 @@ GAME
 			{
 				name = SmallGearBay
 				cid = 4293408886
-				uid = 3545621371
-				mid = 1563913889
+				uid = 1430729995
+				mid = 1934375665
 				launchID = 1
 				parent = 0
-				position = 0,2.66525959968567,0.251486480236053
+				position = 0,2.66526055335999,0.251486480236053
 				rotation = 0,0.7071069,-0.7071069,0
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -72030,9 +72035,9 @@ GAME
 				attm = 1
 				srfN = srfAttach, 0
 				mass = 0.04
-				temp = 275.693423118848
-				tempExt = 281.819446980863
-				tempExtUnexp = 281.811826884276
+				temp = 286.552940708732
+				tempExt = 289.603463512882
+				tempExtUnexp = 289.604390824875
 				expt = 0.5
 				state = 0
 				connected = True
@@ -72107,8 +72112,8 @@ GAME
 					isEnabled = True
 					springTweakable = 1
 					damperTweakable = 1
-					suspensionPos = (4.206474E-07, 0.06210271, 0.8487174)
-					autoBoost = 0.28
+					suspensionPos = (3.720116E-07, 0.06210259, 0.8505194)
+					autoBoost = 0.3
 					stagingEnabled = True
 					springTweakable_UIEditor
 					{
@@ -72666,11 +72671,11 @@ GAME
 			{
 				name = proceduralTankRealFuels
 				cid = 4293930124
-				uid = 2222420817
-				mid = 1563913889
+				uid = 2990142170
+				mid = 1934375665
 				launchID = 1
 				parent = 0
-				position = -8.60609361552633E-11,2.73466658592224,-3.25997632444341E-07
+				position = -8.60609361552633E-11,2.73466753959656,-3.25997746131179E-07
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -72684,9 +72689,9 @@ GAME
 				attN = top, -1
 				attN = bottom, 0
 				mass = 0.0554682
-				temp = 298.674174760383
-				tempExt = 295.091241040709
-				tempExtUnexp = 295.103207667683
+				temp = 299.505901457031
+				tempExt = 297.643994515814
+				tempExtUnexp = 297.653146035975
 				expt = 0.5
 				state = 0
 				connected = True
@@ -72708,7 +72713,7 @@ GAME
 					name = ProceduralPart
 					isEnabled = True
 					tempColliderCenter = (0, 0, 0)
-					tempColliderSize = (-0.07424439, 1.550856, -3.417134)
+					tempColliderSize = (-0.07424438, 1.550855, -3.417134)
 					textureSet = SoyuzGreen
 					shapeName = Smooth Cone
 					moduleCost = 0.01361104
@@ -72953,14 +72958,14 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 298.674174760383
+					partPrevTemperature = 299.505901457031
 					mass = 0.05546819
 					stagingEnabled = True
 					volume = 1223.1448
 					type_UIEditor
 					{
 						controlEnabled = True
-						options = Fuselage, Structural
+						options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
 					}
 					utilization_UIEditor
 					{
@@ -73888,11 +73893,11 @@ GAME
 			{
 				name = proceduralTankRealFuels
 				cid = 4292912500
-				uid = 3379549667
-				mid = 1563913889
+				uid = 2946979586
+				mid = 1934375665
 				launchID = 1
 				parent = 0
-				position = -4.90856564283604E-08,-1.20962464809418,-0.441723257303238
+				position = -4.90856564283604E-08,-1.20962536334991,-0.441723257303238
 				rotation = 0,0,1,0
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -73906,9 +73911,9 @@ GAME
 				attN = top, 35
 				attN = bottom, -1
 				mass = 0.01362425
-				temp = 297.514249999253
-				tempExt = 294.960416018957
-				tempExtUnexp = 294.971438038452
+				temp = 298.975913770182
+				tempExt = 297.372729144733
+				tempExtUnexp = 297.383573095218
 				expt = 0.5
 				state = 0
 				connected = True
@@ -74175,14 +74180,14 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 297.514249999253
+					partPrevTemperature = 298.975913770182
 					mass = 0.01362424
 					stagingEnabled = True
 					volume = 300.43189999999998
 					type_UIEditor
 					{
 						controlEnabled = True
-						options = Fuselage, Structural
+						options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
 					}
 					utilization_UIEditor
 					{
@@ -75099,11 +75104,11 @@ GAME
 			{
 				name = proceduralTankRealFuels
 				cid = 4292896754
-				uid = 3199866334
-				mid = 1563913889
+				uid = 1423139056
+				mid = 1934375665
 				launchID = 1
 				parent = 34
-				position = -3.07652499031974E-07,-2.85963463783264,-0.441723078489304
+				position = -3.07652783249068E-07,-2.85963702201843,-0.441722124814987
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -75117,9 +75122,9 @@ GAME
 				attN = top, 34
 				attN = bottom, 36
 				mass = 0.02706826
-				temp = 298.938024506522
-				tempExt = 297.437765415937
-				tempExtUnexp = 297.448097015797
+				temp = 299.595735966545
+				tempExt = 298.753084538754
+				tempExtUnexp = 298.760665513192
 				expt = 0.5
 				state = 0
 				connected = True
@@ -75386,14 +75391,14 @@ GAME
 					isEnabled = True
 					type = Structural
 					utilization = 86
-					partPrevTemperature = 298.938024506522
+					partPrevTemperature = 299.595735966545
 					mass = 0.02706824
 					stagingEnabled = True
 					volume = 596.8895
 					type_UIEditor
 					{
 						controlEnabled = True
-						options = Fuselage, Structural
+						options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
 					}
 					utilization_UIEditor
 					{
@@ -76310,11 +76315,11 @@ GAME
 			{
 				name = SXTProbeGooo
 				cid = 4293950020
-				uid = 3538907365
-				mid = 1563913889
+				uid = 4287424302
+				mid = 1934375665
 				launchID = 1
 				parent = 35
-				position = -3.07652555875393E-07,-1.35610485076904,-0.58206307888031
+				position = -3.13787268169108E-07,-1.35610723495483,-0.582062125205994
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Mirror
@@ -76328,9 +76333,9 @@ GAME
 				attN = top, 35
 				attN = bottom, -1
 				mass = 0.015
-				temp = 280.353734366276
-				tempExt = 288.463341440517
-				tempExtUnexp = 288.461648933693
+				temp = 288.80646512903
+				tempExt = 293.552113947436
+				tempExtUnexp = 293.552302245732
 				expt = 0.5
 				state = 0
 				connected = True
