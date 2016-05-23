@@ -1,8 +1,8 @@
-ship = SR3
+ship = SR3U
 version = 1.1.2
 description = 
 type = VAB
-size = 7.309403,19.24666,6.331063
+size = 7.309402,19.24666,6.331063
 PART
 {
 	part = RP0probeSounding0-3m_4286992368
@@ -1839,7 +1839,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.3, 1, 0.3)
+		tempColliderSize = (0.2999291, 1.006523, 0.3)
 		textureSet = GreySide
 		shapeName = Smooth Cone
 		moduleCost = 0.03724218
@@ -2211,7 +2211,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.3, 2.1, 0.3)
+		tempColliderSize = (0.299929, 2.106524, 0.3)
 		textureSet = SaturnStringers
 		shapeName = Cylinder
 		moduleCost = 0.001420573
@@ -4809,7 +4809,7 @@ PART
 	pos = -0.1006967,12.69764,-0.1526592
 	attPos = -2.607703E-08,-0.1300122,-2.980232E-08
 	attPos0 = 1.862645E-08,-0.8344615,-0.1495672
-	rot = 0.00728084,0.7070641,-0.008251318,0.707064
+	rot = 0.00728084,0.7070641,-0.008251316,0.707064
 	attRot = 0.005545808,5.468895E-08,8.294694E-10,0.9999847
 	attRot0 = -0.00343624,-0.7070931,0.004406715,-0.7070985
 	mir = 1,1,1
@@ -5897,7 +5897,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293939814
 	partName = Part
-	pos = -0.230218,12.69905,0.07169172
+	pos = -0.230218,12.69905,0.07169174
 	attPos = -2.980232E-08,-0.1300125,1.490116E-08
 	attPos0 = -0.129529,-0.8344613,0.07478362
 	rot = 0.003153746,0.9659088,-0.003771922,-0.2588359
@@ -6988,10 +6988,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293939692
 	partName = Part
-	pos = 0.0288247,12.69623,0.07169162
+	pos = 0.02882474,12.69623,0.07169155
 	attPos = 2.980232E-08,-0.1300121,-2.235174E-08
 	attPos0 = 0.129529,-0.8344616,0.07478363
-	rot = -0.004127094,0.2588448,0.004479395,-0.9658996
+	rot = -0.004127095,0.2588449,0.004479396,-0.9658996
 	attRot = 0.005545808,5.468895E-08,8.294694E-10,0.9999847
 	attRot0 = 0.0001776125,-0.258819,-0.0006628596,0.9659256
 	mir = 1,1,1
@@ -8526,7 +8526,7 @@ PART
 		topRad = 0.1072
 		inlineHeight = 1.716
 		sideThickness = 0.0428
-		meshPos = (0.535, 0.4015598, 4.703179E-08)
+		meshPos = (0.535, 0.401561, 4.703179E-08)
 		meshRot = (0, 1, 0, -4.371139E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -8904,7 +8904,7 @@ PART
 		topRad = 0.1072
 		inlineHeight = 1.716
 		sideThickness = 0.0428
-		meshPos = (0.5350001, 0.4015598, 4.677119E-08)
+		meshPos = (0.535, 0.4015555, 4.677118E-08)
 		meshRot = (0, -1, 0, -4.371139E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -9255,8 +9255,8 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 0
-	modCost = 43.66293
-	modMass = -0.436389
+	modCost = 43.66292
+	modMass = -0.4363891
 	modSize = (0.0, 0.0, 0.0)
 	link = Bumper.Engine_4288943230
 	attN = top,KzInterstageAdapter2_4288943594
@@ -9275,7 +9275,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.643, 6.700001, 1.643)
+		tempColliderSize = (1.642611, 6.73573, 1.643)
 		textureSet = SaturnStringers2
 		shapeName = Smooth Cone
 		moduleCost = 0.1068799
@@ -9521,9 +9521,9 @@ PART
 		type = Structural
 		utilization = 85
 		partPrevTemperature = -1
-		mass = 0.563611
+		mass = 0.5636109
 		stagingEnabled = True
-		volume = 9492.9915000000001
+		volume = 9492.9891000000007
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -9640,8 +9640,8 @@ PART
 			temperature = 90.15
 			fillable = True
 			techRequired = 
-			amount = 4623.7373437565902
-			maxAmount = 4623.7373437565902
+			amount = 4623.7361747921368
+			maxAmount = 4623.7361747921368
 		}
 		TANK
 		{
@@ -9738,8 +9738,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 5.8724546587110389
-			maxAmount = 5.8724546587110389
+			amount = 5.8724531740482568
+			maxAmount = 5.8724531740482568
 		}
 		TANK
 		{
@@ -9808,8 +9808,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 4863.3817015846989
-			maxAmount = 4863.3817015846989
+			amount = 4863.3804720338167
+			maxAmount = 4863.3804720338167
 		}
 		TANK
 		{
@@ -10466,8 +10466,8 @@ PART
 	RESOURCE
 	{
 		name = Ethanol75
-		amount = 4863.3817015847
-		maxAmount = 4863.3817015847
+		amount = 4863.38047203382
+		maxAmount = 4863.38047203382
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -10477,8 +10477,8 @@ PART
 	RESOURCE
 	{
 		name = LqdOxygen
-		amount = 4623.73734375659
-		maxAmount = 4623.73734375659
+		amount = 4623.73617479214
+		maxAmount = 4623.73617479214
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -10488,8 +10488,8 @@ PART
 	RESOURCE
 	{
 		name = HTP
-		amount = 5.87245465871104
-		maxAmount = 5.87245465871104
+		amount = 5.87245317404826
+		maxAmount = 5.87245317404826
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -10501,7 +10501,7 @@ PART
 {
 	part = Bumper.Engine_4288943230
 	partName = Part
-	pos = -0.197512,3.795083,-0.003091961
+	pos = -0.197512,3.795087,-0.003091961
 	attPos = 0,0,0
 	attPos0 = -2.74013E-10,-5.040628,-2.965051E-15
 	rot = 0,0,0.00543726,-0.9999852
@@ -11826,7 +11826,7 @@ PART
 	pos = -0.1976346,3.783801,0.6853957
 	attPos = 0,0,0
 	attPos0 = 1.203789E-07,-0.01128101,0.6884872
-	rot = 0.02348453,-0.7068911,-0.0262048,0.7064466
+	rot = 0.02348453,-0.7068912,-0.0262048,0.7064465
 	attRot = 0.003512574,-2.657102E-08,-2.133537E-10,0.9999939
 	attRot0 = -0.02484565,0.70667,0.02484566,-0.7066703
 	mir = 1,1,1
@@ -12152,7 +12152,7 @@ PART
 {
 	part = Bumper.Fin_4288942902
 	partName = Part
-	pos = -0.8860815,3.791288,-0.003092002
+	pos = -0.8860815,3.79129,-0.003092002
 	attPos = 0,0,0
 	attPos0 = 0.6884871,-0.01128101,-1.012265E-07
 	rot = 0.02970247,-0.9995526,0.003511023,-0.000104275
@@ -12481,7 +12481,7 @@ PART
 {
 	part = launchClamp1_4287889418
 	partName = Part
-	pos = -1.244798,3.053898,-0.997062
+	pos = -1.244798,3.0539,-0.997062
 	attPos = 0,0,0
 	attPos0 = -1.039164,-0.7525291,-0.99397
 	rot = -0.03038247,0.382618,0.008425903,0.9233686
@@ -12512,10 +12512,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.379421
-		height = 3.476823
+		scaleFactor = 1.379422
+		height = 3.476825
 		stagingEnabled = True
-		towerRot = 0.0084259,-0.9233685,0.03038247,-0.382618
+		towerRot = 0.008425901,-0.9233686,0.03038247,-0.382618
 		EVENTS
 		{
 			Release
