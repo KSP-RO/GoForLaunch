@@ -110,7 +110,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 2306960.55370532
+		update = 2306950.55370531
 		version = 1.1.2
 		WEIGHTS
 		{
@@ -5102,7 +5102,7 @@ GAME
 				{
 					shipName = SR1
 					shipID = 35fa6a2b-8b46-48ee-8ebf-8bfa64abbaff
-					progress = 4157.39000001247
+					progress = 4155.09000001033
 					buildTime = 572559.80615592
 					launchSite = LaunchPad
 					flag = GoForLaunch/Flags/GoForLaunch
@@ -77625,7 +77625,7 @@ GAME
 				techName = Supersonic Flight
 				techID = subsonicFlight
 				scienceCost = 1
-				progress = 0.0691096366058
+				progress = 0.0691089072805837
 				ProtoNode
 				{
 					id = subsonicFlight
@@ -77646,7 +77646,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.2
-		UT = 2306965.07370533
+		UT = 2306960.47370532
 		activeVessel = 0
 		mapViewFiltering = -1026
 	}
