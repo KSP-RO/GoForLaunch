@@ -9,7 +9,7 @@
               {"name": "IRFNA-III", "volume": 149.8},
               {"name": "PSPC", "volume": 10, "mainEngine": false}],
     "isp": 218.36,
-    "dry": 0.096,
+    "dry": 0.091,
     "thrust": 15.256},
 {
     "props": [{"name": "Aniline", "volume": 39.7},
