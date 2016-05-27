@@ -2,7 +2,7 @@ ship = BlueSky 1B
 version = 1.1.2
 description = Sounding rocket by the Blue Sky design bureau.  Hot staged.  Solid booster improves apogee to beyond 400km.¨AGs: 1 to collect science.  RSO Abort.
 type = VAB
-size = 6.926182,10.40069,7.481695
+size = 6.926182,10.40069,7.481696
 PART
 {
 	part = RP0probeSounding0-3m_4294159308
@@ -251,43 +251,6 @@ PART
 	}
 	MODULE
 	{
-		name = FlightEngineerModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			SimulationDump
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Verbose Simulation Log
-				guiName = Verbose Simulation Log
-				category = Verbose Simulation Log
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleSPU
 		isEnabled = True
 		IsRTPowered = True
@@ -530,30 +493,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = TelemachusDataLink
 		isEnabled = True
 		stagingEnabled = True
@@ -658,6 +597,30 @@ PART
 				unfocusedRange = 4
 				externalToEVAOnly = False
 			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
 			ToggleStaging
 			{
 				active = True
@@ -980,30 +943,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -1036,6 +975,30 @@ PART
 				unfocusedRange = 4
 				externalToEVAOnly = False
 			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
 			ToggleStaging
 			{
 				active = True
@@ -1367,30 +1330,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -1423,6 +1362,30 @@ PART
 				unfocusedRange = 4
 				externalToEVAOnly = False
 			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
 			ToggleStaging
 			{
 				active = True
@@ -1734,30 +1697,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -1790,6 +1729,30 @@ PART
 				unfocusedRange = 4
 				externalToEVAOnly = False
 			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
 			ToggleStaging
 			{
 				active = True
@@ -2098,7 +2061,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -3229,30 +3192,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -3285,6 +3224,30 @@ PART
 				unfocusedRange = 4
 				externalToEVAOnly = False
 			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
 			ToggleStaging
 			{
 				active = True
@@ -3340,7 +3303,7 @@ PART
 {
 	part = ROAerobeeSustainer_4294144110
 	partName = Part
-	pos = 0.0246765,4.366209,0.1101986
+	pos = 0.02467649,4.366208,0.1101986
 	attPos = 0,0,0
 	attPos0 = 0,-0.6000051,0
 	rot = 0.002844617,0.7071011,-0.002844617,0.7071011
@@ -3462,6 +3425,57 @@ PART
 				guiIcon = Run Test
 				guiName = Run Test
 				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = EngineGroupModule
+		isEnabled = True
+		EngineGroupId = 
+		stagingEnabled = True
+		EVENTS
+		{
+			AssignGroupId
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Assign Group ID
+				guiName = Assign Group ID
+				category = Assign Group ID
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ClearGroupId
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Clear Group ID
+				guiName = Clear Group ID
+				category = Clear Group ID
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -4351,30 +4365,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -4424,12 +4414,36 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = squad.interstage.adapter_4294125444
 	partName = Part
-	pos = 0.02297951,4.155304,0.1101986
+	pos = 0.02297951,4.155303,0.1101986
 	attPos = 0,0,0
 	attPos0 = 0,-2.110911,0
 	rot = 0.002844625,0.7071011,-0.002844625,0.7071011
@@ -4759,30 +4773,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -4832,12 +4822,36 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = proceduralTankRealFuels_4294107484
 	partName = Part
-	pos = 0.0160469,3.405093,0.1102011
+	pos = 0.01604689,3.405092,0.1102011
 	attPos = 0,0,0
 	attPos0 = 2.124874E-08,-1.000005,-3.936206E-08
 	rot = 0.002844618,0.7071011,-0.002844618,0.7071011
@@ -5127,7 +5141,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -6258,30 +6272,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -6314,6 +6304,30 @@ PART
 				unfocusedRange = 4
 				externalToEVAOnly = False
 			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
 			ToggleStaging
 			{
 				active = True
@@ -6369,7 +6383,7 @@ PART
 {
 	part = squad.interstage.adapter_4294098052
 	partName = Part
-	pos = 0.01001246,2.655112,0.1102011
+	pos = 0.01001244,2.655108,0.1102011
 	attPos = 0,0,0
 	attPos0 = 2.124874E-08,-1.000005,-3.936206E-08
 	rot = 0.7071011,-0.002844626,0.7071011,0.002844624
@@ -6697,30 +6711,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -6770,15 +6760,39 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = ROAerobeeSustainer_4294089626
 	partName = Part
-	pos = -0.08594251,2.503011,0.1116967
+	pos = -0.08594255,2.503007,0.1116967
 	attPos = 0,0,0.03919423
 	attPos0 = 1.182339E-08,0.1528826,-0.1339218
-	rot = 0.01296121,-0.706988,-0.002384885,-0.7071028
+	rot = 0.01296121,-0.706988,-0.002384886,-0.7071028
 	attRot = 0.2588119,0.001935718,0.007224194,-0.965899
 	attRot0 = 0.0001111815,-0.01487379,0.9998615,0.007478207
 	mir = 1,1,1
@@ -6919,6 +6933,57 @@ PART
 	}
 	MODULE
 	{
+		name = EngineGroupModule
+		isEnabled = True
+		EngineGroupId = 
+		stagingEnabled = True
+		EVENTS
+		{
+			AssignGroupId
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Assign Group ID
+				guiName = Assign Group ID
+				category = Assign Group ID
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ClearGroupId
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Clear Group ID
+				guiName = Clear Group ID
+				category = Clear Group ID
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -7785,30 +7850,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -7858,15 +7899,39 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = ROAerobeeSustainer_4294089058
 	partName = Part
-	pos = 0.1035077,2.501484,0.1087053
+	pos = 0.1035077,2.501481,0.1087053
 	attPos = -3.42647E-09,0,-0.03919423
 	attPos0 = -1.155769E-10,0.1528826,0.1339218
-	rot = 0.008073958,0.707061,0.01864903,-0.7068607
+	rot = 0.008073958,0.707061,0.01864902,-0.7068607
 	attRot = 0.2588119,0.001935718,0.007224194,-0.965899
 	attRot0 = -0.9998894,-8.677971E-10,-1.948417E-08,-0.01487421
 	mir = 1,1,1
@@ -8007,6 +8072,57 @@ PART
 	}
 	MODULE
 	{
+		name = EngineGroupModule
+		isEnabled = True
+		EngineGroupId = 
+		stagingEnabled = True
+		EVENTS
+		{
+			AssignGroupId
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Assign Group ID
+				guiName = Assign Group ID
+				category = Assign Group ID
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ClearGroupId
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Clear Group ID
+				guiName = Clear Group ID
+				category = Clear Group ID
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -8873,30 +8989,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -8946,15 +9038,39 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = KzProcFairingDelta_4294078676
 	partName = Part
-	pos = 0.01375704,3.120483,0.3602028
+	pos = 0.01375697,3.12048,0.3602029
 	attPos = 0,0,0
 	attPos0 = 0.25,-0.4653854,0
-	rot = -0.7071011,0.002844624,0.7071011,0.00284462
+	rot = -0.7071011,0.002844624,0.7071011,0.002844619
 	attRot = -0.9999999,0,0,0
 	attRot0 = 0,1,0,0
 	mir = 1,1,1
@@ -8991,7 +9107,7 @@ PART
 		topRad = 0.16
 		inlineHeight = 0.24
 		sideThickness = 0.02
-		meshPos = (0.2500016, 0.4653869, 1.788922E-07)
+		meshPos = (0.2500017, 0.4653866, 1.807548E-07)
 		meshRot = (-5.122274E-09, -1, -4.190951E-09, 0)
 		shapeLock = False
 		stagingEnabled = True
@@ -9250,30 +9366,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -9323,12 +9415,36 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = launchClamp1_4294006818
 	partName = Part
-	pos = -1.052469,1.902862,0.1102011
+	pos = -1.052469,1.902859,0.1102011
 	attPos = 0,0,0
 	attPos0 = 9.489589E-08,-1.510784,-1.056392
 	rot = -0.002844624,-0.7071011,0.002844626,-0.7071011
@@ -9359,8 +9475,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.9530783
-		height = 2.402228
+		scaleFactor = 0.9530772
+		height = 2.402225
 		stagingEnabled = True
 		towerRot = 0.002844626,0.707101,0.002844624,0.7071011
 		EVENTS
@@ -9592,79 +9708,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCommand
-		isEnabled = True
-		controlSrcStatusText = 
-		stagingEnabled = True
-		EVENTS
-		{
-			MakeReference
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = False
-				guiIcon = Control From Here
-				guiName = Control From Here
-				category = Control From Here
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			RenameVessel
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = True
-				guiIcon = Rename Vessel
-				guiName = Rename Vessel
-				category = Rename Vessel
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = TelemachusDataLink
 		isEnabled = True
 		stagingEnabled = True
@@ -9786,15 +9829,88 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		stagingEnabled = True
+		EVENTS
+		{
+			MakeReference
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Control From Here
+				guiName = Control From Here
+				category = Control From Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RenameVessel
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = True
+				guiIcon = Rename Vessel
+				guiName = Rename Vessel
+				category = Rename Vessel
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = SnubOtron_4293849938
 	partName = Part
-	pos = 0.1612181,4.152334,0.1135181
+	pos = 0.1612181,4.152333,0.1135181
 	attPos = 2.793968E-09,-0.04217076,-0.02305338
 	attPos0 = -0.003319589,0.04031372,0.1613111
-	rot = 0.4851061,-0.4824997,-0.3711993,-0.6277558
+	rot = 0.4851061,-0.4824996,-0.3711993,-0.6277558
 	attRot = 0.1222173,-3.867429E-08,-3.163224E-08,-0.9925033
 	attRot0 = 0.6086524,0.1030347,0.08013054,-0.7826271
 	mir = 1,1,1
@@ -10363,30 +10479,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -10436,6 +10528,30 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = PSPC
@@ -10452,7 +10568,7 @@ PART
 {
 	part = SnubOtron_4293849500
 	partName = Part
-	pos = -0.1152888,4.154558,0.106879
+	pos = -0.1152888,4.154557,0.106879
 	attPos = 4.656613E-09,-0.04217052,0.02305341
 	attPos0 = 0.003319574,0.04031372,-0.1613112
 	rot = -0.3762375,-0.6247489,-0.4889726,0.4785814
@@ -11024,30 +11140,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -11097,6 +11189,30 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 	RESOURCE
 	{
 		name = PSPC
@@ -11113,7 +11229,7 @@ PART
 {
 	part = KzProcFairingDelta_4294115948
 	partName = Part
-	pos = 0.01923515,3.689935,-0.1398022
+	pos = 0.01923515,3.689934,-0.1398023
 	attPos = 0,0,0
 	attPos0 = 0.25,-0.4653847,-4.903626E-09
 	rot = 2.220428E-16,-8.932617E-19,-0.004022902,0.999992
@@ -11413,30 +11529,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -11486,12 +11578,36 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = KzProcFairingDelta_4293840964
 	partName = Part
-	pos = 0.01923518,3.689935,0.3601989
+	pos = 0.01923518,3.689934,0.360199
 	attPos = 0,0,0
 	attPos0 = -0.25,-0.4653847,-2.725537E-08
 	rot = 0.004022905,0.999992,-4.700288E-20,1.168376E-17
@@ -11791,30 +11907,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -11864,15 +11956,39 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = RO-B9ProcWing-Early_4294160456
 	partName = Part
-	pos = 0.2621518,3.053334,0.1102009
+	pos = 0.2621519,3.053331,0.1102008
 	attPos = 0,0,0
 	attPos0 = 3.738091E-08,-0.3497655,0.2489265
-	rot = 0.004904064,-2.470573E-05,-0.005048826,0.9999754
+	rot = 0.004904064,-2.470573E-05,-0.005048825,0.9999754
 	attRot = 0.00490413,-2.599908E-08,3.114039E-10,0.9999881
 	attRot0 = 0.004193222,-0.7071015,0.00274226,0.7070944
 	mir = 1,1,1
@@ -11917,22 +12033,22 @@ PART
 		sharedEdgeTypeTrailing = 3
 		sharedEdgeWidthTrailingRoot = 0.16
 		sharedEdgeWidthTrailingTip = 0.12
-		sharedMaterialST = 1
+		sharedMaterialST = 0
 		sharedColorSTOpacity = 0
 		sharedColorSTHue = 0.1
 		sharedColorSTSaturation = 0.75
 		sharedColorSTBrightness = 0.6
-		sharedMaterialSB = 4
+		sharedMaterialSB = 0
 		sharedColorSBOpacity = 0
 		sharedColorSBHue = 0.1
 		sharedColorSBSaturation = 0.75
 		sharedColorSBBrightness = 0.6
-		sharedMaterialET = 4
+		sharedMaterialET = 0
 		sharedColorETOpacity = 0
 		sharedColorETHue = 0.1
 		sharedColorETSaturation = 0.75
 		sharedColorETBrightness = 0.6
-		sharedMaterialEL = 4
+		sharedMaterialEL = 0
 		sharedColorELOpacity = 0
 		sharedColorELHue = 0.1
 		sharedColorELSaturation = 0.75
@@ -12869,30 +12985,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -12942,12 +13034,36 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = RO-B9ProcWing-Early_4294157248
 	partName = Part
-	pos = -0.1112266,3.05634,-0.1053763
+	pos = -0.1112266,3.056338,-0.1053766
 	attPos = 0,0,0
 	attPos0 = 0.2155766,-0.3497651,-0.1244633
 	rot = 0.005047406,0.8659989,-0.006771496,0.4999747
@@ -12995,22 +13111,22 @@ PART
 		sharedEdgeTypeTrailing = 3
 		sharedEdgeWidthTrailingRoot = 0.16
 		sharedEdgeWidthTrailingTip = 0.12
-		sharedMaterialST = 1
+		sharedMaterialST = 0
 		sharedColorSTOpacity = 0
 		sharedColorSTHue = 0.1
 		sharedColorSTSaturation = 0.75
 		sharedColorSTBrightness = 0.6
-		sharedMaterialSB = 4
+		sharedMaterialSB = 0
 		sharedColorSBOpacity = 0
 		sharedColorSBHue = 0.1
 		sharedColorSBSaturation = 0.75
 		sharedColorSBBrightness = 0.6
-		sharedMaterialET = 4
+		sharedMaterialET = 0
 		sharedColorETOpacity = 0
 		sharedColorETHue = 0.1
 		sharedColorETSaturation = 0.75
 		sharedColorETBrightness = 0.6
-		sharedMaterialEL = 4
+		sharedMaterialEL = 0
 		sharedColorELOpacity = 0
 		sharedColorELHue = 0.1
 		sharedColorELSaturation = 0.75
@@ -13947,30 +14063,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -14020,15 +14112,39 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = RO-B9ProcWing-Early_4294157128
 	partName = Part
-	pos = -0.1112266,3.05634,0.3257786
+	pos = -0.1112266,3.056338,0.3257789
 	attPos = 0,0,0
 	attPos0 = -0.2155767,-0.3497651,-0.1244632
-	rot = 0.000143338,0.8660232,-0.001722668,-0.5000008
+	rot = 0.0001433389,0.8660232,-0.001722667,-0.5000008
 	attRot = 0.00490413,-2.599908E-08,3.114039E-10,0.9999881
 	attRot0 = -0.0009910347,0.9659254,-0.0002655449,0.2588187
 	mir = 1,1,1
@@ -14073,22 +14189,22 @@ PART
 		sharedEdgeTypeTrailing = 3
 		sharedEdgeWidthTrailingRoot = 0.16
 		sharedEdgeWidthTrailingTip = 0.12
-		sharedMaterialST = 1
+		sharedMaterialST = 0
 		sharedColorSTOpacity = 0
 		sharedColorSTHue = 0.1
 		sharedColorSTSaturation = 0.75
 		sharedColorSTBrightness = 0.6
-		sharedMaterialSB = 4
+		sharedMaterialSB = 0
 		sharedColorSBOpacity = 0
 		sharedColorSBHue = 0.1
 		sharedColorSBSaturation = 0.75
 		sharedColorSBBrightness = 0.6
-		sharedMaterialET = 4
+		sharedMaterialET = 0
 		sharedColorETOpacity = 0
 		sharedColorETHue = 0.1
 		sharedColorETSaturation = 0.75
 		sharedColorETBrightness = 0.6
-		sharedMaterialEL = 4
+		sharedMaterialEL = 0
 		sharedColorELOpacity = 0
 		sharedColorELHue = 0.1
 		sharedColorELSaturation = 0.75
@@ -15025,30 +15141,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -15098,15 +15190,39 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = proceduralStackDecoupler_4293720992
 	partName = Part
-	pos = 0.007276844,2.315116,0.1102011
+	pos = 0.007276811,2.315112,0.1102011
 	attPos = 0,0,0
 	attPos0 = 7.916368E-10,0.3400054,-2.637987E-09
-	rot = 1.300531E-09,-5.231944E-12,-0.004022906,0.999992
+	rot = 1.396972E-09,-5.619918E-12,-0.004022906,0.999992
 	attRot = 0,0,0,1
 	attRot0 = -0.7071068,6.984919E-10,-0.7071068,9.313225E-10
 	mir = 1,1,1
@@ -15491,30 +15607,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -15564,15 +15656,39 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
 }
 PART
 {
 	part = TinyTim_4293713274
 	partName = Part
-	pos = -0.008637667,0.3371773,0.1102011
+	pos = -0.0086377,0.3371716,0.1102011
 	attPos = 0,0,0
 	attPos0 = -3.624547E-09,-1.978005,-2.193877E-09
-	rot = 1.32878E-09,-5.345585E-12,-0.004022908,0.999992
+	rot = 1.30053E-09,-5.231941E-12,-0.004022907,0.999992
 	attRot = 0,0,0,1
 	attRot0 = 4.776418E-16,5.345624E-12,-1.862645E-09,1
 	mir = 1,1,1
@@ -15878,30 +15994,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
@@ -15934,6 +16026,30 @@ PART
 				unfocusedRange = 4
 				externalToEVAOnly = False
 			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
 			ToggleStaging
 			{
 				active = True
