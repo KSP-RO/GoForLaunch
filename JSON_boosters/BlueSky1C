@@ -1,0 +1,21 @@
+[{
+	"props": [{"name": "SolidFuel", "volume": 37.9}],
+	"isp": 220,
+	"dry": 0.273,
+	"thrust": 220},
+{
+    "props": [{"name": "Aniline", "volume": 101.46},
+              {"name": "Furfuryl", "volume": 25.36},
+              {"name": "IRFNA-III", "volume": 183.61},
+              {"name": "PSPC", "volume": 2, "mainEngine": false}],
+    "isp": 218.36,
+    "dry": 0.099,
+    "thrust": 15.256},
+{
+    "props": [{"name": "Aniline", "volume": 49.95},
+              {"name": "Furfuryl", "volume": 12.49},
+              {"name": "IRFNA-III", "volume": 90.39}],
+    "isp": 218.36,
+    "dry": 0.090,
+    "thrust": 7.628}
+]
