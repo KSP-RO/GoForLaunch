@@ -110,7 +110,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 8511987.8283678
+		update = 8511937.72836892
 		version = 1.1.2
 		WEIGHTS
 		{
@@ -8195,7 +8195,7 @@ GAME
 				{
 					shipName = A4-3S
 					shipID = fd88ed8f-bb76-4c0e-8080-8bc1f44e7059
-					progress = 26533.547283818
+					progress = 26510.4572843341
 					buildTime = 1077417.89661348
 					launchSite = LaunchPad
 					flag = GoForLaunch/Flags/GoForLaunch
@@ -108857,7 +108857,7 @@ GAME
 				{
 					name = LaunchPad Reconditioning
 					BP = 4940.42599192211
-					progress = 234.189994765446
+					progress = 211.099995281548
 					cost = 0
 					associatedID = 9169a379-578c-4b1f-83ee-03d943414702
 					launchPadID = LaunchPad
@@ -108890,7 +108890,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.2
-		UT = 8511993.56836767
+		UT = 8511947.3883687
 		activeVessel = 0
 		mapViewFiltering = -1026
 	}
