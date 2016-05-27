@@ -1,0 +1,13 @@
+[{
+	"props": [{"name": "SolidFuel", "volume": 37.9}],
+	"isp": 220,
+	"dry": 0.296,
+	"thrust": 220},
+{
+    "props": [{"name": "Aniline", "volume": 42.2},
+              {"name": "Furfuryl", "volume": 10.6},
+              {"name": "IRFNA-III", "volume": 76.4}],
+    "isp": 218.36,
+    "dry": 0.096,
+    "thrust": 7.628}
+]
