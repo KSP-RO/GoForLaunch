@@ -1,0 +1,20 @@
+[{
+    "props": [{"name": "Ethanol75", "volume": 4091.8},
+    		  {"name": "LqdOxygen", "volume": 3890.2},
+    		  {"name": "HTP", "volume": 79.8, "mainEngine": false}],
+    "isp": 239,
+    "dry": 2.925,
+    "thrust": 311.8},
+{
+    "props": [{"name": "PSPC", "volume": 10}],
+    "isp": 205.5625,
+    "dry": 0,
+    "thrust": 9.6525},
+{
+    "props": [{"name": "Aniline", "volume": 23.1},
+              {"name": "Furfuryl", "volume": 5.8},
+              {"name": "IRFNA-III", "volume": 41.9}],
+    "isp": 218.36,
+    "dry": 0.137,
+    "thrust": 7.63}
+]
