@@ -2,12 +2,12 @@ ship = SR3U
 version = 1.1.2
 description = 
 type = VAB
-size = 7.309402,19.24666,6.331063
+size = 7.309402,19.24667,6.331064
 PART
 {
 	part = RP0probeSounding0-3m_4286992368
 	partName = Part
-	pos = -0.07846431,14.74198,-0.003091961
+	pos = -0.07846425,14.74198,-0.003091961
 	attPos = 0,0,0
 	attPos0 = -0.07846431,15.22599,-0.003091961
 	rot = 0,0,0.00543726,-0.9999852
@@ -1081,7 +1081,7 @@ PART
 {
 	part = sensorThermometer_4286962460
 	partName = Part
-	pos = -0.07846431,14.74198,-0.003091961
+	pos = -0.07846425,14.74198,-0.003091961
 	attPos = -9.309461E-09,-0.02383232,0.1064878
 	attPos0 = 9.309461E-09,0.02383232,-0.1064878
 	rot = -0.003844726,-0.7070962,0.7070965,0.003844723
@@ -1444,7 +1444,7 @@ PART
 {
 	part = sensorBarometer_4286951582
 	partName = Part
-	pos = -0.07846431,14.74198,-0.003091961
+	pos = -0.07846425,14.74198,-0.003091961
 	attPos = 0,-0.02383327,-0.1024321
 	attPos0 = 0,0.02383327,0.1024321
 	rot = -0.003844726,-0.7070962,0.7070965,0.003844723
@@ -1807,7 +1807,7 @@ PART
 {
 	part = proceduralNoseCone_4286921652
 	partName = Part
-	pos = -0.07270089,15.27196,-0.003091961
+	pos = -0.07270084,15.27196,-0.003091961
 	attPos = 0,0,0
 	attPos0 = 0,0.3425055,0
 	rot = 0,0,0.00543726,-0.9999852
@@ -2174,7 +2174,7 @@ PART
 {
 	part = proceduralTankRealFuels_4286909048
 	partName = Part
-	pos = -0.09020869,13.66205,-0.003091961
+	pos = -0.09020863,13.66205,-0.003091961
 	attPos = 0,0,0
 	attPos0 = 0,-0.5300045,0
 	rot = 0,0,0.00543726,-0.9999852
@@ -2211,7 +2211,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.299929, 2.106524, 0.3)
+		tempColliderSize = (0.2999291, 2.106524, 0.3)
 		textureSet = SaturnStringers
 		shapeName = Cylinder
 		moduleCost = 0.001420573
@@ -2463,7 +2463,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -3717,7 +3717,7 @@ PART
 {
 	part = ROAerobeeSustainer_4286900492
 	partName = Part
-	pos = -0.1027143,12.51211,-0.003091961
+	pos = -0.1027142,12.51211,-0.003091961
 	attPos = 0,0,0
 	attPos0 = 0,-1.100005,0
 	rot = 0,0,0.00543726,-0.9999852
@@ -3839,6 +3839,57 @@ PART
 				guiIcon = Run Test
 				guiName = Run Test
 				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = EngineGroupModule
+		isEnabled = True
+		EngineGroupId = 
+		stagingEnabled = True
+		EVENTS
+		{
+			AssignGroupId
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Assign Group ID
+				guiName = Assign Group ID
+				category = Assign Group ID
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ClearGroupId
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Clear Group ID
+				guiName = Clear Group ID
+				category = Clear Group ID
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -4809,7 +4860,7 @@ PART
 	pos = -0.1006967,12.69764,-0.1526592
 	attPos = -2.607703E-08,-0.1300122,-2.980232E-08
 	attPos0 = 1.862645E-08,-0.8344615,-0.1495672
-	rot = 0.00728084,0.7070641,-0.008251316,0.707064
+	rot = 0.00728084,0.7070641,-0.008251315,0.707064
 	attRot = 0.005545808,5.468895E-08,8.294694E-10,0.9999847
 	attRot0 = -0.00343624,-0.7070931,0.004406715,-0.7070985
 	mir = 1,1,1
@@ -5897,7 +5948,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293939814
 	partName = Part
-	pos = -0.230218,12.69905,0.07169174
+	pos = -0.2302179,12.69905,0.07169177
 	attPos = -2.980232E-08,-0.1300125,1.490116E-08
 	attPos0 = -0.129529,-0.8344613,0.07478362
 	rot = 0.003153746,0.9659088,-0.003771922,-0.2588359
@@ -6988,10 +7039,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4293939692
 	partName = Part
-	pos = 0.02882474,12.69623,0.07169155
+	pos = 0.02882481,12.69623,0.07169156
 	attPos = 2.980232E-08,-0.1300121,-2.235174E-08
 	attPos0 = 0.129529,-0.8344616,0.07478363
-	rot = -0.004127095,0.2588449,0.004479396,-0.9658996
+	rot = -0.004127095,0.258845,0.004479397,-0.9658996
 	attRot = 0.005545808,5.468895E-08,8.294694E-10,0.9999847
 	attRot0 = 0.0001776125,-0.258819,-0.0006628596,0.9659256
 	mir = 1,1,1
@@ -8116,7 +8167,7 @@ PART
 	{
 		name = ProceduralFairingAdapter
 		isEnabled = True
-		extraHeight = 1.5
+		extraHeight = 0.9
 		baseSize = 1.07
 		topSize = 0.3
 		height = 0.216
@@ -8164,9 +8215,9 @@ PART
 		fuelCrossFeed = False
 		autoStrutSides = False
 		autoShape = False
-		manualMaxSize = 0.984
+		manualMaxSize = 0.983
 		manualCylStart = 0
-		manualCylEnd = 0.5
+		manualCylEnd = 0.4
 		stagingEnabled = True
 		extraRadius_UIFlight
 		{
@@ -8485,7 +8536,7 @@ PART
 {
 	part = KzProcFairingSide1_4288619608
 	partName = Part
-	pos = -0.6456043,11.7895,-0.003092008
+	pos = -0.6456042,11.7895,-0.003092008
 	attPos = 0,0,0
 	attPos0 = -0.535,-0.4015598,-4.679896E-08
 	rot = 0,0,0.00543726,-0.9999852
@@ -8499,8 +8550,8 @@ PART
 	sqor = 0
 	sepI = 0
 	attm = 0
-	modCost = -0.8624017
-	modMass = 0.009173221
+	modCost = -0.9085894
+	modMass = 0.00609404
 	modSize = (0.0, 0.0, 0.0)
 	sym = KzProcFairingSide1_4288617832
 	attN = connect,KzInterstageAdapter2_4288943594
@@ -8520,13 +8571,13 @@ PART
 		numSegs = 12
 		numSideParts = 2
 		baseRad = 0.4922
-		maxRad = 0.492
+		maxRad = 0.4915
 		cylStart = 0
-		cylEnd = 0.5
+		cylEnd = 0.4
 		topRad = 0.1072
-		inlineHeight = 1.716
+		inlineHeight = 1.116
 		sideThickness = 0.0428
-		meshPos = (0.535, 0.401561, 4.703179E-08)
+		meshPos = (0.535, 0.4015591, 4.679896E-08)
 		meshRot = (0, 1, 0, -4.371139E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -8761,6 +8812,59 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Disable Crossfeed
+				guiName = Enable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				active = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				active = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+	}
+	MODULE
+	{
 		name = ModuleSeeThroughObject
 		isEnabled = True
 		stagingEnabled = True
@@ -8877,8 +8981,8 @@ PART
 	sqor = 0
 	sepI = 0
 	attm = 0
-	modCost = -0.8624017
-	modMass = 0.009173221
+	modCost = -0.9085894
+	modMass = 0.00609404
 	modSize = (0.0, 0.0, 0.0)
 	sym = KzProcFairingSide1_4288619608
 	attN = connect,KzInterstageAdapter2_4288943594
@@ -8898,13 +9002,13 @@ PART
 		numSegs = 12
 		numSideParts = 2
 		baseRad = 0.4922
-		maxRad = 0.492
+		maxRad = 0.4915
 		cylStart = 0
-		cylEnd = 0.5
+		cylEnd = 0.4
 		topRad = 0.1072
-		inlineHeight = 1.716
+		inlineHeight = 1.116
 		sideThickness = 0.0428
-		meshPos = (0.535, 0.4015555, 4.677118E-08)
+		meshPos = (0.535, 0.4015603, 4.677119E-08)
 		meshRot = (0, -1, 0, -4.371139E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -9139,6 +9243,59 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleEvent
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Disable Crossfeed
+				guiName = Enable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				active = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				active = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+	}
+	MODULE
+	{
 		name = ModuleSeeThroughObject
 		isEnabled = True
 		stagingEnabled = True
@@ -9241,12 +9398,12 @@ PART
 {
 	part = proceduralTankRealFuels_4288943304
 	partName = Part
-	pos = -0.1426984,8.835415,-0.003091961
+	pos = -0.1426984,8.835411,-0.003091969
 	attPos = 0,0.1808274,0
-	attPos0 = 0,-3.350004,0
-	rot = 0,0,0.00543726,-0.9999852
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
+	attPos0 = -5.587935E-09,-3.350006,-7.916242E-09
+	rot = 0.002080749,0.3826778,-0.005023374,0.9238659
+	attRot = 0,0.3826835,0,0.9238796
+	attRot0 = 0,-0.3826835,4.656613E-10,-0.9238795
 	mir = 1,1,1
 	symMethod = Radial
 	istg = 2
@@ -9255,8 +9412,8 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 0
-	modCost = 43.66292
-	modMass = -0.4363891
+	modCost = 43.66293
+	modMass = -0.436389
 	modSize = (0.0, 0.0, 0.0)
 	link = Bumper.Engine_4288943230
 	attN = top,KzInterstageAdapter2_4288943594
@@ -9275,8 +9432,8 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.642611, 6.73573, 1.643)
-		textureSet = SaturnStringers2
+		tempColliderSize = (-0.0003888607, 6.750532, 3.285612)
+		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.1068799
 		stagingEnabled = True
@@ -9521,13 +9678,13 @@ PART
 		type = Structural
 		utilization = 85
 		partPrevTemperature = -1
-		mass = 0.5636109
+		mass = 0.563611
 		stagingEnabled = True
-		volume = 9492.9891000000007
+		volume = 9492.9915000000001
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -9640,8 +9797,8 @@ PART
 			temperature = 90.15
 			fillable = True
 			techRequired = 
-			amount = 4623.7361747921368
-			maxAmount = 4623.7361747921368
+			amount = 4623.7373437565939
+			maxAmount = 4623.7373437565939
 		}
 		TANK
 		{
@@ -9738,8 +9895,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 5.8724531740482568
-			maxAmount = 5.8724531740482568
+			amount = 5.8724546587110424
+			maxAmount = 5.8724546587110424
 		}
 		TANK
 		{
@@ -9808,8 +9965,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 4863.3804720338167
-			maxAmount = 4863.3804720338167
+			amount = 4863.3817015847026
+			maxAmount = 4863.3817015847026
 		}
 		TANK
 		{
@@ -10466,8 +10623,8 @@ PART
 	RESOURCE
 	{
 		name = Ethanol75
-		amount = 4863.38047203382
-		maxAmount = 4863.38047203382
+		amount = 4863.3817015847
+		maxAmount = 4863.3817015847
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -10477,8 +10634,8 @@ PART
 	RESOURCE
 	{
 		name = LqdOxygen
-		amount = 4623.73617479214
-		maxAmount = 4623.73617479214
+		amount = 4623.73734375659
+		maxAmount = 4623.73734375659
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -10488,8 +10645,8 @@ PART
 	RESOURCE
 	{
 		name = HTP
-		amount = 5.87245317404826
-		maxAmount = 5.87245317404826
+		amount = 5.87245465871104
+		maxAmount = 5.87245465871104
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -10501,12 +10658,12 @@ PART
 {
 	part = Bumper.Engine_4288943230
 	partName = Part
-	pos = -0.197512,3.795087,-0.003091961
+	pos = -0.197512,3.795085,-0.003091962
 	attPos = 0,0,0
-	attPos0 = -2.74013E-10,-5.040628,-2.965051E-15
-	rot = 0,0,0.00543726,-0.9999852
+	attPos0 = -1.657168E-08,-5.040626,-8.904863E-09
+	rot = -2.49201E-10,1.354991E-12,-0.00543726,0.9999852
 	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
+	attRot0 = -2.328306E-10,-0.3826835,3.765608E-10,0.9238795
 	mir = 1,1,1
 	symMethod = Radial
 	istg = 3
@@ -10700,6 +10857,57 @@ PART
 			{
 				actionGroup = None
 			}
+		}
+	}
+	MODULE
+	{
+		name = EngineGroupModule
+		isEnabled = True
+		EngineGroupId = 
+		stagingEnabled = True
+		EVENTS
+		{
+			AssignGroupId
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Assign Group ID
+				guiName = Assign Group ID
+				category = Assign Group ID
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ClearGroupId
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Clear Group ID
+				guiName = Clear Group ID
+				category = Clear Group ID
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
 		}
 	}
 	MODULE
@@ -11165,10 +11373,10 @@ PART
 {
 	part = Bumper.Fin_4288943088
 	partName = Part
-	pos = -0.1976347,3.783801,-0.6915795
+	pos = -0.1976346,3.783797,-0.6915795
 	attPos = 0,0,0
 	attPos0 = -6.018946E-08,-0.01128101,-0.6884872
-	rot = 0.01852109,-0.7066897,0.03117013,-0.706594
+	rot = -0.01852109,0.7066897,-0.03117013,0.706594
 	attRot = 0.003512574,-2.657102E-08,-2.133537E-10,0.9999939
 	attRot0 = -0.02236328,0.7065786,-0.02732774,0.706753
 	mir = 1,1,1
@@ -11494,10 +11702,10 @@ PART
 {
 	part = Bumper.Fin_4288943026
 	partName = Part
-	pos = 0.4908122,3.776314,-0.003092002
+	pos = 0.4908122,3.77631,-0.003092028
 	attPos = 0,0,0
 	attPos0 = -0.6884871,-0.01128101,1.915242E-08
-	rot = 0.003509682,-0.000142449,-0.04057021,0.9991705
+	rot = -0.003509681,0.000142437,0.04057021,-0.9991705
 	attRot = 0.003512574,-2.657102E-08,-2.133537E-10,0.9999939
 	attRot0 = -0.03513707,0.9993826,2.634178E-09,-8.42937E-08
 	mir = 1,1,1
@@ -11823,10 +12031,10 @@ PART
 {
 	part = Bumper.Fin_4288942964
 	partName = Part
-	pos = -0.1976346,3.783801,0.6853957
+	pos = -0.1976346,3.783797,0.6853957
 	attPos = 0,0,0
 	attPos0 = 1.203789E-07,-0.01128101,0.6884872
-	rot = 0.02348453,-0.7068912,-0.0262048,0.7064465
+	rot = -0.02348453,0.7068912,0.0262048,-0.7064465
 	attRot = 0.003512574,-2.657102E-08,-2.133537E-10,0.9999939
 	attRot0 = -0.02484565,0.70667,0.02484566,-0.7066703
 	mir = 1,1,1
@@ -12152,10 +12360,10 @@ PART
 {
 	part = Bumper.Fin_4288942902
 	partName = Part
-	pos = -0.8860815,3.79129,-0.003092002
+	pos = -0.8860815,3.791287,-0.003091939
 	attPos = 0,0,0
 	attPos0 = 0.6884871,-0.01128101,-1.012265E-07
-	rot = 0.02970247,-0.9995526,0.003511023,-0.000104275
+	rot = -0.02970247,0.9995525,-0.003511022,0.000104263
 	attRot = 0.003512574,-2.657102E-08,-2.133537E-10,0.9999939
 	attRot0 = 2.634178E-09,-8.42937E-08,0.03513707,-0.9993826
 	mir = 1,1,1
@@ -12481,10 +12689,10 @@ PART
 {
 	part = launchClamp1_4287889418
 	partName = Part
-	pos = -1.244798,3.0539,-0.997062
+	pos = -1.244798,3.053897,-0.997062
 	attPos = 0,0,0
 	attPos0 = -1.039164,-0.7525291,-0.99397
-	rot = -0.03038247,0.382618,0.008425903,0.9233686
+	rot = 0.03038247,-0.382618,-0.008425903,-0.9233685
 	attRot = 0,0,0,1
 	attRot0 = 0.03246241,-0.3824472,-0.01344637,-0.9233091
 	mir = 1,1,1
@@ -12512,10 +12720,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.379422
-		height = 3.476825
+		scaleFactor = 1.379421
+		height = 3.476822
 		stagingEnabled = True
-		towerRot = 0.008425901,-0.9233686,0.03038247,-0.382618
+		towerRot = -0.008425901,0.9233686,-0.03038247,0.382618
 		EVENTS
 		{
 			Release
