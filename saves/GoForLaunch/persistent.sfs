@@ -12,7 +12,7 @@ GAME
 	flag = GoForLaunch/Flags/GoForLaunch
 	launchID = 14
 	modded = True
-	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe  - 
+	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -popupwindow - 
 	PARAMETERS
 	{
 		preset = Custom
@@ -110,7 +110,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 18900688.9682319
+		update = 18901131.148222
 		version = 1.1.2
 		WEIGHTS
 		{
@@ -638,6 +638,276 @@ GAME
 			}
 			CONTRACT
 			{
+				guid = d04e074e-9155-462c-840e-e22d281c42d3
+				type = ConfiguredContract
+				prestige = 0
+				seed = 2076168999
+				state = Offered
+				agent = Dinkelstein Kerman's Construction Emporium
+				deadlineType = Floating
+				expiryType = Floating
+				ignoresWeight = True
+				values = 2568240,31104000,1466.71995925903,2405.25582395935,3850.13971820832,0,0,0,21468032.1282519,0,0,0
+				subtype = SoundingRocketHigh
+				title = Sounding Rocket (High)
+				description = Design, build and launch a sounding rocket to attain 3,800 km.
+				synopsis = Launch a sounding rocket to 3,800 km.
+				completedMessage = Congratulations on a successful launch! The rocket has reached 3,800 km.
+				hash = -929655053
+				REQUIREMENT
+				{
+					name = Any
+					type = Any
+					targetBody = Earth
+					invertRequirement = False
+					checkOnActiveContract = False
+					REQUIREMENT
+					{
+						name = CompleteFirstOrbit
+						type = CompleteContract
+						targetBody = Earth
+						invertRequirement = False
+						checkOnActiveContract = True
+						minCount = 1
+						maxCount = 4294967295
+						contractType = first_OrbitUncrewed
+						cooldownDuration = 0
+					}
+					REQUIREMENT
+					{
+						name = AltitudeRecord300k
+						type = Expression
+						targetBody = Earth
+						invertRequirement = False
+						checkOnActiveContract = False
+						expression = True
+					}
+				}
+				PARAM
+				{
+					name = VesselParameterGroup
+					id = VesselGroup
+					state = Incomplete
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.SoundingRocketHigh
+					title = Reach 3,800 km with a sounding rocket.
+					notes = 
+					completedMessage = 
+					define = soundingHighCraft
+					duration = 0
+					dissassociateVesselsOnContractFailure = True
+					dissassociateVesselsOnContractCompletion = False
+					PARAM
+					{
+						name = NewVessel
+						id = NewVessel
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.SoundingRocketHigh
+						title = Launch a new vessel
+						notes = 
+						completedMessage = 
+						allowStateReset = True
+						launchID = 0
+					}
+					PARAM
+					{
+						name = ReachState
+						id = ReachAlt
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.SoundingRocketHigh
+						title = 
+						notes = 
+						completedMessage = 
+						allowStateReset = True
+						targetBody = Earth
+						minAltitude = 3800000
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Destination: Earth
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.SoundingRocketHigh
+							title = Destination: Earth
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Altitude: Above 3,800,000 m
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.SoundingRocketHigh
+							title = Altitude: Above 3,800,000 m
+							notes = 
+							completedMessage = 
+						}
+					}
+					PARAM
+					{
+						name = HasCrew
+						id = HasCrew
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.SoundingRocketHigh
+						title = 
+						notes = 
+						completedMessage = 
+						allowStateReset = True
+						minCrew = 0
+						maxCrew = 0
+						minExperience = 0
+						maxExperience = 5
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Unmanned
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.SoundingRocketHigh
+							title = Unmanned
+							notes = 
+							completedMessage = 
+						}
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = b5980608-2efe-4cb4-830d-6b8cefbe5fce
+				type = ConfiguredContract
+				prestige = 0
+				seed = 184075191
+				state = Offered
+				agent = FLOOYD Dynamics Research Labs
+				deadlineType = Floating
+				expiryType = Floating
+				ignoresWeight = True
+				values = 2562660,31104000,592,1041.59995269775,1553.9999294281,0,0,0,21462724.9482458,0,0,0
+				subtype = SoundingRocketMedium
+				title = Sounding Rocket (Medium)
+				description = Design, build and launch a sounding rocket to attain 240 km.
+				synopsis = Launch a sounding rocket to 240 km.
+				completedMessage = Congratulations on a successful launch! The rocket has reached 240 km.
+				hash = -823964821
+				REQUIREMENT
+				{
+					name = AltitudeRecord100k
+					type = AltitudeRecord
+					targetBody = Earth
+					invertRequirement = False
+					checkOnActiveContract = False
+					minAltitude = 100000
+				}
+				PARAM
+				{
+					name = VesselParameterGroup
+					id = VesselGroup
+					state = Incomplete
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.SoundingRocketMedium
+					title = Reach 240 km with a sounding rocket.
+					notes = 
+					completedMessage = 
+					define = soundingMedCraft
+					duration = 0
+					dissassociateVesselsOnContractFailure = True
+					dissassociateVesselsOnContractCompletion = False
+					PARAM
+					{
+						name = NewVessel
+						id = NewVessel
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.SoundingRocketMedium
+						title = Launch a new vessel
+						notes = 
+						completedMessage = 
+						allowStateReset = True
+						launchID = 0
+					}
+					PARAM
+					{
+						name = ReachState
+						id = ReachAlt
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.SoundingRocketMedium
+						title = 
+						notes = 
+						completedMessage = 
+						allowStateReset = True
+						targetBody = Earth
+						minAltitude = 240000
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Destination: Earth
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.SoundingRocketMedium
+							title = Destination: Earth
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Altitude: Above 240,000 m
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.SoundingRocketMedium
+							title = Altitude: Above 240,000 m
+							notes = 
+							completedMessage = 
+						}
+					}
+					PARAM
+					{
+						name = HasCrew
+						id = HasCrew
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.SoundingRocketMedium
+						title = 
+						notes = 
+						completedMessage = 
+						allowStateReset = True
+						minCrew = 0
+						maxCrew = 0
+						minExperience = 0
+						maxExperience = 5
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Unmanned
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.SoundingRocketMedium
+							title = Unmanned
+							notes = 
+							completedMessage = 
+						}
+					}
+				}
+			}
+			CONTRACT
+			{
 				guid = 72796e0d-40c5-4ea7-a9b8-17fed4e90ad5
 				type = ConfiguredContract
 				prestige = 0
@@ -724,6 +994,200 @@ GAME
 			}
 			CONTRACT
 			{
+				guid = f4e04474-163a-4c3d-87fd-e867eb69810b
+				type = ConfiguredContract
+				prestige = 0
+				seed = 2076169003
+				state = Offered
+				agent = STEADLER Engineering Corps
+				deadlineType = Floating
+				expiryType = Floating
+				ignoresWeight = True
+				values = 263520,31104000,445.544555783272,467.821762327215,1476.2999329567,0,0,1.1,19163312.1282519,0,0,0
+				subtype = CrewedFlightLow
+				title = X-Planes (Low)
+				description = Design, build and fly a crewed aircraft (not a rocket) to maintain 3125 meters altitude then return home safely.
+				synopsis = Fly to 3125 m.
+				completedMessage = Congratulations on a successful flight!
+				hash = -1895621553
+				REQUIREMENT
+				{
+					name = All
+					type = All
+					targetBody = Earth
+					invertRequirement = False
+					checkOnActiveContract = False
+					REQUIREMENT
+					{
+						name = NotCompleteFirstCrewedSpaceFlight
+						type = CompleteContract
+						targetBody = Earth
+						invertRequirement = True
+						checkOnActiveContract = True
+						minCount = 1
+						maxCount = 4294967295
+						contractType = first_OrbitCrewed
+						cooldownDuration = 0
+					}
+					REQUIREMENT
+					{
+						name = NotBrokeSoundBarrier
+						type = CompleteContract
+						targetBody = Earth
+						invertRequirement = True
+						checkOnActiveContract = True
+						minCount = 1
+						maxCount = 4294967295
+						contractType = first_CrewedSupersonic
+						cooldownDuration = 0
+					}
+					REQUIREMENT
+					{
+						name = hadFirstFlight
+						type = CompleteContract
+						targetBody = Earth
+						invertRequirement = False
+						checkOnActiveContract = True
+						minCount = 1
+						maxCount = 4294967295
+						contractType = first_FirstFlight
+						cooldownDuration = 0
+					}
+				}
+				PARAM
+				{
+					name = VesselParameterGroup
+					id = VesselGroup
+					state = Incomplete
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.CrewedFlightLow
+					title = Maintain between 3125 and 4125 m with a crewed aircraft.
+					notes = 
+					completedMessage = 
+					define = lowAirplane
+					duration = 0
+					dissassociateVesselsOnContractFailure = True
+					dissassociateVesselsOnContractCompletion = False
+					PARAM
+					{
+						name = NewVessel
+						id = NewVessel
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedFlightLow
+						title = Launch a new vessel
+						notes = 
+						completedMessage = 
+						allowStateReset = True
+						launchID = 0
+					}
+					PARAM
+					{
+						name = HasCrew
+						id = HasCrew
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedFlightLow
+						title = 
+						notes = 
+						completedMessage = 
+						hideChildren = True
+						allowStateReset = True
+						minCrew = 1
+						maxCrew = 2147483647
+						minExperience = 0
+						maxExperience = 5
+						PARAM
+						{
+							name = CountParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.CrewedFlightLow
+							title = Count: At least 1 
+							notes = 
+							completedMessage = 
+						}
+					}
+					PARAM
+					{
+						name = ReachState
+						id = ReachAlt
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedFlightLow
+						title = Hold between 3125 and 4125 meters.
+						notes = 
+						completedMessage = 
+						allowStateReset = False
+						targetBody = Earth
+						minAltitude = 3125
+						maxAltitude = 4125
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Destination: Earth
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.CrewedFlightLow
+							title = Destination: Earth
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Altitude: Between 3,125 m and 4,125 m
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.CrewedFlightLow
+							title = Altitude: Between 3,125 m and 4,125 m
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = Duration
+							id = Duration
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.CrewedFlightLow
+							title = 
+							notes = 
+							completedMessage = 
+							duration = 180
+							preWaitText = Reach specified altitude.
+							waitingText = Completing Flight
+							completionText = Flight completed, you are cleared to land.
+							endTime = 0
+							startCriteria = CONTRACT_ACCEPTANCE
+							triggered = False
+						}
+					}
+					PARAM
+					{
+						name = ReturnHome
+						id = ReturnHome
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedFlightLow
+						title = Land or splashdown on Earth
+						notes = 
+						completedMessage = 
+						completeInSequence = True
+						allowStateReset = True
+					}
+				}
+			}
+			CONTRACT
+			{
 				guid = c701b563-954f-4e68-a4a3-e2cf86155fcd
 				type = ConfiguredContract
 				prestige = 1
@@ -779,13 +1243,6 @@ GAME
 						completedMessage = 
 						allowStateReset = True
 						launchID = 9
-						VESSEL_STATS
-						{
-							vessel = fd4af5c8-833f-46d4-ac6f-81ee6d2e835b
-							state = Complete
-							strength = STRONG
-							completionTime = 18899792.7082519
-						}
 						DOCKED_SUB_VESSEL
 						{
 							hash = 493311604
@@ -1053,13 +1510,6 @@ GAME
 						targetBody = Earth
 						situation = FLYING
 						minSpeed = 350
-						VESSEL_STATS
-						{
-							vessel = fd4af5c8-833f-46d4-ac6f-81ee6d2e835b
-							state = Complete
-							strength = STRONG
-							completionTime = 18899935.5682487
-						}
 						DOCKED_SUB_VESSEL
 						{
 							hash = 493311604
@@ -1470,6 +1920,7 @@ GAME
 						title = 
 						notes = 
 						completedMessage = 
+						hideChildren = True
 						allowStateReset = True
 						minCrew = 0
 						maxCrew = 0
@@ -1562,469 +2013,6 @@ GAME
 								notes = 
 								completedMessage = 
 							}
-						}
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = d04e074e-9155-462c-840e-e22d281c42d3
-				type = ConfiguredContract
-				prestige = 0
-				seed = 2076168999
-				state = Offered
-				agent = Dinkelstein Kerman's Construction Emporium
-				deadlineType = Floating
-				expiryType = Floating
-				ignoresWeight = True
-				values = 2568240,31104000,1466.71995925903,2405.25582395935,3850.13971820832,0,0,0,21468032.1282519,0,0,0
-				subtype = SoundingRocketHigh
-				title = Sounding Rocket (High)
-				description = Design, build and launch a sounding rocket to attain 3,800 km.
-				synopsis = Launch a sounding rocket to 3,800 km.
-				completedMessage = Congratulations on a successful launch! The rocket has reached 3,800 km.
-				hash = -929655053
-				REQUIREMENT
-				{
-					name = Any
-					type = Any
-					targetBody = Earth
-					invertRequirement = False
-					checkOnActiveContract = False
-					REQUIREMENT
-					{
-						name = CompleteFirstOrbit
-						type = CompleteContract
-						targetBody = Earth
-						invertRequirement = False
-						checkOnActiveContract = True
-						minCount = 1
-						maxCount = 4294967295
-						contractType = first_OrbitUncrewed
-						cooldownDuration = 0
-					}
-					REQUIREMENT
-					{
-						name = AltitudeRecord300k
-						type = Expression
-						targetBody = Earth
-						invertRequirement = False
-						checkOnActiveContract = False
-						expression = True
-					}
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = VesselGroup
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketHigh
-					title = Reach 3,800 km with a sounding rocket.
-					notes = 
-					completedMessage = 
-					define = soundingHighCraft
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = NewVessel
-						id = NewVessel
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketHigh
-						title = Launch a new vessel
-						notes = 
-						completedMessage = 
-						allowStateReset = True
-						launchID = 0
-					}
-					PARAM
-					{
-						name = ReachState
-						id = ReachAlt
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketHigh
-						title = 
-						notes = 
-						completedMessage = 
-						allowStateReset = True
-						targetBody = Earth
-						minAltitude = 3800000
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Destination: Earth
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.SoundingRocketHigh
-							title = Destination: Earth
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Altitude: Above 3,800,000 m
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.SoundingRocketHigh
-							title = Altitude: Above 3,800,000 m
-							notes = 
-							completedMessage = 
-						}
-					}
-					PARAM
-					{
-						name = HasCrew
-						id = HasCrew
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketHigh
-						title = 
-						notes = 
-						completedMessage = 
-						allowStateReset = True
-						minCrew = 0
-						maxCrew = 0
-						minExperience = 0
-						maxExperience = 5
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Unmanned
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.SoundingRocketHigh
-							title = Unmanned
-							notes = 
-							completedMessage = 
-						}
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = f4e04474-163a-4c3d-87fd-e867eb69810b
-				type = ConfiguredContract
-				prestige = 0
-				seed = 2076169003
-				state = Offered
-				agent = STEADLER Engineering Corps
-				deadlineType = Floating
-				expiryType = Floating
-				ignoresWeight = True
-				values = 263520,31104000,445.544555783272,467.821762327215,1476.2999329567,0,0,1.1,19163312.1282519,0,0,0
-				subtype = CrewedFlightLow
-				title = X-Planes (Low)
-				description = Design, build and fly a crewed aircraft (not a rocket) to maintain 3125 meters altitude then return home safely.
-				synopsis = Fly to 3125 m.
-				completedMessage = Congratulations on a successful flight!
-				hash = -1895621553
-				REQUIREMENT
-				{
-					name = All
-					type = All
-					targetBody = Earth
-					invertRequirement = False
-					checkOnActiveContract = False
-					REQUIREMENT
-					{
-						name = NotCompleteFirstCrewedSpaceFlight
-						type = CompleteContract
-						targetBody = Earth
-						invertRequirement = True
-						checkOnActiveContract = True
-						minCount = 1
-						maxCount = 4294967295
-						contractType = first_OrbitCrewed
-						cooldownDuration = 0
-					}
-					REQUIREMENT
-					{
-						name = NotBrokeSoundBarrier
-						type = CompleteContract
-						targetBody = Earth
-						invertRequirement = True
-						checkOnActiveContract = True
-						minCount = 1
-						maxCount = 4294967295
-						contractType = first_CrewedSupersonic
-						cooldownDuration = 0
-					}
-					REQUIREMENT
-					{
-						name = hadFirstFlight
-						type = CompleteContract
-						targetBody = Earth
-						invertRequirement = False
-						checkOnActiveContract = True
-						minCount = 1
-						maxCount = 4294967295
-						contractType = first_FirstFlight
-						cooldownDuration = 0
-					}
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = VesselGroup
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.CrewedFlightLow
-					title = Maintain between 3125 and 4125 m with a crewed aircraft.
-					notes = 
-					completedMessage = 
-					define = lowAirplane
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = NewVessel
-						id = NewVessel
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.CrewedFlightLow
-						title = Launch a new vessel
-						notes = 
-						completedMessage = 
-						allowStateReset = True
-						launchID = 0
-					}
-					PARAM
-					{
-						name = HasCrew
-						id = HasCrew
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.CrewedFlightLow
-						title = 
-						notes = 
-						completedMessage = 
-						allowStateReset = True
-						minCrew = 1
-						maxCrew = 2147483647
-						minExperience = 0
-						maxExperience = 5
-						PARAM
-						{
-							name = CountParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.CrewedFlightLow
-							title = Count: At least 1 
-							notes = 
-							completedMessage = 
-						}
-					}
-					PARAM
-					{
-						name = ReachState
-						id = ReachAlt
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.CrewedFlightLow
-						title = Hold between 3125 and 4125 meters.
-						notes = 
-						completedMessage = 
-						allowStateReset = False
-						targetBody = Earth
-						minAltitude = 3125
-						maxAltitude = 4125
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Destination: Earth
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.CrewedFlightLow
-							title = Destination: Earth
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Altitude: Between 3,125 m and 4,125 m
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.CrewedFlightLow
-							title = Altitude: Between 3,125 m and 4,125 m
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = Duration
-							id = Duration
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.CrewedFlightLow
-							title = 
-							notes = 
-							completedMessage = 
-							duration = 180
-							preWaitText = Reach specified altitude.
-							waitingText = Completing Flight
-							completionText = Flight completed, you are cleared to land.
-							endTime = 0
-							startCriteria = CONTRACT_ACCEPTANCE
-							triggered = False
-						}
-					}
-					PARAM
-					{
-						name = ReturnHome
-						id = ReturnHome
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.CrewedFlightLow
-						title = Land or splashdown on Earth
-						notes = 
-						completedMessage = 
-						completeInSequence = True
-						allowStateReset = True
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = b5980608-2efe-4cb4-830d-6b8cefbe5fce
-				type = ConfiguredContract
-				prestige = 0
-				seed = 184075191
-				state = Offered
-				agent = FLOOYD Dynamics Research Labs
-				deadlineType = Floating
-				expiryType = Floating
-				ignoresWeight = True
-				values = 2562660,31104000,592,1041.59995269775,1553.9999294281,0,0,0,21462724.9482458,0,0,0
-				subtype = SoundingRocketMedium
-				title = Sounding Rocket (Medium)
-				description = Design, build and launch a sounding rocket to attain 240 km.
-				synopsis = Launch a sounding rocket to 240 km.
-				completedMessage = Congratulations on a successful launch! The rocket has reached 240 km.
-				hash = -823964821
-				REQUIREMENT
-				{
-					name = AltitudeRecord100k
-					type = AltitudeRecord
-					targetBody = Earth
-					invertRequirement = False
-					checkOnActiveContract = False
-					minAltitude = 100000
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = VesselGroup
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketMedium
-					title = Reach 240 km with a sounding rocket.
-					notes = 
-					completedMessage = 
-					define = soundingMedCraft
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = NewVessel
-						id = NewVessel
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketMedium
-						title = Launch a new vessel
-						notes = 
-						completedMessage = 
-						allowStateReset = True
-						launchID = 0
-					}
-					PARAM
-					{
-						name = ReachState
-						id = ReachAlt
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketMedium
-						title = 
-						notes = 
-						completedMessage = 
-						allowStateReset = True
-						targetBody = Earth
-						minAltitude = 240000
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Destination: Earth
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.SoundingRocketMedium
-							title = Destination: Earth
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Altitude: Above 240,000 m
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.SoundingRocketMedium
-							title = Altitude: Above 240,000 m
-							notes = 
-							completedMessage = 
-						}
-					}
-					PARAM
-					{
-						name = HasCrew
-						id = HasCrew
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketMedium
-						title = 
-						notes = 
-						completedMessage = 
-						allowStateReset = True
-						minCrew = 0
-						maxCrew = 0
-						minExperience = 0
-						maxExperience = 5
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Unmanned
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.SoundingRocketMedium
-							title = Unmanned
-							notes = 
-							completedMessage = 
 						}
 					}
 				}
@@ -7503,13 +7491,6 @@ GAME
 						completedMessage = 
 						allowStateReset = True
 						launchID = 13
-						VESSEL_STATS
-						{
-							vessel = fd4af5c8-833f-46d4-ac6f-81ee6d2e835b
-							state = Complete
-							strength = STRONG
-							completionTime = 18899792.7082519
-						}
 						DOCKED_SUB_VESSEL
 						{
 							hash = 2013023584
@@ -7549,13 +7530,6 @@ GAME
 						allowStateReset = True
 						targetBody = Earth
 						minAltitude = 200000
-						VESSEL_STATS
-						{
-							vessel = fd4af5c8-833f-46d4-ac6f-81ee6d2e835b
-							state = Complete
-							strength = STRONG
-							completionTime = 18900064.9082458
-						}
 						PARAM
 						{
 							name = ParameterDelegate`1
@@ -7598,13 +7572,6 @@ GAME
 						maxCrew = 0
 						minExperience = 0
 						maxExperience = 5
-						VESSEL_STATS
-						{
-							vessel = fd4af5c8-833f-46d4-ac6f-81ee6d2e835b
-							state = Complete
-							strength = STRONG
-							completionTime = 18899792.7082519
-						}
 						DOCKED_SUB_VESSEL
 						{
 							hash = 2013023584
@@ -7656,7 +7623,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 112603.984080661
+		funds = 103603.984080661
 	}
 	SCENARIO
 	{
@@ -7740,7 +7707,7 @@ GAME
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 52.58333
+		sci = 2.583328
 		Tech
 		{
 			id = start
@@ -7934,6 +7901,8 @@ GAME
 			id = subsonicFlight
 			state = Available
 			cost = 1
+			part = X1.Engine
+			part = X1.Crew
 		}
 		Science
 		{
@@ -9021,7 +8990,7 @@ GAME
 		EngineConfigUpgrade
 		{
 			name = XLR11
-			unlocked = False
+			unlocked = True
 		}
 		EngineConfigUpgrade
 		{
@@ -10762,7 +10731,7 @@ GAME
 			SimulationTime = 00:00:00:00:00
 			SalesFigures = 0
 			UpgradesResetCounter = 0
-			TechUpgrades = 1
+			TechUpgrades = 5
 			SavedUpgradePointsPreAPI = 0
 			VABUpgrades
 			{
@@ -10881,7 +10850,7 @@ GAME
 			ActiveLPID = 0
 			VABUpgrades
 			{
-				Upgrade = 8
+				Upgrade = 10
 			}
 			SPHUpgrades
 			{
@@ -10890,7 +10859,7 @@ GAME
 			RDUpgrades
 			{
 				Upgrade = 0
-				Upgrade = 1
+				Upgrade = 5
 			}
 			VABList
 			{
@@ -62914,7 +62883,7 @@ GAME
 				{
 					name = LaunchPad Reconditioning
 					BP = 11970.2647749195
-					progress = 418.479990646243
+					progress = 663.884985180857
 					cost = 0
 					associatedID = fd4af5c8-833f-46d4-ac6f-81ee6d2e835b
 					launchPadID = LaunchPad
@@ -62934,6 +62903,84 @@ GAME
 		}
 		TechList
 		{
+			Tech
+			{
+				techName = Early Orbital Rocketry
+				techID = basicRocketry
+				scienceCost = 10
+				progress = 3.50007648401862
+				ProtoNode
+				{
+					id = basicRocketry
+					state = Unavailable
+					cost = 10
+				}
+			}
+			Tech
+			{
+				techName = Early Avionics
+				techID = earlyAvionics
+				scienceCost = 10
+				progress = 0
+				ProtoNode
+				{
+					id = earlyAvionics
+					state = Unavailable
+					cost = 10
+				}
+			}
+			Tech
+			{
+				techName = Mature Supersonic Flight
+				techID = aviation
+				scienceCost = 10
+				progress = 0
+				ProtoNode
+				{
+					id = aviation
+					state = Unavailable
+					cost = 10
+				}
+			}
+			Tech
+			{
+				techName = Basic Orbital Rocketry
+				techID = generalRocketry
+				scienceCost = 10
+				progress = 0
+				ProtoNode
+				{
+					id = generalRocketry
+					state = Unavailable
+					cost = 10
+				}
+			}
+			Tech
+			{
+				techName = Early Construction
+				techID = engineering101
+				scienceCost = 5
+				progress = 0
+				ProtoNode
+				{
+					id = engineering101
+					state = Unavailable
+					cost = 5
+				}
+			}
+			Tech
+			{
+				techName = Basic Avionics
+				techID = basicAvionics
+				scienceCost = 5
+				progress = 0
+				ProtoNode
+				{
+					id = basicAvionics
+					state = Unavailable
+					cost = 5
+				}
+			}
 		}
 	}
 	SCENARIO
@@ -62947,7 +62994,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.2
-		UT = 18900691.2482318
+		UT = 18901133.9882219
 		activeVessel = 0
 		mapViewFiltering = -1026
 	}
@@ -62967,6 +63014,8 @@ GAME
 		CustomBarnKit v1.1.7.0 = True
 		DeadlyReentry v7.4.3.0 = True
 		EditorExtensionsRedux v2.12.5964.38080 = True
+		EngineGroupController v1.0.0.0 = True
+		UnityGUIFramework v1.0.0.0 = True
 		Atmosphere v1.5.5977.42514 / v1.0.0.0 = True
 		CelestialShadows v1.5.5977.42514 / v1.0.0.0 = True
 		CityLights v1.5.5977.42514 / v1.0.0.0 = True
@@ -63003,7 +63052,7 @@ GAME
 		PilotAssistant v1.0.0.0 = True
 		PlanetShine v1.0.5938.30099 = True
 		ProceduralFairings v0.0.0.0 = True
-		ProceduralParts v1.2.3.0 = True
+		ProceduralParts v1.2.4.0 = True
 		System.Core v2.0.5.0 / v3.0.40818.0 = True
 		RealChute v1.4.5964.18052 / v1.4.1.1 = True
 		RealFuels v0.11.2.42752 / v0.11.2.0 = True
@@ -63095,6 +63144,9 @@ GAME
 		VenStockRevamp = True
 		WiderContractsApp = True
 		cls_settings.dat = True
+		EnvironmentalVisualEnhancements Working.zip = True
+		FShangarExtender.zip = True
+		GFL_KSP112_20160512.zip = True
 		MagiCore-License.txt = True
 		MagiCore.dll = True
 		MagiCore.version = True
@@ -63103,17 +63155,13 @@ GAME
 		ModuleManager.ConfigSHA = True
 		ModuleManager.Physics = True
 		ModuleManager.TechTree = True
-		EngineGroupController v1.0.0.0 = False
-		UnityGUIFramework v1.0.0.0 = False
+		RealFuels_v11.2.0.zip = True
+		RealHeat_v4.2.zip = True
+		RealSolarSystem_v11.2.0.zip = True
+		scatterer_20160513.zip = True
+		Telemachus.zip = True
+		ProceduralParts v1.2.3.0 = False
 		MechJeb2 v2.5.1.0 / vDev #588 Sarbian / v2.5.7.0 = False
-		EnvironmentalVisualEnhancements Working.zip = False
-		FShangarExtender.zip = False
-		GFL_KSP112_20160512.zip = False
-		RealFuels_v11.2.0.zip = False
-		RealHeat_v4.2.zip = False
-		RealSolarSystem_v11.2.0.zip = False
-		scatterer_20160513.zip = False
-		Telemachus.zip = False
 		ImprovedChaseCamera v0.0.0.0 = False
 		ImprovedChaseCamera = False
 		Servers v1.4.31.0 = False
@@ -63207,7 +63255,6 @@ GAME
 		RCSBuildAid = False
 		RedIronCrown = False
 		StockVisualEnhancements = False
-		ProceduralParts v1.2.4.0 = False
 	}
 	ROSTER
 	{
@@ -63474,7 +63521,7 @@ GAME
 		MESSAGE
 		{
 			title = Contract Complete
-			message = <b>Sounding Rocket (Medium)</b>~n~nCongratulations on a successful launch! The rocket has reached 200 km.~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  881   </color>~n~n
+			message = <b>Break the Sound Barrier (Crewed)</b>~n~nBoom! Congratulations, you have broken the sound barrier.~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  35,000   </color>~n<color=#E0D503>¡ 30   </color>~n~n
 			color = 2
 			icon = 3
 			read = False
@@ -63482,7 +63529,7 @@ GAME
 		MESSAGE
 		{
 			title = Contract Complete
-			message = <b>Sounding Rocket (Medium)</b>~n~nCongratulations on a successful launch! The rocket has reached 140 km.~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  912   </color>~n~n
+			message = <b>Crewed Altitude Record of 30 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  697   </color>~n<color=#E0D503>¡ 5   </color>~n~n
 			color = 2
 			icon = 3
 			read = False
@@ -63490,7 +63537,7 @@ GAME
 		MESSAGE
 		{
 			title = Contract Complete
-			message = <b>Sounding Rocket (High)</b>~n~nCongratulations on a successful launch! The rocket has reached 2,200 km.~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  2,267   </color>~n~n
+			message = <b>Crewed Altitude Record of 25 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  642   </color>~n<color=#E0D503>¡ 4   </color>~n~n
 			color = 2
 			icon = 3
 			read = False
@@ -63498,7 +63545,7 @@ GAME
 		MESSAGE
 		{
 			title = Contract Complete
-			message = <b>Sounding Rocket (Medium)</b>~n~nCongratulations on a successful launch! The rocket has reached 450 km.~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,230   </color>~n~n
+			message = <b>Crewed Speed Record of 600 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,615   </color>~n<color=#E0D503>¡ 10   </color>~n~n
 			color = 2
 			icon = 3
 			read = False
@@ -63506,7 +63553,23 @@ GAME
 		MESSAGE
 		{
 			title = Contract Complete
-			message = <b>Sounding Rocket (Medium)</b>~n~nCongratulations on a successful launch! The rocket has reached 360 km.~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,142   </color>~n~n
+			message = <b>Crewed Speed Record of 350 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,248   </color>~n<color=#E0D503>¡ 7   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Break the Sound Barrier (Crewed)</b>~n~nBoom! Congratulations, you have broken the sound barrier.~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  35,000   </color>~n<color=#E0D503>¡ 30   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 600 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,615   </color>~n<color=#E0D503>¡ 10   </color>~n~n
 			color = 2
 			icon = 3
 			read = False
