@@ -110,7 +110,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 18901131.148222
+		update = -1000
 		version = 1.1.2
 		WEIGHTS
 		{
@@ -7623,7 +7623,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 103603.984080661
+		funds = 93603.984080661
 	}
 	SCENARIO
 	{
@@ -7903,6 +7903,9 @@ GAME
 			cost = 1
 			part = X1.Engine
 			part = X1.Crew
+			part = RO-B9ProcWing-Supersonic
+			part = RO-B9ProcAMWing-Supersonic
+			part = RO-B9ProcCS-Supersonic
 		}
 		Science
 		{
@@ -10834,14 +10837,20 @@ GAME
 				Item = 2
 				Item = RC.stack
 				Item = 46880
-				Item = proceduralTankRealFuels
-				Item = 16838
 				Item = ROAerobeeSustainer
 				Item = 2
 				Item = GooExperiment
 				Item = 4
 				Item = SnubOtron
 				Item = 4
+				Item = proceduralTankRealFuels
+				Item = 16838
+				Item = RO-B9ProcCS-Early
+				Item = -500
+				Item = RO-B9ProcWing-Early
+				Item = -300
+				Item = proceduralNoseCone
+				Item = 426
 			}
 		}
 		KSC
@@ -62883,7 +62892,7 @@ GAME
 				{
 					name = LaunchPad Reconditioning
 					BP = 11970.2647749195
-					progress = 663.884985180857
+					progress = 670.364985036005
 					cost = 0
 					associatedID = fd4af5c8-833f-46d4-ac6f-81ee6d2e835b
 					launchPadID = LaunchPad
@@ -62908,7 +62917,7 @@ GAME
 				techName = Early Orbital Rocketry
 				techID = basicRocketry
 				scienceCost = 10
-				progress = 3.50007648401862
+				progress = 3.50008076484056
 				ProtoNode
 				{
 					id = basicRocketry
@@ -62994,7 +63003,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.2
-		UT = 18901133.9882219
+		UT = 18901144.8282217
 		activeVessel = 0
 		mapViewFiltering = -1026
 	}
@@ -63569,7 +63578,375 @@ GAME
 		MESSAGE
 		{
 			title = Contract Complete
+			message = <b>Crewed Altitude Record of 80 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,248   </color>~n<color=#E0D503>¡ 9   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 1500 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  2,936   </color>~n<color=#E0D503>¡ 22   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 70 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,138   </color>~n<color=#E0D503>¡ 8   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 1200 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  2,495   </color>~n<color=#E0D503>¡ 17   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 60 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,028   </color>~n<color=#E0D503>¡ 8   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 900 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  2,055   </color>~n<color=#E0D503>¡ 14   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 50 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  917   </color>~n<color=#E0D503>¡ 7   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
 			message = <b>Crewed Speed Record of 600 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,615   </color>~n<color=#E0D503>¡ 10   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 40 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  807   </color>~n<color=#E0D503>¡ 5   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 30 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  697   </color>~n<color=#E0D503>¡ 5   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 25 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  642   </color>~n<color=#E0D503>¡ 4   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 350 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,248   </color>~n<color=#E0D503>¡ 7   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 25 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  642   </color>~n<color=#E0D503>¡ 4   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 600 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,615   </color>~n<color=#E0D503>¡ 10   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 350 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,248   </color>~n<color=#E0D503>¡ 7   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 70 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,138   </color>~n<color=#E0D503>¡ 8   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 2000 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  3,670   </color>~n<color=#E0D503>¡ 28   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 1500 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  2,936   </color>~n<color=#E0D503>¡ 22   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 1200 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  2,495   </color>~n<color=#E0D503>¡ 17   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 60 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,028   </color>~n<color=#E0D503>¡ 8   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 900 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  2,055   </color>~n<color=#E0D503>¡ 14   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 50 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  917   </color>~n<color=#E0D503>¡ 7   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 40 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  807   </color>~n<color=#E0D503>¡ 5   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 600 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,615   </color>~n<color=#E0D503>¡ 10   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 30 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  697   </color>~n<color=#E0D503>¡ 5   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 25 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  642   </color>~n<color=#E0D503>¡ 4   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 350 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,248   </color>~n<color=#E0D503>¡ 7   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Break the Sound Barrier (Crewed)</b>~n~nBoom! Congratulations, you have broken the sound barrier.~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  35,000   </color>~n<color=#E0D503>¡ 30   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 60 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,028   </color>~n<color=#E0D503>¡ 8   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 2000 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  3,670   </color>~n<color=#E0D503>¡ 28   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 1500 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  2,936   </color>~n<color=#E0D503>¡ 22   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 50 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  917   </color>~n<color=#E0D503>¡ 7   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 1200 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  2,495   </color>~n<color=#E0D503>¡ 17   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 900 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  2,055   </color>~n<color=#E0D503>¡ 14   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 40 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  807   </color>~n<color=#E0D503>¡ 5   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 600 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,615   </color>~n<color=#E0D503>¡ 10   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 30 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  697   </color>~n<color=#E0D503>¡ 5   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 25 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  642   </color>~n<color=#E0D503>¡ 4   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 350 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,248   </color>~n<color=#E0D503>¡ 7   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 1200 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  2,495   </color>~n<color=#E0D503>¡ 17   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 900 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  2,055   </color>~n<color=#E0D503>¡ 14   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 40 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  807   </color>~n<color=#E0D503>¡ 5   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 600 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,615   </color>~n<color=#E0D503>¡ 10   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 30 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  697   </color>~n<color=#E0D503>¡ 5   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Altitude Record of 25 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  642   </color>~n<color=#E0D503>¡ 4   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Crewed Speed Record of 350 m/s.</b>~n~nCongratulations! You've set a new crewed speed record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  1,248   </color>~n<color=#E0D503>¡ 7   </color>~n~n
+			color = 2
+			icon = 3
+			read = False
+		}
+		MESSAGE
+		{
+			title = Contract Complete
+			message = <b>Break the Sound Barrier (Crewed)</b>~n~nBoom! Congratulations, you have broken the sound barrier.~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  35,000   </color>~n<color=#E0D503>¡ 30   </color>~n~n
 			color = 2
 			icon = 3
 			read = False

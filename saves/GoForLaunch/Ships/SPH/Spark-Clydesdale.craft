@@ -2,12 +2,12 @@ ship = Spark-Clydesdale
 version = 1.1.2
 description = 
 type = SPH
-size = 22.28781,9.161549,16.46836
+size = 22.28781,9.134902,16.46849
 PART
 {
 	part = X1.Crew_4294563806
 	partName = Part
-	pos = 0.006577337,3.352347,5.173245
+	pos = 0.006572054,3.352323,5.135858
 	attPos = 0,0,1.995294
 	attPos0 = 0.006588459,3.352325,2.985939
 	rot = 0.7071068,0,0,0.7071068
@@ -27,7 +27,7 @@ PART
 	link = proceduralTankRealFuels_4294552234
 	link = SmallGearBay_4293970232
 	link = SmallGearBay_4288816948
-	link = radialDecoupler_4288323688
+	link = radialDecoupler1-2_4274622472
 	attN = bottom,proceduralTankRealFuels_4294552234
 	EVENTS
 	{
@@ -2346,7 +2346,7 @@ PART
 {
 	part = proceduralTankRealFuels_4294552234
 	partName = Part
-	pos = 0.006577337,3.352347,1.621383
+	pos = 0.006572054,3.352323,1.583986
 	attPos = 0,0,0
 	attPos0 = 0,-2.051755,6.169671E-09
 	rot = 0.7071068,0,0,0.7071068
@@ -2363,13 +2363,13 @@ PART
 	modCost = 46.55796
 	modMass = -0.6198214
 	modSize = (0.0, 0.0, 0.0)
-	link = RO-B9ProcWing-Early_4294482110
-	link = RO-B9ProcWing-Early_4294476632
-	link = SmallGearBay_4293927936
-	link = X1.Engine_4294524988
-	link = RO-B9ProcWing-Early_4294440402
+	link = RO-B9ProcWing-Early_4274036520
+	link = RO-B9ProcWing-Early_4274036250
+	link = SmallGearBay_4274035980
+	link = X1.Engine_4274035756
+	link = RO-B9ProcWing-Early_4274035652
 	attN = top,X1.Crew_4294563806
-	attN = bottom,X1.Engine_4294524988
+	attN = bottom,X1.Engine_4274035756
 	EVENTS
 	{
 	}
@@ -2384,7 +2384,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.246, 4.500001, -1.246001)
+		tempColliderSize = (1.246, 4.5, -1.246001)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.03734727
@@ -3917,9 +3917,9 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4294482110
+	part = RO-B9ProcWing-Early_4274036520
 	partName = Part
-	pos = -0.3177654,3.351177,1.471238
+	pos = -0.3177707,3.351153,1.433832
 	attPos = -0.009704888,0.2932069,-0.004994666
 	attPos0 = -0.314638,-0.4500005,0.006164605
 	rot = -0.003926286,-0.7148809,-0.6992238,-0.004014204
@@ -3936,9 +3936,9 @@ PART
 	modCost = 4.8
 	modMass = 0.216636
 	modSize = (-1.0, -0.4, -0.1)
-	link = RO-B9ProcCS-Early_4294446672
-	link = RO-B9ProcCS-Early_4294459960
-	sym = RO-B9ProcWing-Early_4294476632
+	link = RO-B9ProcCS-Early_4274036402
+	link = RO-B9ProcCS-Early_4274036326
+	sym = RO-B9ProcWing-Early_4274036250
 	srfN = srfAttach,proceduralTankRealFuels_4294552234
 	EVENTS
 	{
@@ -5047,12 +5047,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4294446672
+	part = RO-B9ProcCS-Early_4274036402
 	partName = Part
-	pos = -2.58591,3.336725,-0.3318057
+	pos = -2.585915,3.336701,-0.3692055
 	attPos = 0,0,0
 	attPos0 = 2.268258,-1.802944,-2.151355E-07
-	rot = 0.6992306,-0.002570881,-0.005462597,0.7148709
+	rot = 0.6992307,-0.002570881,-0.005462598,0.7148709
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = -0.002107546,0.9999978,-1.264405E-07,4.24534E-05
 	mir = 1,1,1
@@ -5066,8 +5066,8 @@ PART
 	modCost = -0.2
 	modMass = 0.01230359
 	modSize = (-2.5, -3.9, -0.1)
-	sym = RO-B9ProcCS-Early_4294446564
-	srfN = srfAttach,RO-B9ProcWing-Early_4294482110
+	sym = RO-B9ProcCS-Early_4274036132
+	srfN = srfAttach,RO-B9ProcWing-Early_4274036520
 	EVENTS
 	{
 	}
@@ -5475,12 +5475,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4294459960
+	part = RO-B9ProcCS-Early_4274036326
 	partName = Part
-	pos = -1.090463,3.319793,-0.3377457
+	pos = -1.090468,3.319769,-0.3751516
 	attPos = 0,0,0
 	attPos0 = 0.7727419,-1.809248,-2.156012E-07
-	rot = 0.6992306,-0.002570881,-0.005462597,0.7148709
+	rot = 0.6992307,-0.002570881,-0.005462598,0.7148709
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = -0.002107546,0.9999978,-1.264405E-07,4.24534E-05
 	mir = 1,1,1
@@ -5494,8 +5494,8 @@ PART
 	modCost = 4.8
 	modMass = 0.01902009
 	modSize = (-2.5, -3.8, -0.1)
-	sym = RO-B9ProcCS-Early_4294445750
-	srfN = srfAttach,RO-B9ProcWing-Early_4294482110
+	sym = RO-B9ProcCS-Early_4274036056
+	srfN = srfAttach,RO-B9ProcWing-Early_4274036520
 	EVENTS
 	{
 	}
@@ -5903,9 +5903,9 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4294476632
+	part = RO-B9ProcWing-Early_4274036250
 	partName = Part
-	pos = 0.3309202,3.351177,1.471237
+	pos = 0.330915,3.351153,1.433831
 	attPos = 0.009704888,0.2932059,-0.004994666
 	attPos0 = 0.314638,-0.4500005,0.006164605
 	rot = -0.6992239,-0.004014235,-0.003926315,-0.7148808
@@ -5922,9 +5922,9 @@ PART
 	modCost = 4.8
 	modMass = 0.216636
 	modSize = (-1.0, -0.4, -0.1)
-	link = RO-B9ProcCS-Early_4294446564
-	link = RO-B9ProcCS-Early_4294445750
-	sym = RO-B9ProcWing-Early_4294482110
+	link = RO-B9ProcCS-Early_4274036132
+	link = RO-B9ProcCS-Early_4274036056
+	sym = RO-B9ProcWing-Early_4274036520
 	srfN = srfAttach,proceduralTankRealFuels_4294552234
 	EVENTS
 	{
@@ -7033,9 +7033,9 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4294446564
+	part = RO-B9ProcCS-Early_4274036132
 	partName = Part
-	pos = 2.599064,3.336725,-0.3318219
+	pos = 2.599059,3.336701,-0.3692284
 	attPos = 0,0,0
 	attPos0 = 2.268258,-1.802943,1.02134E-06
 	rot = -0.005462632,0.7148708,0.6992308,-0.002570917
@@ -7052,8 +7052,8 @@ PART
 	modCost = -0.2
 	modMass = 0.01230359
 	modSize = (-2.5, -3.9, -0.1)
-	sym = RO-B9ProcCS-Early_4294446672
-	srfN = srfAttach,RO-B9ProcWing-Early_4294476632
+	sym = RO-B9ProcCS-Early_4274036402
+	srfN = srfAttach,RO-B9ProcWing-Early_4274036250
 	EVENTS
 	{
 	}
@@ -7461,9 +7461,9 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4294445750
+	part = RO-B9ProcCS-Early_4274036056
 	partName = Part
-	pos = 1.103617,3.319793,-0.3377562
+	pos = 1.103612,3.319769,-0.3751626
 	attPos = 0,0,0
 	attPos0 = 0.7727419,-1.809247,8.93189E-07
 	rot = -0.005462632,0.7148708,0.6992308,-0.002570917
@@ -7480,8 +7480,8 @@ PART
 	modCost = 4.8
 	modMass = 0.01902009
 	modSize = (-2.5, -3.8, -0.1)
-	sym = RO-B9ProcCS-Early_4294459960
-	srfN = srfAttach,RO-B9ProcWing-Early_4294476632
+	sym = RO-B9ProcCS-Early_4274036326
+	srfN = srfAttach,RO-B9ProcWing-Early_4274036250
 	EVENTS
 	{
 	}
@@ -7889,9 +7889,9 @@ PART
 }
 PART
 {
-	part = SmallGearBay_4293927936
+	part = SmallGearBay_4274035980
 	partName = Part
-	pos = 0.006577338,3.311073,5.093739
+	pos = 0.006572054,3.311049,5.056351
 	attPos = 4.656613E-10,2.301799,-0.2986957
 	attPos0 = 0,0.7499999,0.3399696
 	rot = 0.02742976,0,0,0.9996238
@@ -7924,8 +7924,8 @@ PART
 		isEnabled = True
 		wheelType = FREE
 		isGrounded = False
-		autoFriction = True
-		frictionMultiplier = 0.98
+		autoFriction = False
+		frictionMultiplier = 2.97
 		stagingEnabled = True
 		frictionMultiplier_UIFlight
 		{
@@ -7943,7 +7943,7 @@ PART
 				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = 
-				guiName = Friction Control: Auto
+				guiName = Friction Control: Override
 				category = 
 				guiActiveUnfocused = False
 				unfocusedRange = 2
@@ -8571,9 +8571,9 @@ PART
 }
 PART
 {
-	part = X1.Engine_4294524988
+	part = X1.Engine_4274035756
 	partName = Part
-	pos = 0.006577337,3.352347,-0.9936986
+	pos = 0.006572054,3.352323,-1.03112
 	attPos = 0,0,0
 	attPos0 = 0,-4.465025,5.543518E-08
 	rot = 0.7071068,0,0,0.7071068
@@ -9251,9 +9251,9 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4294440402
+	part = RO-B9ProcWing-Early_4274035652
 	partName = Part
-	pos = 0.006577323,3.685363,0.1298909
+	pos = 0.006572039,3.685339,0.09248495
 	attPos = 0,-0.03247118,0.06491998
 	attPos0 = 3.49246E-08,-1.459,-0.3979357
 	rot = 0.4692747,0.5289437,0.4692746,0.5289437
@@ -9270,7 +9270,7 @@ PART
 	modCost = -0.2
 	modMass = 0.06988389
 	modSize = (-2.5, -2.1, -0.1)
-	link = RO-B9ProcCS-Early_4294440280
+	link = RO-B9ProcCS-Early_4274035534
 	srfN = srfAttach,proceduralTankRealFuels_4294552234
 	EVENTS
 	{
@@ -10379,9 +10379,9 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4294440280
+	part = RO-B9ProcCS-Early_4274035534
 	partName = Part
-	pos = 0.006575949,4.332305,-0.7972879
+	pos = 0.006570293,4.332283,-0.8346949
 	attPos = 0,0,0
 	attPos0 = 0.7527802,-0.843484,-3.481701E-08
 	rot = -0.5012272,0.4987701,0.5012263,-0.4987707
@@ -10398,7 +10398,7 @@ PART
 	modCost = -0.2
 	modMass = 0.01230359
 	modSize = (-2.5, -3.9, -0.1)
-	srfN = srfAttach,RO-B9ProcWing-Early_4294440402
+	srfN = srfAttach,RO-B9ProcWing-Early_4274035652
 	EVENTS
 	{
 	}
@@ -10808,12 +10808,12 @@ PART
 {
 	part = SmallGearBay_4293970232
 	partName = Part
-	pos = -0.3291103,3.116418,1.597575
-	attPos = -0.09333172,-2.273911,0.2782698
+	pos = -1.85312,3.327212,1.091594
+	attPos = -1.617337,-2.742507,0.06745181
 	attPos0 = -0.2423559,-1.30175,-0.04234084
-	rot = 0,0,0.2665747,-0.9638144
-	attRot = 0.6815197,0.1884967,0.1884967,-0.6815197
-	attRot0 = 0.6815197,0.1884967,0.1884967,-0.6815197
+	rot = 0,0,-0.00460878,-0.9999895
+	attRot = 0.7070994,-0.0032589,-0.0032589,-0.7070994
+	attRot0 = 0.7070993,-0.003258899,-0.003258899,-0.7070993
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 0
@@ -11491,11 +11491,11 @@ PART
 {
 	part = SmallGearBay_4288816948
 	partName = Part
-	pos = 0.342265,3.116418,1.597574
-	attPos = 0.09333172,-2.273912,0.2782698
+	pos = 1.866265,3.327212,1.091593
+	attPos = 1.617337,-2.742508,0.06745181
 	attPos0 = 0.2423559,-1.30175,-0.04234084
-	rot = 0,0,0.2665746,0.9638144
-	attRot = 0.6815197,0.1884967,0.1884967,-0.6815197
+	rot = 0,0,-0.00460878,0.9999895
+	attRot = 0.7070994,-0.0032589,-0.0032589,-0.7070994
 	attRot0 = -0.7071068,0,0,0.7071068
 	mir = 1,1,1
 	symMethod = Mirror
@@ -12172,14 +12172,14 @@ PART
 }
 PART
 {
-	part = radialDecoupler_4288323688
+	part = radialDecoupler1-2_4274622472
 	partName = Part
-	pos = 0.006577336,2.586752,1.966608
-	attPos = 4.656614E-10,-1.904885,0.2105498
-	attPos0 = -1.396984E-09,-1.30175,0.5550456
-	rot = 0.5000001,0.5000001,0.5000001,0.5000001
-	attRot = 0,0,-0.7071067,0.7071067
-	attRot0 = 0,0.7071068,0,0.7071068
+	pos = 0.006572054,2.594868,1.962747
+	attPos = 0,-1.871358,0.2201781
+	attPos0 = 0,-1.301751,0.537277
+	rot = -0.5000001,-0.5000001,-0.5000001,-0.5000001
+	attRot = 0,0,0.7071067,-0.7071067
+	attRot0 = 0,-0.7071068,0,-0.7071068
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 0
@@ -12191,7 +12191,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = proceduralTankRealFuels_4288320510
+	link = proceduralTankRealFuels_4274611092
 	srfN = srfAttach,X1.Crew_4294563806
 	EVENTS
 	{
@@ -12526,14 +12526,14 @@ PART
 }
 PART
 {
-	part = proceduralTankRealFuels_4288320510
+	part = proceduralTankRealFuels_4274611092
 	partName = Part
-	pos = 0.00657915,1.555194,1.628785
-	attPos = -1.734179,-0.5815103,1.801667E-06
-	attPos0 = 0.7026218,0.2436872,-1.099561E-07
+	pos = 0.006571859,1.581832,2.266839
+	attPos = -1.73607,0.8720075,-2.0649E-07
+	attPos0 = 0.7230337,-0.5679173,-1.089198E-07
 	rot = -0.7071069,-1.47514E-07,-1.47514E-07,-0.7071069
 	attRot = 0,0.9999999,0,0
-	attRot0 = 1.421085E-14,0.7071067,0,-0.7071069
+	attRot0 = -1.421085E-14,-0.7071067,0,0.7071069
 	mir = 1,1,1
 	symMethod = Mirror
 	istg = 2
@@ -12545,15 +12545,15 @@ PART
 	modCost = 2.864008
 	modMass = -0.6057084
 	modSize = (0.0, 0.0, 0.0)
-	link = RO-B9ProcWing-Early_4288320438
-	link = RO-B9ProcWing-Early_4288318746
-	link = GearSmall_4288317054
-	link = GearSmall_4288316810
-	link = SXTke111_4288316566
-	link = proceduralNoseCone_4288307120
-	srfN = srfAttach,radialDecoupler_4288323688
-	attN = top,SXTke111_4288316566
-	attN = bottom,proceduralNoseCone_4288307120
+	link = RO-B9ProcWing-Early_4274611020
+	link = RO-B9ProcWing-Early_4274609328
+	link = GearSmall_4274607636
+	link = GearSmall_4274607392
+	link = SXTke111_4274607148
+	link = proceduralNoseCone_4274584856
+	srfN = srfAttach,radialDecoupler1-2_4274622472
+	attN = top,SXTke111_4274607148
+	attN = bottom,proceduralNoseCone_4274584856
 	EVENTS
 	{
 	}
@@ -13808,9 +13808,9 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4288320438
+	part = RO-B9ProcWing-Early_4274611020
 	partName = Part
-	pos = 0.006578926,2.211332,1.622341
+	pos = 0.006571635,2.237969,2.260395
 	attPos = -1.025084E-07,-1.986731,0.1937786
 	attPos0 = 7.430198E-08,1.980303,-0.8499159
 	rot = -0.01270812,-0.7069927,-0.7069927,-0.01270811
@@ -13827,9 +13827,9 @@ PART
 	modCost = 1.530457
 	modMass = 0.1019714
 	modSize = (-2.9, -2.8, 0.2)
-	link = RO-B9ProcWing-Early_4288320318
-	sym = RO-B9ProcWing-Early_4288318746
-	srfN = srfAttach,proceduralTankRealFuels_4288320510
+	link = RO-B9ProcWing-Early_4274610900
+	sym = RO-B9ProcWing-Early_4274609328
+	srfN = srfAttach,proceduralTankRealFuels_4274611092
 	EVENTS
 	{
 	}
@@ -14294,8 +14294,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 660.47989889122152
-			maxAmount = 660.47989889122152
+			amount = 660.4798854100527
+			maxAmount = 660.4798854100527
 		}
 		TANK
 		{
@@ -14936,8 +14936,8 @@ PART
 	RESOURCE
 	{
 		name = AvGas
-		amount = 660.479898891222
-		maxAmount = 660.479898891222
+		amount = 660.479885410053
+		maxAmount = 660.479885410053
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -14947,9 +14947,9 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4288320318
+	part = RO-B9ProcWing-Early_4274610900
 	partName = Part
-	pos = -1.123278,2.251964,1.627077
+	pos = -1.123286,2.278602,2.26513
 	attPos = -1.025084E-07,-0.5872862,0.2046286
 	attPos0 = 1.130582,0.004735947,-1.343766E-07
 	rot = -0.01270813,-0.7069924,-0.7069929,-0.01270811
@@ -14966,12 +14966,12 @@ PART
 	modCost = 29.8
 	modMass = 0.1308267
 	modSize = (6.0, -2.8, 0.2)
-	link = proceduralTankRealFuels_4288320200
-	link = RO-B9ProcCS-Early_4288318898
-	link = RO-B9ProcCS-Early_4288318822
-	link = strutConnector_4287006338
-	sym = RO-B9ProcWing-Early_4288318626
-	srfN = srfAttach,RO-B9ProcWing-Early_4288320438
+	link = proceduralTankRealFuels_4274610782
+	link = RO-B9ProcCS-Early_4274609480
+	link = RO-B9ProcCS-Early_4274609404
+	link = strutConnector_4274597486
+	sym = RO-B9ProcWing-Early_4274609208
+	srfN = srfAttach,RO-B9ProcWing-Early_4274611020
 	EVENTS
 	{
 	}
@@ -16079,9 +16079,9 @@ PART
 }
 PART
 {
-	part = proceduralTankRealFuels_4288320200
+	part = proceduralTankRealFuels_4274610782
 	partName = Part
-	pos = -3.059023,1.889968,1.097321
+	pos = -3.05904,1.916607,1.735376
 	attPos = -0.01073897,-1.311302E-06,-0.2987084
 	attPos0 = 1.932221,-0.5297516,-0.1326197
 	rot = 0.5045295,0.4948713,0.4953972,0.5051085
@@ -16098,13 +16098,13 @@ PART
 	modCost = 2.848707
 	modMass = -0.9671839
 	modSize = (0.0, 0.0, 0.0)
-	link = proceduralTankRealFuels_4288320128
-	link = proceduralNoseCone_4288319342
-	link = SXTJ213_4288319278
-	sym = proceduralTankRealFuels_4288318508
-	srfN = srfAttach,RO-B9ProcWing-Early_4288320318
-	attN = top,SXTJ213_4288319278
-	attN = bottom,proceduralNoseCone_4288319342
+	link = proceduralTankRealFuels_4274610710
+	link = proceduralNoseCone_4274609924
+	link = SXTJ213_4274609860
+	sym = proceduralTankRealFuels_4274609090
+	srfN = srfAttach,RO-B9ProcWing-Early_4274610900
+	attN = top,SXTJ213_4274609860
+	attN = bottom,proceduralNoseCone_4274609924
 	EVENTS
 	{
 	}
@@ -16119,7 +16119,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.279741, 0.6001056, 1.232401)
+		tempColliderSize = (1.279742, 0.6001059, 1.232401)
 		textureSet = GreySide
 		shapeName = Cylinder
 		moduleCost = 0.006845016
@@ -17359,12 +17359,12 @@ PART
 }
 PART
 {
-	part = proceduralTankRealFuels_4288320128
+	part = proceduralTankRealFuels_4274610710
 	partName = Part
-	pos = -3.059014,2.186038,0.313489
+	pos = -3.059035,2.212678,0.95154
 	attPos = 0.2000054,-0.4793072,-0.006670902
 	attPos0 = 0.09599964,-0.3000016,0.0001076524
-	rot = 0.7017807,-0.006327139,0.007209292,-0.7123287
+	rot = 0.7017807,-0.006327097,0.007209249,-0.7123287
 	attRot = 0.4931331,-0.4972439,0.5018471,0.5076597
 	attRot0 = 0.7071834,2.029545E-07,0.7070303,-7.077128E-07
 	mir = 1,1,1
@@ -17378,10 +17378,10 @@ PART
 	modCost = 2.434299
 	modMass = -0.988973
 	modSize = (0.0, 0.0, 0.0)
-	link = proceduralTankRealFuels_4288320058
-	sym = proceduralTankRealFuels_4288318436
-	srfN = srfAttach,proceduralTankRealFuels_4288320200
-	attN = top,proceduralTankRealFuels_4288320058
+	link = proceduralTankRealFuels_4274610640
+	sym = proceduralTankRealFuels_4274609018
+	srfN = srfAttach,proceduralTankRealFuels_4274610782
+	attN = top,proceduralTankRealFuels_4274610640
 	EVENTS
 	{
 	}
@@ -17396,7 +17396,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.6017691, -0.999209, 0.6528273)
+		tempColliderSize = (0.6017698, -0.9992092, 0.6528275)
 		textureSet = KHPlanes1
 		shapeName = Cylinder
 		moduleCost = 0.002705854
@@ -18906,12 +18906,12 @@ PART
 }
 PART
 {
-	part = proceduralTankRealFuels_4288320058
+	part = proceduralTankRealFuels_4274610640
 	partName = Part
-	pos = -3.052809,2.253146,-4.185979
+	pos = -3.05282,2.279768,-3.547995
 	attPos = 0.2000054,-0.4793072,-0.006670902
 	attPos0 = -5.307515E-07,1.000028,-1.55233E-07
-	rot = 0.712328,-0.007283649,-0.006402656,0.7017802
+	rot = 0.712328,-0.007283713,-0.006402719,0.7017801
 	attRot = 0,0,0,1
 	attRot0 = -1,1.462607E-09,0.0001056694,-3.086845E-07
 	mir = 1,1,1
@@ -18925,13 +18925,13 @@ PART
 	modCost = 19.47439
 	modMass = -0.9117841
 	modSize = (0.0, 0.0, 0.0)
-	link = RO-B9ProcWing-Early_4288319988
-	link = RO-B9ProcWing-Early_4288319794
-	link = RO-B9ProcWing-Early_4288319600
-	link = proceduralNoseCone_4288319406
-	sym = proceduralTankRealFuels_4288318366
-	attN = top,proceduralTankRealFuels_4288320128
-	attN = bottom,proceduralNoseCone_4288319406
+	link = RO-B9ProcWing-Early_4274610570
+	link = RO-B9ProcWing-Early_4274610376
+	link = RO-B9ProcWing-Early_4274610182
+	link = proceduralNoseCone_4274609988
+	sym = proceduralTankRealFuels_4274608948
+	attN = top,proceduralTankRealFuels_4274610710
+	attN = bottom,proceduralNoseCone_4274609988
 	EVENTS
 	{
 	}
@@ -18946,7 +18946,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.6171713, 7.996071, -0.8620485)
+		tempColliderSize = (0.6171715, 7.996073, -0.8620512)
 		textureSet = KHPlanes1
 		shapeName = Cylinder
 		moduleCost = 0.02164683
@@ -20456,12 +20456,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4288319988
+	part = RO-B9ProcWing-Early_4274610570
 	partName = Part
-	pos = -2.857078,2.310354,-8.185966
+	pos = -2.857089,2.336977,-7.547999
 	attPos = 0.1117401,-0.0003318787,-2.625166E-07
 	attPos0 = 0.07846207,-2.500005,-0.001263636
-	rot = -0.7123287,0.007215026,0.006332995,-0.7017807
+	rot = -0.7123288,0.007214983,0.006332953,-0.7017808
 	attRot = -0.4999999,0.4999999,-0.4999999,-0.4999999
 	attRot0 = -2.529771E-07,-9.760742E-05,-6.315898E-09,-1
 	mir = 1,1,1
@@ -20475,9 +20475,9 @@ PART
 	modCost = 4.8
 	modMass = 0.02980694
 	modSize = (-1.1, -3.8, -0.1)
-	link = RO-B9ProcCS-Early_4288319870
-	sym = RO-B9ProcWing-Early_4288318296
-	srfN = srfAttach,proceduralTankRealFuels_4288320058
+	link = RO-B9ProcCS-Early_4274610452
+	sym = RO-B9ProcWing-Early_4274608878
+	srfN = srfAttach,proceduralTankRealFuels_4274610640
 	EVENTS
 	{
 	}
@@ -21585,12 +21585,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4288319870
+	part = RO-B9ProcCS-Early_4274610452
 	partName = Part
-	pos = -1.405798,2.284393,-8.309376
+	pos = -1.405809,2.311017,-7.671412
 	attPos = 0,0,0
 	attPos0 = 1.451367,-0.1250272,6.565552E-07
-	rot = 0.7123568,-0.000848936,0.0001163816,0.7018174
+	rot = 0.7123567,-0.0008489994,0.0001163186,0.7018173
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = -3.660028E-08,-0.009062758,8.679428E-06,-0.999959
 	mir = 1,1,1
@@ -21604,8 +21604,8 @@ PART
 	modCost = 4.8
 	modMass = 0.0156572
 	modSize = (-1.1, -4.0, -0.1)
-	sym = RO-B9ProcCS-Early_4288318178
-	srfN = srfAttach,RO-B9ProcWing-Early_4288319988
+	sym = RO-B9ProcCS-Early_4274608760
+	srfN = srfAttach,RO-B9ProcWing-Early_4274610570
 	EVENTS
 	{
 	}
@@ -22013,9 +22013,9 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4288319794
+	part = RO-B9ProcWing-Early_4274610376
 	partName = Part
-	pos = -3.04388,2.484274,-8.465395
+	pos = -3.043894,2.510897,-7.827443
 	attPos = -0.0002354424,-0.2116933,-0.006393254
 	attPos0 = -4.731326E-07,-3.000006,-0.1609438
 	rot = 0.5084962,0.4913591,0.4988926,0.5011032
@@ -22032,9 +22032,9 @@ PART
 	modCost = 4.8
 	modMass = 0.02364478
 	modSize = (-2.3, -3.3, -0.1)
-	link = RO-B9ProcCS-Early_4288319676
-	sym = RO-B9ProcWing-Early_4288318102
-	srfN = srfAttach,proceduralTankRealFuels_4288320058
+	link = RO-B9ProcCS-Early_4274610258
+	sym = RO-B9ProcWing-Early_4274608684
+	srfN = srfAttach,proceduralTankRealFuels_4274610640
 	EVENTS
 	{
 	}
@@ -23142,12 +23142,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4288319676
+	part = RO-B9ProcCS-Early_4274610258
 	partName = Part
-	pos = -3.025315,3.371926,-8.827219
+	pos = -3.025327,3.398552,-8.189264
 	attPos = -0.0591684,-3.397465E-06,-7.095514E-07
 	attPos0 = 0.9415073,-0.3750302,0.001396193
-	rot = -0.5109687,-0.4888636,-0.4963451,-0.5035527
+	rot = -0.5109688,-0.4888636,-0.4963452,-0.5035528
 	attRot = 0,0,0.7071067,-0.7071067
 	attRot0 = -7.465338E-08,0.004982457,1.449868E-05,-0.9999877
 	mir = 1,1,1
@@ -23161,8 +23161,8 @@ PART
 	modCost = 4.8
 	modMass = 0.006989376
 	modSize = (-2.3, -4.0, -0.1)
-	sym = RO-B9ProcCS-Early_4288317984
-	srfN = srfAttach,RO-B9ProcWing-Early_4288319794
+	sym = RO-B9ProcCS-Early_4274608566
+	srfN = srfAttach,RO-B9ProcWing-Early_4274610376
 	EVENTS
 	{
 	}
@@ -23570,12 +23570,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4288319600
+	part = RO-B9ProcWing-Early_4274610182
 	partName = Part
-	pos = -3.061496,2.528634,-8.478651
+	pos = -3.06151,2.555258,-7.840682
 	attPos = -0.0002471637,-0.2221069,-0.2296156
 	attPos0 = -0.01847104,-3.000007,0.0184691
-	rot = 0.4988925,-0.5011032,-0.5084962,0.4913592
+	rot = 0.4988926,-0.5011032,-0.5084962,0.4913593
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = -0.0003911763,-0.7071067,-0.0003904611,0.7071066
 	mir = 1,1,1
@@ -23589,9 +23589,9 @@ PART
 	modCost = -0.2
 	modMass = 0.01350717
 	modSize = (-3.0, -3.3, -0.1)
-	link = RO-B9ProcCS-Early_4288319482
-	sym = RO-B9ProcWing-Early_4288317908
-	srfN = srfAttach,proceduralTankRealFuels_4288320058
+	link = RO-B9ProcCS-Early_4274610064
+	sym = RO-B9ProcWing-Early_4274608490
+	srfN = srfAttach,proceduralTankRealFuels_4274610640
 	EVENTS
 	{
 	}
@@ -24699,12 +24699,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4288319482
+	part = RO-B9ProcCS-Early_4274610064
 	partName = Part
-	pos = -3.072385,2.038021,-8.861055
+	pos = -3.072396,2.064642,-8.223087
 	attPos = -0.4451253,-5.722046E-06,-3.57395E-07
 	attPos0 = 0.9415073,-0.3750302,0.001396193
-	rot = -0.4963603,0.503538,0.5109825,-0.4888489
+	rot = -0.4963603,0.5035381,0.5109826,-0.4888489
 	attRot = 0,0,0.7071067,-0.7071067
 	attRot0 = -7.465338E-08,0.004982457,1.449868E-05,-0.9999877
 	mir = 1,1,1
@@ -24718,8 +24718,8 @@ PART
 	modCost = -0.2
 	modMass = 0.00399
 	modSize = (-3.0, -4.0, -0.1)
-	sym = RO-B9ProcCS-Early_4288317790
-	srfN = srfAttach,RO-B9ProcWing-Early_4288319600
+	sym = RO-B9ProcCS-Early_4274608372
+	srfN = srfAttach,RO-B9ProcWing-Early_4274610182
 	EVENTS
 	{
 	}
@@ -25127,12 +25127,12 @@ PART
 }
 PART
 {
-	part = proceduralNoseCone_4288319406
+	part = proceduralNoseCone_4274609988
 	partName = Part
-	pos = -3.047186,2.318002,-8.535616
+	pos = -3.047197,2.344625,-7.897641
 	attPos = 0,0,0
 	attPos0 = -0.0003990798,-3.350008,-7.50156E-06
-	rot = -0.006890219,-0.7123314,0.7017769,0.006790817
+	rot = -0.006890156,-0.7123315,0.701777,0.006790754
 	attRot = 0,0,0.9999999,0
 	attRot0 = -4.696245E-08,5.057621E-07,0.9999999,0.0005527011
 	mir = 1,1,1
@@ -25146,8 +25146,8 @@ PART
 	modCost = 0.1139607
 	modMass = -0.9922507
 	modSize = (0.0, 0.0, 0.0)
-	sym = proceduralNoseCone_4288317714
-	attN = bottom,proceduralTankRealFuels_4288320058
+	sym = proceduralNoseCone_4274608296
+	attN = bottom,proceduralTankRealFuels_4274610640
 	EVENTS
 	{
 	}
@@ -25162,7 +25162,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-0.599546, -0.6993449, -0.6441053)
+		tempColliderSize = (-0.5995459, -0.6993469, -0.6441051)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.1139607
@@ -25533,12 +25533,12 @@ PART
 }
 PART
 {
-	part = proceduralNoseCone_4288319342
+	part = proceduralNoseCone_4274609924
 	partName = Part
-	pos = -3.058714,2.003047,-0.6390247
+	pos = -3.058749,2.029688,-0.00101757
 	attPos = 0.1130962,-0.4363706,-0.002694026
 	attPos0 = 4.393743E-05,-1.30001,-0.001107149
-	rot = -0.4805256,-0.5187441,0.480526,0.5187438
+	rot = -0.4805256,-0.5187442,0.4805261,0.5187439
 	attRot = 0.70659,0.02702422,-0.7065904,-0.02702409
 	attRot0 = -0.9992214,-0.03824311,0.009656801,0.0009220539
 	mir = 1,1,1
@@ -25552,8 +25552,8 @@ PART
 	modCost = 1.712736
 	modMass = -0.883534
 	modSize = (0.0, 0.0, 0.0)
-	sym = proceduralNoseCone_4288317650
-	attN = bottom,proceduralTankRealFuels_4288320200
+	sym = proceduralNoseCone_4274608232
+	attN = bottom,proceduralTankRealFuels_4274610782
 	EVENTS
 	{
 	}
@@ -25568,7 +25568,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.680945, -2.964997, -1.224003)
+		tempColliderSize = (1.680945, -2.964997, -1.224002)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 1.712736
@@ -25939,12 +25939,12 @@ PART
 }
 PART
 {
-	part = SXTJ213_4288319278
+	part = SXTJ213_4274609860
 	partName = Part
-	pos = -3.06111,1.89009,2.967326
+	pos = -3.061131,1.916729,3.605378
 	attPos = 0,0,0
 	attPos0 = 2.317184E-08,1.870004,-1.441999E-06
-	rot = 0.7070842,-0.0003950979,0.0003856992,0.7071295
+	rot = 0.7070842,-0.0003951027,0.0003857039,0.7071295
 	attRot = 0,0,0,1
 	attRot0 = 3.251739E-08,-0.7002303,4.170367E-08,0.7139171
 	mir = 1,1,1
@@ -25958,8 +25958,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = SXTJ213_4288317586
-	attN = top,proceduralTankRealFuels_4288320200
+	sym = SXTJ213_4274608168
+	attN = top,proceduralTankRealFuels_4274610782
 	EVENTS
 	{
 	}
@@ -26522,9 +26522,9 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4288318898
+	part = RO-B9ProcCS-Early_4274609480
 	partName = Part
-	pos = -3.594905,2.340849,1.079347
+	pos = -3.594912,2.367487,1.717399
 	attPos = 0,0,0
 	attPos0 = 2.47321,-0.54773,-9.052216E-09
 	rot = -0.707105,0.00165835,0.02374027,-0.7067083
@@ -26541,8 +26541,8 @@ PART
 	modCost = 14.8
 	modMass = 0.04372334
 	modSize = (1.0, -4.0, 0.2)
-	sym = RO-B9ProcCS-Early_4288317206
-	srfN = srfAttach,RO-B9ProcWing-Early_4288320318
+	sym = RO-B9ProcCS-Early_4274607788
+	srfN = srfAttach,RO-B9ProcWing-Early_4274610900
 	EVENTS
 	{
 	}
@@ -26652,7 +26652,7 @@ PART
 		isFlap = True
 		isSpoiler = False
 		flapDeflectionLevel = 0
-		maxdeflectFlap = 27
+		maxdeflectFlap = 20
 		massMultiplier = 0.4
 		stagingEnabled = True
 		pitchaxis_UIFlight
@@ -26950,9 +26950,9 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4288318822
+	part = RO-B9ProcCS-Early_4274609404
 	partName = Part
-	pos = -8.615689,2.521406,1.236323
+	pos = -8.615699,2.548044,1.874374
 	attPos = 0,0,0
 	attPos0 = 7.497213,-0.3907551,2.777638E-07
 	rot = -0.707105,0.00165835,0.02374027,-0.7067083
@@ -26969,8 +26969,8 @@ PART
 	modCost = 9.799999
 	modMass = 0.01999
 	modSize = (1.0, -4.0, 0.1)
-	sym = RO-B9ProcCS-Early_4288317130
-	srfN = srfAttach,RO-B9ProcWing-Early_4288320318
+	sym = RO-B9ProcCS-Early_4274607712
+	srfN = srfAttach,RO-B9ProcWing-Early_4274610900
 	EVENTS
 	{
 	}
@@ -27378,12 +27378,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4288318746
+	part = RO-B9ProcWing-Early_4274609328
 	partName = Part
-	pos = 0.006578926,2.211332,1.622341
+	pos = 0.006571635,2.237969,2.260393
 	attPos = 1.025084E-07,-1.986732,0.1937786
 	attPos0 = -7.430198E-08,1.980303,-0.8499159
-	rot = -0.7069927,-0.01270817,-0.0127082,-0.7069927
+	rot = -0.7069927,-0.01270815,-0.01270818,-0.7069927
 	attRot = 0.7069926,0.01270815,-0.01270824,0.7069926
 	attRot0 = -8.42937E-08,-1.03316E-07,0,-1
 	mir = 1,1,1
@@ -27397,9 +27397,9 @@ PART
 	modCost = 1.530457
 	modMass = 0.1019714
 	modSize = (-2.9, -2.8, 0.2)
-	link = RO-B9ProcWing-Early_4288318626
-	sym = RO-B9ProcWing-Early_4288320438
-	srfN = srfAttach,proceduralTankRealFuels_4288320510
+	link = RO-B9ProcWing-Early_4274609208
+	sym = RO-B9ProcWing-Early_4274611020
+	srfN = srfAttach,proceduralTankRealFuels_4274611092
 	EVENTS
 	{
 	}
@@ -27864,8 +27864,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 660.47989889122152
-			maxAmount = 660.47989889122152
+			amount = 660.4798854100527
+			maxAmount = 660.4798854100527
 		}
 		TANK
 		{
@@ -28506,8 +28506,8 @@ PART
 	RESOURCE
 	{
 		name = AvGas
-		amount = 660.479898891222
-		maxAmount = 660.479898891222
+		amount = 660.479885410053
+		maxAmount = 660.479885410053
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -28517,12 +28517,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4288318626
+	part = RO-B9ProcWing-Early_4274609208
 	partName = Part
-	pos = 1.136434,2.251965,1.627076
+	pos = 1.136426,2.278602,2.26513
 	attPos = 3.576279E-07,-4.763715E-07,3.99595E-10
 	attPos0 = 1.130582,0.004736423,2.300212E-07
-	rot = -0.706993,-0.01270849,-0.0127085,-0.7069924
+	rot = -0.7069931,-0.01270847,-0.01270848,-0.7069925
 	attRot = 0,0,0,1
 	attRot0 = 8.42937E-08,1.043081E-07,1.490112E-08,1
 	mir = 1,1,1
@@ -28536,12 +28536,12 @@ PART
 	modCost = 29.8
 	modMass = 0.1308267
 	modSize = (6.0, -2.8, 0.2)
-	link = proceduralTankRealFuels_4288318508
-	link = RO-B9ProcCS-Early_4288317206
-	link = RO-B9ProcCS-Early_4288317130
-	link = strutConnector_4287005642
-	sym = RO-B9ProcWing-Early_4288320318
-	srfN = srfAttach,RO-B9ProcWing-Early_4288318746
+	link = proceduralTankRealFuels_4274609090
+	link = RO-B9ProcCS-Early_4274607788
+	link = RO-B9ProcCS-Early_4274607712
+	link = strutConnector_4274597394
+	sym = RO-B9ProcWing-Early_4274610900
+	srfN = srfAttach,RO-B9ProcWing-Early_4274609328
 	EVENTS
 	{
 	}
@@ -29649,12 +29649,12 @@ PART
 }
 PART
 {
-	part = proceduralTankRealFuels_4288318508
+	part = proceduralTankRealFuels_4274609090
 	partName = Part
-	pos = 3.072173,1.889972,1.097321
+	pos = 3.072177,1.91661,1.735374
 	attPos = -0.01073754,-1.192093E-06,0.2987083
 	attPos0 = 1.932221,-0.5297515,0.1326203
-	rot = 0.5045297,-0.4948713,-0.4953969,0.5051085
+	rot = 0.5045298,-0.4948713,-0.4953969,0.5051085
 	attRot = 0.7066621,0.7067193,-0.02386782,0.02464448
 	attRot0 = -0.01741089,0.7068908,-0.01741094,-0.7068941
 	mir = 1,1,1
@@ -29668,13 +29668,13 @@ PART
 	modCost = 2.848707
 	modMass = -0.9671839
 	modSize = (0.0, 0.0, 0.0)
-	link = proceduralTankRealFuels_4288318436
-	link = proceduralNoseCone_4288317650
-	link = SXTJ213_4288317586
-	sym = proceduralTankRealFuels_4288320200
-	srfN = srfAttach,RO-B9ProcWing-Early_4288318626
-	attN = top,SXTJ213_4288317586
-	attN = bottom,proceduralNoseCone_4288317650
+	link = proceduralTankRealFuels_4274609018
+	link = proceduralNoseCone_4274608232
+	link = SXTJ213_4274608168
+	sym = proceduralTankRealFuels_4274610782
+	srfN = srfAttach,RO-B9ProcWing-Early_4274609208
+	attN = top,SXTJ213_4274608168
+	attN = bottom,proceduralNoseCone_4274608232
 	EVENTS
 	{
 	}
@@ -29689,7 +29689,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-1.231076, 0.6028795, -1.279714)
+		tempColliderSize = (-1.231076, 0.602879, -1.279714)
 		textureSet = GreySide
 		shapeName = Cylinder
 		moduleCost = 0.006845016
@@ -30929,12 +30929,12 @@ PART
 }
 PART
 {
-	part = proceduralTankRealFuels_4288318436
+	part = proceduralTankRealFuels_4274609018
 	partName = Part
-	pos = 3.072157,2.186053,0.3134794
+	pos = 3.072164,2.212681,0.9515324
 	attPos = -0.2000052,-0.4793085,-0.006671266
 	attPos0 = -0.09599954,-0.3000008,0.0001072562
-	rot = -0.7017808,-0.00632762,0.007209696,0.7123288
+	rot = -0.7017809,-0.006327597,0.007209676,0.7123289
 	attRot = 0.4931331,-0.4972439,0.5018471,0.5076597
 	attRot0 = -0.7071833,1.166656E-07,0.7070303,5.405353E-07
 	mir = 1,1,1
@@ -30948,10 +30948,10 @@ PART
 	modCost = 2.434299
 	modMass = -0.988973
 	modSize = (0.0, 0.0, 0.0)
-	link = proceduralTankRealFuels_4288318366
-	sym = proceduralTankRealFuels_4288320128
-	srfN = srfAttach,proceduralTankRealFuels_4288318508
-	attN = top,proceduralTankRealFuels_4288318366
+	link = proceduralTankRealFuels_4274608948
+	sym = proceduralTankRealFuels_4274610710
+	srfN = srfAttach,proceduralTankRealFuels_4274609090
+	attN = top,proceduralTankRealFuels_4274608948
 	EVENTS
 	{
 	}
@@ -30966,7 +30966,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.6235267, -1.000913, 0.6293799)
+		tempColliderSize = (0.6235262, -1.000913, 0.6293803)
 		textureSet = KHPlanes1
 		shapeName = Cylinder
 		moduleCost = 0.002705854
@@ -32476,12 +32476,12 @@ PART
 }
 PART
 {
-	part = proceduralTankRealFuels_4288318366
+	part = proceduralTankRealFuels_4274608948
 	partName = Part
-	pos = 3.065924,2.253171,-4.185967
+	pos = 3.065936,2.279773,-3.548014
 	attPos = 0.2000054,-0.4793072,-0.006670902
 	attPos0 = 7.716711E-06,1.00003,-6.006819E-07
-	rot = 0.712328,0.007283941,0.006402996,0.7017801
+	rot = 0.7123281,0.007283899,0.006402954,0.7017801
 	attRot = 0,0,0,1
 	attRot0 = 1,1.209387E-09,0.0001055793,5.517458E-08
 	mir = 1,1,1
@@ -32495,13 +32495,13 @@ PART
 	modCost = 19.47439
 	modMass = -0.9117841
 	modSize = (0.0, 0.0, 0.0)
-	link = RO-B9ProcWing-Early_4288318296
-	link = RO-B9ProcWing-Early_4288318102
-	link = RO-B9ProcWing-Early_4288317908
-	link = proceduralNoseCone_4288317714
-	sym = proceduralTankRealFuels_4288320058
-	attN = top,proceduralTankRealFuels_4288318436
-	attN = bottom,proceduralNoseCone_4288317714
+	link = RO-B9ProcWing-Early_4274608878
+	link = RO-B9ProcWing-Early_4274608684
+	link = RO-B9ProcWing-Early_4274608490
+	link = proceduralNoseCone_4274608296
+	sym = proceduralTankRealFuels_4274610640
+	attN = top,proceduralTankRealFuels_4274609018
+	attN = bottom,proceduralNoseCone_4274608296
 	EVENTS
 	{
 	}
@@ -32516,7 +32516,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.6278268, 7.997804, -0.8379623)
+		tempColliderSize = (0.6278269, 7.997805, -0.8379651)
 		textureSet = KHPlanes1
 		shapeName = Cylinder
 		moduleCost = 0.02164683
@@ -34026,12 +34026,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4288318296
+	part = RO-B9ProcWing-Early_4274608878
 	partName = Part
-	pos = 2.870163,2.31038,-8.185989
+	pos = 2.870176,2.336981,-7.548033
 	attPos = -0.1117395,-0.0003349781,-9.542564E-07
 	attPos0 = -0.07846258,-2.500002,-0.001261878
-	rot = -0.006333311,0.7017805,0.7123287,-0.0072153
+	rot = -0.006333395,0.7017807,0.7123289,-0.007215384
 	attRot = 0.4999999,-0.4999999,0.4999999,-0.4999999
 	attRot0 = 7.025854E-09,1,-1.802646E-10,9.756834E-05
 	mir = 1,1,1
@@ -34045,9 +34045,9 @@ PART
 	modCost = 4.8
 	modMass = 0.02980694
 	modSize = (-1.1, -3.8, -0.1)
-	link = RO-B9ProcCS-Early_4288318178
-	sym = RO-B9ProcWing-Early_4288319988
-	srfN = srfAttach,proceduralTankRealFuels_4288318366
+	link = RO-B9ProcCS-Early_4274608760
+	sym = RO-B9ProcWing-Early_4274610570
+	srfN = srfAttach,proceduralTankRealFuels_4274608948
 	EVENTS
 	{
 	}
@@ -35155,12 +35155,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4288318178
+	part = RO-B9ProcCS-Early_4274608760
 	partName = Part
-	pos = 1.418882,2.284419,-8.309399
+	pos = 1.418895,2.311018,-7.671454
 	attPos = 0,0,0
 	attPos0 = 1.451366,-0.1250258,-2.354447E-06
-	rot = 0.0001162351,0.701817,0.712357,-0.0008490424
+	rot = 0.0001162575,0.7018171,0.7123572,-0.0008490226
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 8.983702E-08,-0.009062755,-8.679888E-06,0.9999589
 	mir = 1,1,1
@@ -35174,8 +35174,8 @@ PART
 	modCost = 4.8
 	modMass = 0.0156572
 	modSize = (-1.1, -4.0, -0.1)
-	sym = RO-B9ProcCS-Early_4288319870
-	srfN = srfAttach,RO-B9ProcWing-Early_4288318296
+	sym = RO-B9ProcCS-Early_4274610452
+	srfN = srfAttach,RO-B9ProcWing-Early_4274608878
 	EVENTS
 	{
 	}
@@ -35583,12 +35583,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4288318102
+	part = RO-B9ProcWing-Early_4274608684
 	partName = Part
-	pos = 3.056982,2.484302,-8.465429
+	pos = 3.056998,2.510901,-7.8275
 	attPos = 0.0002354418,-0.211695,-0.006394491
 	attPos0 = 4.218264E-07,-3.000003,-0.1609411
-	rot = 0.4988925,0.5011032,0.5084962,0.491359
+	rot = 0.4988925,0.5011033,0.5084963,0.491359
 	attRot = -0.7071067,0.7071067,0,0
 	attRot0 = -0.0003912955,0.7071068,0.0003903418,0.7071066
 	mir = 1,1,1
@@ -35602,9 +35602,9 @@ PART
 	modCost = 4.8
 	modMass = 0.02364478
 	modSize = (-2.3, -3.3, -0.1)
-	link = RO-B9ProcCS-Early_4288317984
-	sym = RO-B9ProcWing-Early_4288319794
-	srfN = srfAttach,proceduralTankRealFuels_4288318366
+	link = RO-B9ProcCS-Early_4274608566
+	sym = RO-B9ProcWing-Early_4274610376
+	srfN = srfAttach,proceduralTankRealFuels_4274608948
 	EVENTS
 	{
 	}
@@ -36712,12 +36712,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4288317984
+	part = RO-B9ProcCS-Early_4274608566
 	partName = Part
-	pos = 3.038411,3.371957,-8.827248
+	pos = 3.038427,3.398558,-8.189318
 	attPos = -0.05916739,-6.735325E-06,1.66893E-06
 	attPos0 = 0.9415071,-0.3750303,-0.001396439
-	rot = 0.4963453,0.5035531,0.5109687,0.4888633
+	rot = 0.4963454,0.5035532,0.5109687,0.4888634
 	attRot = 0,0,-0.7071067,-0.7071067
 	attRot0 = -1.186867E-07,0.004982442,-1.460366E-05,0.9999876
 	mir = 1,1,1
@@ -36731,8 +36731,8 @@ PART
 	modCost = 4.8
 	modMass = 0.006989376
 	modSize = (-2.3, -4.0, -0.1)
-	sym = RO-B9ProcCS-Early_4288319676
-	srfN = srfAttach,RO-B9ProcWing-Early_4288318102
+	sym = RO-B9ProcCS-Early_4274610258
+	srfN = srfAttach,RO-B9ProcWing-Early_4274608684
 	EVENTS
 	{
 	}
@@ -37140,12 +37140,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4288317908
+	part = RO-B9ProcWing-Early_4274608490
 	partName = Part
-	pos = 3.074591,2.528662,-8.47868
+	pos = 3.074608,2.555263,-7.840754
 	attPos = 0.0002475753,-0.2221103,-0.2296154
 	attPos0 = 0.01847056,-3.000002,0.0184704
-	rot = -0.5084962,0.4913595,0.4988926,-0.5011029
+	rot = -0.5084963,0.4913595,0.4988926,-0.5011031
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = -0.0003903418,0.7071066,-0.0003912955,-0.7071068
 	mir = 1,1,1
@@ -37159,9 +37159,9 @@ PART
 	modCost = -0.2
 	modMass = 0.01350717
 	modSize = (-3.0, -3.3, -0.1)
-	link = RO-B9ProcCS-Early_4288317790
-	sym = RO-B9ProcWing-Early_4288319600
-	srfN = srfAttach,proceduralTankRealFuels_4288318366
+	link = RO-B9ProcCS-Early_4274608372
+	sym = RO-B9ProcWing-Early_4274610182
+	srfN = srfAttach,proceduralTankRealFuels_4274608948
 	EVENTS
 	{
 	}
@@ -38269,12 +38269,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4288317790
+	part = RO-B9ProcCS-Early_4274608372
 	partName = Part
-	pos = 3.085481,2.038046,-8.86109
+	pos = 3.085498,2.064646,-8.223158
 	attPos = -0.4451247,-6.467104E-06,-0.002791761
 	attPos0 = 0.9415073,-0.3750302,0.001396193
-	rot = -0.5109834,0.4888484,0.4963599,-0.5035385
+	rot = -0.5109834,0.4888484,0.4963599,-0.5035384
 	attRot = 0,0,0.7071067,-0.7071067
 	attRot0 = -7.465338E-08,0.004982457,1.449868E-05,-0.9999877
 	mir = 1,1,1
@@ -38288,8 +38288,8 @@ PART
 	modCost = -0.2
 	modMass = 0.00399
 	modSize = (-3.0, -4.0, -0.1)
-	sym = RO-B9ProcCS-Early_4288319482
-	srfN = srfAttach,RO-B9ProcWing-Early_4288317908
+	sym = RO-B9ProcCS-Early_4274610064
+	srfN = srfAttach,RO-B9ProcWing-Early_4274608490
 	EVENTS
 	{
 	}
@@ -38697,12 +38697,12 @@ PART
 }
 PART
 {
-	part = proceduralNoseCone_4288317714
+	part = proceduralNoseCone_4274608296
 	partName = Part
-	pos = 3.060284,2.318032,-8.535654
+	pos = 3.0603,2.34463,-7.897707
 	attPos = 0,0,0
 	attPos0 = 0.000378099,-3.350008,-6.031761E-06
-	rot = 0.006890413,-0.7123316,0.7017768,-0.006791045
+	rot = 0.006890434,-0.7123317,0.701777,-0.006791066
 	attRot = 0,0,0.9999999,0
 	attRot0 = 4.52695E-08,7.586432E-07,0.9999999,-0.000552701
 	mir = 1,1,1
@@ -38716,8 +38716,8 @@ PART
 	modCost = 0.1139607
 	modMass = -0.9922507
 	modSize = (0.0, 0.0, 0.0)
-	sym = proceduralNoseCone_4288319406
-	attN = bottom,proceduralTankRealFuels_4288318366
+	sym = proceduralNoseCone_4274609988
+	attN = bottom,proceduralTankRealFuels_4274608948
 	EVENTS
 	{
 	}
@@ -38732,7 +38732,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-0.6236156, -0.6996968, -0.6204389)
+		tempColliderSize = (-0.6236154, -0.699697, -0.6204389)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.1139607
@@ -39103,12 +39103,12 @@ PART
 }
 PART
 {
-	part = proceduralNoseCone_4288317650
+	part = proceduralNoseCone_4274608232
 	partName = Part
-	pos = 3.07186,2.003055,-0.6390266
-	attPos = -0.1130989,-0.4363174,-0.002685968
+	pos = 3.071879,2.029686,-0.001011848
+	attPos = -0.1130958,-0.4363599,-0.002699782
 	attPos0 = -4.258558E-05,-1.30002,-0.001105483
-	rot = -0.4805261,0.5187442,-0.4805257,0.5187434
+	rot = -0.4805262,0.5187443,-0.4805259,0.5187435
 	attRot = 0.70659,0.02702422,-0.7065904,-0.02702409
 	attRot0 = 0.999953,-2.683699E-05,0.009684756,-0.0005522221
 	mir = 1,1,1
@@ -39122,8 +39122,8 @@ PART
 	modCost = 1.712736
 	modMass = -0.883534
 	modSize = (0.0, 0.0, 0.0)
-	sym = proceduralNoseCone_4288319342
-	attN = bottom,proceduralTankRealFuels_4288318508
+	sym = proceduralNoseCone_4274609924
+	attN = bottom,proceduralTankRealFuels_4274609090
 	EVENTS
 	{
 	}
@@ -39509,12 +39509,12 @@ PART
 }
 PART
 {
-	part = SXTJ213_4288317586
+	part = SXTJ213_4274608168
 	partName = Part
-	pos = 3.074248,1.890092,2.967325
+	pos = 3.074256,1.916729,3.605376
 	attPos = 0,0,0
 	attPos0 = -8.548218E-07,1.870004,-5.797092E-07
-	rot = 0.7070845,0.0003954266,-0.0003853536,0.7071293
+	rot = 0.7070845,0.0003954219,-0.0003853488,0.7071293
 	attRot = 0,0,0,1
 	attRot0 = -2.405915E-07,0.7002304,2.240716E-08,0.7139171
 	mir = 1,1,1
@@ -39528,8 +39528,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = SXTJ213_4288319278
-	attN = top,proceduralTankRealFuels_4288318508
+	sym = SXTJ213_4274609860
+	attN = top,proceduralTankRealFuels_4274609090
 	EVENTS
 	{
 	}
@@ -40092,12 +40092,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4288317206
+	part = RO-B9ProcCS-Early_4274607788
 	partName = Part
-	pos = 3.608054,2.340852,1.079346
+	pos = 3.608048,2.36749,1.717397
 	attPos = 0,0,0
 	attPos0 = 2.47321,-0.5477296,5.022878E-07
-	rot = -0.02374056,0.7067081,0.7071052,-0.001658652
+	rot = -0.02374056,0.7067082,0.7071053,-0.001658651
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 0.01561677,-0.999878,3.403762E-07,-1.027806E-05
 	mir = 1,1,1
@@ -40111,8 +40111,8 @@ PART
 	modCost = 14.8
 	modMass = 0.04372334
 	modSize = (1.0, -4.0, 0.2)
-	sym = RO-B9ProcCS-Early_4288318898
-	srfN = srfAttach,RO-B9ProcWing-Early_4288318626
+	sym = RO-B9ProcCS-Early_4274609480
+	srfN = srfAttach,RO-B9ProcWing-Early_4274609208
 	EVENTS
 	{
 	}
@@ -40222,7 +40222,7 @@ PART
 		isFlap = True
 		isSpoiler = False
 		flapDeflectionLevel = 0
-		maxdeflectFlap = 27
+		maxdeflectFlap = 20
 		massMultiplier = 0.4
 		stagingEnabled = True
 		pitchaxis_UIFlight
@@ -40520,12 +40520,12 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4288317130
+	part = RO-B9ProcCS-Early_4274607712
 	partName = Part
-	pos = 8.628839,2.52141,1.236321
+	pos = 8.628833,2.548048,1.874372
 	attPos = 0,0,0
 	attPos0 = 7.497213,-0.3907551,5.752921E-07
-	rot = -0.02374056,0.7067081,0.7071052,-0.001658652
+	rot = -0.02374056,0.7067082,0.7071053,-0.001658651
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 0.01561677,-0.999878,3.403762E-07,-1.027806E-05
 	mir = 1,1,1
@@ -40539,8 +40539,8 @@ PART
 	modCost = 9.799999
 	modMass = 0.01999
 	modSize = (1.0, -4.0, 0.1)
-	sym = RO-B9ProcCS-Early_4288318822
-	srfN = srfAttach,RO-B9ProcWing-Early_4288318626
+	sym = RO-B9ProcCS-Early_4274609404
+	srfN = srfAttach,RO-B9ProcWing-Early_4274609208
 	EVENTS
 	{
 	}
@@ -40948,9 +40948,9 @@ PART
 }
 PART
 {
-	part = GearSmall_4288317054
+	part = GearSmall_4274607636
 	partName = Part
-	pos = -3.024744,1.52395,1.4171
+	pos = -3.024754,1.550587,2.055151
 	attPos = -2.182062,-0.0007831603,0.03123923
 	attPos0 = -0.8492521,-0.2108941,-1.634471E-07
 	rot = -8.940697E-08,0.0002977254,2.107263E-07,1
@@ -40967,8 +40967,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = GearSmall_4288316810
-	srfN = srfAttach,proceduralTankRealFuels_4288320510
+	sym = GearSmall_4274607392
+	srfN = srfAttach,proceduralTankRealFuels_4274611092
 	EVENTS
 	{
 	}
@@ -41631,12 +41631,12 @@ PART
 }
 PART
 {
-	part = GearSmall_4288316810
+	part = GearSmall_4274607392
 	partName = Part
-	pos = 3.037902,1.523956,1.4171
+	pos = 3.037898,1.550591,2.05515
 	attPos = 2.182062,-0.0007843524,0.0312392
 	attPos0 = 0.8492521,-0.2108941,-1.634471E-07
-	rot = -1.788139E-07,-0.0002979993,-6.322807E-08,1
+	rot = -1.788139E-07,-0.0002980414,-1.053704E-07,1
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 0.7071068,0.000210613,-0.0002105082,-0.7071068
 	mir = 1,1,1
@@ -41650,8 +41650,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = GearSmall_4288317054
-	srfN = srfAttach,proceduralTankRealFuels_4288320510
+	sym = GearSmall_4274607636
+	srfN = srfAttach,proceduralTankRealFuels_4274611092
 	EVENTS
 	{
 	}
@@ -42314,9 +42314,9 @@ PART
 }
 PART
 {
-	part = SXTke111_4288316566
+	part = SXTke111_4274607148
 	partName = Part
-	pos = 0.006579157,1.534077,4.678549
+	pos = 0.006571865,1.560716,5.316604
 	attPos = 0,0,0
 	attPos0 = 0,5,0
 	rot = 0.7158355,1.284162E-07,1.244649E-07,0.6982692
@@ -42333,9 +42333,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = SmallGearBay_4288316412
-	link = strutConnector_4287000692
-	attN = bottom,proceduralTankRealFuels_4288320510
+	link = SmallGearBay_4274606994
+	link = strutConnector_4274600028
+	attN = bottom,proceduralTankRealFuels_4274611092
 	EVENTS
 	{
 	}
@@ -44194,9 +44194,9 @@ PART
 }
 PART
 {
-	part = SmallGearBay_4288316412
+	part = SmallGearBay_4274606994
 	partName = Part
-	pos = 0.006579371,0.8149118,4.815881
+	pos = 0.006572079,0.8415475,5.453934
 	attPos = 0,0.7309757,-0.1293117
 	attPos0 = 0,-0.5758209,0.844844
 	rot = 4.214685E-08,0.9999232,0.01242068,4.214685E-08
@@ -44213,7 +44213,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	srfN = srfAttach,SXTke111_4288316566
+	srfN = srfAttach,SXTke111_4274607148
 	EVENTS
 	{
 	}
@@ -44876,11 +44876,820 @@ PART
 }
 PART
 {
-	part = proceduralNoseCone_4288307120
-	partName = Part
-	pos = 0.00657915,1.55519,-1.571236
+	part = strutConnector_4274600028
+	partName = CompoundPart
+	pos = 0.006571667,2.301922,6.155154
 	attPos = 0,0,0
-	attPos0 = -2.92079E-13,-2.512512,7.152558E-07
+	attPos0 = 2.252496E-08,0.819878,-0.7618077
+	rot = -0.5384434,0.4583437,0.5384434,-0.4583437
+	attRot = 0,0,0,1
+	attRot0 = -0.0478797,0.7054839,0.0478797,-0.7054839
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 2
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,SXTke111_4274607148
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4294563806
+		pos = -0.8800774,-0.5093309,-0.004046074
+		rot = 0,0,0.2790665,0.9602736
+		dir = -0.8654994,-0.5008941,-0.003979053
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+			PopupNameTagChanger
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Change Name Tag
+				guiName = Change Name Tag
+				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		damage = 0
+		stagingEnabled = True
+		EVENTS
+		{
+			ResetRecordedHeat
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Reset Heat Record
+				guiName = Reset Heat Record
+				category = Reset Heat Record
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4274597486
+	partName = CompoundPart
+	pos = -3.070688,2.348633,1.843686
+	attPos = 0,0,0
+	attPos0 = 1.948654,-0.4214427,-9.751744E-08
+	rot = -0.706993,0.01270832,0.01270792,-0.7069924
+	attRot = 0,0,0,1
+	attRot0 = -2.980232E-07,-1,8.940695E-08,4.377215E-08
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 2
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4274597394
+	srfN = srfAttach,RO-B9ProcWing-Early_4274610900
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4293970232
+		pos = 1.061201,-0.2195923,-0.9796456
+		rot = 4.16464E-10,0.9307916,-0.2766808,-0.2389083
+		dir = 0.7264286,-0.1503185,-0.6706011
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+			PopupNameTagChanger
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Change Name Tag
+				guiName = Change Name Tag
+				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		damage = 0
+		stagingEnabled = True
+		EVENTS
+		{
+			ResetRecordedHeat
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Reset Heat Record
+				guiName = Reset Heat Record
+				category = Reset Heat Record
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4274597394
+	partName = CompoundPart
+	pos = 3.083831,2.348633,1.843685
+	attPos = 0,0,0
+	attPos0 = 1.948657,-0.421442,2.287695E-06
+	rot = -0.01270786,0.7069927,0.7069929,-0.01270825
+	attRot = 0,0,0,1
+	attRot0 = -2.915039E-07,-1,5.845503E-08,-4.516913E-07
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 2
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4274597486
+	srfN = srfAttach,RO-B9ProcWing-Early_4274609208
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288816948
+		pos = 1.061202,-0.2195936,0.9796434
+		rot = -3.547977E-09,0.9307944,0.2766668,0.2389152
+		dir = 0.7264297,-0.1503194,0.6705998
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+			PopupNameTagChanger
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Change Name Tag
+				guiName = Change Name Tag
+				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		damage = 0
+		stagingEnabled = True
+		EVENTS
+		{
+			ResetRecordedHeat
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Reset Heat Record
+				guiName = Reset Heat Record
+				category = Reset Heat Record
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = proceduralNoseCone_4274584856
+	partName = Part
+	pos = 0.006573024,1.581824,-0.9331889
+	attPos = 0,0,0
+	attPos0 = 4.163007E-07,-2.55001,1.907349E-06
 	rot = -5.024296E-15,-0.7071069,0.7071069,-5.024296E-15
 	attRot = 0,0,0.9999999,0
 	attRot0 = 2.086162E-07,0,-1,0
@@ -44895,7 +45704,7 @@ PART
 	modCost = 2.613859
 	modMass = -0.8222575
 	modSize = (0.0, 0.0, 0.0)
-	attN = bottom,proceduralTankRealFuels_4288320510
+	attN = bottom,proceduralTankRealFuels_4274611092
 	EVENTS
 	{
 	}
@@ -44910,7 +45719,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-1.700001, -2.000001, -1.700001)
+		tempColliderSize = (-1.700001, -2, -1.700001)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 2.613859
@@ -45076,815 +45885,6 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-			PopupNameTagChanger
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Change Name Tag
-				guiName = Change Name Tag
-				category = Change Name Tag
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleAeroReentry
-		isEnabled = True
-		dead = False
-		crashTolerance = 8
-		damage = 0
-		stagingEnabled = True
-		EVENTS
-		{
-			ResetRecordedHeat
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Reset Heat Record
-				guiName = Reset Heat Record
-				category = Reset Heat Record
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = False
-			}
-			RepairDamage
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = No Damage
-				guiName = No Damage
-				category = No Damage
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = False
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4287006338
-	partName = CompoundPart
-	pos = -2.237437,2.491964,1.084467
-	attPos = 0,0,0
-	attPos0 = 1.122064,-0.5426101,0.1998032
-	rot = -0.4954936,0.5044663,0.5044675,-0.4954927
-	attRot = 0,0,0,1
-	attRot0 = 3.874301E-07,-0.7134414,3.874301E-07,-0.700715
-	mir = 1,1,1
-	symMethod = Mirror
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = strutConnector_4287005642
-	srfN = srfAttach,RO-B9ProcWing-Early_4288320318
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-		tgt = 4294552234
-		pos = -0.7180337,1.174054,-1.68298
-		rot = 0,-0.5477132,-0.0238184,0.8363271
-		dir = -0.3302777,0.5400367,-0.7741297
-	}
-	MODULE
-	{
-		name = CModuleLinkedMesh
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = CModuleStrut
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-			PopupNameTagChanger
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Change Name Tag
-				guiName = Change Name Tag
-				category = Change Name Tag
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleAeroReentry
-		isEnabled = True
-		dead = False
-		crashTolerance = 8
-		damage = 0
-		stagingEnabled = True
-		EVENTS
-		{
-			ResetRecordedHeat
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Reset Heat Record
-				guiName = Reset Heat Record
-				category = Reset Heat Record
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = False
-			}
-			RepairDamage
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = No Damage
-				guiName = No Damage
-				category = No Damage
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = False
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4287005642
-	partName = CompoundPart
-	pos = 2.250596,2.491964,1.084467
-	attPos = 0,0,0
-	attPos0 = 1.122067,-0.5426096,-0.1998011
-	rot = -0.5044674,0.4954925,0.4954935,-0.5044664
-	attRot = 0,0,0,1
-	attRot0 = 3.953463E-07,-0.7134417,-3.534368E-07,0.7007146
-	mir = 1,1,1
-	symMethod = Mirror
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = strutConnector_4287006338
-	srfN = srfAttach,RO-B9ProcWing-Early_4288318626
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-		tgt = 4294552234
-		pos = -0.718035,1.174056,1.682984
-		rot = 0,0.5477133,-0.02381843,0.836327
-		dir = -0.3302777,0.5400375,0.7741305
-	}
-	MODULE
-	{
-		name = CModuleLinkedMesh
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = CModuleStrut
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-			PopupNameTagChanger
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Change Name Tag
-				guiName = Change Name Tag
-				category = Change Name Tag
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleAeroReentry
-		isEnabled = True
-		dead = False
-		crashTolerance = 8
-		damage = 0
-		stagingEnabled = True
-		EVENTS
-		{
-			ResetRecordedHeat
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Reset Heat Record
-				guiName = Reset Heat Record
-				category = Reset Heat Record
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = False
-			}
-			RepairDamage
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = No Damage
-				guiName = No Damage
-				category = No Damage
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = False
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4287000692
-	partName = CompoundPart
-	pos = 0.00657893,2.373921,4.852163
-	attPos = 0,0,0
-	attPos0 = -2.670681E-08,0.1526987,-0.8438963
-	rot = -0.5061721,0.4937508,0.5061722,-0.4937509
-	attRot = 0,0,0,1
-	attRot0 = -3.334836E-08,0.7071068,5.420857E-08,-0.7071067
-	mir = 1,1,1
-	symMethod = Mirror
-	istg = 2
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	srfN = srfAttach,SXTke111_4288316566
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-		tgt = 4294563806
-		pos = -0.6588761,0.3046456,-0.01260389
-		rot = 0,-6.009079E-08,0.1659748,0.98613
-		dir = -0.9075326,0.4196228,-0.01736025
-	}
-	MODULE
-	{
-		name = CModuleLinkedMesh
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = CModuleStrut
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
 			ToggleStaging
 			{
 				active = True
