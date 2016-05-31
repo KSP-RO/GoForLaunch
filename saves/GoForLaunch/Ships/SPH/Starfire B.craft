@@ -2,7 +2,7 @@ ship = Starfire B
 version = 1.1.2
 description = 
 type = SPH
-size = 11.50444,6.186668,16.38259
+size = 11.50444,6.186668,16.39259
 PART
 {
 	part = Interceptor Cockpit_4294218444
@@ -25,12 +25,11 @@ PART
 	modMass = 0.1
 	modSize = (0.0, 0.0, 0.0)
 	link = SmallGearBay_4294164980
-	link = LRadialAirIntake_4294123782
-	link = LRadialAirIntake_4294118622
 	link = RO-B9ProcWing-Early_4294102880
 	link = RO-B9ProcWing-Early_4294102284
 	link = proceduralTankRealFuels_4294089310
 	link = proceduralTankRealFuels_4293849102
+	link = airScoop_4284526298
 	attN = bottom,proceduralTankRealFuels_4293849102
 	EVENTS
 	{
@@ -544,26 +543,6 @@ PART
 					_val = 0.5
 					_text = 0.5
 				}
-				minThrust
-				{
-					_val = 0.0001
-					_text = 0.0001
-				}
-				decelerationEndAltitude
-				{
-					_val = 500
-					_text = 500
-				}
-				CorrectionBeforeDeceleration
-				{
-					_val = 1000
-					_text = 1000
-				}
-				safityThrustLimit
-				{
-					_val = 0.9
-					_text = 0.9
-				}
 				limitGearsStage
 				{
 					val = 0
@@ -969,6 +948,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -2227,7 +2219,7 @@ PART
 {
 	part = SmallGearBay_4294164980
 	partName = Part
-	pos = -4.947509E-09,9.346272,0.09398103
+	pos = -4.947509E-09,9.346272,0.0939815
 	attPos = 0,0.3476847,-0.0451327
 	attPos0 = 0,1.496803,0.7148589
 	rot = -2.847367E-15,1,0,3.176374E-22
@@ -2907,576 +2899,12 @@ PART
 }
 PART
 {
-	part = LRadialAirIntake_4294123782
-	partName = Part
-	pos = -0.6455306,10.016,-2.021456
-	attPos = 0.06396663,0.924839,-1.102494E-07
-	attPos0 = -0.7094972,-1.195786,1.425488E-07
-	rot = -0.5330721,-0.5330721,-0.4645796,-0.4645796
-	attRot = -0.5330721,0.5330721,0.4645796,-0.4645796
-	attRot0 = -0.04843149,-0.7054462,0.04843149,-0.7054462
-	mir = 1,1,1
-	symMethod = Mirror
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = LRadialAirIntake_4294118622
-	srfN = srfAttach,Interceptor Cockpit_4294218444
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = AJEInlet
-		isEnabled = True
-		intakeEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			Deactivate
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = False
-				guiIcon = Close Intake
-				guiName = Close Intake
-				category = Close Intake
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Activate
-			{
-				active = False
-				guiActive = True
-				guiActiveUncommand = False
-				guiIcon = Open Intake
-				guiName = Open Intake
-				category = Open Intake
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-			PopupNameTagChanger
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Change Name Tag
-				guiName = Change Name Tag
-				category = Change Name Tag
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleAeroReentry
-		isEnabled = True
-		dead = False
-		crashTolerance = 8
-		damage = 0
-		stagingEnabled = True
-		EVENTS
-		{
-			ResetRecordedHeat
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Reset Heat Record
-				guiName = Reset Heat Record
-				category = Reset Heat Record
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = False
-			}
-			RepairDamage
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = No Damage
-				guiName = No Damage
-				category = No Damage
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = False
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = IntakeAir
-		amount = 0.6
-		maxAmount = 0.6
-		flowState = True
-		isTweakable = False
-		hideFlow = False
-		isVisible = False
-		flowMode = Both
-	}
-}
-PART
-{
-	part = LRadialAirIntake_4294118622
-	partName = Part
-	pos = 0.6455306,10.016,-2.021456
-	attPos = -0.06396663,0.9248389,-1.102494E-07
-	attPos0 = 0.7094972,-1.195786,1.425488E-07
-	rot = 0.5330722,-0.5330722,-0.4645796,0.4645795
-	attRot = -0.5330721,0.5330721,0.4645796,-0.4645796
-	attRot0 = 0,-0.7071068,0,0.7071068
-	mir = 1,1,1
-	symMethod = Mirror
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = 0
-	attm = 1
-	modCost = 0
-	modMass = 0
-	modSize = (0.0, 0.0, 0.0)
-	sym = LRadialAirIntake_4294123782
-	srfN = srfAttach,Interceptor Cockpit_4294218444
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = AJEInlet
-		isEnabled = True
-		intakeEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			Deactivate
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = False
-				guiIcon = Close Intake
-				guiName = Close Intake
-				category = Close Intake
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			Activate
-			{
-				active = False
-				guiActive = True
-				guiActiveUncommand = False
-				guiIcon = Open Intake
-				guiName = Open Intake
-				category = Open Intake
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-			PopupNameTagChanger
-			{
-				active = True
-				guiActive = True
-				guiActiveEditor = True
-				guiActiveUncommand = False
-				guiIcon = Change Name Tag
-				guiName = Change Name Tag
-				category = Change Name Tag
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleAeroReentry
-		isEnabled = True
-		dead = False
-		crashTolerance = 8
-		damage = 0
-		stagingEnabled = True
-		EVENTS
-		{
-			ResetRecordedHeat
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Reset Heat Record
-				guiName = Reset Heat Record
-				category = Reset Heat Record
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = False
-			}
-			RepairDamage
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = No Damage
-				guiName = No Damage
-				category = No Damage
-				guiActiveUnfocused = True
-				unfocusedRange = 4
-				externalToEVAOnly = False
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = IntakeAir
-		amount = 0.6
-		maxAmount = 0.6
-		flowState = True
-		isTweakable = False
-		hideFlow = False
-		isVisible = False
-		flowMode = Both
-	}
-}
-PART
-{
 	part = RO-B9ProcWing-Early_4294102880
 	partName = Part
 	pos = -0.1930872,9.568334,-3.761708
 	attPos = 0,-0.8154116,1.072884E-06
 	attPos0 = -0.1930872,-1.195786,0.4476654
-	rot = 0.01095051,0.7115504,0.7024623,0.01109217
+	rot = 0.01095051,0.7115505,0.7024623,0.01109217
 	attRot = -0.5109854,0.504459,-0.4952987,-0.4889726
 	attRot0 = -0.0001001744,0.9998579,-0.006426214,0.01558653
 	mir = 1,1,1
@@ -3488,7 +2916,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 17.08374
-	modMass = 0.2168709
+	modMass = 0.2668609
 	modSize = (1.4, -1.1, 0.0)
 	link = RO-B9ProcCS-Early_4294040172
 	link = RO-B9ProcCS-Early_4294032964
@@ -3807,6 +3235,19 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -3836,8 +3277,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 898.75607160577465
-			maxAmount = 898.75607160577465
+			amount = 898.75600697262234
+			maxAmount = 898.75600697262234
 		}
 		TANK
 		{
@@ -4576,8 +4017,8 @@ PART
 	RESOURCE
 	{
 		name = Kerosene
-		amount = 898.756071605775
-		maxAmount = 898.756071605775
+		amount = 898.756006972622
+		maxAmount = 898.756006972622
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -4604,7 +4045,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 17.08374
-	modMass = 0.2168709
+	modMass = 0.2668609
 	modSize = (1.4, -1.1, 0.0)
 	link = RO-B9ProcCS-Early_4294036612
 	link = RO-B9ProcCS-Early_4294031952
@@ -4923,6 +4364,19 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -4952,8 +4406,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 898.75607160577465
-			maxAmount = 898.75607160577465
+			amount = 898.75600697262234
+			maxAmount = 898.75600697262234
 		}
 		TANK
 		{
@@ -5692,8 +5146,8 @@ PART
 	RESOURCE
 	{
 		name = Kerosene
-		amount = 898.756071605775
-		maxAmount = 898.756071605775
+		amount = 898.756006972622
+		maxAmount = 898.756006972622
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -5720,7 +5174,7 @@ PART
 	sepI = 0
 	attm = 0
 	modCost = 11.41584
-	modMass = -0.8476789
+	modMass = -0.8476788
 	modSize = (0.0, 0.0, 0.0)
 	link = proceduralTankRealFuels_4294086064
 	link = SmallGearBay_4293961142
@@ -5743,14 +5197,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (1.447, 2.600002, -1.447001)
-		textureSet = Original
+		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.0299941
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -5990,11 +5444,11 @@ PART
 		partPrevTemperature = -1
 		mass = 0.1523211
 		stagingEnabled = True
-		volume = 2507.3438999999998
+		volume = 2507.3440999999998
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -6068,6 +5522,18 @@ PART
 				unfocusedRange = 2
 				externalToEVAOnly = True
 			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
 		}
 		ACTIONS
 		{
@@ -6097,8 +5563,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 2507.3438999999998
-			maxAmount = 2507.3438999999998
+			amount = 2507.3440999999993
+			maxAmount = 2507.3440999999993
 		}
 		TANK
 		{
@@ -6947,8 +6413,8 @@ PART
 	RESOURCE
 	{
 		name = Kerosene
-		amount = 2507.3439
-		maxAmount = 2507.3439
+		amount = 2507.3441
+		maxAmount = 2507.3441
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -6960,7 +6426,7 @@ PART
 {
 	part = proceduralTankRealFuels_4294086064
 	partName = Part
-	pos = -6.112384E-08,10.016,-7.196337
+	pos = -6.112388E-08,10.016,-7.196342
 	attPos = 0,0,0
 	attPos0 = -6.24182E-08,-3.500032,4.172362E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -6974,7 +6440,7 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 0
-	modCost = 4.998877
+	modCost = 4.998878
 	modMass = -0.8872805
 	modSize = (0.0, 0.0, 0.0)
 	link = proceduralTankRealFuels_4294059648
@@ -6995,14 +6461,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (1.2, 3.300001, -1.200001)
-		textureSet = Original
+		textureSet = KHPlanes1
 		shapeName = Smooth Cone
-		moduleCost = 0.02765962
+		moduleCost = 0.02765963
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -7242,11 +6708,11 @@ PART
 		partPrevTemperature = -1
 		mass = 0.1127195
 		stagingEnabled = True
-		volume = 2485.6088
+		volume = 2485.6091999999999
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -7315,6 +6781,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -8200,7 +7679,7 @@ PART
 {
 	part = proceduralTankRealFuels_4294059648
 	partName = Part
-	pos = -1.266896E-07,10.016,-9.396369
+	pos = -1.266896E-07,10.016,-9.396378
 	attPos = 0,0,0
 	attPos0 = -5.960528E-08,-4.000039,4.768418E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -8236,14 +7715,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (1.2, 1.1, -1.200001)
-		textureSet = Original
+		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.01002455
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -8487,7 +7966,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -8556,6 +8035,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -9441,10 +8933,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4294040172
 	partName = Part
-	pos = -1.698481,9.581726,-6.372187
+	pos = -1.698482,9.581726,-6.372189
 	attPos = 0,0,0
 	attPos0 = 1.50612,-2.610089,-2.980232E-07
-	rot = -0.6607439,0.238734,-0.2208404,-0.6765009
+	rot = -0.660744,0.238734,-0.2208404,-0.6765009
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 0.3249195,0.9457417,-2.980232E-08,-2.086162E-07
 	mir = 1,1,1
@@ -9456,7 +8948,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 9.799999
-	modMass = -0.02115734
+	modMass = 0.02883266
 	modSize = (0.2, -4.0, 0.0)
 	sym = RO-B9ProcCS-Early_4294036612
 	srfN = srfAttach,RO-B9ProcWing-Early_4294102880
@@ -9869,10 +9361,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4294036612
 	partName = Part
-	pos = 1.69848,9.581726,-6.372188
+	pos = 1.69848,9.581726,-6.372189
 	attPos = 0,0,0
 	attPos0 = 1.50612,-2.610089,1.363133E-06
-	rot = 0.2208403,0.6765006,0.660744,-0.238734
+	rot = 0.2208404,0.6765006,0.660744,-0.238734
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = -0.3249195,-0.9457418,8.230563E-08,-2.499559E-07
 	mir = 1,1,1
@@ -9884,7 +9376,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 9.799999
-	modMass = -0.02115734
+	modMass = 0.02883266
 	modSize = (0.2, -4.0, 0.0)
 	sym = RO-B9ProcCS-Early_4294040172
 	srfN = srfAttach,RO-B9ProcWing-Early_4294102284
@@ -10297,10 +9789,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4294032964
 	partName = Part
-	pos = -4.451638,9.639985,-8.519825
+	pos = -4.451641,9.639985,-8.519828
 	attPos = 0,0,0
 	attPos0 = 4.260609,-4.756792,3.874302E-07
-	rot = -0.6607439,0.238734,-0.2208404,-0.6765009
+	rot = -0.660744,0.238734,-0.2208404,-0.6765009
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 0.3249195,0.9457417,-2.980232E-08,-2.086162E-07
 	mir = 1,1,1
@@ -10312,7 +9804,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = -0.03571359
+	modMass = 0.01427641
 	modSize = (-1.2, -4.0, -0.1)
 	sym = RO-B9ProcCS-Early_4294031952
 	srfN = srfAttach,RO-B9ProcWing-Early_4294102880
@@ -10725,10 +10217,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4294031952
 	partName = Part
-	pos = 4.451638,9.639985,-8.519828
+	pos = 4.451638,9.639985,-8.51983
 	attPos = 0,0,0
 	attPos0 = 4.260609,-4.756793,1.686206E-06
-	rot = 0.2208403,0.6765006,0.660744,-0.238734
+	rot = 0.2208404,0.6765006,0.660744,-0.238734
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = -0.3249195,-0.9457418,8.230563E-08,-2.499559E-07
 	mir = 1,1,1
@@ -10740,7 +10232,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = -0.03571359
+	modMass = 0.01427641
 	modSize = (-1.2, -4.0, -0.1)
 	sym = RO-B9ProcCS-Early_4294032964
 	srfN = srfAttach,RO-B9ProcWing-Early_4294102284
@@ -11153,7 +10645,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4294020880
 	partName = Part
-	pos = -1.448067E-07,10.43047,-9.308673
+	pos = -1.448067E-07,10.43047,-9.308685
 	attPos = 0,0.521759,0.04138941
 	attPos0 = 4.067659E-08,-0.4500008,-0.4652863
 	rot = 0.5000001,0.5000001,0.5000001,0.5000001
@@ -11168,7 +10660,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = 0.03514567
+	modMass = 0.08513567
 	modSize = (-1.6, -2.1, 0.0)
 	link = RO-B9ProcCS-Early_4294020758
 	link = RO-B9ProcAMWing-Early_4294004784
@@ -11482,6 +10974,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -12257,7 +11762,7 @@ PART
 {
 	part = RO-B9ProcCS-Early_4294020758
 	partName = Part
-	pos = 6.93466E-08,11.6281,-10.99395
+	pos = 6.934665E-08,11.6281,-10.99396
 	attPos = 0,0,0
 	attPos0 = 1.197635,-1.685284,2.141537E-07
 	rot = -0.3427726,0.6184715,0.3427726,-0.6184716
@@ -12272,7 +11777,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = -0.03793535
+	modMass = 0.01205465
 	modSize = (-1.1, -4.0, 0.0)
 	srfN = srfAttach,RO-B9ProcWing-Early_4294020880
 	EVENTS
@@ -12684,10 +12189,10 @@ PART
 {
 	part = RO-B9ProcAMWing-Early_4294004784
 	partName = Part
-	pos = -9.935693E-08,10.65935,-9.195374
+	pos = -9.93569E-08,10.65935,-9.195386
 	attPos = -0.07587337,0.2945328,-9.044832E-09
 	attPos0 = 0.304761,-0.1812334,5.449552E-08
-	rot = 1.653916E-07,0.7071069,0.7071069,1.717832E-07
+	rot = 1.652318E-07,0.7071069,0.7071069,1.71943E-07
 	attRot = 0,0.7071068,0,0.7071068
 	attRot0 = -2.980232E-08,0.7071067,1.234453E-08,0.7071069
 	mir = 1,1,1
@@ -12699,7 +12204,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = 0.009919155
+	modMass = 0.05990916
 	modSize = (-1.6, -2.9, -0.1)
 	sym = RO-B9ProcAMWing-Early_4293966602
 	srfN = srfAttach,RO-B9ProcWing-Early_4294020880
@@ -13112,10 +12617,10 @@ PART
 {
 	part = RO-B9ProcAMWing-Early_4293966602
 	partName = Part
-	pos = -1.356872E-07,10.65935,-9.195375
+	pos = -1.356872E-07,10.65935,-9.195388
 	attPos = -0.07587337,0.2945309,-9.044783E-09
 	attPos0 = 0.304761,-0.1812334,1.816517E-08
-	rot = -0.7071072,-1.774527E-07,-1.175753E-07,-0.7071065
+	rot = -0.7071072,-1.773845E-07,-1.176435E-07,-0.7071065
 	attRot = 0,0.7071068,0,0.7071068
 	attRot0 = -7.014135E-08,0.7071067,-5.960464E-08,-0.7071069
 	mir = 1,1,1
@@ -13127,7 +12632,7 @@ PART
 	sepI = 0
 	attm = 1
 	modCost = 4.8
-	modMass = 0.009919155
+	modMass = 0.05990916
 	modSize = (-1.6, -2.9, -0.1)
 	sym = RO-B9ProcAMWing-Early_4294004784
 	srfN = srfAttach,RO-B9ProcWing-Early_4294020880
@@ -13540,7 +13045,7 @@ PART
 {
 	part = SmallGearBay_4293961142
 	partName = Part
-	pos = -1.191587,9.552249,-5.573543
+	pos = -1.191587,9.552249,-5.573546
 	attPos = -0.9106594,-0.02722335,0.3245335
 	attPos0 = -0.2809275,-1.300001,0.1392166
 	rot = 0,-0.9998287,0.01851526,0
@@ -14223,7 +13728,7 @@ PART
 {
 	part = SmallGearBay_4293952222
 	partName = Part
-	pos = 1.191587,9.55225,-5.573544
+	pos = 1.191587,9.55225,-5.573547
 	attPos = 0.9106596,-0.02722776,0.3245335
 	attPos0 = 0.2809275,-1.300001,0.1392166
 	rot = 0,0.9998287,-0.01851526,0
@@ -14906,7 +14411,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293849102
 	partName = Part
-	pos = -4.947509E-09,10.016,1.496934
+	pos = -4.947509E-09,10.016,1.496935
 	attPos = 0,0,0
 	attPos0 = 0,2.247441,-2.679158E-07
 	rot = 0.7071068,0,0,0.7071068
@@ -14920,7 +14425,7 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 0
-	modCost = 4.683625
+	modCost = 4.683626
 	modMass = -0.8943892
 	modSize = (0.0, 0.0, 0.0)
 	link = proceduralTankRealFuels_4293832056
@@ -14941,14 +14446,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (1.451, 3.000001, -1.451001)
-		textureSet = Original
+		textureSet = KHPlanes1
 		shapeName = Smooth Cone
-		moduleCost = 0.02591528
+		moduleCost = 0.02591529
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -15186,13 +14691,13 @@ PART
 		type = Structural
 		utilization = 86
 		partPrevTemperature = -1
-		mass = 0.1056108
+		mass = 0.1056109
 		stagingEnabled = True
-		volume = 2328.8546999999999
+		volume = 2328.8553000000002
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -15261,6 +14766,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -16146,8 +15664,8 @@ PART
 {
 	part = proceduralTankRealFuels_4293832056
 	partName = Part
-	pos = -1.000275E-08,10.016,2.471338
-	attPos = 5.055212E-09,-2.025625,2.414732E-07
+	pos = -1.000274E-08,10.016,2.481329
+	attPos = 5.05525E-09,-2.015632,2.40282E-07
 	attPos0 = -1.011048E-08,3.000026,-3.576309E-07
 	rot = 0.7071068,0,0,0.7071068
 	attRot = 0,0,0,1
@@ -16179,14 +15697,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (1, 3.000001, -1)
-		textureSet = Original
+		textureSet = GreySide
 		shapeName = Smooth Cone
 		moduleCost = 0.008804764
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -16430,7 +15948,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -16500,6 +16018,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -17396,7 +16927,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293818230
 	partName = Part
-	pos = -1.72868E-07,10.55894,-4.677977
+	pos = -1.728681E-07,10.55894,-4.677979
 	attPos = -1.153427E-08,0.8683341,-0.03415596
 	attPos0 = -1.799386E-07,-1.299995,-0.5266942
 	rot = 2.291882E-07,-0.6611302,0.7502713,2.019579E-07
@@ -17433,14 +16964,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (-0.3000001, -0.4748889, -0.2905033)
-		textureSet = Original
+		textureSet = KHPlanes1
 		shapeName = Cylinder
 		moduleCost = 0.0002705854
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -17684,7 +17215,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -17753,6 +17284,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -18638,10 +18182,10 @@ PART
 {
 	part = proceduralTankRealFuels_4293814800
 	partName = Part
-	pos = 5.073114E-07,10.64703,-3.983533
+	pos = 5.073111E-07,10.64703,-3.983535
 	attPos = 5.055212E-09,-2.025625,2.414732E-07
 	attPos0 = -4.391936E-07,-0.4000177,-1.009785E-05
-	rot = 0.6611127,2.724038E-08,2.724042E-08,0.7502868
+	rot = 0.6611127,2.724037E-08,2.724045E-08,0.7502868
 	attRot = 0,0,0,1
 	attRot0 = 7.119637E-12,2.324581E-05,-1,3.054738E-07
 	mir = 1,1,1
@@ -18672,14 +18216,14 @@ PART
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
 		tempColliderSize = (0.3000001, 1.074916, -0.2904963)
-		textureSet = Original
+		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.0003564077
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -18923,7 +18467,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -18992,6 +18536,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -19877,10 +19434,10 @@ PART
 {
 	part = proceduralTankRealFuels_4293811892
 	partName = Part
-	pos = -6.022857E-07,10.47084,-5.372432
+	pos = -6.02286E-07,10.47084,-5.372436
 	attPos = 5.055212E-09,-2.025625,2.414732E-07
 	attPos0 = 5.142738E-09,0.7000141,2.310937E-05
-	rot = 0.6611127,2.724038E-08,2.724042E-08,0.7502868
+	rot = 0.6611127,2.724037E-08,2.724045E-08,0.7502868
 	attRot = 0,0,0,1
 	attRot0 = 7.119637E-12,2.324581E-05,-1,3.054738E-07
 	mir = 1,1,1
@@ -19910,15 +19467,15 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.3000001, 1.074916, -0.2904963)
-		textureSet = Original
+		tempColliderSize = (0.3000001, 1.074916, -0.2904962)
+		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.0003564077
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
 			controlEnabled = True
-			xptions = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
+			options = Ablative, Atlas, BlueSide, Copernicus, CryogenicOrange, German, GoldFoil, GreySide, Mu, Original, PlainWhite, RedstoneStripes, Saturn, SegmentedSRB, SoyuzGreen, Stockalike, Tiles, TitanStripes, WhiteSide, KHPlanes1, KHPlanes2, SaturnDoubleTank, SaturnDoubleTank2, SaturnDoubleTank3, SaturnDoubleTank4, SaturnSingleTank, SaturnSingleTank2, SaturnSingleTank3, SaturnSingleTank4, SaturnStringers, SaturnStringers2, SaturnStringers3, SaturnStringers4, SaturnStringers5
 		}
 		shapeName_UIEditor
 		{
@@ -20162,7 +19719,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -20231,6 +19788,19 @@ PART
 				guiIcon = Disable Staging
 				guiName = Disable Staging
 				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MFT0
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = 100% Kerosene
+				guiName = 100% Kerosene
+				category = 100% Kerosene
 				guiActiveUnfocused = False
 				unfocusedRange = 2
 				externalToEVAOnly = True
@@ -21116,7 +20686,7 @@ PART
 {
 	part = aje.avon_4291447908
 	partName = Part
-	pos = -1.266896E-07,10.016,-9.946383
+	pos = -1.266896E-07,10.016,-9.946396
 	attPos = 0,0,0
 	attPos0 = 0,-0.4500074,5.364507E-08
 	rot = 0.7071068,0,0,0.7071068
@@ -21353,6 +20923,57 @@ PART
 	}
 	MODULE
 	{
+		name = EngineGroupModule
+		isEnabled = True
+		EngineGroupId = 
+		stagingEnabled = True
+		EVENTS
+		{
+			AssignGroupId
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Assign Group ID
+				guiName = Assign Group ID
+				category = Assign Group ID
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ClearGroupId
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Clear Group ID
+				guiName = Clear Group ID
+				category = Clear Group ID
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -21544,6 +21165,287 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
+		isVisible = False
+		flowMode = Both
+	}
+}
+PART
+{
+	part = airScoop_4284526298
+	partName = Part
+	pos = -4.335096E-09,8.962773,-2.815438
+	attPos = 0,-0.9566655,1.192093E-07
+	attPos0 = 6.124132E-10,-0.1082618,1.053227
+	rot = -2.086163E-07,-2.498002E-16,9.084471E-10,1
+	attRot = 0,0,0,1
+	attRot0 = -0.7071069,6.423689E-10,6.423692E-10,0.7071067
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,Interceptor Cockpit_4294218444
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = AJEInlet
+		isEnabled = True
+		intakeEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			Deactivate
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Close Intake
+				guiName = Close Intake
+				category = Close Intake
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Activate
+			{
+				active = False
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Open Intake
+				guiName = Open Intake
+				category = Open Intake
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+			PopupNameTagChanger
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiActiveUncommand = False
+				guiIcon = Change Name Tag
+				guiName = Change Name Tag
+				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		damage = 0
+		stagingEnabled = True
+		EVENTS
+		{
+			ResetRecordedHeat
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Reset Heat Record
+				guiName = Reset Heat Record
+				category = Reset Heat Record
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = False
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = IntakeAir
+		amount = 2
+		maxAmount = 2
+		flowState = True
+		isTweakable = False
+		hideFlow = False
 		isVisible = False
 		flowMode = Both
 	}
