@@ -6,7 +6,7 @@
     "dry": 2.925,
     "thrust": 311.8},
 {
-    "props": [{"name": "PSPC", "volume": 10}],
+    "props": [{"name": "PSPC", "volume": 3}],
     "isp": 205.5625,
     "dry": 0,
     "thrust": 9.6525},
