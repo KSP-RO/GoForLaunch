@@ -1,0 +1,179 @@
+{
+	"kind": "metapackage",
+	"abstract": "A list of modules installed on the default KSP instance",
+	"name": "installed-default",
+	"license": "unknown",
+	"version": "2016.05.31.10.14.38",
+	"identifier": "installed-default",
+	"spec_version": "v1.6",
+	"recommends": [
+		{
+			"name": "ModuleManager"
+		},
+		{
+			"name": "RealismOverhaul"
+		},
+		{
+			"name": "B9-PWings-Fork"
+		},
+		{
+			"name": "ConnectedLivingSpace"
+		},
+		{
+			"name": "DeadlyReentry"
+		},
+		{
+			"name": "HangarExtender"
+		},
+		{
+			"name": "KSP-AVC"
+		},
+		{
+			"name": "MechJeb2"
+		},
+		{
+			"name": "ProceduralFairings"
+		},
+		{
+			"name": "ProceduralParts"
+		},
+		{
+			"name": "KSCSwitcher"
+		},
+		{
+			"name": "RemoteTech"
+		},
+		{
+			"name": "SemiSaturatableRW"
+		},
+		{
+			"name": "FerramAerospaceResearch"
+		},
+		{
+			"name": "TextureReplacer"
+		},
+		{
+			"name": "Toolbar"
+		},
+		{
+			"name": "VenStockRevamp"
+		},
+		{
+			"name": "SCANsat"
+		},
+		{
+			"name": "SXT"
+		},
+		{
+			"name": "AdvancedJetEngine"
+		},
+		{
+			"name": "TACLS-Config-RealismOverhaul"
+		},
+		{
+			"name": "ModularFlightIntegrator"
+		},
+		{
+			"name": "SolverEngines"
+		},
+		{
+			"name": "KerbalJointReinforcement"
+		},
+		{
+			"name": "RealChute"
+		},
+		{
+			"name": "RealFuels"
+		},
+		{
+			"name": "CommunityResourcePack"
+		},
+		{
+			"name": "RealHeat"
+		},
+		{
+			"name": "RealPlume"
+		},
+		{
+			"name": "SmokeScreen"
+		},
+		{
+			"name": "TACLS"
+		},
+		{
+			"name": "FirespitterCore"
+		},
+		{
+			"name": "FirespitterResourcesConfig"
+		},
+		{
+			"name": "DistantObject-RealSolarSystem"
+		},
+		{
+			"name": "RealSolarSystem"
+		},
+		{
+			"name": "RSSTextures8192"
+		},
+		{
+			"name": "DistantObject"
+		},
+		{
+			"name": "Kopernicus"
+		},
+		{
+			"name": "ContractConfigurator"
+		},
+		{
+			"name": "WiderContractsApp"
+		},
+		{
+			"name": "ShipManifest"
+		},
+		{
+			"name": "TacFuelBalancer"
+		},
+		{
+			"name": "KerbalRenamer"
+		},
+		{
+			"name": "RP-0"
+		},
+		{
+			"name": "KerbalConstructionTime"
+		},
+		{
+			"name": "Taerobee"
+		},
+		{
+			"name": "TestFlight"
+		},
+		{
+			"name": "CustomBarnKit"
+		},
+		{
+			"name": "CommunityTechTree"
+		},
+		{
+			"name": "MagiCore"
+		},
+		{
+			"name": "EditorExtensionsRedux"
+		},
+		{
+			"name": "HyperEdit"
+		},
+		{
+			"name": "kOS"
+		},
+		{
+			"name": "PilotAssistant"
+		},
+		{
+			"name": "PlanetShine"
+		},
+		{
+			"name": "PlanetShine-Config-Default"
+		}
+	]
+}
