@@ -3,5 +3,6 @@
               {"name": "LqdOxygen", "volume": 1581.9}],
     "isp": 225,
     "dry": 1.686,
-    "thrust": 26.67}
+    "thrust": 26.67,
+    "minThrottle": 0}
 ]
