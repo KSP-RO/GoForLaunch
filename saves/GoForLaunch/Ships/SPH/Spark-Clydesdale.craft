@@ -2,7 +2,7 @@ ship = Spark-Clydesdale
 version = 1.1.2
 description = 
 type = SPH
-size = 22.28781,9.134902,16.46849
+size = 22.28784,9.134901,16.46858
 PART
 {
 	part = X1.Crew_4294563806
@@ -227,7 +227,7 @@ PART
 		{
 			DeployAction
 			{
-				actionGroup = None
+				actionGroup = Custom03
 			}
 			ResetAction
 			{
@@ -2346,7 +2346,7 @@ PART
 {
 	part = proceduralTankRealFuels_4294552234
 	partName = Part
-	pos = 0.006572054,3.352323,1.583986
+	pos = 0.006572054,3.352323,1.58398
 	attPos = 0,0,0
 	attPos0 = 0,-2.051755,6.169671E-09
 	rot = 0.7071068,0,0,0.7071068
@@ -2384,7 +2384,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.246, 4.5, -1.246001)
+		tempColliderSize = (1.246, 4.500002, -1.246003)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.03734727
@@ -2636,7 +2636,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -3919,7 +3919,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274036520
 	partName = Part
-	pos = -0.3177707,3.351153,1.433832
+	pos = -0.3177707,3.351153,1.43382
 	attPos = -0.009704888,0.2932069,-0.004994666
 	attPos0 = -0.314638,-0.4500005,0.006164605
 	rot = -0.003926286,-0.7148809,-0.6992238,-0.004014204
@@ -5049,10 +5049,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274036402
 	partName = Part
-	pos = -2.585915,3.336701,-0.3692055
+	pos = -2.585915,3.336701,-0.369215
 	attPos = 0,0,0
 	attPos0 = 2.268258,-1.802944,-2.151355E-07
-	rot = 0.6992307,-0.002570881,-0.005462598,0.7148709
+	rot = 0.6992307,-0.002570879,-0.005462597,0.7148709
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = -0.002107546,0.9999978,-1.264405E-07,4.24534E-05
 	mir = 1,1,1
@@ -5168,9 +5168,9 @@ PART
 	{
 		name = FARControllableSurface
 		isEnabled = True
-		pitchaxis = 20
-		yawaxis = 100
-		rollaxis = 80
+		pitchaxis = 70
+		yawaxis = 0
+		rollaxis = 50
 		pitchaxisDueToAoA = 0
 		brakeRudder = 0
 		maxdeflect = 20
@@ -5477,10 +5477,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274036326
 	partName = Part
-	pos = -1.090468,3.319769,-0.3751516
+	pos = -1.090468,3.319769,-0.3751631
 	attPos = 0,0,0
 	attPos0 = 0.7727419,-1.809248,-2.156012E-07
-	rot = 0.6992307,-0.002570881,-0.005462598,0.7148709
+	rot = 0.6992307,-0.002570879,-0.005462597,0.7148709
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = -0.002107546,0.9999978,-1.264405E-07,4.24534E-05
 	mir = 1,1,1
@@ -5905,7 +5905,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274036250
 	partName = Part
-	pos = 0.330915,3.351153,1.433831
+	pos = 0.330915,3.351153,1.433819
 	attPos = 0.009704888,0.2932059,-0.004994666
 	attPos0 = 0.314638,-0.4500005,0.006164605
 	rot = -0.6992239,-0.004014235,-0.003926315,-0.7148808
@@ -7035,10 +7035,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274036132
 	partName = Part
-	pos = 2.599059,3.336701,-0.3692284
+	pos = 2.599059,3.336701,-0.3692403
 	attPos = 0,0,0
 	attPos0 = 2.268258,-1.802943,1.02134E-06
-	rot = -0.005462632,0.7148708,0.6992308,-0.002570917
+	rot = -0.005462632,0.7148708,0.6992308,-0.002570916
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 0.002107545,-0.9999978,-1.263488E-07,4.245384E-05
 	mir = 1,1,1
@@ -7154,9 +7154,9 @@ PART
 	{
 		name = FARControllableSurface
 		isEnabled = True
-		pitchaxis = 20
-		yawaxis = 100
-		rollaxis = 80
+		pitchaxis = 70
+		yawaxis = 0
+		rollaxis = 50
 		pitchaxisDueToAoA = 0
 		brakeRudder = 0
 		maxdeflect = 20
@@ -7463,10 +7463,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274036056
 	partName = Part
-	pos = 1.103612,3.319769,-0.3751626
+	pos = 1.103612,3.319769,-0.375175
 	attPos = 0,0,0
 	attPos0 = 0.7727419,-1.809247,8.93189E-07
-	rot = -0.005462632,0.7148708,0.6992308,-0.002570917
+	rot = -0.005462632,0.7148708,0.6992308,-0.002570916
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 0.002107545,-0.9999978,-1.263488E-07,4.245384E-05
 	mir = 1,1,1
@@ -8573,7 +8573,7 @@ PART
 {
 	part = X1.Engine_4274035756
 	partName = Part
-	pos = 0.006572054,3.352323,-1.03112
+	pos = 0.006572054,3.352323,-1.03114
 	attPos = 0,0,0
 	attPos0 = 0,-4.465025,5.543518E-08
 	rot = 0.7071068,0,0,0.7071068
@@ -8581,10 +8581,10 @@ PART
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Mirror
-	istg = 1
+	istg = 0
 	dstg = 0
 	sidx = 0
-	sqor = 1
+	sqor = 0
 	sepI = 0
 	attm = 0
 	modCost = 0
@@ -9253,10 +9253,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274035652
 	partName = Part
-	pos = 0.006572039,3.685339,0.09248495
+	pos = 0.006572039,3.685339,0.09247351
 	attPos = 0,-0.03247118,0.06491998
 	attPos0 = 3.49246E-08,-1.459,-0.3979357
-	rot = 0.4692747,0.5289437,0.4692746,0.5289437
+	rot = 0.4692747,0.5289436,0.4692746,0.5289437
 	attRot = 0,0,0,1
 	attRot0 = -0.0421924,0.7058468,-0.04219237,0.705847
 	mir = 1,1,1
@@ -10381,10 +10381,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274035534
 	partName = Part
-	pos = 0.006570293,4.332283,-0.8346949
+	pos = 0.00657024,4.332283,-0.8347068
 	attPos = 0,0,0
 	attPos0 = 0.7527802,-0.843484,-3.481701E-08
-	rot = -0.5012272,0.4987701,0.5012263,-0.4987707
+	rot = -0.5012271,0.49877,0.5012262,-0.4987707
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = -0.06212085,0.9980687,4.685262E-08,-8.544635E-07
 	mir = 1,1,1
@@ -10808,7 +10808,7 @@ PART
 {
 	part = SmallGearBay_4293970232
 	partName = Part
-	pos = -1.85312,3.327212,1.091594
+	pos = -1.85312,3.327212,1.091588
 	attPos = -1.617337,-2.742507,0.06745181
 	attPos0 = -0.2423559,-1.30175,-0.04234084
 	rot = 0,0,-0.00460878,-0.9999895
@@ -11491,7 +11491,7 @@ PART
 {
 	part = SmallGearBay_4288816948
 	partName = Part
-	pos = 1.866265,3.327212,1.091593
+	pos = 1.866265,3.327212,1.091587
 	attPos = 1.617337,-2.742508,0.06745181
 	attPos0 = 0.2423559,-1.30175,-0.04234084
 	rot = 0,0,-0.00460878,0.9999895
@@ -12174,7 +12174,7 @@ PART
 {
 	part = radialDecoupler1-2_4274622472
 	partName = Part
-	pos = 0.006572054,2.594868,1.962747
+	pos = 0.006572054,2.594867,1.962741
 	attPos = 0,-1.871358,0.2201781
 	attPos0 = 0,-1.301751,0.537277
 	rot = -0.5000001,-0.5000001,-0.5000001,-0.5000001
@@ -12182,10 +12182,10 @@ PART
 	attRot0 = 0,-0.7071068,0,-0.7071068
 	mir = 1,1,1
 	symMethod = Mirror
-	istg = 0
+	istg = 1
 	dstg = 1
 	sidx = 0
-	sqor = 0
+	sqor = 1
 	sepI = 0
 	attm = 1
 	modCost = 0
@@ -12528,7 +12528,7 @@ PART
 {
 	part = proceduralTankRealFuels_4274611092
 	partName = Part
-	pos = 0.006571859,1.581832,2.266839
+	pos = 0.006571618,1.58183,2.266837
 	attPos = -1.73607,0.8720075,-2.0649E-07
 	attPos0 = 0.7230337,-0.5679173,-1.089198E-07
 	rot = -0.7071069,-1.47514E-07,-1.47514E-07,-0.7071069
@@ -12820,7 +12820,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -13810,10 +13810,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274611020
 	partName = Part
-	pos = 0.006571635,2.237969,2.260395
+	pos = 0.006571368,2.237969,2.26039
 	attPos = -1.025084E-07,-1.986731,0.1937786
 	attPos0 = 7.430198E-08,1.980303,-0.8499159
-	rot = -0.01270812,-0.7069927,-0.7069927,-0.01270811
+	rot = -0.01270825,-0.7069927,-0.7069927,-0.01270824
 	attRot = -0.7069926,-0.01270815,0.01270824,0.7069926
 	attRot0 = 0,1,4.214685E-08,5.960463E-08
 	mir = 1,1,1
@@ -14294,8 +14294,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 660.4798854100527
-			maxAmount = 660.4798854100527
+			amount = 660.47984496654658
+			maxAmount = 660.47984496654658
 		}
 		TANK
 		{
@@ -14936,8 +14936,8 @@ PART
 	RESOURCE
 	{
 		name = AvGas
-		amount = 660.479885410053
-		maxAmount = 660.479885410053
+		amount = 660.479844966547
+		maxAmount = 660.479844966547
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -14949,7 +14949,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274610900
 	partName = Part
-	pos = -1.123286,2.278602,2.26513
+	pos = -1.123288,2.278602,2.265125
 	attPos = -1.025084E-07,-0.5872862,0.2046286
 	attPos0 = 1.130582,0.004735947,-1.343766E-07
 	rot = -0.01270813,-0.7069924,-0.7069929,-0.01270811
@@ -16081,10 +16081,10 @@ PART
 {
 	part = proceduralTankRealFuels_4274610782
 	partName = Part
-	pos = -3.05904,1.916607,1.735376
+	pos = -3.059047,1.916607,1.735368
 	attPos = -0.01073897,-1.311302E-06,-0.2987084
 	attPos0 = 1.932221,-0.5297516,-0.1326197
-	rot = 0.5045295,0.4948713,0.4953972,0.5051085
+	rot = 0.5045295,0.4948713,0.4953971,0.5051085
 	attRot = 0.7066621,0.7067193,-0.02386782,0.02464448
 	attRot0 = -0.01741074,0.7068942,-0.01741092,-0.7068908
 	mir = 1,1,1
@@ -16119,7 +16119,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.279742, 0.6001059, 1.232401)
+		tempColliderSize = (1.279742, 0.6001061, 1.232401)
 		textureSet = GreySide
 		shapeName = Cylinder
 		moduleCost = 0.006845016
@@ -16371,7 +16371,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -17361,10 +17361,10 @@ PART
 {
 	part = proceduralTankRealFuels_4274610710
 	partName = Part
-	pos = -3.059035,2.212678,0.95154
+	pos = -3.059052,2.212677,0.9515257
 	attPos = 0.2000054,-0.4793072,-0.006670902
 	attPos0 = 0.09599964,-0.3000016,0.0001076524
-	rot = 0.7017807,-0.006327097,0.007209249,-0.7123287
+	rot = 0.7017807,-0.006326916,0.007209051,-0.7123287
 	attRot = 0.4931331,-0.4972439,0.5018471,0.5076597
 	attRot0 = 0.7071834,2.029545E-07,0.7070303,-7.077128E-07
 	mir = 1,1,1
@@ -17396,7 +17396,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.6017698, -0.9992092, 0.6528275)
+		tempColliderSize = (0.6017695, -0.9992091, 0.6528271)
 		textureSet = KHPlanes1
 		shapeName = Cylinder
 		moduleCost = 0.002705854
@@ -17648,7 +17648,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -18908,10 +18908,10 @@ PART
 {
 	part = proceduralTankRealFuels_4274610640
 	partName = Part
-	pos = -3.05282,2.279768,-3.547995
+	pos = -3.052843,2.279766,-3.548022
 	attPos = 0.2000054,-0.4793072,-0.006670902
 	attPos0 = -5.307515E-07,1.000028,-1.55233E-07
-	rot = 0.712328,-0.007283713,-0.006402719,0.7017801
+	rot = 0.712328,-0.007283836,-0.006402848,0.7017799
 	attRot = 0,0,0,1
 	attRot0 = -1,1.462607E-09,0.0001056694,-3.086845E-07
 	mir = 1,1,1
@@ -18946,7 +18946,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.6171715, 7.996073, -0.8620512)
+		tempColliderSize = (0.6171702, 7.996073, -0.862057)
 		textureSet = KHPlanes1
 		shapeName = Cylinder
 		moduleCost = 0.02164683
@@ -19198,7 +19198,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -20458,10 +20458,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274610570
 	partName = Part
-	pos = -2.857089,2.336977,-7.547999
+	pos = -2.857113,2.336975,-7.548049
 	attPos = 0.1117401,-0.0003318787,-2.625166E-07
 	attPos0 = 0.07846207,-2.500005,-0.001263636
-	rot = -0.7123288,0.007214983,0.006332953,-0.7017808
+	rot = -0.7123286,0.007215085,0.006333063,-0.7017806
 	attRot = -0.4999999,0.4999999,-0.4999999,-0.4999999
 	attRot0 = -2.529771E-07,-9.760742E-05,-6.315898E-09,-1
 	mir = 1,1,1
@@ -21587,10 +21587,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274610452
 	partName = Part
-	pos = -1.405809,2.311017,-7.671412
+	pos = -1.40583,2.311014,-7.671461
 	attPos = 0,0,0
 	attPos0 = 1.451367,-0.1250272,6.565552E-07
-	rot = 0.7123567,-0.0008489994,0.0001163186,0.7018173
+	rot = 0.712357,-0.0008491649,0.0001161468,0.7018171
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = -3.660028E-08,-0.009062758,8.679428E-06,-0.999959
 	mir = 1,1,1
@@ -22015,10 +22015,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274610376
 	partName = Part
-	pos = -3.043894,2.510897,-7.827443
+	pos = -3.043925,2.510895,-7.827515
 	attPos = -0.0002354424,-0.2116933,-0.006393254
 	attPos0 = -4.731326E-07,-3.000006,-0.1609438
-	rot = 0.5084962,0.4913591,0.4988926,0.5011032
+	rot = 0.5084962,0.4913591,0.4988925,0.5011034
 	attRot = -0.7071067,0.7071067,0,0
 	attRot0 = 0.0003904611,0.7071066,-0.0003911763,0.7071067
 	mir = 1,1,1
@@ -23144,10 +23144,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274610258
 	partName = Part
-	pos = -3.025327,3.398552,-8.189264
+	pos = -3.02536,3.398555,-8.189342
 	attPos = -0.0591684,-3.397465E-06,-7.095514E-07
 	attPos0 = 0.9415073,-0.3750302,0.001396193
-	rot = -0.5109688,-0.4888636,-0.4963452,-0.5035528
+	rot = -0.5109693,-0.4888631,-0.4963447,-0.5035533
 	attRot = 0,0,0.7071067,-0.7071067
 	attRot0 = -7.465338E-08,0.004982457,1.449868E-05,-0.9999877
 	mir = 1,1,1
@@ -23572,10 +23572,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274610182
 	partName = Part
-	pos = -3.06151,2.555258,-7.840682
+	pos = -3.06154,2.555257,-7.840744
 	attPos = -0.0002471637,-0.2221069,-0.2296156
 	attPos0 = -0.01847104,-3.000007,0.0184691
-	rot = 0.4988926,-0.5011032,-0.5084962,0.4913593
+	rot = 0.4988926,-0.5011031,-0.5084961,0.4913593
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = -0.0003911763,-0.7071067,-0.0003904611,0.7071066
 	mir = 1,1,1
@@ -24701,10 +24701,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274610064
 	partName = Part
-	pos = -3.072396,2.064642,-8.223087
+	pos = -3.072427,2.064641,-8.223154
 	attPos = -0.4451253,-5.722046E-06,-3.57395E-07
 	attPos0 = 0.9415073,-0.3750302,0.001396193
-	rot = -0.4963603,0.5035381,0.5109826,-0.4888489
+	rot = -0.49636,0.503538,0.5109825,-0.4888488
 	attRot = 0,0,0.7071067,-0.7071067
 	attRot0 = -7.465338E-08,0.004982457,1.449868E-05,-0.9999877
 	mir = 1,1,1
@@ -25129,10 +25129,10 @@ PART
 {
 	part = proceduralNoseCone_4274609988
 	partName = Part
-	pos = -3.047197,2.344625,-7.897641
+	pos = -3.047229,2.344623,-7.897698
 	attPos = 0,0,0
 	attPos0 = -0.0003990798,-3.350008,-7.50156E-06
-	rot = -0.006890156,-0.7123315,0.701777,0.006790754
+	rot = -0.006890342,-0.7123314,0.701777,0.006790948
 	attRot = 0,0,0.9999999,0
 	attRot0 = -4.696245E-08,5.057621E-07,0.9999999,0.0005527011
 	mir = 1,1,1
@@ -25162,7 +25162,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-0.5995459, -0.6993469, -0.6441051)
+		tempColliderSize = (-0.5995463, -0.6993462, -0.6441059)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.1139607
@@ -25535,10 +25535,10 @@ PART
 {
 	part = proceduralNoseCone_4274609924
 	partName = Part
-	pos = -3.058749,2.029688,-0.00101757
+	pos = -3.058764,2.029686,-0.001030922
 	attPos = 0.1130962,-0.4363706,-0.002694026
 	attPos0 = 4.393743E-05,-1.30001,-0.001107149
-	rot = -0.4805256,-0.5187442,0.4805261,0.5187439
+	rot = -0.4805255,-0.5187441,0.4805261,0.5187438
 	attRot = 0.70659,0.02702422,-0.7065904,-0.02702409
 	attRot0 = -0.9992214,-0.03824311,0.009656801,0.0009220539
 	mir = 1,1,1
@@ -25568,7 +25568,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.680945, -2.964997, -1.224002)
+		tempColliderSize = (1.680946, -2.964998, -1.224003)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 1.712736
@@ -25941,10 +25941,10 @@ PART
 {
 	part = SXTJ213_4274609860
 	partName = Part
-	pos = -3.061131,1.916729,3.605378
+	pos = -3.061146,1.916729,3.605368
 	attPos = 0,0,0
 	attPos0 = 2.317184E-08,1.870004,-1.441999E-06
-	rot = 0.7070842,-0.0003951027,0.0003857039,0.7071295
+	rot = 0.7070841,-0.0003950775,0.0003857631,0.7071295
 	attRot = 0,0,0,1
 	attRot0 = 3.251739E-08,-0.7002303,4.170367E-08,0.7139171
 	mir = 1,1,1
@@ -26524,10 +26524,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274609480
 	partName = Part
-	pos = -3.594912,2.367487,1.717399
+	pos = -3.594919,2.367487,1.71739
 	attPos = 0,0,0
 	attPos0 = 2.47321,-0.54773,-9.052216E-09
-	rot = -0.707105,0.00165835,0.02374027,-0.7067083
+	rot = -0.7071049,0.001658458,0.02374037,-0.7067083
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = 0.01561677,-0.9998781,-4.469651E-08,1.028046E-05
 	mir = 1,1,1
@@ -26952,10 +26952,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274609404
 	partName = Part
-	pos = -8.615699,2.548044,1.874374
+	pos = -8.615709,2.548044,1.874365
 	attPos = 0,0,0
 	attPos0 = 7.497213,-0.3907551,2.777638E-07
-	rot = -0.707105,0.00165835,0.02374027,-0.7067083
+	rot = -0.7071049,0.001658458,0.02374037,-0.7067083
 	attRot = 0,0,-0.7071067,0.7071067
 	attRot0 = 0.01561677,-0.9998781,-4.469651E-08,1.028046E-05
 	mir = 1,1,1
@@ -27380,10 +27380,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274609328
 	partName = Part
-	pos = 0.006571635,2.237969,2.260393
+	pos = 0.006571368,2.237969,2.260387
 	attPos = 1.025084E-07,-1.986732,0.1937786
 	attPos0 = -7.430198E-08,1.980303,-0.8499159
-	rot = -0.7069927,-0.01270815,-0.01270818,-0.7069927
+	rot = -0.7069928,-0.01270793,-0.01270796,-0.7069928
 	attRot = 0.7069926,0.01270815,-0.01270824,0.7069926
 	attRot0 = -8.42937E-08,-1.03316E-07,0,-1
 	mir = 1,1,1
@@ -27864,8 +27864,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 660.4798854100527
-			maxAmount = 660.4798854100527
+			amount = 660.47984496654658
+			maxAmount = 660.47984496654658
 		}
 		TANK
 		{
@@ -28506,8 +28506,8 @@ PART
 	RESOURCE
 	{
 		name = AvGas
-		amount = 660.479885410053
-		maxAmount = 660.479885410053
+		amount = 660.479844966547
+		maxAmount = 660.479844966547
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -28519,7 +28519,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274609208
 	partName = Part
-	pos = 1.136426,2.278602,2.26513
+	pos = 1.136428,2.278602,2.265125
 	attPos = 3.576279E-07,-4.763715E-07,3.99595E-10
 	attPos0 = 1.130582,0.004736423,2.300212E-07
 	rot = -0.7069931,-0.01270847,-0.01270848,-0.7069925
@@ -29651,10 +29651,10 @@ PART
 {
 	part = proceduralTankRealFuels_4274609090
 	partName = Part
-	pos = 3.072177,1.91661,1.735374
+	pos = 3.072185,1.91661,1.735365
 	attPos = -0.01073754,-1.192093E-06,0.2987083
 	attPos0 = 1.932221,-0.5297515,0.1326203
-	rot = 0.5045298,-0.4948713,-0.4953969,0.5051085
+	rot = 0.5045298,-0.4948714,-0.495397,0.5051084
 	attRot = 0.7066621,0.7067193,-0.02386782,0.02464448
 	attRot0 = -0.01741089,0.7068908,-0.01741094,-0.7068941
 	mir = 1,1,1
@@ -29689,7 +29689,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-1.231076, 0.602879, -1.279714)
+		tempColliderSize = (-1.231076, 0.6028787, -1.279714)
 		textureSet = GreySide
 		shapeName = Cylinder
 		moduleCost = 0.006845016
@@ -29941,7 +29941,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -30931,10 +30931,10 @@ PART
 {
 	part = proceduralTankRealFuels_4274609018
 	partName = Part
-	pos = 3.072164,2.212681,0.9515324
+	pos = 3.072178,2.212681,0.9515181
 	attPos = -0.2000052,-0.4793085,-0.006671266
 	attPos0 = -0.09599954,-0.3000008,0.0001072562
-	rot = -0.7017809,-0.006327597,0.007209676,0.7123289
+	rot = -0.701781,-0.006327447,0.007209617,0.7123289
 	attRot = 0.4931331,-0.4972439,0.5018471,0.5076597
 	attRot0 = -0.7071833,1.166656E-07,0.7070303,5.405353E-07
 	mir = 1,1,1
@@ -30966,7 +30966,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.6235262, -1.000913, 0.6293803)
+		tempColliderSize = (0.6235261, -1.000913, 0.62938)
 		textureSet = KHPlanes1
 		shapeName = Cylinder
 		moduleCost = 0.002705854
@@ -31218,7 +31218,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -32478,10 +32478,10 @@ PART
 {
 	part = proceduralTankRealFuels_4274608948
 	partName = Part
-	pos = 3.065936,2.279773,-3.548014
+	pos = 3.065954,2.279769,-3.548043
 	attPos = 0.2000054,-0.4793072,-0.006670902
 	attPos0 = 7.716711E-06,1.00003,-6.006819E-07
-	rot = 0.7123281,0.007283899,0.006402954,0.7017801
+	rot = 0.7123281,0.007283901,0.00640291,0.7017802
 	attRot = 0,0,0,1
 	attRot0 = 1,1.209387E-09,0.0001055793,5.517458E-08
 	mir = 1,1,1
@@ -32516,7 +32516,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.6278269, 7.997805, -0.8379651)
+		tempColliderSize = (0.6278273, 7.997807, -0.8379647)
 		textureSet = KHPlanes1
 		shapeName = Cylinder
 		moduleCost = 0.02164683
@@ -32768,7 +32768,7 @@ PART
 		type_UIEditor
 		{
 			controlEnabled = True
-			options = Default, Cryogenic, ServiceModule, Fuselage, Balloon, BalloonCryo, Structural, ElectricPropulsion, LifeSupport
+			options = Fuselage, Structural
 		}
 		utilization_UIEditor
 		{
@@ -34028,10 +34028,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274608878
 	partName = Part
-	pos = 2.870176,2.336981,-7.548033
+	pos = 2.870191,2.336977,-7.548094
 	attPos = -0.1117395,-0.0003349781,-9.542564E-07
 	attPos0 = -0.07846258,-2.500002,-0.001261878
-	rot = -0.006333395,0.7017807,0.7123289,-0.007215384
+	rot = -0.006333373,0.7017807,0.7123289,-0.007215406
 	attRot = 0.4999999,-0.4999999,0.4999999,-0.4999999
 	attRot0 = 7.025854E-09,1,-1.802646E-10,9.756834E-05
 	mir = 1,1,1
@@ -35157,10 +35157,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274608760
 	partName = Part
-	pos = 1.418895,2.311018,-7.671454
+	pos = 1.418902,2.311012,-7.671525
 	attPos = 0,0,0
 	attPos0 = 1.451366,-0.1250258,-2.354447E-06
-	rot = 0.0001162575,0.7018171,0.7123572,-0.0008490226
+	rot = 0.0001161957,0.7018171,0.7123572,-0.0008491295
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 8.983702E-08,-0.009062755,-8.679888E-06,0.9999589
 	mir = 1,1,1
@@ -35585,10 +35585,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274608684
 	partName = Part
-	pos = 3.056998,2.510901,-7.8275
+	pos = 3.057021,2.510898,-7.82759
 	attPos = 0.0002354418,-0.211695,-0.006394491
 	attPos0 = 4.218264E-07,-3.000003,-0.1609411
-	rot = 0.4988925,0.5011033,0.5084963,0.491359
+	rot = 0.4988926,0.5011034,0.5084963,0.4913591
 	attRot = -0.7071067,0.7071067,0,0
 	attRot0 = -0.0003912955,0.7071068,0.0003903418,0.7071066
 	mir = 1,1,1
@@ -36714,10 +36714,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274608566
 	partName = Part
-	pos = 3.038427,3.398558,-8.189318
+	pos = 3.03845,3.398559,-8.189402
 	attPos = -0.05916739,-6.735325E-06,1.66893E-06
 	attPos0 = 0.9415071,-0.3750303,-0.001396439
-	rot = 0.4963454,0.5035532,0.5109687,0.4888634
+	rot = 0.4963454,0.5035533,0.5109686,0.4888634
 	attRot = 0,0,-0.7071067,-0.7071067
 	attRot0 = -1.186867E-07,0.004982442,-1.460366E-05,0.9999876
 	mir = 1,1,1
@@ -37142,10 +37142,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4274608490
 	partName = Part
-	pos = 3.074608,2.555263,-7.840754
+	pos = 3.074632,2.555261,-7.840841
 	attPos = 0.0002475753,-0.2221103,-0.2296154
 	attPos0 = 0.01847056,-3.000002,0.0184704
-	rot = -0.5084963,0.4913595,0.4988926,-0.5011031
+	rot = -0.5084962,0.4913596,0.4988923,-0.5011032
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = -0.0003903418,0.7071066,-0.0003912955,-0.7071068
 	mir = 1,1,1
@@ -38271,10 +38271,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274608372
 	partName = Part
-	pos = 3.085498,2.064646,-8.223158
+	pos = 3.085522,2.064642,-8.223249
 	attPos = -0.4451247,-6.467104E-06,-0.002791761
 	attPos0 = 0.9415073,-0.3750302,0.001396193
-	rot = -0.5109834,0.4888484,0.4963599,-0.5035384
+	rot = -0.5109834,0.4888485,0.4963599,-0.5035385
 	attRot = 0,0,0.7071067,-0.7071067
 	attRot0 = -7.465338E-08,0.004982457,1.449868E-05,-0.9999877
 	mir = 1,1,1
@@ -38699,10 +38699,10 @@ PART
 {
 	part = proceduralNoseCone_4274608296
 	partName = Part
-	pos = 3.0603,2.34463,-7.897707
+	pos = 3.060323,2.344626,-7.897782
 	attPos = 0,0,0
 	attPos0 = 0.000378099,-3.350008,-6.031761E-06
-	rot = 0.006890434,-0.7123317,0.701777,-0.006791066
+	rot = 0.006890455,-0.7123314,0.7017772,-0.006791045
 	attRot = 0,0,0.9999999,0
 	attRot0 = 4.52695E-08,7.586432E-07,0.9999999,-0.000552701
 	mir = 1,1,1
@@ -38732,7 +38732,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-0.6236154, -0.699697, -0.6204389)
+		tempColliderSize = (-0.6236164, -0.6996983, -0.6204381)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.1139607
@@ -39105,10 +39105,10 @@ PART
 {
 	part = proceduralNoseCone_4274608232
 	partName = Part
-	pos = 3.071879,2.029686,-0.001011848
+	pos = 3.071892,2.029686,-0.001023293
 	attPos = -0.1130958,-0.4363599,-0.002699782
 	attPos0 = -4.258558E-05,-1.30002,-0.001105483
-	rot = -0.4805262,0.5187443,-0.4805259,0.5187435
+	rot = -0.480526,0.5187441,-0.4805259,0.5187433
 	attRot = 0.70659,0.02702422,-0.7065904,-0.02702409
 	attRot0 = 0.999953,-2.683699E-05,0.009684756,-0.0005522221
 	mir = 1,1,1
@@ -39138,7 +39138,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-1.680943, -2.965, 1.224)
+		tempColliderSize = (-1.680941, -2.964999, 1.224)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 1.712736
@@ -39511,10 +39511,10 @@ PART
 {
 	part = SXTJ213_4274608168
 	partName = Part
-	pos = 3.074256,1.916729,3.605376
+	pos = 3.074269,1.916729,3.605366
 	attPos = 0,0,0
 	attPos0 = -8.548218E-07,1.870004,-5.797092E-07
-	rot = 0.7070845,0.0003954219,-0.0003853488,0.7071293
+	rot = 0.7070844,0.000395393,-0.0003854885,0.7071293
 	attRot = 0,0,0,1
 	attRot0 = -2.405915E-07,0.7002304,2.240716E-08,0.7139171
 	mir = 1,1,1
@@ -40094,10 +40094,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274607788
 	partName = Part
-	pos = 3.608048,2.36749,1.717397
+	pos = 3.608056,2.36749,1.717388
 	attPos = 0,0,0
 	attPos0 = 2.47321,-0.5477296,5.022878E-07
-	rot = -0.02374056,0.7067082,0.7071053,-0.001658651
+	rot = -0.02374064,0.7067081,0.7071053,-0.001658739
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 0.01561677,-0.999878,3.403762E-07,-1.027806E-05
 	mir = 1,1,1
@@ -40522,10 +40522,10 @@ PART
 {
 	part = RO-B9ProcCS-Early_4274607712
 	partName = Part
-	pos = 8.628833,2.548048,1.874372
+	pos = 8.628848,2.548048,1.874363
 	attPos = 0,0,0
 	attPos0 = 7.497213,-0.3907551,5.752921E-07
-	rot = -0.02374056,0.7067082,0.7071053,-0.001658651
+	rot = -0.02374064,0.7067081,0.7071053,-0.001658739
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 0.01561677,-0.999878,3.403762E-07,-1.027806E-05
 	mir = 1,1,1
@@ -40950,10 +40950,10 @@ PART
 {
 	part = GearSmall_4274607636
 	partName = Part
-	pos = -3.024754,1.550587,2.055151
+	pos = -3.024766,1.55058,2.05514
 	attPos = -2.182062,-0.0007831603,0.03123923
 	attPos0 = -0.8492521,-0.2108941,-1.634471E-07
-	rot = -8.940697E-08,0.0002977254,2.107263E-07,1
+	rot = -1.490116E-07,0.0002977043,-2.107117E-08,1
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 0.7071068,-0.000210613,0.0002105082,-0.7071068
 	mir = 1,1,1
@@ -41633,10 +41633,10 @@ PART
 {
 	part = GearSmall_4274607392
 	partName = Part
-	pos = 3.037898,1.550591,2.05515
+	pos = 3.037909,1.550585,2.055138
 	attPos = 2.182062,-0.0007843524,0.0312392
 	attPos0 = 0.8492521,-0.2108941,-1.634471E-07
-	rot = -1.788139E-07,-0.0002980414,-1.053704E-07,1
+	rot = -2.384186E-07,-0.0002980836,-3.160967E-07,1
 	attRot = 0,0,0.7071067,0.7071067
 	attRot0 = 0.7071068,0.000210613,-0.0002105082,-0.7071068
 	mir = 1,1,1
@@ -42316,10 +42316,10 @@ PART
 {
 	part = SXTke111_4274607148
 	partName = Part
-	pos = 0.006571865,1.560716,5.316604
+	pos = 0.006571625,1.56071,5.316606
 	attPos = 0,0,0
 	attPos0 = 0,5,0
-	rot = 0.7158355,1.284162E-07,1.244649E-07,0.6982692
+	rot = 0.7158355,3.292723E-10,-3.292723E-10,0.6982692
 	attRot = 0,0,0,1
 	attRot0 = 0.7071068,0,0,0.7071068
 	mir = 1,1,1
@@ -44196,7 +44196,7 @@ PART
 {
 	part = SmallGearBay_4274606994
 	partName = Part
-	pos = 0.006572079,0.8415475,5.453934
+	pos = 0.006571895,0.8415394,5.453936
 	attPos = 0,0.7309757,-0.1293117
 	attPos0 = 0,-0.5758209,0.844844
 	rot = 4.214685E-08,0.9999232,0.01242068,4.214685E-08
@@ -44878,7 +44878,7 @@ PART
 {
 	part = strutConnector_4274600028
 	partName = CompoundPart
-	pos = 0.006571667,2.301922,6.155154
+	pos = 0.006571369,2.301919,6.155156
 	attPos = 0,0,0
 	attPos0 = 2.252496E-08,0.819878,-0.7618077
 	rot = -0.5384434,0.4583437,0.5384434,-0.4583437
@@ -45147,10 +45147,10 @@ PART
 {
 	part = strutConnector_4274597486
 	partName = CompoundPart
-	pos = -3.070688,2.348633,1.843686
+	pos = -3.070695,2.348633,1.843677
 	attPos = 0,0,0
 	attPos0 = 1.948654,-0.4214427,-9.751744E-08
-	rot = -0.706993,0.01270832,0.01270792,-0.7069924
+	rot = -0.706993,0.01270844,0.01270805,-0.7069924
 	attRot = 0,0,0,1
 	attRot0 = -2.980232E-07,-1,8.940695E-08,4.377215E-08
 	mir = 1,1,1
@@ -45417,7 +45417,7 @@ PART
 {
 	part = strutConnector_4274597394
 	partName = CompoundPart
-	pos = 3.083831,2.348633,1.843685
+	pos = 3.083839,2.348633,1.843676
 	attPos = 0,0,0
 	attPos0 = 1.948657,-0.421442,2.287695E-06
 	rot = -0.01270786,0.7069927,0.7069929,-0.01270825
@@ -45687,10 +45687,10 @@ PART
 {
 	part = proceduralNoseCone_4274584856
 	partName = Part
-	pos = 0.006573024,1.581824,-0.9331889
+	pos = 0.006572783,1.581819,-0.9332089
 	attPos = 0,0,0
 	attPos0 = 4.163007E-07,-2.55001,1.907349E-06
-	rot = -5.024296E-15,-0.7071069,0.7071069,-5.024296E-15
+	rot = -1.47514E-07,-0.7071069,0.7071069,1.47514E-07
 	attRot = 0,0,0.9999999,0
 	attRot0 = 2.086162E-07,0,-1,0
 	mir = 1,1,1
@@ -45719,7 +45719,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-1.700001, -2, -1.700001)
+		tempColliderSize = (-1.700001, -2, -1.700003)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 2.613859
