@@ -1,15 +1,15 @@
 ship = Hercules 2.5m
 version = 1.1.2
-description = Juuust barely. Needs a high loft, like 100/200/45 and then +15 turn end at booster sep, if not more.
+description = 85/170/35, srf prograde after 45 degree line. Pitch up 10d at sep, fairings at ~80km, then 12d at 30s remaining, then 15 on upper light.  Might need to go 20 later. Perigee ~150km.
 type = VAB
-size = 15.60359,44.59328,15.60361
+size = 15.60359,40.9554,15.60365
 PART
 {
 	part = probeCoreHex_4294226012
 	partName = Part
-	pos = -0.131707,37.14518,0.03664106
+	pos = -0.131953,34.3073,0.03669359
 	attPos = 0,0,0
-	attPos0 = -0.131707,37.24519,0.03664106
+	attPos0 = -0.131953,34.1503,0.03669359
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -2406,7 +2406,7 @@ PART
 {
 	part = proceduralTankRealFuels_4294207816
 	partName = Part
-	pos = -0.131707,38.72718,0.03664106
+	pos = -0.131953,35.7323,0.03669359
 	attPos = 0,0,0
 	attPos0 = 0,1.582001,0
 	rot = 0,0,0,1
@@ -2420,8 +2420,8 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 0
-	modCost = 8.318772
-	modMass = -0.9723749
+	modCost = 9.155888
+	modMass = -0.972263
 	modSize = (0.0, 0.0, 0.0)
 	attN = bottom,probeCoreHex_4294226012
 	EVENTS
@@ -2438,10 +2438,10 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.9, 2.713997, 0.9)
+		tempColliderSize = (0.9590001, 2.400002, 0.9590001)
 		textureSet = Original
 		shapeName = Cylinder
-		moduleCost = 0.0165233
+		moduleCost = 0.01659015
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
@@ -2524,8 +2524,8 @@ PART
 	{
 		name = ProceduralShapeCylinder
 		isEnabled = True
-		diameter = 0.9
-		length = 2.714
+		diameter = 0.9590001
+		length = 2.4
 		stagingEnabled = True
 		diameter_UIEditor
 		{
@@ -2682,11 +2682,11 @@ PART
 		name = ModuleFuelTanks
 		isEnabled = True
 		type = Default
-		utilization = 83
+		utilization = 91
 		partPrevTemperature = -1
-		mass = 0.02762515
+		mass = 0.02773693
 		stagingEnabled = True
-		volume = 1433.0549000000001
+		volume = 1577.5382
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -3490,8 +3490,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 707.21781153342999
-			maxAmount = 707.21781153342999
+			amount = 778.52084621069798
+			maxAmount = 778.52084621069798
 		}
 	}
 	MODULE
@@ -3682,8 +3682,8 @@ PART
 	RESOURCE
 	{
 		name = LeadBallast
-		amount = 707.21781153343
-		maxAmount = 707.21781153343
+		amount = 778.520846210698
+		maxAmount = 778.520846210698
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -3695,7 +3695,7 @@ PART
 {
 	part = KzResizableFairingBase_4294198648
 	partName = Part
-	pos = -0.131707,35.77018,0.03664106
+	pos = -0.131953,32.9323,0.03669359
 	attPos = 0,0,0
 	attPos0 = 0,-1.375,0
 	rot = 0,0,0,1
@@ -3718,10 +3718,10 @@ PART
 	link = SnubOtron_4293933520
 	link = SnubOtron_4293933436
 	link = KzProcFairingDelta_4294167090
-	link = KzProcFairingDelta_4294120278
+	link = KzProcFairingDelta_4292284940
 	attN = bottom,proceduralTankRealFuels_4294183322
 	attN = top,probeCoreHex_4294226012
-	attN = connect01,KzProcFairingDelta_4294120278
+	attN = connect01,KzProcFairingDelta_4292284940
 	attN = connect02,KzProcFairingDelta_4294167090
 	EVENTS
 	{
@@ -3736,13 +3736,13 @@ PART
 	{
 		name = ProceduralFairingBase
 		isEnabled = True
-		extraRadius = 0
+		extraRadius = -0.29
 		fuelCrossFeed = False
 		autoStrutSides = False
 		autoShape = True
 		manualMaxSize = 2.3
 		manualCylStart = 0
-		manualCylEnd = 2.95
+		manualCylEnd = 2.15
 		stagingEnabled = True
 		extraRadius_UIFlight
 		{
@@ -4128,7 +4128,7 @@ PART
 {
 	part = proceduralTankRealFuels_4294183322
 	partName = Part
-	pos = -0.131707,36.27092,0.03664106
+	pos = -0.131953,33.43304,0.03669359
 	attPos = 0,1.000747,0
 	attPos0 = 0,-0.5000048,0
 	rot = 0,0,0,1
@@ -5427,7 +5427,7 @@ PART
 {
 	part = GuidanceEarly2m_4294189850
 	partName = Part
-	pos = -0.131707,35.61092,0.03664106
+	pos = -0.131953,32.77304,0.03669359
 	attPos = 0,0,0
 	attPos0 = 0,-0.6600046,0
 	rot = 0,0,0,1
@@ -6271,7 +6271,7 @@ PART
 {
 	part = proceduralTankRealFuels_4294177314
 	partName = Part
-	pos = -0.131707,33.22191,0.03664106
+	pos = -0.131953,30.38403,0.03669359
 	attPos = 0,0.3209715,0
 	attPos0 = 0,-0.6600046,0
 	rot = 0,0,0,1
@@ -6285,8 +6285,8 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 0
-	modCost = 351.8217
-	modMass = -0.6436079
+	modCost = 351.8221
+	modMass = -0.6434819
 	modSize = (0.0, 0.0, 0.0)
 	link = proceduralTankRealFuels_4294109888
 	link = radialEngineMini_4294012032
@@ -6553,7 +6553,7 @@ PART
 		type = Balloon
 		utilization = 100
 		partPrevTemperature = -1
-		mass = 0.3563921
+		mass = 0.3565181
 		stagingEnabled = True
 		volume = 25034.566900000002
 		type_UIEditor
@@ -6684,8 +6684,8 @@ PART
 			temperature = 90.15
 			fillable = True
 			techRequired = 
-			amount = 15471.362077100401
-			maxAmount = 15471.362077100401
+			amount = 15534.362072319
+			maxAmount = 15534.362072319
 		}
 		TANK
 		{
@@ -6698,8 +6698,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 9563.20482289959
-			maxAmount = 9563.20482289959
+			amount = 9500.2048276809801
+			maxAmount = 9500.2048276809801
 		}
 		TANK
 		{
@@ -7548,8 +7548,8 @@ PART
 	RESOURCE
 	{
 		name = Kerosene
-		amount = 9563.20482289959
-		maxAmount = 9563.20482289959
+		amount = 9500.20482768098
+		maxAmount = 9500.20482768098
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7559,8 +7559,8 @@ PART
 	RESOURCE
 	{
 		name = LqdOxygen
-		amount = 15471.3620771004
-		maxAmount = 15471.3620771004
+		amount = 15534.362072319
+		maxAmount = 15534.362072319
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7572,7 +7572,7 @@ PART
 {
 	part = proceduralTankRealFuels_4294109888
 	partName = Part
-	pos = -0.131707,30.37188,0.03664106
+	pos = -0.131953,27.534,0.03669359
 	attPos = 0,0,0
 	attPos0 = 0,-2.50001,0
 	rot = 0,0,0,1
@@ -7586,8 +7586,8 @@ PART
 	sqor = -1
 	sepI = 0
 	attm = 0
-	modCost = 18.01872
-	modMass = -0.8317239
+	modCost = 18.01876
+	modMass = -0.831708
 	modSize = (0.0, 0.0, 0.0)
 	link = liquidEngine_4294090412
 	link = strutConnector_4294076302
@@ -7856,7 +7856,7 @@ PART
 		type = Fuselage
 		utilization = 100
 		partPrevTemperature = -1
-		mass = 0.168276
+		mass = 0.168292
 		stagingEnabled = True
 		volume = 1435.3615
 		type_UIEditor
@@ -7987,8 +7987,8 @@ PART
 			temperature = 90.15
 			fillable = True
 			techRequired = 
-			amount = 887.05339168579496
-			maxAmount = 887.05339168579496
+			amount = 895.05339057109404
+			maxAmount = 895.05339057109404
 		}
 		TANK
 		{
@@ -8001,8 +8001,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 548.30810831420501
-			maxAmount = 548.30810831420501
+			amount = 540.30810942890696
+			maxAmount = 540.30810942890696
 		}
 		TANK
 		{
@@ -9131,8 +9131,8 @@ PART
 	RESOURCE
 	{
 		name = Kerosene
-		amount = 548.308108314205
-		maxAmount = 548.308108314205
+		amount = 540.308109428907
+		maxAmount = 540.308109428907
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -9142,8 +9142,8 @@ PART
 	RESOURCE
 	{
 		name = LqdOxygen
-		amount = 887.053391685795
-		maxAmount = 887.053391685795
+		amount = 895.053390571094
+		maxAmount = 895.053390571094
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -9155,7 +9155,7 @@ PART
 {
 	part = liquidEngine_4294090412
 	partName = Part
-	pos = -0.131707,28.66478,0.03664106
+	pos = -0.131953,25.8269,0.03669359
 	attPos = 0,0.232893,0
 	attPos0 = 0,-1.940004,0
 	rot = 0,0,0,1
@@ -9747,6 +9747,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D LR105-NA-3
@@ -11045,7 +11046,7 @@ PART
 {
 	part = KzInterstageAdapter2_4293904964
 	partName = Part
-	pos = -0.131707,26.48978,0.03664106
+	pos = -0.131953,23.6519,0.03669359
 	attPos = 0,0,0
 	attPos0 = 0,-2.174999,0
 	rot = 0,0,0,1
@@ -11489,7 +11490,7 @@ PART
 {
 	part = proceduralTankRealFuels_4293836784
 	partName = Part
-	pos = -0.131707,26.99478,0.03664106
+	pos = -0.131953,24.1569,0.03669359
 	attPos = 0,0.9550037,0
 	attPos0 = 0,-0.5000057,0
 	rot = 0,0,0,1
@@ -12799,7 +12800,7 @@ PART
 {
 	part = GuidanceEarly3m_4290420116
 	partName = Part
-	pos = -0.131707,26.36679,0.03664106
+	pos = -0.131953,23.52891,0.03669359
 	attPos = 0,0,0
 	attPos0 = 0,-0.6780024,0
 	rot = 0,0,0,1
@@ -13643,7 +13644,7 @@ PART
 {
 	part = proceduralTankRealFuels_4286236470
 	partName = Part
-	pos = -0.131707,21.4888,0.03664106
+	pos = -0.131953,18.65092,0.03669359
 	attPos = 0,0,0
 	attPos0 = 0,-4.878019,0
 	rot = 0,0,0,1
@@ -13658,7 +13659,7 @@ PART
 	sepI = 1
 	attm = 0
 	modCost = 361.8481
-	modMass = 0.627385
+	modMass = 0.6273854
 	modSize = (0.0, 0.0, 0.0)
 	link = proceduralTankRealFuels_4290419878
 	attN = top,GuidanceEarly3m_4290420116
@@ -13680,7 +13681,7 @@ PART
 		tempColliderSize = (3, 9.299999, 3)
 		textureSet = SaturnSingleTank4
 		shapeName = Smooth Cone
-		moduleCost = 0.5358149
+		moduleCost = 0.5358151
 		stagingEnabled = True
 		textureSet_UIEditor
 		{
@@ -13925,7 +13926,7 @@ PART
 		partPrevTemperature = -1
 		mass = 1.627385
 		stagingEnabled = True
-		volume = 54869.244599999998
+		volume = 54869.255799999999
 		type_UIEditor
 		{
 			controlEnabled = True
@@ -14054,8 +14055,8 @@ PART
 			temperature = 90.15
 			fillable = True
 			techRequired = 
-			amount = 34424.963597818401
-			maxAmount = 34424.963597818401
+			amount = 34424.970624698304
+			maxAmount = 34424.970624698304
 		}
 		TANK
 		{
@@ -14068,8 +14069,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 19374.330692469601
-			maxAmount = 19374.330692469601
+			amount = 19374.334647189688
+			maxAmount = 19374.334647189688
 		}
 		TANK
 		{
@@ -14152,8 +14153,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 1069.9503097120601
-			maxAmount = 1069.9503097120601
+			amount = 1069.9505281120682
+			maxAmount = 1069.9505281120682
 		}
 		TANK
 		{
@@ -14918,8 +14919,8 @@ PART
 	RESOURCE
 	{
 		name = Kerosene
-		amount = 19374.3306924696
-		maxAmount = 19374.3306924696
+		amount = 19374.3346471897
+		maxAmount = 19374.3346471897
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -14929,8 +14930,8 @@ PART
 	RESOURCE
 	{
 		name = LqdOxygen
-		amount = 34424.9635978184
-		maxAmount = 34424.9635978184
+		amount = 34424.9706246983
+		maxAmount = 34424.9706246983
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -14940,8 +14941,8 @@ PART
 	RESOURCE
 	{
 		name = HTP
-		amount = 1069.95030971206
-		maxAmount = 1069.95030971206
+		amount = 1069.95052811207
+		maxAmount = 1069.95052811207
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -14953,7 +14954,7 @@ PART
 {
 	part = proceduralTankRealFuels_4290419878
 	partName = Part
-	pos = -0.131707,11.33878,0.03664106
+	pos = -0.131953,8.5009,0.03669359
 	attPos = 0,0,0
 	attPos0 = 0,-10.15002,0
 	rot = 0,0,0,1
@@ -16271,7 +16272,7 @@ PART
 {
 	part = sepMotor1_4290419804
 	partName = Part
-	pos = -0.9378858,6.155876,-0.769537
+	pos = -0.9381319,3.317997,-0.7694845
 	attPos = 0,0,0
 	attPos0 = -1.053666,-5.767157,-1.053666
 	rot = 0.9238794,0.0001709681,-0.3826835,0.0004127535
@@ -16700,6 +16701,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -16971,7 +16973,7 @@ PART
 {
 	part = sepMotor1_4290419720
 	partName = Part
-	pos = -0.9378844,6.155876,0.8428203
+	pos = -0.9381304,3.317997,0.8428729
 	attPos = 0,0,0
 	attPos0 = -1.053666,-5.767157,1.053666
 	rot = 0.3826834,0.0004127536,-0.9238795,0.0001709681
@@ -17400,6 +17402,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -17671,7 +17674,7 @@ PART
 {
 	part = sepMotor1_4290419636
 	partName = Part
-	pos = 0.6744723,6.155876,0.842819
+	pos = 0.6742264,3.317997,0.8428717
 	attPos = 0,0,0
 	attPos0 = 1.053666,-5.767157,1.053665
 	rot = -0.3826835,0.0004127535,-0.9238794,-0.0001709681
@@ -18100,6 +18103,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -18371,7 +18375,7 @@ PART
 {
 	part = sepMotor1_4290419552
 	partName = Part
-	pos = 0.6744703,6.155876,-0.7695375
+	pos = 0.6742246,3.317997,-0.7694854
 	attPos = 0,0,0
 	attPos0 = 1.053665,-5.767157,-1.053666
 	rot = -0.9238795,0.0001709681,-0.3826834,-0.0004127536
@@ -18800,6 +18804,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -19071,7 +19076,7 @@ PART
 {
 	part = KzInterstageAdapter2_4290419468
 	partName = Part
-	pos = -0.131707,5.838776,0.03664106
+	pos = -0.131953,3.000896,0.03669359
 	attPos = 0,0,0
 	attPos0 = 0,-6.120007,0
 	rot = 0,0,1,0
@@ -19515,7 +19520,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4290419410
 	partName = Part
-	pos = -1.281707,6.127174,0.03664106
+	pos = -1.281953,3.289295,0.03669359
 	attPos = 0,0,0
 	attPos0 = 1.8,-0.1687984,0
 	rot = -1,0,0,0
@@ -19927,7 +19932,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4290419338
 	partName = Part
-	pos = 1.018293,6.127174,0.03664096
+	pos = 1.018047,3.289295,0.03669349
 	attPos = 0,0,0
 	attPos0 = -1.8,-0.1687984,-1.573353E-07
 	rot = 4.371139E-08,0,-1,0
@@ -20339,7 +20344,7 @@ PART
 {
 	part = R7.Core.Engine_4290419266
 	partName = Part
-	pos = -0.131707,5.378128,0.03664106
+	pos = -0.131953,2.540249,0.03669359
 	attPos = 0,0,0
 	attPos0 = 0,0.6998444,0
 	rot = 0,0,0,1
@@ -20849,6 +20854,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D RD-108_8D75PS
@@ -22158,7 +22164,7 @@ PART
 {
 	part = radialDecoupler1-2_4290418974
 	partName = Part
-	pos = -0.131707,13.84969,-1.110451
+	pos = -0.131953,11.01181,-1.110399
 	attPos = -1.555309E-07,4.473425,-0.0999999
 	attPos0 = 1.005828E-07,-1.962502,-1.147093
 	rot = 0,0.7071068,0,-0.7071068
@@ -22170,7 +22176,7 @@ PART
 	dstg = 3
 	sidx = 0
 	sqor = 4
-	sepI = 3
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -22515,7 +22521,7 @@ PART
 {
 	part = proceduralTankRealFuels_4290418910
 	partName = Part
-	pos = -0.131707,13.78161,-2.161676
+	pos = -0.131953,10.94373,-2.161624
 	attPos = 0,0,0
 	attPos0 = -0.6162326,0.0261898,3.713906E-08
 	rot = -0.03142129,0,-9.313226E-09,-0.9995064
@@ -22527,7 +22533,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 4
 	attm = 1
 	modCost = 269.352
 	modMass = 0.2113909
@@ -23830,7 +23836,7 @@ PART
 {
 	part = KzInterstageAdapter2_4290418836
 	partName = Part
-	pos = -0.1317048,5.853783,-2.664192
+	pos = -0.1319495,3.015903,-2.664151
 	attPos = 4.689209E-08,0.05641556,0.0008715391
 	attPos0 = -9.650196E-08,-8.000167,-0.004411101
 	rot = 0.7071024,0.002527881,0.7071024,0.002527868
@@ -24277,7 +24283,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4290418778
 	partName = Part
-	pos = -0.1317109,6.141552,-1.466207
+	pos = -0.1319592,3.303671,-1.466163
 	attPos = 0,0,0
 	attPos0 = 1.8,-0.1687984,0
 	rot = -0.7071024,0.002527887,0.7071024,-0.002527915
@@ -24324,7 +24330,7 @@ PART
 		topRad = 1.104
 		inlineHeight = 2
 		sideThickness = 0.096
-		meshPos = (1.200013, 0.2791963, -6.018039E-06)
+		meshPos = (1.200016, 0.2791961, -9.609222E-06)
 		meshRot = (-3.748572E-08, -1, -1.117587E-08, 0)
 		shapeLock = False
 		stagingEnabled = True
@@ -24695,7 +24701,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4290418706
 	partName = Part
-	pos = -0.1316984,6.12439,-3.866167
+	pos = -0.1319397,3.28651,-3.866135
 	attPos = 0,0,0
 	attPos0 = -1.8,-0.1687984,-1.573353E-07
 	rot = -0.7071024,-0.00252788,-0.7071024,-0.002527869
@@ -24742,7 +24748,7 @@ PART
 		topRad = 1.104
 		inlineHeight = 2
 		sideThickness = 0.096
-		meshPos = (1.200008, 0.2791946, -6.184262E-06)
+		meshPos = (1.200017, 0.2791942, -9.596631E-06)
 		meshRot = (7.124142E-17, -1, -1.629814E-09, 4.371139E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -25113,10 +25119,10 @@ PART
 {
 	part = R7.Booster.Engine_4290418634
 	partName = Part
-	pos = -0.1317039,5.366425,-2.672751
+	pos = -0.1319486,2.528545,-2.67271
 	attPos = -0.0120427,0.02664602,7.529272E-07
 	attPos0 = -5.878444E-07,0.4606417,6.330844E-08
-	rot = 0.001263025,0.7071058,0.001263109,0.7071058
+	rot = 0.001262976,0.7071058,0.001263109,0.7071058
 	attRot = -8.427747E-09,-2.067864E-08,-0.02686447,0.9996392
 	attRot0 = -2.980232E-08,0,-1,-3.72529E-09
 	mir = 1,1,1
@@ -25626,6 +25632,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D RD-107_8D74PS
@@ -26935,10 +26942,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4291504412
 	partName = Part
-	pos = -0.1317025,4.849678,-3.761694
+	pos = -0.1319462,2.011799,-3.761654
 	attPos = 1.452716E-06,-2.303841,0.1375192
 	attPos0 = 6.381397E-08,-6.710966,-1.173334
-	rot = 0.005949421,0.7070819,0.00594948,0.7070819
+	rot = 0.005949379,0.7070819,0.00594948,0.7070819
 	attRot = 4.956844E-09,4.204702E-08,0.03416914,-0.9994162
 	attRot0 = 0.01627089,-0.7069196,0.01627089,-0.7069196
 	mir = 1,1,1
@@ -26947,7 +26954,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 4
 	attm = 1
 	modCost = -0.2
 	modMass = 0.01762506
@@ -28078,7 +28085,7 @@ PART
 {
 	part = launchClamp1_4290418342
 	partName = Part
-	pos = -2.121633,5.468735,-2.684866
+	pos = -2.121888,2.630856,-2.684825
 	attPos = 0,0,0
 	attPos0 = -1.989915,-8.329329,-3.564256E-07
 	rot = 0.02298078,0.7067813,0.02145564,0.7067332
@@ -28090,7 +28097,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 5
-	sepI = 4
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -28112,8 +28119,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 2.364535
-		height = 5.959795
+		scaleFactor = 1.238614
+		height = 3.121918
 		stagingEnabled = True
 		towerRot = 0.02145564,-0.7067332,-0.02298078,-0.7067813
 		EVENTS
@@ -28582,7 +28589,7 @@ PART
 {
 	part = radialDecoupler1-2_4290418182
 	partName = Part
-	pos = -1.2788,13.84969,0.0366428
+	pos = -1.279046,11.01181,0.03669533
 	attPos = -0.0999999,4.473425,1.495937E-07
 	attPos0 = -1.147093,-1.962502,-1.689768E-07
 	rot = 0,0,0,-1
@@ -28594,7 +28601,7 @@ PART
 	dstg = 3
 	sidx = 0
 	sqor = 4
-	sepI = 3
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -28939,7 +28946,7 @@ PART
 {
 	part = proceduralTankRealFuels_4290418118
 	partName = Part
-	pos = -2.330026,13.78162,0.03664293
+	pos = -2.330272,10.94374,0.03669546
 	attPos = 0,0,0
 	attPos0 = -0.6162326,0.0261898,3.713649E-08
 	rot = -0.02221823,-0.7067577,0.0222182,-0.7067577
@@ -28951,7 +28958,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 4
 	attm = 1
 	modCost = 269.352
 	modMass = 0.2113909
@@ -30254,7 +30261,7 @@ PART
 {
 	part = KzInterstageAdapter2_4290418044
 	partName = Part
-	pos = -2.832518,5.853775,0.03663962
+	pos = -2.832764,3.015896,0.03669041
 	attPos = 3.439886E-07,0.05624866,-0.003540277
 	attPos0 = -5.433556E-07,-8,1.311302E-06
 	rot = 0.9999937,0.003574941,0,-2.421439E-08
@@ -30701,7 +30708,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4290417986
 	partName = Part
-	pos = -1.634544,6.141556,0.03664598
+	pos = -1.63479,3.303677,0.03670054
 	attPos = 0,0,0
 	attPos0 = 1.8,-0.1687984,0
 	rot = -1.071021E-08,-2.235174E-08,0.9999937,-0.003574949
@@ -30748,7 +30755,7 @@ PART
 		topRad = 1.104
 		inlineHeight = 2
 		sideThickness = 0.096
-		meshPos = (1.200001, 0.2792087, -6.37617E-06)
+		meshPos = (1.200001, 0.2792087, -1.014616E-05)
 		meshRot = (-7.683409E-09, -1, 1.90092E-09, -1.070348E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -31119,7 +31126,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4290417914
 	partName = Part
-	pos = -4.034491,6.124397,0.03663319
+	pos = -4.034739,3.286518,0.03668021
 	attPos = 0,0,0
 	attPos0 = -1.8,-0.1687984,-1.573353E-07
 	rot = -0.9999938,-0.003574941,-8.940697E-08,1.676381E-08
@@ -31166,7 +31173,7 @@ PART
 		topRad = 1.104
 		inlineHeight = 2
 		sideThickness = 0.096
-		meshPos = (1.200007, 0.2792097, -6.161962E-06)
+		meshPos = (1.20001, 0.2792095, -9.931957E-06)
 		meshRot = (-2.328302E-10, -1, -7.770158E-09, -4.566835E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -31537,7 +31544,7 @@ PART
 {
 	part = R7.Booster.Engine_4290417842
 	partName = Part
-	pos = -2.841077,5.366436,0.03663873
+	pos = -2.841323,2.528557,0.03668951
 	attPos = -0.01204248,0.02664793,7.485963E-07
 	attPos0 = -3.491339E-07,0.4606417,9.548625E-08
 	rot = 0.001786311,0.9999985,1.024455E-08,3.870809E-09
@@ -32050,6 +32057,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D RD-107_8D74PS
@@ -33359,10 +33367,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4291505392
 	partName = Part
-	pos = -3.930028,4.84967,0.03663756
+	pos = -3.930274,2.011791,0.03668701
 	attPos = 1.506286E-06,-2.303842,0.1375191
 	attPos0 = 1.194904E-08,-6.710966,-1.173333
-	rot = 0.008413789,0.9999647,5.401671E-08,-7.770723E-09
+	rot = 0.008413759,0.9999647,8.381903E-08,-7.770723E-09
 	attRot = 4.956844E-09,4.204702E-08,0.03416914,-0.9994162
 	attRot0 = 0.007893447,0.7070628,0.007893447,0.7070627
 	mir = 1,1,1
@@ -33371,7 +33379,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 4
 	attm = 1
 	modCost = -0.2
 	modMass = 0.01762506
@@ -34502,7 +34510,7 @@ PART
 {
 	part = launchClamp1_4291502024
 	partName = Part
-	pos = -2.853206,5.468742,2.026571
+	pos = -2.853452,2.630863,2.026633
 	attPos = 0,0,0
 	attPos0 = -1.989916,-8.329329,-4.160303E-07
 	rot = 0.03142129,0.9995057,-0.001078418,-3.402799E-05
@@ -34514,7 +34522,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 5
-	sepI = 4
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -34536,8 +34544,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 2.364539
-		height = 5.959805
+		scaleFactor = 1.238616
+		height = 3.121923
 		stagingEnabled = True
 		towerRot = -0.001078415,3.411141E-05,-0.03142128,-0.9995056
 		EVENTS
@@ -35006,7 +35014,7 @@ PART
 {
 	part = radialDecoupler1-2_4290417390
 	partName = Part
-	pos = -0.131707,13.84969,1.183734
+	pos = -0.131953,11.01181,1.183787
 	attPos = 1.639128E-07,4.473425,0.0999999
 	attPos0 = 0,-1.962502,1.147093
 	rot = 0,-0.7071068,0,-0.7071068
@@ -35018,7 +35026,7 @@ PART
 	dstg = 3
 	sidx = 0
 	sqor = 4
-	sepI = 3
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -35363,7 +35371,7 @@ PART
 {
 	part = proceduralTankRealFuels_4290417326
 	partName = Part
-	pos = -0.1317067,13.78162,2.23494
+	pos = -0.1319527,10.94374,2.234993
 	attPos = 0,0,0
 	attPos0 = -0.6162327,0.0261898,3.759442E-08
 	rot = 2.607703E-08,-0.9995064,0.03142128,1.788139E-07
@@ -35375,7 +35383,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 4
 	attm = 1
 	modCost = 269.352
 	modMass = 0.2113909
@@ -35402,7 +35410,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-2.400001, 15.87375, -4.406002)
+		tempColliderSize = (-2.400002, 15.87375, -4.406004)
 		textureSet = SaturnStringers2
 		shapeName = Smooth Cone
 		moduleCost = 0.3988493
@@ -36678,7 +36686,7 @@ PART
 {
 	part = KzInterstageAdapter2_4290417252
 	partName = Part
-	pos = -0.1317101,5.853783,2.737454
+	pos = -0.1319582,3.015903,2.737517
 	attPos = -2.88461E-07,0.05641365,0.000868082
 	attPos0 = 1.488562E-07,-8.000165,-0.004407346
 	rot = 0.7071025,0.002527873,-0.7071024,-0.002527816
@@ -37125,10 +37133,10 @@ PART
 {
 	part = KzProcFairingFuselage2_4290417194
 	partName = Part
-	pos = -0.1317016,6.141556,1.539466
+	pos = -0.1319432,3.303677,1.539526
 	attPos = 0,0,0
 	attPos0 = 1.8,-0.1687984,0
-	rot = 0.7071024,-0.002527812,0.7071023,-0.002527925
+	rot = 0.7071024,-0.002527742,0.7071023,-0.002527926
 	attRot = -0.9999999,0,0,0
 	attRot0 = 0,1,0,0
 	mir = 1,1,1
@@ -37172,8 +37180,8 @@ PART
 		topRad = 1.104
 		inlineHeight = 2
 		sideThickness = 0.096
-		meshPos = (1.200016, 0.2792011, -8.89043E-06)
-		meshRot = (-3.399326E-08, -1, 3.853346E-08, 1.490116E-07)
+		meshPos = (1.200019, 0.279201, -1.541536E-05)
+		meshRot = (1.443549E-08, -1, 8.917411E-08, 1.490116E-07)
 		shapeLock = False
 		stagingEnabled = True
 		shapeLock_UIFlight
@@ -37543,10 +37551,10 @@ PART
 {
 	part = KzProcFairingFuselage2_4290417122
 	partName = Part
-	pos = -0.1317178,6.124397,3.939427
+	pos = -0.1319711,3.286518,3.9395
 	attPos = 0,0,0
 	attPos0 = -1.8,-0.1687984,-1.573353E-07
-	rot = -0.7071024,-0.002527893,0.7071025,0.002527819
+	rot = -0.7071024,-0.002527856,0.7071025,0.002527745
 	attRot = -0.9999999,0,0,0
 	attRot0 = 0,-4.371139E-08,0,-1
 	mir = 1,1,1
@@ -37590,8 +37598,8 @@ PART
 		topRad = 1.104
 		inlineHeight = 2
 		sideThickness = 0.096
-		meshPos = (1.200006, 0.279202, -7.863838E-06)
-		meshRot = (1.664738E-08, -1, -1.059379E-08, 2.225252E-07)
+		meshPos = (1.200016, 0.2792021, -1.304856E-05)
+		meshRot = (-6.170009E-08, -1, -3.690364E-08, 2.225252E-07)
 		shapeLock = False
 		stagingEnabled = True
 		shapeLock_UIFlight
@@ -37961,10 +37969,10 @@ PART
 {
 	part = R7.Booster.Engine_4290417050
 	partName = Part
-	pos = -0.1317108,5.366417,2.746013
+	pos = -0.1319589,2.528538,2.746078
 	attPos = -0.01204242,0.02664864,7.519625E-07
 	attPos0 = -6.494562E-07,0.4606409,-3.084815E-08
-	rot = 0.001263091,0.7071058,-0.001263119,-0.7071058
+	rot = 0.001263126,0.7071058,-0.001263158,-0.7071058
 	attRot = -8.427747E-09,-2.067864E-08,-0.02686447,0.9996392
 	attRot0 = 2.980232E-08,0,-1,-3.72529E-09
 	mir = 1,1,1
@@ -38474,6 +38482,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D RD-107_8D74PS
@@ -39783,7 +39792,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4291504292
 	partName = Part
-	pos = -0.1317089,4.849678,3.834968
+	pos = -0.1319572,2.011799,3.835049
 	attPos = 1.324641E-06,-2.303841,0.1375208
 	attPos0 = 5.837876E-08,-6.710966,-1.173334
 	rot = 0.005949468,0.7070817,-0.005949467,-0.707082
@@ -39795,7 +39804,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 4
 	attm = 1
 	modCost = -0.2
 	modMass = 0.01762506
@@ -40926,10 +40935,10 @@ PART
 {
 	part = launchClamp1_4291501860
 	partName = Part
-	pos = 1.858234,5.468742,2.758128
+	pos = 1.858009,2.630863,2.758191
 	attPos = 0,0,0
 	attPos0 = -1.989916,-8.329329,-7.104476E-07
-	rot = 0.02145562,0.7067332,-0.02298081,-0.7067813
+	rot = 0.02145562,0.7067333,-0.02298081,-0.7067814
 	attRot = 0,0,0,1
 	attRot0 = -0.0007629542,-0.7071065,0.0007629431,-0.7071064
 	mir = 1,1,1
@@ -40938,7 +40947,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 5
-	sepI = 4
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -40960,10 +40969,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 2.36454
-		height = 5.959803
+		scaleFactor = 1.238616
+		height = 3.121923
 		stagingEnabled = True
-		towerRot = -0.02298081,0.7067813,-0.02145562,-0.7067332
+		towerRot = -0.02298081,0.7067814,-0.02145562,-0.7067332
 		EVENTS
 		{
 			Release
@@ -41430,7 +41439,7 @@ PART
 {
 	part = radialDecoupler1-2_4290416598
 	partName = Part
-	pos = 1.015384,13.84969,0.03664106
+	pos = 1.015138,11.01181,0.03669359
 	attPos = 0.0999999,4.473425,-1.614681E-07
 	attPos0 = 1.147093,-1.962502,3.218884E-08
 	rot = 0,-1,0,0
@@ -41442,7 +41451,7 @@ PART
 	dstg = 3
 	sidx = 0
 	sqor = 4
-	sepI = 3
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -41787,7 +41796,7 @@ PART
 {
 	part = proceduralTankRealFuels_4290416534
 	partName = Part
-	pos = 2.06661,13.78162,0.03664098
+	pos = 2.066364,10.94374,0.03669351
 	attPos = 0,0,0
 	attPos0 = -0.6162326,0.0261898,3.713649E-08
 	rot = 0.0222182,-0.7067577,0.02221823,0.7067577
@@ -41799,7 +41808,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 4
 	attm = 1
 	modCost = 269.352
 	modMass = 0.2113909
@@ -41826,7 +41835,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (2.400003, 15.87375, -4.406002)
+		tempColliderSize = (2.400002, 15.87375, -4.406001)
 		textureSet = SaturnStringers2
 		shapeName = Smooth Cone
 		moduleCost = 0.3988493
@@ -43102,7 +43111,7 @@ PART
 {
 	part = KzInterstageAdapter2_4290416460
 	partName = Part
-	pos = 2.569103,5.853775,0.03664471
+	pos = 2.568857,3.015896,0.03669898
 	attPos = -7.790118E-07,0.05625248,-0.003541231
 	attPos0 = 7.590409E-07,-8.000004,2.264977E-06
 	rot = -2.980232E-08,-2.421439E-08,-0.9999937,-0.003574943
@@ -43549,7 +43558,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4290416402
 	partName = Part
-	pos = 1.371121,6.141556,0.0366409
+	pos = 1.370875,3.303677,0.03669418
 	attPos = 0,0,0
 	attPos0 = 1.8,-0.1687984,0
 	rot = 0.9999937,-0.003574936,-1.880107E-08,2.235174E-08
@@ -43596,7 +43605,7 @@ PART
 		topRad = 1.104
 		inlineHeight = 2
 		sideThickness = 0.096
-		meshPos = (1.200009, 0.2792086, -4.032266E-06)
+		meshPos = (1.200009, 0.2792086, -5.023193E-06)
 		meshRot = (7.450581E-09, -1, 1.901964E-09, -1.099452E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -43967,7 +43976,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4290416330
 	partName = Part
-	pos = 3.771077,6.12439,0.03664854
+	pos = 3.770831,3.28651,0.03670373
 	attPos = 0,0,0
 	attPos0 = -1.8,-0.1687984,-1.573353E-07
 	rot = -2.980232E-08,2.235174E-08,0.9999937,0.003574919
@@ -44014,7 +44023,7 @@ PART
 		topRad = 1.104
 		inlineHeight = 2
 		sideThickness = 0.096
-		meshPos = (1.200009, 0.2792017, -3.856158E-06)
+		meshPos = (1.200009, 0.2792017, -4.776305E-06)
 		meshRot = (-2.421438E-08, -1, -2.075718E-09, -1.588622E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -44385,7 +44394,7 @@ PART
 {
 	part = R7.Booster.Engine_4290416258
 	partName = Part
-	pos = 2.577662,5.366436,0.03664544
+	pos = 2.577416,2.528557,0.03669972
 	attPos = -0.0120426,0.02664602,5.644712E-07
 	attPos0 = -2.299247E-07,0.4606438,9.548678E-08
 	rot = 2.980232E-08,4.278263E-09,-0.001786318,-0.9999985
@@ -44898,6 +44907,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D RD-107_8D74PS
@@ -46207,10 +46217,10 @@ PART
 {
 	part = RO-B9ProcWing-Early_4291504172
 	partName = Part
-	pos = 3.666613,4.849655,0.03664672
+	pos = 3.666367,2.011776,0.03670233
 	attPos = 1.452444E-06,-2.303842,0.1375194
 	attPos0 = 6.579117E-08,-6.710966,-1.173333
-	rot = 5.215406E-08,-7.770723E-09,-0.008413791,-0.9999647
+	rot = 7.729977E-08,-7.741619E-09,-0.008413767,-0.9999647
 	attRot = 4.956844E-09,4.204702E-08,0.03416914,-0.9994162
 	attRot0 = 0.007893446,0.7070628,0.007893448,0.7070627
 	mir = 1,1,1
@@ -46219,7 +46229,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 4
 	attm = 1
 	modCost = -0.2
 	modMass = 0.01762506
@@ -47350,7 +47360,7 @@ PART
 {
 	part = launchClamp1_4291501696
 	partName = Part
-	pos = 2.58979,5.468742,-1.953287
+	pos = 2.589544,2.630863,-1.953245
 	attPos = 0,0,0
 	attPos0 = -1.989916,-8.329329,-1.776117E-07
 	rot = -0.001078406,-3.390859E-05,-0.03142129,-0.9995058
@@ -47362,7 +47372,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 5
-	sepI = 4
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -47384,8 +47394,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 2.364538
-		height = 5.959805
+		scaleFactor = 1.238616
+		height = 3.121923
 		stagingEnabled = True
 		towerRot = -0.03142129,0.9995056,0.001078404,3.399173E-05
 		EVENTS
@@ -47854,7 +47864,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4291720752
 	partName = Part
-	pos = -1.631707,26.26578,0.03664093
+	pos = -1.631953,23.4279,0.03669346
 	attPos = 0,0,0
 	attPos0 = -1.5,-0.2240009,-1.303852E-07
 	rot = 0,0,0,1
@@ -47895,7 +47905,7 @@ PART
 		topRad = 1.13
 		inlineHeight = 4.2
 		sideThickness = 0.12
-		meshPos = (1.5, 0.2240009, 1.303852E-07)
+		meshPos = (1.5, 0.223999, 1.303852E-07)
 		meshRot = (0, 1, 0, -4.371139E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -48266,7 +48276,7 @@ PART
 {
 	part = KzProcFairingFuselage2_4291438170
 	partName = Part
-	pos = 1.368293,26.26578,0.03664106
+	pos = 1.368047,23.4279,0.03669359
 	attPos = 0,0,0
 	attPos0 = 1.5,-0.2240009,0
 	rot = 0,1,0,-4.371139E-08
@@ -48307,7 +48317,7 @@ PART
 		topRad = 1.13
 		inlineHeight = 4.2
 		sideThickness = 0.12
-		meshPos = (1.5, 0.2240009, 1.311342E-07)
+		meshPos = (1.5, 0.223999, 1.311342E-07)
 		meshRot = (0, -1, 0, -4.371139E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -48678,7 +48688,7 @@ PART
 {
 	part = strutConnector_4294076302
 	partName = CompoundPart
-	pos = -0.87107,30.49659,-0.702722
+	pos = -0.8713154,27.65871,-0.7026688
 	attPos = 0,0,0
 	attPos0 = -0.7393638,0.1246834,-0.7393637
 	rot = 0.1123014,0.3658347,-0.2711196,-0.883203
@@ -48708,7 +48718,7 @@ PART
 	PARTDATA
 	{
 		tgt = 4294090412
-		pos = -0.06546918,-0.487478,0.04706872
+		pos = -0.06546954,-0.4874778,0.04706837
 		rot = 0,1.545205E-07,0.4684685,0.8834803
 		dir = -0.132508,-0.9865943,0.09525389
 	}
@@ -48950,7 +48960,7 @@ PART
 {
 	part = strutConnector_4294075140
 	partName = CompoundPart
-	pos = -0.8710693,30.49659,0.776005
+	pos = -0.8713147,27.65871,0.7760569
 	attPos = 0,0,0
 	attPos0 = -0.7393637,0.1246834,0.7393637
 	rot = -0.1123014,-0.3658347,-0.2711196,-0.883203
@@ -48980,7 +48990,7 @@ PART
 	PARTDATA
 	{
 		tgt = 4294090412
-		pos = -0.06547545,-0.4874738,0.04706868
+		pos = -0.06547514,-0.487474,0.0470683
 		rot = 0,1.317124E-07,0.4684683,0.8834803
 		dir = -0.132508,-0.9865943,0.09525389
 	}
@@ -49222,7 +49232,7 @@ PART
 {
 	part = strutConnector_4294075058
 	partName = CompoundPart
-	pos = 0.6076564,30.49659,0.776004
+	pos = 0.6074098,27.65871,0.7760558
 	attPos = 0,0,0
 	attPos0 = 0.7393638,0.1246834,0.7393637
 	rot = -0.2711196,-0.883203,-0.1123014,-0.3658347
@@ -49252,7 +49262,7 @@ PART
 	PARTDATA
 	{
 		tgt = 4294090412
-		pos = -0.06547538,-0.4874738,0.04706115
+		pos = -0.0654751,-0.487474,0.04706158
 		rot = 0,-1.039212E-07,0.4684683,0.8834803
 		dir = -0.132508,-0.9865943,0.09525389
 	}
@@ -49494,7 +49504,7 @@ PART
 {
 	part = strutConnector_4294074976
 	partName = CompoundPart
-	pos = 0.6076561,30.49659,-0.702722
+	pos = 0.6074094,27.65871,-0.7026688
 	attPos = 0,0,0
 	attPos0 = 0.7393637,0.1246834,-0.7393638
 	rot = -0.2711196,-0.883203,0.1123014,0.3658347
@@ -49524,7 +49534,7 @@ PART
 	PARTDATA
 	{
 		tgt = 4294090412
-		pos = -0.06546912,-0.487478,0.04706108
+		pos = -0.06546948,-0.4874778,0.04706132
 		rot = 0,-1.823117E-07,0.4684685,0.8834803
 		dir = -0.132508,-0.9865943,0.09525389
 	}
@@ -49766,7 +49776,7 @@ PART
 {
 	part = radialEngineMini_4294012032
 	partName = Part
-	pos = -0.131707,30.09523,-0.8171235
+	pos = -0.131953,27.25735,-0.817071
 	attPos = 0,-1.096785,0.3945001
 	attPos0 = -1.117587E-07,-2.615999,-1.248265
 	rot = 0.0002209641,-4.448774E-08,-9.830194E-12,-1
@@ -50229,6 +50239,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D LR101-NA-3
@@ -51033,7 +51044,7 @@ PART
 {
 	part = radialEngineMini_4291454976
 	partName = Part
-	pos = -0.131707,30.09523,0.8904055
+	pos = -0.131953,27.25735,0.890458
 	attPos = -3.72529E-08,-1.096785,-0.3945001
 	attPos0 = 2.235174E-07,-2.615999,1.248265
 	rot = -1.948884E-11,-1,-0.0002209641,8.819913E-08
@@ -51496,6 +51507,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D LR101-NA-3
@@ -52300,7 +52312,7 @@ PART
 {
 	part = SnubOtron_4293944696
 	partName = Part
-	pos = 0.8588183,36.23018,0.03664112
+	pos = 0.8585723,33.3923,0.03669365
 	attPos = 0,0,0
 	attPos0 = 0.9905251,0.46,5.90399E-08
 	rot = -0.6903457,0.1530459,-0.153046,0.6903454
@@ -52729,6 +52741,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -53000,7 +53013,7 @@ PART
 {
 	part = SnubOtron_4293933604
 	partName = Part
-	pos = -0.1317068,36.23018,-0.9538841
+	pos = -0.1319528,33.3923,-0.9538316
 	attPos = 0,0,0
 	attPos0 = 1.180798E-07,0.46,-0.9905251
 	rot = -0.596368,0.5963677,0.3799283,0.3799281
@@ -53429,6 +53442,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -53700,7 +53714,7 @@ PART
 {
 	part = SnubOtron_4293933520
 	partName = Part
-	pos = -1.122232,36.23018,0.03664109
+	pos = -1.122478,33.3923,0.03669362
 	attPos = 0,0,0
 	attPos0 = -0.9905251,0.46,2.755455E-08
 	rot = -0.1530459,0.6903454,0.6903457,-0.1530459
@@ -54129,6 +54143,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -54400,7 +54415,7 @@ PART
 {
 	part = SnubOtron_4293933436
 	partName = Part
-	pos = -0.131707,36.23018,1.027166
+	pos = -0.131953,33.3923,1.027219
 	attPos = 0,0,0
 	attPos0 = -3.36613E-17,0.46,0.9905251
 	rot = 0.3799283,0.3799281,0.596368,-0.5963677
@@ -54829,6 +54844,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -55100,7 +55116,7 @@ PART
 {
 	part = KzProcFairingDelta_4294167090
 	partName = Part
-	pos = -1.381707,35.84518,0.03664095
+	pos = -1.381953,33.0073,0.03669348
 	attPos = 0,0,0
 	attPos0 = -1.25,0.07500076,-1.080334E-07
 	rot = 0,0,0,1
@@ -55114,10 +55130,10 @@ PART
 	sqor = 3
 	sepI = 0
 	attm = 0
-	modCost = 2.395531
-	modMass = 0.1597021
+	modCost = 1.961992
+	modMass = 0.1307994
 	modSize = (0.0, 0.0, 0.0)
-	sym = KzProcFairingDelta_4294120278
+	sym = KzProcFairingDelta_4292284940
 	attN = connect,KzResizableFairingBase_4294198648
 	EVENTS
 	{
@@ -55137,7 +55153,7 @@ PART
 		baseRad = 1.15
 		maxRad = 1.15
 		cylStart = 0
-		cylEnd = 2.95
+		cylEnd = 2.15
 		topRad = 0
 		inlineHeight = 0
 		sideThickness = 0.09999999
@@ -55567,9 +55583,9 @@ PART
 }
 PART
 {
-	part = KzProcFairingDelta_4294120278
+	part = KzProcFairingDelta_4292284940
 	partName = Part
-	pos = 1.118293,35.84518,0.03664106
+	pos = 1.118047,33.0073,0.03669359
 	attPos = 0,0,0
 	attPos0 = 1.25,0.07500076,0
 	rot = 0,1,0,-4.371139E-08
@@ -55583,8 +55599,8 @@ PART
 	sqor = 3
 	sepI = 0
 	attm = 0
-	modCost = 2.395531
-	modMass = 0.1597021
+	modCost = 1.961992
+	modMass = 0.1307994
 	modSize = (0.0, 0.0, 0.0)
 	sym = KzProcFairingDelta_4294167090
 	attN = connect,KzResizableFairingBase_4294198648
@@ -55606,7 +55622,7 @@ PART
 		baseRad = 1.15
 		maxRad = 1.15
 		cylStart = 0
-		cylEnd = 2.95
+		cylEnd = 2.15
 		topRad = 0
 		inlineHeight = 0
 		sideThickness = 0.09999999
