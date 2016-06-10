@@ -1,0 +1,8 @@
+[{
+    "props": [{"name": "Ethanol75", "volume": 3319.1},
+              {"name": "LqdOxygen", "volume": 3975.6}],
+    "isp": 225,
+    "dry": 2.242,
+    "thrust": 53.34,
+    "minThrottle": 0}
+]
