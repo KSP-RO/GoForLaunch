@@ -111,7 +111,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 26583302.5153469
+		update = 26583092.0953516
 		version = 1.1.2
 		WEIGHTS
 		{
@@ -66066,7 +66066,7 @@ GAME
 				techName = Early Orbital Rocketry
 				techID = basicRocketry
 				scienceCost = 10
-				progress = 7.40130465116598
+				progress = 7.40113166410318
 				ProtoNode
 				{
 					id = basicRocketry
@@ -66152,7 +66152,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.2
-		UT = 26583304.3353468
+		UT = 26583094.5153515
 		activeVessel = 0
 		mapViewFiltering = -1026
 		VESSEL
