@@ -2,7 +2,7 @@ ship = BlueSky 2AWG
 version = 1.1.2
 description = Follow a gradual pitch program with burnout around 200 km. Turn RCS on at MECO. Stage away upper fins at >60km and fairings >100km. Spin up at 50s to apogee and burn along the horizon.¨AG2=Antennas¨AG3=Science¨Abt=Range Safety
 type = VAB
-size = 6.774329,20.90517,6.774328
+size = 6.774329,20.90516,6.774329
 PART
 {
 	part = RP0probeSounding0-3m_4294110820
@@ -917,7 +917,7 @@ PART
 		{
 			BoomAction
 			{
-				actionGroup = None
+				actionGroup = Abort
 			}
 		}
 	}
@@ -2802,7 +2802,7 @@ PART
 	istg = 0
 	dstg = 0
 	sidx = 0
-	sqor = 1
+	sqor = 0
 	sepI = 0
 	attm = 0
 	modCost = 30
@@ -3401,9 +3401,9 @@ PART
 		operatingTime = 0
 		lastMET = 0
 		initialized = False
-		currentFlightData = 0
-		initialFlightData = 0
-		missionStartTime = 0
+		currentFlightData = 5637.28
+		initialFlightData = 5637.28
+		missionStartTime = 29765704.8436436
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3411,6 +3411,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D XASR-1
@@ -3979,8 +3980,8 @@ PART
 	istg = 0
 	dstg = 0
 	sidx = 1
-	sqor = 1
-	sepI = 1
+	sqor = 0
+	sepI = 0
 	attm = 0
 	modCost = -0.7576509
 	modMass = 0.02423491
@@ -4409,7 +4410,7 @@ PART
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 0
 	attm = 0
 	modCost = 0.5251047
 	modMass = -0.9949091
@@ -6000,7 +6001,7 @@ PART
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 0
 	attm = 0
 	modCost = 15.38987
 	modMass = -0.8391873
@@ -7591,7 +7592,7 @@ PART
 	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 0
 	attm = 0
 	modCost = 0.1889262
 	modMass = -0.9968401
@@ -9624,7 +9625,7 @@ PART
 	istg = 1
 	dstg = 0
 	sidx = 0
-	sqor = 2
+	sqor = 1
 	sepI = 0
 	attm = 1
 	modCost = 0.0625
@@ -10040,6 +10041,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -10322,7 +10324,7 @@ PART
 	istg = 1
 	dstg = 0
 	sidx = 0
-	sqor = 2
+	sqor = 1
 	sepI = 0
 	attm = 1
 	modCost = 0.0625
@@ -10738,6 +10740,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -11020,7 +11023,7 @@ PART
 	istg = 4
 	dstg = 0
 	sidx = 0
-	sqor = 5
+	sqor = 4
 	sepI = 0
 	attm = 0
 	modCost = 0
@@ -11557,9 +11560,9 @@ PART
 		operatingTime = 0
 		lastMET = 0
 		initialized = False
-		currentFlightData = 0
-		initialFlightData = 0
-		missionStartTime = 0
+		currentFlightData = 1127.271
+		initialFlightData = 1127.271
+		missionStartTime = 29765704.8436436
 		stagingEnabled = True
 		EVENTS
 		{
@@ -11567,6 +11570,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D AJ10-37
@@ -13123,8 +13127,8 @@ PART
 	istg = 5
 	dstg = 1
 	sidx = 2
-	sqor = 6
-	sepI = 6
+	sqor = 5
+	sepI = 5
 	attm = 0
 	modCost = 46.86368
 	modMass = 0.04786368
@@ -13569,8 +13573,8 @@ PART
 	istg = 5
 	dstg = 2
 	sidx = 0
-	sqor = 6
-	sepI = 6
+	sqor = 5
+	sepI = 5
 	attm = 1
 	modCost = 0.0625
 	modMass = 0
@@ -13985,6 +13989,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -14267,8 +14272,8 @@ PART
 	istg = 5
 	dstg = 2
 	sidx = 0
-	sqor = 6
-	sepI = 6
+	sqor = 5
+	sepI = 5
 	attm = 1
 	modCost = 0.0625
 	modMass = 0
@@ -14683,6 +14688,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -14966,7 +14972,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 6
+	sepI = 5
 	attm = 0
 	modCost = -0.8583666
 	modMass = 0.009442228
@@ -14995,7 +15001,7 @@ PART
 		topRad = 0.5995
 		inlineHeight = 0.854
 		sideThickness = 0.056
-		meshPos = (0.7, 0.3711996, 8.940697E-08)
+		meshPos = (0.7, 0.3711996, 8.941061E-08)
 		meshRot = (0, 1, 0, -4.371139E-08)
 		shapeLock = False
 		stagingEnabled = True
@@ -15378,7 +15384,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 6
+	sepI = 5
 	attm = 0
 	modCost = -0.8583666
 	modMass = 0.009442228
@@ -15790,7 +15796,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 6
+	sepI = 5
 	attm = 0
 	modCost = 1.803933
 	modMass = -0.9794823
@@ -17100,7 +17106,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 6
+	sepI = 5
 	attm = 0
 	modCost = 44.49897
 	modMass = -0.4475576
@@ -17124,7 +17130,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (-3.576279E-07, 5.599999, 3.308)
+		tempColliderSize = (-3.576279E-07, 5.6, 3.308)
 		textureSet = KHPlanes1
 		shapeName = Smooth Cone
 		moduleCost = 0.1036116
@@ -18400,7 +18406,7 @@ PART
 {
 	part = launchClamp1_4294056078
 	partName = Part
-	pos = -1.523689,7.659812,-4.837246E-05
+	pos = -1.523689,7.659812,-4.825325E-05
 	attPos = -1.639128E-07,-0.5714922,0.006477356
 	attPos0 = -1.064604,-0.01114655,-1.064604
 	rot = 0,-0.7071068,0,-0.7071068
@@ -18411,8 +18417,8 @@ PART
 	istg = 6
 	dstg = 2
 	sidx = 0
-	sqor = 7
-	sepI = 7
+	sqor = 6
+	sepI = 6
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -18902,7 +18908,7 @@ PART
 {
 	part = launchClamp1_4293707446
 	partName = Part
-	pos = 1.525903,7.659812,-4.902811E-05
+	pos = 1.525903,7.659812,-4.896851E-05
 	attPos = -1.639128E-07,-0.5714922,0.006477356
 	attPos0 = 1.064604,-0.01114655,1.064604
 	rot = 0,-0.7071068,0,0.7071068
@@ -18913,8 +18919,8 @@ PART
 	istg = 6
 	dstg = 2
 	sidx = 0
-	sqor = 7
-	sepI = 7
+	sqor = 6
+	sepI = 6
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -19415,8 +19421,8 @@ PART
 	istg = 7
 	dstg = 2
 	sidx = 0
-	sqor = 8
-	sepI = 6
+	sqor = 7
+	sepI = 5
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -19834,6 +19840,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D A-4
@@ -20158,7 +20165,7 @@ PART
 	pos = 0.468178,1.904704,-0.4671191
 	attPos = 0,-1.162095,0
 	attPos0 = 0.4670706,-0.3393927,-0.4670706
-	rot = 0.008133278,-0.3822539,0.03466255,-0.9233713
+	rot = 0.008133281,-0.3822539,0.03466255,-0.9233713
 	attRot = -0.005754163,2.011619E-08,5.203886E-10,-0.9999834
 	attRot0 = 0.008133277,-0.3822539,0.03466255,-0.9233712
 	mir = 1,1,1
@@ -20167,7 +20174,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 4.8
 	modMass = 0.0330512
@@ -21298,10 +21305,10 @@ PART
 {
 	part = RO-B9ProcWing-Supersonic_4290487108
 	partName = Part
-	pos = -0.4659632,1.904704,-0.4671191
+	pos = -0.4659632,1.904704,-0.4671192
 	attPos = 0,-1.162095,0
 	attPos0 = -0.4670706,-0.3393927,-0.4670706
-	rot = 0.03026121,-0.9232163,0.01875903,-0.3826278
+	rot = 0.03026121,-0.9232165,0.01875903,-0.3826278
 	attRot = -0.005754163,2.011619E-08,5.203886E-10,-0.9999834
 	attRot0 = 0.03246242,-0.9233091,0.01344637,-0.3824472
 	mir = 1,1,1
@@ -21310,7 +21317,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 4.8
 	modMass = 0.0330512
@@ -22444,7 +22451,7 @@ PART
 	pos = -0.4659634,1.904704,0.4670222
 	attPos = 0,-1.162095,0
 	attPos0 = -0.4670706,-0.3393927,0.4670706
-	rot = 0.03466255,-0.9233713,-0.00813328,0.3822539
+	rot = 0.03466255,-0.9233713,-0.008133281,0.3822539
 	attRot = -0.005754163,2.011619E-08,5.203886E-10,-0.9999834
 	attRot0 = 0.03246242,-0.9233091,-0.01344637,0.3824472
 	mir = 1,1,1
@@ -22453,7 +22460,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 4.8
 	modMass = 0.0330512
@@ -23596,7 +23603,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 4.8
 	modMass = 0.0330512
@@ -27658,7 +27665,7 @@ PART
 	istg = 3
 	dstg = 1
 	sidx = 0
-	sqor = 4
+	sqor = 3
 	sepI = 0
 	attm = 0
 	modCost = 0.1444375
@@ -27691,7 +27698,7 @@ PART
 		topRad = 0.552
 		inlineHeight = 1.2
 		sideThickness = 0.048
-		meshPos = (-0.5, 0.4095993, 0)
+		meshPos = (-0.5, 0.4096003, 0)
 		meshRot = (0, 0, 0, 1)
 		shapeLock = False
 		stagingEnabled = True
@@ -28130,7 +28137,7 @@ PART
 	istg = 5
 	dstg = 2
 	sidx = 1
-	sqor = 6
+	sqor = 5
 	sepI = 0
 	attm = 1
 	modCost = 0.0625
@@ -28546,6 +28553,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -31110,7 +31118,7 @@ PART
 	istg = 3
 	dstg = 1
 	sidx = 0
-	sqor = 4
+	sqor = 3
 	sepI = 0
 	attm = 0
 	modCost = 0.1444375
@@ -31143,7 +31151,7 @@ PART
 		topRad = 0.552
 		inlineHeight = 1.2
 		sideThickness = 0.048
-		meshPos = (-0.4999999, 0.4095993, -1.480195E-07)
+		meshPos = (-0.4999999, 0.4096003, -1.480231E-07)
 		meshRot = (0, 0, 0, 1)
 		shapeLock = False
 		stagingEnabled = True
@@ -31582,7 +31590,7 @@ PART
 	istg = 5
 	dstg = 2
 	sidx = 1
-	sqor = 6
+	sqor = 5
 	sepI = 0
 	attm = 1
 	modCost = 0.0625
@@ -31998,6 +32006,7 @@ PART
 			{
 				active = True
 				guiActive = False
+				guiActiveEditor = True
 				guiActiveUncommand = False
 				guiIcon = R&D Window
 				guiName = R&D SolidFuel
@@ -34562,8 +34571,8 @@ PART
 	istg = 2
 	dstg = 1
 	sidx = 0
-	sqor = 3
-	sepI = 1
+	sqor = 2
+	sepI = 0
 	attm = 0
 	modCost = 0.1533413
 	modMass = 0.01022275
@@ -35031,8 +35040,8 @@ PART
 	istg = 2
 	dstg = 1
 	sidx = 0
-	sqor = 3
-	sepI = 1
+	sqor = 2
+	sepI = 0
 	attm = 0
 	modCost = 0.1533413
 	modMass = 0.01022275
