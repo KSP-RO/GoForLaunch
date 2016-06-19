@@ -14,7 +14,7 @@
 {
     "props": [{"name": "UDMH", "volume": 496.2},
               {"name": "IWFNA", "volume": 725.9},
-              {"name": "Nitrogen", "volume": 3013.6}],
+              {"name": "Nitrogen", "volume": 3013.6, "mainEngine": false}],
     "isp": 271,
     "dry": 0.493,
     "thrust": 33.8},
