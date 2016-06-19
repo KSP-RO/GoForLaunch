@@ -1,4 +1,5 @@
 CLEARSCREEN.
+SET LAZ to 90.
 SET EndProgram TO False.
 SET Burnout TO False.
 //LOCK THROTTLE to 1.0.
@@ -20,11 +21,11 @@ Until EndProgram=True
 		}
 		ELSE IF (SHIP:VELOCITY:SURFACE:Mag > 50)
 		{
-			SET ATT TO HEADING(90, 78).
+			SET ATT TO HEADING(LAZ, 78).
 		}
 		ELSE IF (SHIP:VELOCITY:SURFACE:Mag > 3)
 		{
-			SET ATT TO HEADING(90, 90).
+			SET ATT TO HEADING(LAZ, 90).
 		}
 		ELSE
 		{
@@ -59,7 +60,7 @@ Until EndProgram=True
 		SET ATT TO SHIP:VELOCITY:SURFACE.
 		IF(eta:Apoapsis < 60 AND Burnout=True)
 		{
-			SET ATT TO HEADING(96,0).
+			SET ATT TO HEADING(vang(vxcl(up:vector, velocity:orbit), north:vector),0).
 			IF(eta:Apoapsis < 40)
 			{
 				RCS Off.
