@@ -1,0 +1,33 @@
+[{
+    "props": [{"name": "Ethanol75", "volume": 5089.0},
+              {"name": "LqdOxygen", "volume": 4838.2},
+              {"name": "HTP", "volume": 99.3, "mainEngine": false},
+              {"name": "PSPC", "volume": 10, "mainEngine": false}],
+    "isp": 239.0,
+    "dry": 1.719,
+    "thrust": 311.8},
+{
+	"props": [{"name": "PSPC", "volume": 10}],
+	"isp": 230,
+	"dry": 0.060,
+	"thrust": 12.6},
+{
+    "props": [{"name": "UDMH", "volume": 496.2},
+              {"name": "IWFNA", "volume": 725.9},
+              {"name": "Nitrogen", "volume": 3013.6}],
+    "isp": 271,
+    "dry": 0.362,
+    "thrust": 33.8},
+{
+	"props": [{"name": "PSPC", "volume": 10}],
+	"isp": 200,
+	"dry": 0,
+	"thrust": 30},
+{
+    "props": [{"name": "Aniline", "volume": 67.3},
+              {"name": "Furfuryl", "volume": 36.2},
+              {"name": "IRFNA-III", "volume": 169.1}],
+    "isp": 235.4,
+    "dry": 0.106,
+    "thrust": 13.763}
+]
